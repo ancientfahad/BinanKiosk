@@ -313,7 +313,7 @@
             this.agrbtton.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.agrbtton.Location = new System.Drawing.Point(784, 172);
             this.agrbtton.Name = "agrbtton";
-            this.agrbtton.Size = new System.Drawing.Size(160, 59);
+            this.agrbtton.Size = new System.Drawing.Size(141, 59);
             this.agrbtton.TabIndex = 161;
             this.agrbtton.Text = "Agriculture Office";
             this.agrbtton.UseVisualStyleBackColor = false;
@@ -472,7 +472,7 @@
             this.thirdbtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.thirdbtton.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.thirdbtton.ForeColor = System.Drawing.Color.White;
-            this.thirdbtton.Location = new System.Drawing.Point(1155, 187);
+            this.thirdbtton.Location = new System.Drawing.Point(1164, 94);
             this.thirdbtton.Name = "thirdbtton";
             this.thirdbtton.Size = new System.Drawing.Size(158, 65);
             this.thirdbtton.TabIndex = 232;
@@ -488,7 +488,7 @@
             this.secondbtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.secondbtton.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.secondbtton.ForeColor = System.Drawing.Color.White;
-            this.secondbtton.Location = new System.Drawing.Point(1155, 113);
+            this.secondbtton.Location = new System.Drawing.Point(1164, 165);
             this.secondbtton.Name = "secondbtton";
             this.secondbtton.Size = new System.Drawing.Size(158, 65);
             this.secondbtton.TabIndex = 166;
@@ -500,7 +500,7 @@
             // 
             this.step65.BackColor = System.Drawing.Color.Transparent;
             this.step65.Image = ((System.Drawing.Image)(resources.GetObject("step65.Image")));
-            this.step65.Location = new System.Drawing.Point(646, 543);
+            this.step65.Location = new System.Drawing.Point(639, 543);
             this.step65.Name = "step65";
             this.step65.Size = new System.Drawing.Size(15, 15);
             this.step65.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -716,7 +716,7 @@
             // 
             this.step46.BackColor = System.Drawing.Color.Transparent;
             this.step46.Image = ((System.Drawing.Image)(resources.GetObject("step46.Image")));
-            this.step46.Location = new System.Drawing.Point(646, 575);
+            this.step46.Location = new System.Drawing.Point(639, 575);
             this.step46.Name = "step46";
             this.step46.Size = new System.Drawing.Size(15, 15);
             this.step46.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;

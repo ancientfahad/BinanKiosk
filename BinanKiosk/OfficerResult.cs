@@ -71,6 +71,8 @@ namespace BinanKiosk
 
             if (Global.language == "Filipino")
             {
+                btnLanguages.Text = "PALITAN NG WIKA";
+
                 btnHome.Text = "Home";
                 btnSearch.Text = "Hanapin";
                 btnMaps.Text = "Mapa";

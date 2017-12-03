@@ -488,7 +488,6 @@
             this.btnHelp.Name = "btnHelp";
             this.btnHelp.Size = new System.Drawing.Size(67, 64);
             this.btnHelp.TabIndex = 31;
-            this.btnHelp.Text = "HELP";
             this.btnHelp.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnHelp.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnHelp.UseVisualStyleBackColor = false;
@@ -502,7 +501,7 @@
             this.groundbtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groundbtton.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groundbtton.ForeColor = System.Drawing.Color.White;
-            this.groundbtton.Location = new System.Drawing.Point(1155, 113);
+            this.groundbtton.Location = new System.Drawing.Point(1164, 165);
             this.groundbtton.Name = "groundbtton";
             this.groundbtton.Size = new System.Drawing.Size(158, 65);
             this.groundbtton.TabIndex = 234;
@@ -518,7 +517,7 @@
             this.secondbtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.secondbtton.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.secondbtton.ForeColor = System.Drawing.Color.White;
-            this.secondbtton.Location = new System.Drawing.Point(1155, 187);
+            this.secondbtton.Location = new System.Drawing.Point(1164, 94);
             this.secondbtton.Name = "secondbtton";
             this.secondbtton.Size = new System.Drawing.Size(158, 65);
             this.secondbtton.TabIndex = 233;

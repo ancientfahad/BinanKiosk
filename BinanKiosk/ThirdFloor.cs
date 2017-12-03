@@ -66,12 +66,13 @@ namespace BinanKiosk
 
             if (Global.language == "Filipino")
             {
+                btnLanguages.Text = "PALITAN NG WIKA";
+
                 btnHome.Text = "Home";
                 btnSearch.Text = "Hanapin";
                 btnMaps.Text = "Mapa";
                 btnServices.Text = "Mga Serbisyo";
                 btnJob.Text = "Mga Trabaho";
-                btnHelp.Text = "Tulong";
                 lblFloorName.Text = "Ikatlong Palapag";
                 lblMaps.Text = "       MAPA";
             }
@@ -124,6 +125,7 @@ namespace BinanKiosk
         public async void Floor3_1()
         {
             clearImage();
+            disableButton();
 
             await Task.Delay(500);
 
@@ -164,11 +166,13 @@ namespace BinanKiosk
                 ctr++;
 
             } while (ctr < 3);
+            enableButton();
         }
 
         public async void Floor3_2()
         {
             clearImage();
+            disableButton();
 
             int ctr = 0;
 
@@ -209,11 +213,13 @@ namespace BinanKiosk
                 ctr++;
 
             } while (ctr < 3);
+            enableButton();
         }
 
         public async void Floor3_3()
         {
             clearImage();
+            disableButton();
 
             int ctr = 0;
 
@@ -254,11 +260,13 @@ namespace BinanKiosk
                 ctr++;
 
             } while (ctr < 3);
+            enableButton();
         }
 
         public async void Floor3_4()
         {
             clearImage();
+            disableButton();
 
             await Task.Delay(500);
 
@@ -299,12 +307,14 @@ namespace BinanKiosk
                 ctr++;
 
             } while (ctr < 3);
+            enableButton();
         }
 
 
         public async void Floor3_5()
         {
             clearImage();
+            disableButton();
 
             await Task.Delay(500);
 
@@ -345,11 +355,13 @@ namespace BinanKiosk
                 ctr++;
 
             } while (ctr < 3);
+            enableButton();
         }
 
         public async void Floor3_6()
         {
             clearImage();
+            disableButton();
 
             await Task.Delay(500);
 
@@ -390,11 +402,13 @@ namespace BinanKiosk
                 ctr++;
 
             } while (ctr < 3);
+            enableButton();
         }
 
         public async void Floor3_7()
         {
             clearImage();
+            disableButton();
 
             await Task.Delay(500);
 
@@ -435,11 +449,13 @@ namespace BinanKiosk
                 ctr++;
 
             } while (ctr < 3);
+            enableButton();
         }
 
         public async void Floor3_8()
         {
             clearImage();
+            disableButton();
 
             await Task.Delay(500);
 
@@ -482,17 +498,19 @@ namespace BinanKiosk
                 ctr++;
 
             } while (ctr < 3);
+            enableButton();
         }
 
         public async void Floor3_9()
         {
             clearImage();
+            disableButton();
 
             await Task.Delay(500);
 
             int ctr = 0;
 
-            PictureBox[] path1 = { grid42, grid43, grid44, grid45, grid46, grid47, grid17, grid16, grid14, grid15, grid20, grid21, grid22 };
+            PictureBox[] path1 = { grid42, grid43, grid44, grid45, grid46, grid47, grid17, grid16, grid14 };
 
             for (int i = 0; i < path1.Length; i++)
             {
@@ -527,11 +545,13 @@ namespace BinanKiosk
                 ctr++;
 
             } while (ctr < 3);
+            enableButton();
         }
 
         public async void Floor3_10()
         {
             clearImage();
+            disableButton();
 
             await Task.Delay(500);
 
@@ -572,11 +592,13 @@ namespace BinanKiosk
                 ctr++;
 
             } while (ctr < 3);
+            enableButton();
         }
 
         public async void Floor3_11()
         {
             clearImage();
+            disableButton();
 
             await Task.Delay(500);
 
@@ -617,6 +639,7 @@ namespace BinanKiosk
                 ctr++;
 
             } while (ctr < 3);
+            enableButton();
         }
 
         private void Genbtton_Click(object sender, EventArgs e)

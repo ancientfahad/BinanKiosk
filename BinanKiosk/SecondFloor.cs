@@ -10,12 +10,8 @@ using System.Windows.Forms;
 
 namespace BinanKiosk
 {
-
-    
-
     public partial class SecondFloor : Form
     {
-
         protected override CreateParams CreateParams
         {
             get
@@ -66,12 +62,13 @@ namespace BinanKiosk
 
             if (Global.language == "Filipino")
             {
+                btnLanguages.Text = "PALITAN NG WIKA";
+
                 btnHome.Text = "Home";
                 btnSearch.Text = "Hanapin";
                 btnMaps.Text = "Mapa";
                 btnServices.Text = "Mga Serbisyo";
                 btnJob.Text = "Mga Trabaho";
-                btnHelp.Text = "Tulong";
                 lblFloorName.Text = "Pangalawang Palapag";
                 lblMaps.Text = "       MAPA";
             }
@@ -126,6 +123,7 @@ namespace BinanKiosk
         public async void Floor2_1()
         {
             clearImage();
+            disableButton();
 
             int ctr = 0;
 
@@ -164,11 +162,13 @@ namespace BinanKiosk
                 ctr++;
 
             } while (ctr < 3);
+            enableButton();
         }
 
         public async void Floor2_2()
         {
             clearImage();
+            disableButton();
 
             int ctr = 0;
 
@@ -207,11 +207,13 @@ namespace BinanKiosk
                 ctr++;
 
             } while (ctr < 3);
+            enableButton();
         }
 
         public async void Floor2_3()
         {
             clearImage();
+            disableButton();
 
             int ctr = 0;
 
@@ -250,11 +252,13 @@ namespace BinanKiosk
                 ctr++;
 
             } while (ctr < 3);
+            enableButton();
         }
 
         public async void Floor2_4()
         {
             clearImage();
+            disableButton();
 
             int ctr = 0;
 
@@ -293,11 +297,13 @@ namespace BinanKiosk
                 ctr++;
 
             } while (ctr < 3);
+            enableButton();
         }
 
         public async void Floor2_5()
         {
             clearImage();
+            disableButton();
 
             int ctr = 0;
 
@@ -336,11 +342,13 @@ namespace BinanKiosk
                 ctr++;
 
             } while (ctr < 3);
+            enableButton();
         }
 
         public async void Floor2_6()
         {
             clearImage();
+            disableButton();
 
             int ctr = 0;
 
@@ -380,11 +388,13 @@ namespace BinanKiosk
                 ctr++;
 
             } while (ctr < 3);
+            enableButton();
         }
 
         public async void Floor2_7()
         {
             clearImage();
+            disableButton();
 
             int ctr = 0;
 
@@ -423,11 +433,13 @@ namespace BinanKiosk
                 ctr++;
 
             } while (ctr < 3);
+            enableButton();
         }
 
         public async void Floor2_8()
         {
             clearImage();
+            disableButton();
 
             int ctr = 0;
 
@@ -466,11 +478,13 @@ namespace BinanKiosk
                 ctr++;
 
             } while (ctr < 3);
+            enableButton();
         }
 
         public async void Floor2_9()
         {
             clearImage();
+            disableButton();
 
             int ctr = 0;
 
@@ -509,15 +523,17 @@ namespace BinanKiosk
                 ctr++;
 
             } while (ctr < 3);
+            enableButton();
         }
 
         public async void Floor2_10()
         {
             clearImage();
+            disableButton();
 
             int ctr = 0;
 
-            PictureBox[] path1 = { grid70, grid69, grid42, grid36, grid37, grid46, grid47 };
+            PictureBox[] path1 = { grid70, grid70, grid69, grid42, grid36, grid37, grid46, grid47 };
 
             for (int i = 0; i < path1.Length; i++)
             {
@@ -552,15 +568,17 @@ namespace BinanKiosk
                 ctr++;
 
             } while (ctr < 3);
+            enableButton();
         }
 
         public async void Floor2_11()
         {
             clearImage();
+            disableButton();
 
             int ctr = 0;
 
-            PictureBox[] path1 = { grid70, grid69, grid42, grid36, grid37, grid46, grid47, grid48, grid49 };
+            PictureBox[] path1 = { grid70, grid70, grid69, grid42, grid36, grid37, grid46, grid47, grid48};
 
             for (int i = 0; i < path1.Length; i++)
             {
@@ -595,15 +613,17 @@ namespace BinanKiosk
                 ctr++;
 
             } while (ctr < 3);
+            enableButton();
         }
 
         public async void Floor2_12()
         {
             clearImage();
+            disableButton();
 
             int ctr = 0;
 
-            PictureBox[] path1 = { grid70, grid69, grid42, grid70, grid69, grid42, grid36, grid37, grid46, grid47, grid48, grid49, grid50, grid51, grid52, grid53, grid54 };
+            PictureBox[] path1 = { grid70, grid70, grid69, grid42, grid36, grid37, grid46, grid47, grid48, grid49, grid50, grid51, grid52, grid53, grid54 };
 
             for (int i = 0; i < path1.Length; i++)
             {
@@ -638,15 +658,17 @@ namespace BinanKiosk
                 ctr++;
 
             } while (ctr < 3);
+            enableButton();
         }
 
         public async void Floor2_13()
         {
             clearImage();
+            disableButton();
 
             int ctr = 0;
 
-            PictureBox[] path1 = { grid70, grid69, grid42, grid36, grid37, grid46, grid47, grid48, grid49, grid50 };
+            PictureBox[] path1 = { grid70, grid70, grid69, grid42, grid36, grid37, grid46, grid47, grid48, grid49, grid50, grid51 };
 
             for (int i = 0; i < path1.Length; i++)
             {
@@ -681,15 +703,17 @@ namespace BinanKiosk
                 ctr++;
 
             } while (ctr < 3);
+            enableButton();
         }
 
         public async void Floor2_14()
         {
             clearImage();
+            disableButton();
 
             int ctr = 0;
 
-            PictureBox[] path1 = { grid70, grid69, grid42, grid36, grid35, grid34, grid33 };
+            PictureBox[] path1 = { grid70, grid70, grid69, grid42, grid36, grid35, grid34, grid33 };
 
             for (int i = 0; i < path1.Length; i++)
             {
@@ -724,15 +748,17 @@ namespace BinanKiosk
                 ctr++;
 
             } while (ctr < 3);
+            enableButton();
         }
 
         public async void Floor2_15()
         {
             clearImage();
+            disableButton();
 
             int ctr = 0;
 
-            PictureBox[] path1 = { grid70, grid69, grid42, grid36, grid35, grid34, grid33, grid32 };
+            PictureBox[] path1 = { grid70, grid70, grid69, grid42, grid36, grid35, grid34, grid33, grid32 };
 
             for (int i = 0; i < path1.Length; i++)
             {
@@ -767,15 +793,17 @@ namespace BinanKiosk
                 ctr++;
 
             } while (ctr < 3);
+            enableButton();
         }
 
         public async void Floor2_16()
         {
             clearImage();
+            disableButton();
 
             int ctr = 0;
 
-            PictureBox[] path1 = { grid70, grid69, grid42, grid36, grid35, grid34, grid33, grid32, grid31};
+            PictureBox[] path1 = { grid70, grid70, grid69, grid42, grid36, grid35, grid34, grid33, grid32, grid31};
 
             for (int i = 0; i < path1.Length; i++)
             {
@@ -810,15 +838,17 @@ namespace BinanKiosk
                 ctr++;
 
             } while (ctr < 3);
+            enableButton();
         }
 
         public async void Floor2_17()
         {
             clearImage();
+            disableButton();
 
             int ctr = 0;
 
-            PictureBox[] path1 = { grid70, grid69, grid42, grid36, grid35, grid34, grid33, grid32, grid31, grid30, grid29 };
+            PictureBox[] path1 = { grid70, grid70, grid69, grid42, grid36, grid35, grid34, grid33, grid32, grid31, grid30, grid29 };
 
             for (int i = 0; i < path1.Length; i++)
             {
@@ -853,15 +883,17 @@ namespace BinanKiosk
                 ctr++;
 
             } while (ctr < 3);
+            enableButton();
         }
 
         public async void Floor2_18()
         {
             clearImage();
+            disableButton();
 
             int ctr = 0;
 
-            PictureBox[] path1 = { grid70, grid69, grid42, grid36, grid35, grid34, grid33, grid32, grid31, grid30, grid29, grid25, grid24 };
+            PictureBox[] path1 = { grid70, grid70, grid69, grid42, grid36, grid35, grid34, grid33, grid32, grid31, grid30, grid29, grid25, grid24 };
 
             for (int i = 0; i < path1.Length; i++)
             {
@@ -896,15 +928,17 @@ namespace BinanKiosk
                 ctr++;
 
             } while (ctr < 3);
+            enableButton();
         }
 
         public async void Floor2_19()
         {
             clearImage();
+            disableButton();
 
             int ctr = 0;
 
-            PictureBox[] path1 = { grid70, grid69, grid42, grid36, grid35, grid34, grid33, grid32, grid31, grid30, grid29, grid25, grid24, grid23 };
+            PictureBox[] path1 = { grid70, grid70, grid69, grid42, grid36, grid35, grid34, grid33, grid32, grid31, grid30, grid29, grid25, grid24, grid23 };
 
             for (int i = 0; i < path1.Length; i++)
             {
@@ -939,15 +973,17 @@ namespace BinanKiosk
                 ctr++;
 
             } while (ctr < 3);
+            enableButton();
         }
 
         public async void Floor2_20()
         {
             clearImage();
+            disableButton();
 
             int ctr = 0;
 
-            PictureBox[] path1 = { grid70, grid69, grid42, grid36, grid35, grid34, grid33, grid32, grid31, grid30, grid29, grid25, grid24, grid23, grid22 };
+            PictureBox[] path1 = { grid70, grid70, grid69, grid42, grid36, grid35, grid34, grid33, grid32, grid31, grid30, grid29, grid25, grid24, grid23, grid22 };
 
             for (int i = 0; i < path1.Length; i++)
             {
@@ -982,6 +1018,7 @@ namespace BinanKiosk
                 ctr++;
 
             } while (ctr < 3);
+            enableButton();
         }
 
 
@@ -990,6 +1027,7 @@ namespace BinanKiosk
         {
             
             clearImage();
+            disableButton();
 
             await Task.Delay(500);
             this.Enabled = true;
@@ -1012,91 +1050,113 @@ namespace BinanKiosk
 
             if (func2 == "Floor3_1")
             {
+                disableButton();
                 this.Hide();
                 ThirdFloor tf = new ThirdFloor();
                 tf.Floor3_1();
                 tf.ShowDialog();
+                enableButton();
             }
             else if (func2 == "Floor3_2")
             {
+                disableButton();
                 this.Hide();
                 ThirdFloor tf = new ThirdFloor();
                 tf.Floor3_2();
                 tf.ShowDialog();
+                enableButton();
             }
 
             
 
             else if (func2 == "Floor3_3")
             {
+                disableButton();
                 this.Hide();
                 ThirdFloor tf = new ThirdFloor();
                 tf.Floor3_3();
                 tf.ShowDialog();
+                enableButton();
             }
 
             else if (func2 == "Floor3_4")
             {
+                disableButton();
                 this.Hide();
                 ThirdFloor tf = new ThirdFloor();
                 tf.Floor3_4();
                 tf.ShowDialog();
+                enableButton();
             }
 
             else if (func2 == "Floor3_5")
             {
+                disableButton();
                 this.Hide();
                 ThirdFloor tf = new ThirdFloor();
                 tf.Floor3_5();
                 tf.ShowDialog();
+                enableButton();
             }
 
             else if (func2 == "Floor3_6")
             {
+                disableButton();
                 this.Hide();
                 ThirdFloor tf = new ThirdFloor();
                 tf.Floor3_6();
                 tf.ShowDialog();
+                enableButton();
             }
 
             else if (func2 == "Floor3_7")
             {
+                disableButton();
                 this.Hide();
                 ThirdFloor tf = new ThirdFloor();
                 tf.Floor3_7();
                 tf.ShowDialog();
+                enableButton();
             }
 
             else if (func2 == "Floor3_8")
             {
+                disableButton();
                 this.Hide();
                 ThirdFloor tf = new ThirdFloor();
                 tf.Floor3_8();
                 tf.ShowDialog();
+                enableButton();
             }
 
             else if (func2 == "Floor3_9")
             {
+                disableButton();
                 this.Hide();
                 ThirdFloor tf = new ThirdFloor();
                 tf.Floor3_9();
                 tf.ShowDialog();
+                enableButton();
             }
 
             else if (func2 == "Floor3_10")
             {
+                disableButton();
                 this.Hide();
                 ThirdFloor tf = new ThirdFloor();
                 tf.Floor3_10();
                 tf.ShowDialog();
+                enableButton();
             }
 
             else if (func2 == "Floor3_11")
             {
+                disableButton();
                 this.Hide();
                 ThirdFloor tf = new ThirdFloor();
                 tf.Floor3_11();
                 tf.ShowDialog();
+                enableButton();
             }
             
 
@@ -1107,10 +1167,12 @@ namespace BinanKiosk
                 //sf.Floor2_20();
                 //sf.ShowDialog();
 
+                disableButton();
                 this.Hide();
                 ThirdFloor tf = new ThirdFloor();
                 tf.Floor3_11();
                 tf.ShowDialog();
+                enableButton();
             }
         }
 

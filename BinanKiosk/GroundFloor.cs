@@ -172,12 +172,12 @@ namespace BinanKiosk
 
             if (Global.language == "Filipino")
             {
+                btnLanguages.Text = "PALITAN NG WIKA";
                 btnHome.Text = "Home";
                 btnSearch.Text = "Hanapin";
                 btnMaps.Text = "Mapa";
                 btnServices.Text = "Mga Serbisyo";
                 btnJob.Text = "Mga Trabaho";
-                btnHelp.Text = "Tulong";
                 lblFloorName.Text = "Unang Palapag";
                 lblMaps.Text = "       MAPA";
             }
