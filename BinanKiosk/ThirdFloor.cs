@@ -73,8 +73,11 @@ namespace BinanKiosk
                 btnMaps.Text = "Mapa";
                 btnServices.Text = "Mga Serbisyo";
                 btnJob.Text = "Mga Trabaho";
-                lblFloorName.Text = "Ikatlong Palapag";
+                lblFloorName.Text = "Pangatlong Palapag";
                 lblMaps.Text = "       MAPA";
+
+                secondbtton.Text = "Pangalawang Palapag";
+                groundbtton.Text = "Unang Palapag";
             }
 
             timestamp.Interval = 10;

@@ -103,13 +103,14 @@ namespace BinanKiosk
         {
             if (Global.language == "Filipino")
             {
+                btnLanguages.Text = "PALITAN NG WIKA";
+
                 btnHome.Text = "Home";
                 btnSearch.Text = "Hanapin";
                 btnMaps.Text = "Mapa";
                 btnServices.Text = "Mga Serbisyo";
                 btnJob.Text = "Mga Trabaho";
-                btnHelp.Text = "Tulong";
-                lblServices.Text = "       Mga SERBISYO";
+                lblServices.Text = "       MGA SERBISYO";
             }
 
             timestamp.Interval = 1;
@@ -118,85 +119,85 @@ namespace BinanKiosk
 
         private void Pay_PropTransbtn_Click(object sender, EventArgs e)
         {
-            valuebtn.Text = "a";
+            valuebtn.Text = "Payment of Real Property Transfer Tax";
             nextForm();
         }
 
         private void IssueTaxCert_btn_Click(object sender, EventArgs e)
         {
-            valuebtn.Text = "b";
+            valuebtn.Text = "Issuance of Community Tax Certificate for Corporation";
             nextForm();
         }
 
         private void IssueProfTaxRec_btn_Click(object sender, EventArgs e)
         {
-            valuebtn.Text = "c";
+            valuebtn.Text = "Issuance of Professional Tax Reciept";
             nextForm();
         }
 
         private void PayRealPRopTax_btn_Click(object sender, EventArgs e)
         {
-            valuebtn.Text = "d";
+            valuebtn.Text = "Payment of Real Property Tax";
             nextForm();
         }
 
         private void PayBussTax_btn_Click(object sender, EventArgs e)
         {
-            valuebtn.Text = "e";
+            valuebtn.Text = "Payment of Business Tax";
             nextForm();
         }
 
         private void certofTaxClear_btn_Click(object sender, EventArgs e)
         {
-            valuebtn.Text = "f";
+            valuebtn.Text = "Certification of Tax Clearance";
             nextForm();
         }
 
         private void paymentBurialbtn_Click(object sender, EventArgs e)
         {
-            valuebtn.Text = "g";
+            valuebtn.Text = "PayBurial";
             nextForm();
         }
 
         private void paymentBldgbtn_Click(object sender, EventArgs e)
         {
-            valuebtn.Text = "h";
+            valuebtn.Text = "PayBlg";
             nextForm();
         }
 
         private void paymentPolMaybtn_Click(object sender, EventArgs e)
         {
-            valuebtn.Text = "i";
+            valuebtn.Text = "PayPol";
             nextForm();
         }
 
         private void payCivRegFreebtn_Click(object sender, EventArgs e)
         {
-            valuebtn.Text = "j";
+            valuebtn.Text = "PayCivilReg";
             nextForm();
         }
 
         private void payTraffViolatebtn_Click(object sender, EventArgs e)
         {
-            valuebtn.Text = "k";
+            valuebtn.Text = "PayTraffic";
             nextForm();
         }
 
         private void issuanceComTaxbtn_Click(object sender, EventArgs e)
         {
-            valuebtn.Text = "l";
+            valuebtn.Text = "IssueComTax";
             nextForm();
         }
 
         private void payWeightLicFeesbtn_Click(object sender, EventArgs e)
         {
-            valuebtn.Text = "m";
+            valuebtn.Text = "PayWeight";
             nextForm();
         }
 
         private void payPolClearbtn_Click(object sender, EventArgs e)
         {
-            valuebtn.Text = "n";
+            valuebtn.Text = "PayPolClear";
             nextForm();
         }
         private void OnTimerEvent(object sender, EventArgs e)
@@ -209,6 +210,15 @@ namespace BinanKiosk
         {
             timestamp.Enabled = true;
             timestamp.Tick += new System.EventHandler(OnTimerEvent);
+        }
+
+        private void btnLanguages_Click(object sender, EventArgs e)
+        {
+            Language lng = new Language();
+            this.Hide();
+            lng.FormClosed += (s, args) => this.Close();
+            lng.ShowDialog();
+            lng.Focus();
         }
     }
 }

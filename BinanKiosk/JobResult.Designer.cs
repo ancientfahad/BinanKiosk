@@ -28,141 +28,159 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(JobResult));
             this.btnJob = new System.Windows.Forms.Button();
-            this.btnHelp = new System.Windows.Forms.Button();
             this.btnServices = new System.Windows.Forms.Button();
             this.btnMaps = new System.Windows.Forms.Button();
             this.btnSearch = new System.Windows.Forms.Button();
             this.btnHome = new System.Windows.Forms.Button();
             this.lblJob = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.logo = new System.Windows.Forms.PictureBox();
-            this.ad = new System.Windows.Forms.PictureBox();
-            this.ad1 = new System.Windows.Forms.PictureBox();
-            this.logo1 = new System.Windows.Forms.PictureBox();
-            this.ad2 = new System.Windows.Forms.PictureBox();
-            this.logo2 = new System.Windows.Forms.PictureBox();
+            this.JobResult1_panel = new System.Windows.Forms.Panel();
+            this.jobsCompany1 = new System.Windows.Forms.Label();
+            this.jobresultsDetails1btn = new System.Windows.Forms.Button();
+            this.description1 = new System.Windows.Forms.Label();
+            this.location = new System.Windows.Forms.Label();
+            this.JobTitle = new System.Windows.Forms.Label();
+            this.logopic1 = new System.Windows.Forms.PictureBox();
+            this.JobResult2_Panel = new System.Windows.Forms.Panel();
+            this.jobCompany2 = new System.Windows.Forms.Label();
+            this.jobresultsDetails2btn = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.JobResult3_Panel = new System.Windows.Forms.Panel();
+            this.jobCompany3 = new System.Windows.Forms.Label();
+            this.jobresultsDetails3btn = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.lbldate = new System.Windows.Forms.Label();
+            this.lbltime = new System.Windows.Forms.Label();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.btnHelp = new System.Windows.Forms.Button();
+            this.btnLanguages = new System.Windows.Forms.Button();
+            this.timestamp = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ad)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ad1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.logo1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ad2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.logo2)).BeginInit();
+            this.JobResult1_panel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logopic1)).BeginInit();
+            this.JobResult2_Panel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.JobResult3_Panel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
             // 
             // btnJob
             // 
-            this.btnJob.BackgroundImage = global::BinanKiosk.Properties.Resources.Highbutton11;
+            this.btnJob.BackColor = System.Drawing.Color.ForestGreen;
             this.btnJob.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnJob.FlatAppearance.BorderSize = 0;
-            this.btnJob.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnJob.FlatAppearance.BorderColor = System.Drawing.Color.Green;
+            this.btnJob.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Green;
             this.btnJob.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnJob.Font = new System.Drawing.Font("Arial Narrow", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnJob.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnJob.ForeColor = System.Drawing.Color.Transparent;
             this.btnJob.Image = global::BinanKiosk.Properties.Resources.job;
-            this.btnJob.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnJob.Location = new System.Drawing.Point(893, 660);
+            this.btnJob.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnJob.Location = new System.Drawing.Point(849, 683);
             this.btnJob.Name = "btnJob";
-            this.btnJob.Size = new System.Drawing.Size(180, 90);
+            this.btnJob.Size = new System.Drawing.Size(155, 88);
             this.btnJob.TabIndex = 32;
             this.btnJob.Text = " Jobs";
-            this.btnJob.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnJob.UseVisualStyleBackColor = true;
-            // 
-            // btnHelp
-            // 
-            this.btnHelp.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
-            this.btnHelp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnHelp.FlatAppearance.BorderSize = 0;
-            this.btnHelp.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.btnHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHelp.Font = new System.Drawing.Font("Arial Narrow", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHelp.ForeColor = System.Drawing.Color.Transparent;
-            this.btnHelp.Image = global::BinanKiosk.Properties.Resources.qmark;
-            this.btnHelp.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHelp.Location = new System.Drawing.Point(1093, 660);
-            this.btnHelp.Name = "btnHelp";
-            this.btnHelp.Size = new System.Drawing.Size(180, 90);
-            this.btnHelp.TabIndex = 31;
-            this.btnHelp.Text = " Help";
-            this.btnHelp.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnHelp.UseVisualStyleBackColor = true;
+            this.btnJob.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnJob.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnJob.UseVisualStyleBackColor = false;
+            this.btnJob.Click += new System.EventHandler(this.btnJob_Click);
             // 
             // btnServices
             // 
-            this.btnServices.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
+            this.btnServices.BackColor = System.Drawing.Color.ForestGreen;
             this.btnServices.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnServices.FlatAppearance.BorderSize = 0;
-            this.btnServices.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnServices.FlatAppearance.BorderColor = System.Drawing.Color.Green;
+            this.btnServices.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Green;
             this.btnServices.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnServices.Font = new System.Drawing.Font("Arial Narrow", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnServices.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnServices.ForeColor = System.Drawing.Color.Transparent;
             this.btnServices.Image = global::BinanKiosk.Properties.Resources.paper;
-            this.btnServices.Location = new System.Drawing.Point(693, 660);
+            this.btnServices.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnServices.Location = new System.Drawing.Point(695, 683);
             this.btnServices.Name = "btnServices";
-            this.btnServices.Size = new System.Drawing.Size(180, 90);
+            this.btnServices.Size = new System.Drawing.Size(155, 88);
             this.btnServices.TabIndex = 30;
             this.btnServices.Text = "Services";
-            this.btnServices.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnServices.UseVisualStyleBackColor = true;
+            this.btnServices.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnServices.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnServices.UseVisualStyleBackColor = false;
+            this.btnServices.Click += new System.EventHandler(this.btnServices_Click);
             // 
             // btnMaps
             // 
-            this.btnMaps.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
+            this.btnMaps.BackColor = System.Drawing.Color.ForestGreen;
             this.btnMaps.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnMaps.FlatAppearance.BorderSize = 0;
-            this.btnMaps.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnMaps.FlatAppearance.BorderColor = System.Drawing.Color.Green;
+            this.btnMaps.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Green;
             this.btnMaps.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMaps.Font = new System.Drawing.Font("Arial Narrow", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMaps.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMaps.ForeColor = System.Drawing.Color.Transparent;
             this.btnMaps.Image = global::BinanKiosk.Properties.Resources.map;
-            this.btnMaps.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnMaps.Location = new System.Drawing.Point(493, 660);
+            this.btnMaps.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnMaps.Location = new System.Drawing.Point(541, 683);
             this.btnMaps.Name = "btnMaps";
-            this.btnMaps.Size = new System.Drawing.Size(180, 90);
+            this.btnMaps.Size = new System.Drawing.Size(155, 88);
             this.btnMaps.TabIndex = 29;
             this.btnMaps.Text = " Maps";
-            this.btnMaps.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnMaps.UseVisualStyleBackColor = true;
+            this.btnMaps.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnMaps.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnMaps.UseVisualStyleBackColor = false;
+            this.btnMaps.Click += new System.EventHandler(this.btnMaps_Click);
             // 
             // btnSearch
             // 
-            this.btnSearch.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
+            this.btnSearch.BackColor = System.Drawing.Color.ForestGreen;
             this.btnSearch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnSearch.FlatAppearance.BorderSize = 0;
-            this.btnSearch.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnSearch.FlatAppearance.BorderColor = System.Drawing.Color.Green;
+            this.btnSearch.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Green;
             this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSearch.Font = new System.Drawing.Font("Arial Narrow", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSearch.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSearch.ForeColor = System.Drawing.Color.Transparent;
             this.btnSearch.Image = global::BinanKiosk.Properties.Resources.srchcn1;
-            this.btnSearch.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSearch.Location = new System.Drawing.Point(293, 660);
+            this.btnSearch.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnSearch.Location = new System.Drawing.Point(387, 683);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(180, 90);
+            this.btnSearch.Size = new System.Drawing.Size(155, 88);
             this.btnSearch.TabIndex = 28;
             this.btnSearch.Text = " Search";
-            this.btnSearch.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnSearch.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnSearch.UseVisualStyleBackColor = false;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // btnHome
             // 
-            this.btnHome.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
+            this.btnHome.BackColor = System.Drawing.Color.ForestGreen;
             this.btnHome.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnHome.FlatAppearance.BorderSize = 0;
-            this.btnHome.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnHome.FlatAppearance.BorderColor = System.Drawing.Color.Green;
+            this.btnHome.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Green;
             this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHome.Font = new System.Drawing.Font("Arial Narrow", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHome.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHome.ForeColor = System.Drawing.Color.Transparent;
             this.btnHome.Image = global::BinanKiosk.Properties.Resources.home3;
-            this.btnHome.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHome.Location = new System.Drawing.Point(93, 660);
+            this.btnHome.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnHome.Location = new System.Drawing.Point(233, 683);
             this.btnHome.Name = "btnHome";
-            this.btnHome.Size = new System.Drawing.Size(180, 90);
+            this.btnHome.Size = new System.Drawing.Size(155, 88);
             this.btnHome.TabIndex = 27;
             this.btnHome.Text = " Home";
-            this.btnHome.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnHome.UseVisualStyleBackColor = true;
+            this.btnHome.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnHome.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnHome.UseVisualStyleBackColor = false;
             this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
             // lblJob
@@ -189,53 +207,335 @@
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
             // 
-            // logo
+            // JobResult1_panel
             // 
-            this.logo.Location = new System.Drawing.Point(98, 70);
-            this.logo.Name = "logo";
-            this.logo.Size = new System.Drawing.Size(189, 166);
-            this.logo.TabIndex = 41;
-            this.logo.TabStop = false;
+            this.JobResult1_panel.Controls.Add(this.jobsCompany1);
+            this.JobResult1_panel.Controls.Add(this.jobresultsDetails1btn);
+            this.JobResult1_panel.Controls.Add(this.description1);
+            this.JobResult1_panel.Controls.Add(this.location);
+            this.JobResult1_panel.Controls.Add(this.JobTitle);
+            this.JobResult1_panel.Controls.Add(this.logopic1);
+            this.JobResult1_panel.Location = new System.Drawing.Point(98, 88);
+            this.JobResult1_panel.Name = "JobResult1_panel";
+            this.JobResult1_panel.Size = new System.Drawing.Size(1165, 148);
+            this.JobResult1_panel.TabIndex = 49;
             // 
-            // ad
+            // jobsCompany1
             // 
-            this.ad.Location = new System.Drawing.Point(293, 70);
-            this.ad.Name = "ad";
-            this.ad.Size = new System.Drawing.Size(970, 166);
-            this.ad.TabIndex = 44;
-            this.ad.TabStop = false;
+            this.jobsCompany1.AutoSize = true;
+            this.jobsCompany1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.jobsCompany1.ForeColor = System.Drawing.Color.Teal;
+            this.jobsCompany1.Location = new System.Drawing.Point(562, 49);
+            this.jobsCompany1.Name = "jobsCompany1";
+            this.jobsCompany1.Size = new System.Drawing.Size(131, 24);
+            this.jobsCompany1.TabIndex = 264;
+            this.jobsCompany1.Text = "Binan, Laguna";
             // 
-            // ad1
+            // jobresultsDetails1btn
             // 
-            this.ad1.Location = new System.Drawing.Point(293, 242);
-            this.ad1.Name = "ad1";
-            this.ad1.Size = new System.Drawing.Size(970, 166);
-            this.ad1.TabIndex = 46;
-            this.ad1.TabStop = false;
+            this.jobresultsDetails1btn.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
+            this.jobresultsDetails1btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.jobresultsDetails1btn.FlatAppearance.BorderSize = 0;
+            this.jobresultsDetails1btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.jobresultsDetails1btn.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.jobresultsDetails1btn.ForeColor = System.Drawing.Color.White;
+            this.jobresultsDetails1btn.Location = new System.Drawing.Point(967, 81);
+            this.jobresultsDetails1btn.Name = "jobresultsDetails1btn";
+            this.jobresultsDetails1btn.Size = new System.Drawing.Size(193, 56);
+            this.jobresultsDetails1btn.TabIndex = 263;
+            this.jobresultsDetails1btn.Text = "View Details";
+            this.jobresultsDetails1btn.UseVisualStyleBackColor = true;
             // 
-            // logo1
+            // description1
             // 
-            this.logo1.Location = new System.Drawing.Point(98, 242);
-            this.logo1.Name = "logo1";
-            this.logo1.Size = new System.Drawing.Size(189, 166);
-            this.logo1.TabIndex = 45;
-            this.logo1.TabStop = false;
+            this.description1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.description1.Location = new System.Drawing.Point(195, 81);
+            this.description1.Name = "description1";
+            this.description1.Size = new System.Drawing.Size(766, 64);
+            this.description1.TabIndex = 3;
+            this.description1.Text = "label1";
             // 
-            // ad2
+            // location
             // 
-            this.ad2.Location = new System.Drawing.Point(293, 414);
-            this.ad2.Name = "ad2";
-            this.ad2.Size = new System.Drawing.Size(970, 166);
-            this.ad2.TabIndex = 48;
-            this.ad2.TabStop = false;
+            this.location.AutoSize = true;
+            this.location.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.location.Location = new System.Drawing.Point(195, 49);
+            this.location.Name = "location";
+            this.location.Size = new System.Drawing.Size(131, 24);
+            this.location.TabIndex = 2;
+            this.location.Text = "Binan, Laguna";
             // 
-            // logo2
+            // JobTitle
             // 
-            this.logo2.Location = new System.Drawing.Point(98, 414);
-            this.logo2.Name = "logo2";
-            this.logo2.Size = new System.Drawing.Size(189, 166);
-            this.logo2.TabIndex = 47;
-            this.logo2.TabStop = false;
+            this.JobTitle.AutoSize = true;
+            this.JobTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.JobTitle.Location = new System.Drawing.Point(194, 8);
+            this.JobTitle.Name = "JobTitle";
+            this.JobTitle.Size = new System.Drawing.Size(85, 29);
+            this.JobTitle.TabIndex = 1;
+            this.JobTitle.Text = "label1";
+            // 
+            // logopic1
+            // 
+            this.logopic1.Location = new System.Drawing.Point(3, 3);
+            this.logopic1.Name = "logopic1";
+            this.logopic1.Size = new System.Drawing.Size(186, 142);
+            this.logopic1.TabIndex = 0;
+            this.logopic1.TabStop = false;
+            // 
+            // JobResult2_Panel
+            // 
+            this.JobResult2_Panel.Controls.Add(this.jobCompany2);
+            this.JobResult2_Panel.Controls.Add(this.jobresultsDetails2btn);
+            this.JobResult2_Panel.Controls.Add(this.label1);
+            this.JobResult2_Panel.Controls.Add(this.label2);
+            this.JobResult2_Panel.Controls.Add(this.label3);
+            this.JobResult2_Panel.Controls.Add(this.pictureBox1);
+            this.JobResult2_Panel.Location = new System.Drawing.Point(98, 248);
+            this.JobResult2_Panel.Name = "JobResult2_Panel";
+            this.JobResult2_Panel.Size = new System.Drawing.Size(1165, 148);
+            this.JobResult2_Panel.TabIndex = 50;
+            this.JobResult2_Panel.Visible = false;
+            // 
+            // jobCompany2
+            // 
+            this.jobCompany2.AutoSize = true;
+            this.jobCompany2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.jobCompany2.ForeColor = System.Drawing.Color.Teal;
+            this.jobCompany2.Location = new System.Drawing.Point(591, 49);
+            this.jobCompany2.Name = "jobCompany2";
+            this.jobCompany2.Size = new System.Drawing.Size(131, 24);
+            this.jobCompany2.TabIndex = 265;
+            this.jobCompany2.Text = "Binan, Laguna";
+            // 
+            // jobresultsDetails2btn
+            // 
+            this.jobresultsDetails2btn.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
+            this.jobresultsDetails2btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.jobresultsDetails2btn.FlatAppearance.BorderSize = 0;
+            this.jobresultsDetails2btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.jobresultsDetails2btn.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.jobresultsDetails2btn.ForeColor = System.Drawing.Color.White;
+            this.jobresultsDetails2btn.Location = new System.Drawing.Point(967, 89);
+            this.jobresultsDetails2btn.Name = "jobresultsDetails2btn";
+            this.jobresultsDetails2btn.Size = new System.Drawing.Size(193, 56);
+            this.jobresultsDetails2btn.TabIndex = 264;
+            this.jobresultsDetails2btn.Text = "View Details";
+            this.jobresultsDetails2btn.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(195, 81);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(766, 64);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "label1";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(195, 49);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(131, 24);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Binan, Laguna";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(194, 8);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(85, 29);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "label1";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(186, 142);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // JobResult3_Panel
+            // 
+            this.JobResult3_Panel.Controls.Add(this.jobCompany3);
+            this.JobResult3_Panel.Controls.Add(this.jobresultsDetails3btn);
+            this.JobResult3_Panel.Controls.Add(this.label4);
+            this.JobResult3_Panel.Controls.Add(this.label5);
+            this.JobResult3_Panel.Controls.Add(this.label6);
+            this.JobResult3_Panel.Controls.Add(this.pictureBox3);
+            this.JobResult3_Panel.Location = new System.Drawing.Point(93, 412);
+            this.JobResult3_Panel.Name = "JobResult3_Panel";
+            this.JobResult3_Panel.Size = new System.Drawing.Size(1165, 148);
+            this.JobResult3_Panel.TabIndex = 51;
+            this.JobResult3_Panel.Visible = false;
+            // 
+            // jobCompany3
+            // 
+            this.jobCompany3.AutoSize = true;
+            this.jobCompany3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.jobCompany3.ForeColor = System.Drawing.Color.Teal;
+            this.jobCompany3.Location = new System.Drawing.Point(596, 49);
+            this.jobCompany3.Name = "jobCompany3";
+            this.jobCompany3.Size = new System.Drawing.Size(131, 24);
+            this.jobCompany3.TabIndex = 266;
+            this.jobCompany3.Text = "Binan, Laguna";
+            // 
+            // jobresultsDetails3btn
+            // 
+            this.jobresultsDetails3btn.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
+            this.jobresultsDetails3btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.jobresultsDetails3btn.FlatAppearance.BorderSize = 0;
+            this.jobresultsDetails3btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.jobresultsDetails3btn.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.jobresultsDetails3btn.ForeColor = System.Drawing.Color.White;
+            this.jobresultsDetails3btn.Location = new System.Drawing.Point(969, 89);
+            this.jobresultsDetails3btn.Name = "jobresultsDetails3btn";
+            this.jobresultsDetails3btn.Size = new System.Drawing.Size(193, 56);
+            this.jobresultsDetails3btn.TabIndex = 265;
+            this.jobresultsDetails3btn.Text = "View Details";
+            this.jobresultsDetails3btn.UseVisualStyleBackColor = true;
+            // 
+            // label4
+            // 
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(195, 81);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(766, 64);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "label1";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(195, 49);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(131, 24);
+            this.label5.TabIndex = 2;
+            this.label5.Text = "Binan, Laguna";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(194, 8);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(85, 29);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "label1";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(186, 142);
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
+            // 
+            // lbldate
+            // 
+            this.lbldate.BackColor = System.Drawing.Color.ForestGreen;
+            this.lbldate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lbldate.Font = new System.Drawing.Font("Arial", 17.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbldate.ForeColor = System.Drawing.Color.White;
+            this.lbldate.Location = new System.Drawing.Point(1010, 685);
+            this.lbldate.Name = "lbldate";
+            this.lbldate.Size = new System.Drawing.Size(356, 31);
+            this.lbldate.TabIndex = 252;
+            this.lbldate.Text = ".";
+            this.lbldate.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // lbltime
+            // 
+            this.lbltime.BackColor = System.Drawing.Color.ForestGreen;
+            this.lbltime.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lbltime.Font = new System.Drawing.Font("Arial", 17.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbltime.ForeColor = System.Drawing.Color.White;
+            this.lbltime.Location = new System.Drawing.Point(1186, 717);
+            this.lbltime.Name = "lbltime";
+            this.lbltime.Size = new System.Drawing.Size(180, 39);
+            this.lbltime.TabIndex = 251;
+            this.lbltime.Text = ".";
+            this.lbltime.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.BackColor = System.Drawing.Color.ForestGreen;
+            this.pictureBox7.BackgroundImage = global::BinanKiosk.Properties.Resources.Binan_City_Logo;
+            this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox7.Location = new System.Drawing.Point(7, 692);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(58, 55);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 250;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.BackColor = System.Drawing.Color.ForestGreen;
+            this.pictureBox8.BackgroundImage = global::BinanKiosk.Properties.Resources.Binan_City;
+            this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox8.Location = new System.Drawing.Point(71, 692);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(160, 55);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 249;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox6.BackgroundImage")));
+            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox6.Location = new System.Drawing.Point(0, 677);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(1459, 94);
+            this.pictureBox6.TabIndex = 248;
+            this.pictureBox6.TabStop = false;
+            // 
+            // btnHelp
+            // 
+            this.btnHelp.BackColor = System.Drawing.Color.ForestGreen;
+            this.btnHelp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnHelp.FlatAppearance.BorderColor = System.Drawing.Color.Green;
+            this.btnHelp.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnHelp.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHelp.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHelp.ForeColor = System.Drawing.Color.Transparent;
+            this.btnHelp.Image = global::BinanKiosk.Properties.Resources.helpIcon2;
+            this.btnHelp.Location = new System.Drawing.Point(1299, 0);
+            this.btnHelp.Name = "btnHelp";
+            this.btnHelp.Size = new System.Drawing.Size(67, 64);
+            this.btnHelp.TabIndex = 267;
+            this.btnHelp.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnHelp.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnHelp.UseVisualStyleBackColor = false;
+            // 
+            // btnLanguages
+            // 
+            this.btnLanguages.BackColor = System.Drawing.Color.ForestGreen;
+            this.btnLanguages.FlatAppearance.BorderSize = 0;
+            this.btnLanguages.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLanguages.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLanguages.ForeColor = System.Drawing.Color.White;
+            this.btnLanguages.Location = new System.Drawing.Point(1174, 0);
+            this.btnLanguages.Name = "btnLanguages";
+            this.btnLanguages.Size = new System.Drawing.Size(128, 64);
+            this.btnLanguages.TabIndex = 268;
+            this.btnLanguages.Text = "CHANGE LANGUAGE";
+            this.btnLanguages.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnLanguages.UseVisualStyleBackColor = false;
+            this.btnLanguages.Click += new System.EventHandler(this.btnLanguages_Click);
+            // 
+            // timestamp
+            // 
+            this.timestamp.Interval = 1000;
+            this.timestamp.Tick += new System.EventHandler(this.timestamp_Tick);
             // 
             // JobResult
             // 
@@ -243,32 +543,41 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1366, 768);
-            this.Controls.Add(this.ad2);
-            this.Controls.Add(this.logo2);
-            this.Controls.Add(this.ad1);
-            this.Controls.Add(this.logo1);
-            this.Controls.Add(this.ad);
-            this.Controls.Add(this.logo);
-            this.Controls.Add(this.btnJob);
+            this.Controls.Add(this.btnLanguages);
             this.Controls.Add(this.btnHelp);
+            this.Controls.Add(this.JobResult3_Panel);
+            this.Controls.Add(this.JobResult2_Panel);
+            this.Controls.Add(this.JobResult1_panel);
+            this.Controls.Add(this.btnJob);
             this.Controls.Add(this.btnServices);
             this.Controls.Add(this.btnMaps);
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.btnHome);
             this.Controls.Add(this.lblJob);
             this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.lbldate);
+            this.Controls.Add(this.lbltime);
+            this.Controls.Add(this.pictureBox7);
+            this.Controls.Add(this.pictureBox8);
+            this.Controls.Add(this.pictureBox6);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "JobResult";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home";
             this.Load += new System.EventHandler(this.JobResult_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ad)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ad1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.logo1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ad2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.logo2)).EndInit();
+            this.JobResult1_panel.ResumeLayout(false);
+            this.JobResult1_panel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logopic1)).EndInit();
+            this.JobResult2_Panel.ResumeLayout(false);
+            this.JobResult2_Panel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.JobResult3_Panel.ResumeLayout(false);
+            this.JobResult3_Panel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -278,17 +587,39 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label lblJob;
         private System.Windows.Forms.Button btnJob;
-        private System.Windows.Forms.Button btnHelp;
         private System.Windows.Forms.Button btnServices;
         private System.Windows.Forms.Button btnMaps;
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.Button btnHome;
-        private System.Windows.Forms.PictureBox logo;
-        private System.Windows.Forms.PictureBox ad;
-        private System.Windows.Forms.PictureBox ad1;
-        private System.Windows.Forms.PictureBox logo1;
-        private System.Windows.Forms.PictureBox ad2;
-        private System.Windows.Forms.PictureBox logo2;
+        private System.Windows.Forms.Panel JobResult1_panel;
+        private System.Windows.Forms.Label description1;
+        private System.Windows.Forms.Label location;
+        private System.Windows.Forms.Label JobTitle;
+        private System.Windows.Forms.PictureBox logopic1;
+        private System.Windows.Forms.Panel JobResult2_Panel;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel JobResult3_Panel;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Button jobresultsDetails1btn;
+        private System.Windows.Forms.Button jobresultsDetails2btn;
+        private System.Windows.Forms.Button jobresultsDetails3btn;
+        private System.Windows.Forms.Label jobsCompany1;
+        private System.Windows.Forms.Label jobCompany2;
+        private System.Windows.Forms.Label jobCompany3;
+        private System.Windows.Forms.Label lbldate;
+        private System.Windows.Forms.Label lbltime;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.Button btnHelp;
+        private System.Windows.Forms.Button btnLanguages;
+        private System.Windows.Forms.Timer timestamp;
     }
 }
 

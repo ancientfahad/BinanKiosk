@@ -50,7 +50,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.Pay_PropTransbtn = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnLanguages = new System.Windows.Forms.Button();
             this.timestamp = new System.Windows.Forms.Timer(this.components);
             this.lbldate = new System.Windows.Forms.Label();
             this.lbltime = new System.Windows.Forms.Label();
@@ -68,6 +67,7 @@
             this.lblServices = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.btnLanguages = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -363,21 +363,6 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // btnLanguages
-            // 
-            this.btnLanguages.BackColor = System.Drawing.Color.ForestGreen;
-            this.btnLanguages.FlatAppearance.BorderSize = 0;
-            this.btnLanguages.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLanguages.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLanguages.ForeColor = System.Drawing.Color.White;
-            this.btnLanguages.Location = new System.Drawing.Point(1222, 0);
-            this.btnLanguages.Name = "btnLanguages";
-            this.btnLanguages.Size = new System.Drawing.Size(76, 64);
-            this.btnLanguages.TabIndex = 60;
-            this.btnLanguages.Text = "LANGUAGE";
-            this.btnLanguages.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnLanguages.UseVisualStyleBackColor = false;
-            // 
             // timestamp
             // 
             this.timestamp.Interval = 1000;
@@ -393,7 +378,7 @@
             this.lbldate.Name = "lbldate";
             this.lbldate.Size = new System.Drawing.Size(356, 31);
             this.lbldate.TabIndex = 245;
-            this.lbldate.Text = "Wednesday 20, December 2017";
+            this.lbldate.Text = ".";
             this.lbldate.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lbltime
@@ -406,7 +391,7 @@
             this.lbltime.Name = "lbltime";
             this.lbltime.Size = new System.Drawing.Size(189, 39);
             this.lbltime.TabIndex = 244;
-            this.lbltime.Text = "00:00:00 PM";
+            this.lbltime.Text = ".";
             this.lbltime.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // btnHelp
@@ -424,7 +409,6 @@
             this.btnHelp.Name = "btnHelp";
             this.btnHelp.Size = new System.Drawing.Size(67, 64);
             this.btnHelp.TabIndex = 31;
-            this.btnHelp.Text = "HELP";
             this.btnHelp.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnHelp.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnHelp.UseVisualStyleBackColor = false;
@@ -647,16 +631,32 @@
             this.pictureBox10.TabIndex = 63;
             this.pictureBox10.TabStop = false;
             // 
+            // btnLanguages
+            // 
+            this.btnLanguages.BackColor = System.Drawing.Color.ForestGreen;
+            this.btnLanguages.FlatAppearance.BorderSize = 0;
+            this.btnLanguages.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLanguages.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLanguages.ForeColor = System.Drawing.Color.White;
+            this.btnLanguages.Location = new System.Drawing.Point(1171, 0);
+            this.btnLanguages.Name = "btnLanguages";
+            this.btnLanguages.Size = new System.Drawing.Size(127, 64);
+            this.btnLanguages.TabIndex = 280;
+            this.btnLanguages.Text = "CHANGE LANGUAGE";
+            this.btnLanguages.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnLanguages.UseVisualStyleBackColor = false;
+            this.btnLanguages.Click += new System.EventHandler(this.btnLanguages_Click);
+            // 
             // GovernmentServices
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1366, 768);
+            this.Controls.Add(this.btnLanguages);
             this.Controls.Add(this.lbldate);
             this.Controls.Add(this.lbltime);
             this.Controls.Add(this.btnHelp);
-            this.Controls.Add(this.btnLanguages);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox8);
@@ -726,13 +726,13 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button btnLanguages;
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.Timer timestamp;
         private System.Windows.Forms.Label lbldate;
         private System.Windows.Forms.Label lbltime;
+        private System.Windows.Forms.Button btnLanguages;
     }
 }
 

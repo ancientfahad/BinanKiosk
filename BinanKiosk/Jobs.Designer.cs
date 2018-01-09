@@ -30,25 +30,12 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Jobs));
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btnLanguages = new System.Windows.Forms.Button();
             this.timestamp = new System.Windows.Forms.Timer(this.components);
             this.lbldate = new System.Windows.Forms.Label();
             this.lbltime = new System.Windows.Forms.Label();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.btnHelp = new System.Windows.Forms.Button();
-            this.searchResult9 = new System.Windows.Forms.Button();
-            this.searchResult7 = new System.Windows.Forms.Button();
-            this.searchResult8 = new System.Windows.Forms.Button();
-            this.searchResult10 = new System.Windows.Forms.Button();
-            this.searchResult6 = new System.Windows.Forms.Button();
-            this.searchResult4 = new System.Windows.Forms.Button();
-            this.searchResult2 = new System.Windows.Forms.Button();
-            this.searchResult3 = new System.Windows.Forms.Button();
-            this.searchResult5 = new System.Windows.Forms.Button();
-            this.searchResult1 = new System.Windows.Forms.Button();
             this.btnJob = new System.Windows.Forms.Button();
             this.btnServices = new System.Windows.Forms.Button();
             this.btnMaps = new System.Windows.Forms.Button();
@@ -57,55 +44,34 @@
             this.lblJob = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.lblList = new System.Windows.Forms.Label();
+            this.archi_btn = new System.Windows.Forms.Button();
+            this.Agriculture_btn = new System.Windows.Forms.Button();
+            this.Ad_Jobsbtn = new System.Windows.Forms.Button();
+            this.hotel_btn = new System.Windows.Forms.Button();
+            this.ent_jobbtn = new System.Windows.Forms.Button();
+            this.IT_btn = new System.Windows.Forms.Button();
+            this.secretary_btn = new System.Windows.Forms.Button();
+            this.elect_Engbtn = new System.Windows.Forms.Button();
+            this.merchandising_btn = new System.Windows.Forms.Button();
+            this.restaurant_btn = new System.Windows.Forms.Button();
+            this.retail_sales_btn = new System.Windows.Forms.Button();
+            this.manufacturing_btn = new System.Windows.Forms.Button();
+            this.realEstate_btn = new System.Windows.Forms.Button();
+            this.education_btn = new System.Windows.Forms.Button();
+            this.customerService_btn = new System.Windows.Forms.Button();
+            this.civil_engbtn = new System.Windows.Forms.Button();
+            this.bankingFinancial_btn = new System.Windows.Forms.Button();
+            this.oilGasEngr_btn = new System.Windows.Forms.Button();
+            this.industrialEngr_btn = new System.Windows.Forms.Button();
+            this.personalCare_btn = new System.Windows.Forms.Button();
+            this.valueBox = new System.Windows.Forms.TextBox();
+            this.btnLanguages = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.ItemHeight = 46;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Computer/Information Technology",
-            "Engineering"});
-            this.comboBox1.Location = new System.Drawing.Point(331, 121);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(628, 54);
-            this.comboBox1.TabIndex = 41;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label1.Location = new System.Drawing.Point(547, 72);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(199, 46);
-            this.label1.TabIndex = 43;
-            this.label1.Text = " Job Lists";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // btnLanguages
-            // 
-            this.btnLanguages.BackColor = System.Drawing.Color.ForestGreen;
-            this.btnLanguages.FlatAppearance.BorderSize = 0;
-            this.btnLanguages.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLanguages.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLanguages.ForeColor = System.Drawing.Color.White;
-            this.btnLanguages.Location = new System.Drawing.Point(1221, 0);
-            this.btnLanguages.Name = "btnLanguages";
-            this.btnLanguages.Size = new System.Drawing.Size(76, 64);
-            this.btnLanguages.TabIndex = 88;
-            this.btnLanguages.Text = "LANGUAGE";
-            this.btnLanguages.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnLanguages.UseVisualStyleBackColor = false;
             // 
             // timestamp
             // 
@@ -122,7 +88,7 @@
             this.lbldate.Name = "lbldate";
             this.lbldate.Size = new System.Drawing.Size(356, 31);
             this.lbldate.TabIndex = 245;
-            this.lbldate.Text = "Wednesday 20, December 2017";
+            this.lbldate.Text = ".";
             this.lbldate.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lbltime
@@ -135,7 +101,7 @@
             this.lbltime.Name = "lbltime";
             this.lbltime.Size = new System.Drawing.Size(180, 39);
             this.lbltime.TabIndex = 244;
-            this.lbltime.Text = "00:00:00 PM";
+            this.lbltime.Text = ".";
             this.lbltime.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // pictureBox7
@@ -177,181 +143,10 @@
             this.btnHelp.Name = "btnHelp";
             this.btnHelp.Size = new System.Drawing.Size(67, 64);
             this.btnHelp.TabIndex = 31;
-            this.btnHelp.Text = "HELP";
             this.btnHelp.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnHelp.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnHelp.UseVisualStyleBackColor = false;
             this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
-            // 
-            // searchResult9
-            // 
-            this.searchResult9.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
-            this.searchResult9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.searchResult9.FlatAppearance.BorderSize = 0;
-            this.searchResult9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.searchResult9.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
-            this.searchResult9.ForeColor = System.Drawing.Color.White;
-            this.searchResult9.Location = new System.Drawing.Point(803, 307);
-            this.searchResult9.Name = "searchResult9";
-            this.searchResult9.Size = new System.Drawing.Size(230, 65);
-            this.searchResult9.TabIndex = 87;
-            this.searchResult9.Text = "Search";
-            this.searchResult9.UseVisualStyleBackColor = true;
-            this.searchResult9.Visible = false;
-            this.searchResult9.Click += new System.EventHandler(this.searchResult_Click);
-            // 
-            // searchResult7
-            // 
-            this.searchResult7.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
-            this.searchResult7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.searchResult7.FlatAppearance.BorderSize = 0;
-            this.searchResult7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.searchResult7.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
-            this.searchResult7.ForeColor = System.Drawing.Color.White;
-            this.searchResult7.Location = new System.Drawing.Point(331, 307);
-            this.searchResult7.Name = "searchResult7";
-            this.searchResult7.Size = new System.Drawing.Size(230, 65);
-            this.searchResult7.TabIndex = 86;
-            this.searchResult7.Text = "Search";
-            this.searchResult7.UseVisualStyleBackColor = true;
-            this.searchResult7.Visible = false;
-            this.searchResult7.Click += new System.EventHandler(this.searchResult_Click);
-            // 
-            // searchResult8
-            // 
-            this.searchResult8.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
-            this.searchResult8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.searchResult8.FlatAppearance.BorderSize = 0;
-            this.searchResult8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.searchResult8.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
-            this.searchResult8.ForeColor = System.Drawing.Color.White;
-            this.searchResult8.Location = new System.Drawing.Point(567, 307);
-            this.searchResult8.Name = "searchResult8";
-            this.searchResult8.Size = new System.Drawing.Size(230, 65);
-            this.searchResult8.TabIndex = 85;
-            this.searchResult8.Text = "Search";
-            this.searchResult8.UseVisualStyleBackColor = true;
-            this.searchResult8.Visible = false;
-            this.searchResult8.Click += new System.EventHandler(this.searchResult_Click);
-            // 
-            // searchResult10
-            // 
-            this.searchResult10.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
-            this.searchResult10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.searchResult10.FlatAppearance.BorderSize = 0;
-            this.searchResult10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.searchResult10.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
-            this.searchResult10.ForeColor = System.Drawing.Color.White;
-            this.searchResult10.Location = new System.Drawing.Point(1039, 307);
-            this.searchResult10.Name = "searchResult10";
-            this.searchResult10.Size = new System.Drawing.Size(230, 65);
-            this.searchResult10.TabIndex = 84;
-            this.searchResult10.Text = "Search";
-            this.searchResult10.UseVisualStyleBackColor = true;
-            this.searchResult10.Visible = false;
-            this.searchResult10.Click += new System.EventHandler(this.searchResult_Click);
-            // 
-            // searchResult6
-            // 
-            this.searchResult6.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
-            this.searchResult6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.searchResult6.FlatAppearance.BorderSize = 0;
-            this.searchResult6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.searchResult6.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
-            this.searchResult6.ForeColor = System.Drawing.Color.White;
-            this.searchResult6.Location = new System.Drawing.Point(95, 307);
-            this.searchResult6.Name = "searchResult6";
-            this.searchResult6.Size = new System.Drawing.Size(230, 65);
-            this.searchResult6.TabIndex = 83;
-            this.searchResult6.Text = "Search";
-            this.searchResult6.UseVisualStyleBackColor = true;
-            this.searchResult6.Visible = false;
-            this.searchResult6.Click += new System.EventHandler(this.searchResult_Click);
-            // 
-            // searchResult4
-            // 
-            this.searchResult4.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
-            this.searchResult4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.searchResult4.FlatAppearance.BorderSize = 0;
-            this.searchResult4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.searchResult4.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
-            this.searchResult4.ForeColor = System.Drawing.Color.White;
-            this.searchResult4.Location = new System.Drawing.Point(803, 236);
-            this.searchResult4.Name = "searchResult4";
-            this.searchResult4.Size = new System.Drawing.Size(230, 65);
-            this.searchResult4.TabIndex = 82;
-            this.searchResult4.Text = "Search";
-            this.searchResult4.UseVisualStyleBackColor = true;
-            this.searchResult4.Visible = false;
-            this.searchResult4.Click += new System.EventHandler(this.searchResult_Click);
-            // 
-            // searchResult2
-            // 
-            this.searchResult2.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
-            this.searchResult2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.searchResult2.FlatAppearance.BorderSize = 0;
-            this.searchResult2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.searchResult2.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
-            this.searchResult2.ForeColor = System.Drawing.Color.White;
-            this.searchResult2.Location = new System.Drawing.Point(331, 236);
-            this.searchResult2.Name = "searchResult2";
-            this.searchResult2.Size = new System.Drawing.Size(230, 65);
-            this.searchResult2.TabIndex = 81;
-            this.searchResult2.Text = "Search";
-            this.searchResult2.UseVisualStyleBackColor = true;
-            this.searchResult2.Visible = false;
-            this.searchResult2.Click += new System.EventHandler(this.searchResult_Click);
-            // 
-            // searchResult3
-            // 
-            this.searchResult3.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
-            this.searchResult3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.searchResult3.FlatAppearance.BorderSize = 0;
-            this.searchResult3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.searchResult3.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
-            this.searchResult3.ForeColor = System.Drawing.Color.White;
-            this.searchResult3.Location = new System.Drawing.Point(567, 236);
-            this.searchResult3.Name = "searchResult3";
-            this.searchResult3.Size = new System.Drawing.Size(230, 65);
-            this.searchResult3.TabIndex = 80;
-            this.searchResult3.Text = "Search";
-            this.searchResult3.UseVisualStyleBackColor = true;
-            this.searchResult3.Visible = false;
-            this.searchResult3.Click += new System.EventHandler(this.searchResult_Click);
-            // 
-            // searchResult5
-            // 
-            this.searchResult5.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
-            this.searchResult5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.searchResult5.FlatAppearance.BorderSize = 0;
-            this.searchResult5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.searchResult5.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
-            this.searchResult5.ForeColor = System.Drawing.Color.White;
-            this.searchResult5.Location = new System.Drawing.Point(1039, 236);
-            this.searchResult5.Name = "searchResult5";
-            this.searchResult5.Size = new System.Drawing.Size(230, 65);
-            this.searchResult5.TabIndex = 79;
-            this.searchResult5.Text = "Search";
-            this.searchResult5.UseVisualStyleBackColor = true;
-            this.searchResult5.Visible = false;
-            this.searchResult5.Click += new System.EventHandler(this.searchResult_Click);
-            // 
-            // searchResult1
-            // 
-            this.searchResult1.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
-            this.searchResult1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.searchResult1.FlatAppearance.BorderSize = 0;
-            this.searchResult1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.searchResult1.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.searchResult1.ForeColor = System.Drawing.Color.White;
-            this.searchResult1.Location = new System.Drawing.Point(95, 236);
-            this.searchResult1.Name = "searchResult1";
-            this.searchResult1.Size = new System.Drawing.Size(230, 65);
-            this.searchResult1.TabIndex = 78;
-            this.searchResult1.Text = "Search";
-            this.searchResult1.UseVisualStyleBackColor = true;
-            this.searchResult1.Visible = false;
-            this.searchResult1.Click += new System.EventHandler(this.searchResult_Click);
             // 
             // btnJob
             // 
@@ -360,7 +155,7 @@
             this.btnJob.FlatAppearance.BorderColor = System.Drawing.Color.Green;
             this.btnJob.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Green;
             this.btnJob.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnJob.Font = new System.Drawing.Font("Arial Narrow", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnJob.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnJob.ForeColor = System.Drawing.Color.Transparent;
             this.btnJob.Image = global::BinanKiosk.Properties.Resources.jobIcon;
             this.btnJob.Location = new System.Drawing.Point(849, 683);
@@ -379,7 +174,7 @@
             this.btnServices.FlatAppearance.BorderColor = System.Drawing.Color.Green;
             this.btnServices.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Green;
             this.btnServices.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnServices.Font = new System.Drawing.Font("Arial Narrow", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnServices.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnServices.ForeColor = System.Drawing.Color.Transparent;
             this.btnServices.Image = global::BinanKiosk.Properties.Resources.servicesIcon;
             this.btnServices.Location = new System.Drawing.Point(695, 683);
@@ -398,7 +193,7 @@
             this.btnMaps.FlatAppearance.BorderColor = System.Drawing.Color.Green;
             this.btnMaps.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Green;
             this.btnMaps.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMaps.Font = new System.Drawing.Font("Arial Narrow", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMaps.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMaps.ForeColor = System.Drawing.Color.Transparent;
             this.btnMaps.Image = global::BinanKiosk.Properties.Resources.mapIcon;
             this.btnMaps.Location = new System.Drawing.Point(541, 683);
@@ -417,7 +212,7 @@
             this.btnSearch.FlatAppearance.BorderColor = System.Drawing.Color.Green;
             this.btnSearch.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Green;
             this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSearch.Font = new System.Drawing.Font("Arial Narrow", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSearch.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSearch.ForeColor = System.Drawing.Color.Transparent;
             this.btnSearch.Image = global::BinanKiosk.Properties.Resources.srchicon;
             this.btnSearch.Location = new System.Drawing.Point(387, 683);
@@ -436,7 +231,7 @@
             this.btnHome.FlatAppearance.BorderColor = System.Drawing.Color.Green;
             this.btnHome.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Green;
             this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHome.Font = new System.Drawing.Font("Arial Narrow", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHome.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHome.ForeColor = System.Drawing.Color.Transparent;
             this.btnHome.Image = global::BinanKiosk.Properties.Resources.homeIcon;
             this.btnHome.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -484,30 +279,397 @@
             this.pictureBox4.TabIndex = 91;
             this.pictureBox4.TabStop = false;
             // 
+            // lblList
+            // 
+            this.lblList.AutoSize = true;
+            this.lblList.BackColor = System.Drawing.Color.Transparent;
+            this.lblList.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblList.ForeColor = System.Drawing.Color.Black;
+            this.lblList.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblList.Location = new System.Drawing.Point(547, 72);
+            this.lblList.Name = "lblList";
+            this.lblList.Size = new System.Drawing.Size(199, 46);
+            this.lblList.TabIndex = 43;
+            this.lblList.Text = " Job Lists";
+            this.lblList.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // archi_btn
+            // 
+            this.archi_btn.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
+            this.archi_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.archi_btn.FlatAppearance.BorderSize = 0;
+            this.archi_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.archi_btn.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.archi_btn.ForeColor = System.Drawing.Color.White;
+            this.archi_btn.Location = new System.Drawing.Point(546, 165);
+            this.archi_btn.Name = "archi_btn";
+            this.archi_btn.Size = new System.Drawing.Size(261, 103);
+            this.archi_btn.TabIndex = 247;
+            this.archi_btn.Text = "Architect/Interior Design";
+            this.archi_btn.UseVisualStyleBackColor = true;
+            this.archi_btn.Click += new System.EventHandler(this.archi_btn_Click);
+            // 
+            // Agriculture_btn
+            // 
+            this.Agriculture_btn.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
+            this.Agriculture_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Agriculture_btn.FlatAppearance.BorderSize = 0;
+            this.Agriculture_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Agriculture_btn.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Agriculture_btn.ForeColor = System.Drawing.Color.White;
+            this.Agriculture_btn.Location = new System.Drawing.Point(279, 165);
+            this.Agriculture_btn.Name = "Agriculture_btn";
+            this.Agriculture_btn.Size = new System.Drawing.Size(261, 103);
+            this.Agriculture_btn.TabIndex = 259;
+            this.Agriculture_btn.Text = "Agriculture";
+            this.Agriculture_btn.UseVisualStyleBackColor = true;
+            this.Agriculture_btn.Click += new System.EventHandler(this.Agriculture_btn_Click);
+            // 
+            // Ad_Jobsbtn
+            // 
+            this.Ad_Jobsbtn.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
+            this.Ad_Jobsbtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Ad_Jobsbtn.FlatAppearance.BorderSize = 0;
+            this.Ad_Jobsbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Ad_Jobsbtn.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Ad_Jobsbtn.ForeColor = System.Drawing.Color.White;
+            this.Ad_Jobsbtn.Location = new System.Drawing.Point(12, 165);
+            this.Ad_Jobsbtn.Name = "Ad_Jobsbtn";
+            this.Ad_Jobsbtn.Size = new System.Drawing.Size(261, 103);
+            this.Ad_Jobsbtn.TabIndex = 260;
+            this.Ad_Jobsbtn.Text = "Advertising Jobs";
+            this.Ad_Jobsbtn.UseVisualStyleBackColor = true;
+            this.Ad_Jobsbtn.Click += new System.EventHandler(this.Ad_Jobsbtn_Click);
+            // 
+            // hotel_btn
+            // 
+            this.hotel_btn.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
+            this.hotel_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.hotel_btn.FlatAppearance.BorderSize = 0;
+            this.hotel_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.hotel_btn.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hotel_btn.ForeColor = System.Drawing.Color.White;
+            this.hotel_btn.Location = new System.Drawing.Point(546, 274);
+            this.hotel_btn.Name = "hotel_btn";
+            this.hotel_btn.Size = new System.Drawing.Size(261, 103);
+            this.hotel_btn.TabIndex = 261;
+            this.hotel_btn.Text = "Hotel/Tourism Jobs";
+            this.hotel_btn.UseVisualStyleBackColor = true;
+            this.hotel_btn.Click += new System.EventHandler(this.hotel_btn_Click);
+            // 
+            // ent_jobbtn
+            // 
+            this.ent_jobbtn.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
+            this.ent_jobbtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ent_jobbtn.FlatAppearance.BorderSize = 0;
+            this.ent_jobbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ent_jobbtn.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ent_jobbtn.ForeColor = System.Drawing.Color.White;
+            this.ent_jobbtn.Location = new System.Drawing.Point(1080, 165);
+            this.ent_jobbtn.Name = "ent_jobbtn";
+            this.ent_jobbtn.Size = new System.Drawing.Size(261, 103);
+            this.ent_jobbtn.TabIndex = 262;
+            this.ent_jobbtn.Text = "Entertainment Jobs";
+            this.ent_jobbtn.UseVisualStyleBackColor = true;
+            this.ent_jobbtn.Click += new System.EventHandler(this.ent_jobbtn_Click);
+            // 
+            // IT_btn
+            // 
+            this.IT_btn.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
+            this.IT_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.IT_btn.FlatAppearance.BorderSize = 0;
+            this.IT_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.IT_btn.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IT_btn.ForeColor = System.Drawing.Color.White;
+            this.IT_btn.Location = new System.Drawing.Point(12, 492);
+            this.IT_btn.Name = "IT_btn";
+            this.IT_btn.Size = new System.Drawing.Size(261, 103);
+            this.IT_btn.TabIndex = 263;
+            this.IT_btn.Text = "IT Jobs";
+            this.IT_btn.UseVisualStyleBackColor = true;
+            this.IT_btn.Click += new System.EventHandler(this.IT_btn_Click);
+            // 
+            // secretary_btn
+            // 
+            this.secretary_btn.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
+            this.secretary_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.secretary_btn.FlatAppearance.BorderSize = 0;
+            this.secretary_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.secretary_btn.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.secretary_btn.ForeColor = System.Drawing.Color.White;
+            this.secretary_btn.Location = new System.Drawing.Point(279, 274);
+            this.secretary_btn.Name = "secretary_btn";
+            this.secretary_btn.Size = new System.Drawing.Size(261, 103);
+            this.secretary_btn.TabIndex = 264;
+            this.secretary_btn.Text = "Secretarial Jobs";
+            this.secretary_btn.UseVisualStyleBackColor = true;
+            this.secretary_btn.Click += new System.EventHandler(this.secretary_btn_Click);
+            // 
+            // elect_Engbtn
+            // 
+            this.elect_Engbtn.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
+            this.elect_Engbtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.elect_Engbtn.FlatAppearance.BorderSize = 0;
+            this.elect_Engbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.elect_Engbtn.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.elect_Engbtn.ForeColor = System.Drawing.Color.White;
+            this.elect_Engbtn.Location = new System.Drawing.Point(813, 165);
+            this.elect_Engbtn.Name = "elect_Engbtn";
+            this.elect_Engbtn.Size = new System.Drawing.Size(261, 103);
+            this.elect_Engbtn.TabIndex = 265;
+            this.elect_Engbtn.Text = "Electrical Engineering Jobs";
+            this.elect_Engbtn.UseVisualStyleBackColor = true;
+            this.elect_Engbtn.Click += new System.EventHandler(this.elect_Engbtn_Click);
+            // 
+            // merchandising_btn
+            // 
+            this.merchandising_btn.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
+            this.merchandising_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.merchandising_btn.FlatAppearance.BorderSize = 0;
+            this.merchandising_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.merchandising_btn.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.merchandising_btn.ForeColor = System.Drawing.Color.White;
+            this.merchandising_btn.Location = new System.Drawing.Point(813, 274);
+            this.merchandising_btn.Name = "merchandising_btn";
+            this.merchandising_btn.Size = new System.Drawing.Size(261, 103);
+            this.merchandising_btn.TabIndex = 266;
+            this.merchandising_btn.Text = "Merchandising Jobs";
+            this.merchandising_btn.UseVisualStyleBackColor = true;
+            this.merchandising_btn.Click += new System.EventHandler(this.merchandising_btn_Click);
+            // 
+            // restaurant_btn
+            // 
+            this.restaurant_btn.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
+            this.restaurant_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.restaurant_btn.FlatAppearance.BorderSize = 0;
+            this.restaurant_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.restaurant_btn.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.restaurant_btn.ForeColor = System.Drawing.Color.White;
+            this.restaurant_btn.Location = new System.Drawing.Point(1080, 274);
+            this.restaurant_btn.Name = "restaurant_btn";
+            this.restaurant_btn.Size = new System.Drawing.Size(261, 103);
+            this.restaurant_btn.TabIndex = 267;
+            this.restaurant_btn.Text = "Restaurant Jobs";
+            this.restaurant_btn.UseVisualStyleBackColor = true;
+            this.restaurant_btn.Click += new System.EventHandler(this.restaurant_btn_Click);
+            // 
+            // retail_sales_btn
+            // 
+            this.retail_sales_btn.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
+            this.retail_sales_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.retail_sales_btn.FlatAppearance.BorderSize = 0;
+            this.retail_sales_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.retail_sales_btn.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.retail_sales_btn.ForeColor = System.Drawing.Color.White;
+            this.retail_sales_btn.Location = new System.Drawing.Point(12, 383);
+            this.retail_sales_btn.Name = "retail_sales_btn";
+            this.retail_sales_btn.Size = new System.Drawing.Size(261, 103);
+            this.retail_sales_btn.TabIndex = 268;
+            this.retail_sales_btn.Text = "Retail Sales Job";
+            this.retail_sales_btn.UseVisualStyleBackColor = true;
+            this.retail_sales_btn.Click += new System.EventHandler(this.retail_sales_btn_Click);
+            // 
+            // manufacturing_btn
+            // 
+            this.manufacturing_btn.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
+            this.manufacturing_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.manufacturing_btn.FlatAppearance.BorderSize = 0;
+            this.manufacturing_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.manufacturing_btn.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.manufacturing_btn.ForeColor = System.Drawing.Color.White;
+            this.manufacturing_btn.Location = new System.Drawing.Point(279, 383);
+            this.manufacturing_btn.Name = "manufacturing_btn";
+            this.manufacturing_btn.Size = new System.Drawing.Size(261, 103);
+            this.manufacturing_btn.TabIndex = 269;
+            this.manufacturing_btn.Text = "Manufacturing Jobs";
+            this.manufacturing_btn.UseVisualStyleBackColor = true;
+            this.manufacturing_btn.Click += new System.EventHandler(this.manufacturing_btn_Click);
+            // 
+            // realEstate_btn
+            // 
+            this.realEstate_btn.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
+            this.realEstate_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.realEstate_btn.FlatAppearance.BorderSize = 0;
+            this.realEstate_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.realEstate_btn.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.realEstate_btn.ForeColor = System.Drawing.Color.White;
+            this.realEstate_btn.Location = new System.Drawing.Point(546, 383);
+            this.realEstate_btn.Name = "realEstate_btn";
+            this.realEstate_btn.Size = new System.Drawing.Size(261, 103);
+            this.realEstate_btn.TabIndex = 270;
+            this.realEstate_btn.Text = "Real Estate Jobs";
+            this.realEstate_btn.UseVisualStyleBackColor = true;
+            this.realEstate_btn.Click += new System.EventHandler(this.realEstate_btn_Click);
+            // 
+            // education_btn
+            // 
+            this.education_btn.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
+            this.education_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.education_btn.FlatAppearance.BorderSize = 0;
+            this.education_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.education_btn.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.education_btn.ForeColor = System.Drawing.Color.White;
+            this.education_btn.Location = new System.Drawing.Point(813, 383);
+            this.education_btn.Name = "education_btn";
+            this.education_btn.Size = new System.Drawing.Size(261, 103);
+            this.education_btn.TabIndex = 271;
+            this.education_btn.Text = "Education Jobs";
+            this.education_btn.UseVisualStyleBackColor = true;
+            this.education_btn.Click += new System.EventHandler(this.education_btn_Click);
+            // 
+            // customerService_btn
+            // 
+            this.customerService_btn.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
+            this.customerService_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.customerService_btn.FlatAppearance.BorderSize = 0;
+            this.customerService_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.customerService_btn.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.customerService_btn.ForeColor = System.Drawing.Color.White;
+            this.customerService_btn.Location = new System.Drawing.Point(1080, 383);
+            this.customerService_btn.Name = "customerService_btn";
+            this.customerService_btn.Size = new System.Drawing.Size(261, 103);
+            this.customerService_btn.TabIndex = 272;
+            this.customerService_btn.Text = "Customer Service Jobs";
+            this.customerService_btn.UseVisualStyleBackColor = true;
+            this.customerService_btn.Click += new System.EventHandler(this.customerService_btn_Click);
+            // 
+            // civil_engbtn
+            // 
+            this.civil_engbtn.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
+            this.civil_engbtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.civil_engbtn.FlatAppearance.BorderSize = 0;
+            this.civil_engbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.civil_engbtn.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.civil_engbtn.ForeColor = System.Drawing.Color.White;
+            this.civil_engbtn.Location = new System.Drawing.Point(12, 274);
+            this.civil_engbtn.Name = "civil_engbtn";
+            this.civil_engbtn.Size = new System.Drawing.Size(261, 103);
+            this.civil_engbtn.TabIndex = 273;
+            this.civil_engbtn.Text = "Civil Engineering Jobs";
+            this.civil_engbtn.UseVisualStyleBackColor = true;
+            this.civil_engbtn.Click += new System.EventHandler(this.civil_engbtn_Click);
+            // 
+            // bankingFinancial_btn
+            // 
+            this.bankingFinancial_btn.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
+            this.bankingFinancial_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bankingFinancial_btn.FlatAppearance.BorderSize = 0;
+            this.bankingFinancial_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bankingFinancial_btn.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bankingFinancial_btn.ForeColor = System.Drawing.Color.White;
+            this.bankingFinancial_btn.Location = new System.Drawing.Point(279, 492);
+            this.bankingFinancial_btn.Name = "bankingFinancial_btn";
+            this.bankingFinancial_btn.Size = new System.Drawing.Size(261, 103);
+            this.bankingFinancial_btn.TabIndex = 274;
+            this.bankingFinancial_btn.Text = "Banking/Financial Jobs";
+            this.bankingFinancial_btn.UseVisualStyleBackColor = true;
+            this.bankingFinancial_btn.Click += new System.EventHandler(this.bankingFinancial_btn_Click);
+            // 
+            // oilGasEngr_btn
+            // 
+            this.oilGasEngr_btn.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
+            this.oilGasEngr_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.oilGasEngr_btn.FlatAppearance.BorderSize = 0;
+            this.oilGasEngr_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.oilGasEngr_btn.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.oilGasEngr_btn.ForeColor = System.Drawing.Color.White;
+            this.oilGasEngr_btn.Location = new System.Drawing.Point(546, 492);
+            this.oilGasEngr_btn.Name = "oilGasEngr_btn";
+            this.oilGasEngr_btn.Size = new System.Drawing.Size(261, 103);
+            this.oilGasEngr_btn.TabIndex = 275;
+            this.oilGasEngr_btn.Text = "Oil/Gas Engineering Jobs";
+            this.oilGasEngr_btn.UseVisualStyleBackColor = true;
+            this.oilGasEngr_btn.Click += new System.EventHandler(this.oilGasEngr_btn_Click);
+            // 
+            // industrialEngr_btn
+            // 
+            this.industrialEngr_btn.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
+            this.industrialEngr_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.industrialEngr_btn.FlatAppearance.BorderSize = 0;
+            this.industrialEngr_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.industrialEngr_btn.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.industrialEngr_btn.ForeColor = System.Drawing.Color.White;
+            this.industrialEngr_btn.Location = new System.Drawing.Point(813, 492);
+            this.industrialEngr_btn.Name = "industrialEngr_btn";
+            this.industrialEngr_btn.Size = new System.Drawing.Size(261, 103);
+            this.industrialEngr_btn.TabIndex = 276;
+            this.industrialEngr_btn.Text = "Industrial Engineering Jobs";
+            this.industrialEngr_btn.UseVisualStyleBackColor = true;
+            this.industrialEngr_btn.Click += new System.EventHandler(this.industrialEngr_btn_Click);
+            // 
+            // personalCare_btn
+            // 
+            this.personalCare_btn.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
+            this.personalCare_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.personalCare_btn.FlatAppearance.BorderSize = 0;
+            this.personalCare_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.personalCare_btn.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.personalCare_btn.ForeColor = System.Drawing.Color.White;
+            this.personalCare_btn.Location = new System.Drawing.Point(1080, 492);
+            this.personalCare_btn.Name = "personalCare_btn";
+            this.personalCare_btn.Size = new System.Drawing.Size(261, 103);
+            this.personalCare_btn.TabIndex = 277;
+            this.personalCare_btn.Text = "Personal Care Jobs";
+            this.personalCare_btn.UseVisualStyleBackColor = true;
+            this.personalCare_btn.Click += new System.EventHandler(this.personalCare_btn_Click);
+            // 
+            // valueBox
+            // 
+            this.valueBox.Location = new System.Drawing.Point(48, 72);
+            this.valueBox.Name = "valueBox";
+            this.valueBox.Size = new System.Drawing.Size(29, 20);
+            this.valueBox.TabIndex = 278;
+            this.valueBox.Visible = false;
+            // 
+            // btnLanguages
+            // 
+            this.btnLanguages.BackColor = System.Drawing.Color.ForestGreen;
+            this.btnLanguages.FlatAppearance.BorderSize = 0;
+            this.btnLanguages.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLanguages.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLanguages.ForeColor = System.Drawing.Color.White;
+            this.btnLanguages.Location = new System.Drawing.Point(1172, 0);
+            this.btnLanguages.Name = "btnLanguages";
+            this.btnLanguages.Size = new System.Drawing.Size(127, 64);
+            this.btnLanguages.TabIndex = 279;
+            this.btnLanguages.Text = "CHANGE LANGUAGE";
+            this.btnLanguages.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnLanguages.UseVisualStyleBackColor = false;
+            // 
             // Jobs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1366, 768);
+            this.Controls.Add(this.btnLanguages);
+            this.Controls.Add(this.valueBox);
+            this.Controls.Add(this.personalCare_btn);
+            this.Controls.Add(this.industrialEngr_btn);
+            this.Controls.Add(this.oilGasEngr_btn);
+            this.Controls.Add(this.bankingFinancial_btn);
+            this.Controls.Add(this.civil_engbtn);
+            this.Controls.Add(this.customerService_btn);
+            this.Controls.Add(this.education_btn);
+            this.Controls.Add(this.realEstate_btn);
+            this.Controls.Add(this.manufacturing_btn);
+            this.Controls.Add(this.retail_sales_btn);
+            this.Controls.Add(this.restaurant_btn);
+            this.Controls.Add(this.merchandising_btn);
+            this.Controls.Add(this.elect_Engbtn);
+            this.Controls.Add(this.secretary_btn);
+            this.Controls.Add(this.IT_btn);
+            this.Controls.Add(this.ent_jobbtn);
+            this.Controls.Add(this.hotel_btn);
+            this.Controls.Add(this.Ad_Jobsbtn);
+            this.Controls.Add(this.Agriculture_btn);
+            this.Controls.Add(this.archi_btn);
             this.Controls.Add(this.lbldate);
             this.Controls.Add(this.lbltime);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.btnHelp);
-            this.Controls.Add(this.btnLanguages);
-            this.Controls.Add(this.searchResult9);
-            this.Controls.Add(this.searchResult7);
-            this.Controls.Add(this.searchResult8);
-            this.Controls.Add(this.searchResult10);
-            this.Controls.Add(this.searchResult6);
-            this.Controls.Add(this.searchResult4);
-            this.Controls.Add(this.searchResult2);
-            this.Controls.Add(this.searchResult3);
-            this.Controls.Add(this.searchResult5);
-            this.Controls.Add(this.searchResult1);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.lblList);
             this.Controls.Add(this.btnJob);
             this.Controls.Add(this.btnServices);
             this.Controls.Add(this.btnMaps);
@@ -539,25 +701,35 @@
         private System.Windows.Forms.Button btnMaps;
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.Button btnHome;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button searchResult9;
-        private System.Windows.Forms.Button searchResult7;
-        private System.Windows.Forms.Button searchResult8;
-        private System.Windows.Forms.Button searchResult10;
-        private System.Windows.Forms.Button searchResult6;
-        private System.Windows.Forms.Button searchResult4;
-        private System.Windows.Forms.Button searchResult2;
-        private System.Windows.Forms.Button searchResult3;
-        private System.Windows.Forms.Button searchResult5;
-        private System.Windows.Forms.Button searchResult1;
-        private System.Windows.Forms.Button btnLanguages;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.Timer timestamp;
         private System.Windows.Forms.Label lbldate;
         private System.Windows.Forms.Label lbltime;
+        private System.Windows.Forms.Label lblList;
+        private System.Windows.Forms.Button archi_btn;
+        private System.Windows.Forms.Button Agriculture_btn;
+        private System.Windows.Forms.Button Ad_Jobsbtn;
+        private System.Windows.Forms.Button hotel_btn;
+        private System.Windows.Forms.Button ent_jobbtn;
+        private System.Windows.Forms.Button IT_btn;
+        private System.Windows.Forms.Button secretary_btn;
+        private System.Windows.Forms.Button elect_Engbtn;
+        private System.Windows.Forms.Button merchandising_btn;
+        private System.Windows.Forms.Button restaurant_btn;
+        private System.Windows.Forms.Button retail_sales_btn;
+        private System.Windows.Forms.Button manufacturing_btn;
+        private System.Windows.Forms.Button realEstate_btn;
+        private System.Windows.Forms.Button education_btn;
+        private System.Windows.Forms.Button customerService_btn;
+        private System.Windows.Forms.Button civil_engbtn;
+        private System.Windows.Forms.Button bankingFinancial_btn;
+        private System.Windows.Forms.Button oilGasEngr_btn;
+        private System.Windows.Forms.Button industrialEngr_btn;
+        private System.Windows.Forms.Button personalCare_btn;
+        private System.Windows.Forms.TextBox valueBox;
+        private System.Windows.Forms.Button btnLanguages;
     }
 }
 

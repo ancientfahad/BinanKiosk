@@ -395,11 +395,11 @@
             this.lbldate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lbldate.Font = new System.Drawing.Font("Arial", 17.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbldate.ForeColor = System.Drawing.Color.White;
-            this.lbldate.Location = new System.Drawing.Point(1001, 688);
+            this.lbldate.Location = new System.Drawing.Point(1010, 688);
             this.lbldate.Name = "lbldate";
-            this.lbldate.Size = new System.Drawing.Size(365, 31);
+            this.lbldate.Size = new System.Drawing.Size(356, 31);
             this.lbldate.TabIndex = 245;
-            this.lbldate.Text = "Wednesday 20, December 2017";
+            this.lbldate.Text = ".";
             this.lbldate.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lbltime
@@ -412,7 +412,7 @@
             this.lbltime.Name = "lbltime";
             this.lbltime.Size = new System.Drawing.Size(180, 39);
             this.lbltime.TabIndex = 244;
-            this.lbltime.Text = "00:00:00 PM";
+            this.lbltime.Text = ".";
             this.lbltime.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // timestamp

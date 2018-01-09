@@ -26,5 +26,9 @@ namespace BinanKiosk
         public static string gbService = "";
 
         public static string job = "";
+        public static string gbJobtype = "";
+        public static string gbJoblocation = "";
+        public static string gbJobdescription = "";
+        public static string gbJobCompany = "";
     }
 }

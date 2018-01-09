@@ -77,7 +77,7 @@
             this.lbltime.Name = "lbltime";
             this.lbltime.Size = new System.Drawing.Size(180, 39);
             this.lbltime.TabIndex = 93;
-            this.lbltime.Text = "00:00:00 PM";
+            this.lbltime.Text = ".";
             this.lbltime.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lbldate
@@ -90,7 +90,7 @@
             this.lbldate.Name = "lbldate";
             this.lbldate.Size = new System.Drawing.Size(356, 31);
             this.lbldate.TabIndex = 94;
-            this.lbldate.Text = "Wednesday 20, December 2017";
+            this.lbldate.Text = ".";
             this.lbldate.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // btnLanguages

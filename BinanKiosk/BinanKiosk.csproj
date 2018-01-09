@@ -23,7 +23,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <UseVSHostingProcess>false</UseVSHostingProcess>
-    <IntermediateOutputPath>C:\Users\Fahad\AppData\Local\Temp\vs819A.tmp\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -248,6 +247,12 @@
     <None Include="Resources\jobIcon1.png" />
     <None Include="Resources\homeIcon1.png" />
     <Content Include="Resources\Jobs\Advertisement\Sykes1.PNG" />
+    <Content Include="Resources\Jobs\Logo\civilenginner.jpg" />
+    <Content Include="Resources\Jobs\Logo\merchandising.jpg" />
+    <Content Include="Resources\Jobs\Logo\personalcare.jpg" />
+    <Content Include="Resources\Jobs\Logo\Retailsales.jpg" />
+    <Content Include="Resources\Jobs\Logo\salesRep.jpg" />
+    <Content Include="Resources\Jobs\Logo\secretarial.jpg" />
     <Content Include="Resources\Jobs\Logo\SYKES.jpg" />
     <None Include="Resources\mapIcon.png" />
     <Content Include="Resources\nandito ka.png" />

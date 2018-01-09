@@ -176,7 +176,7 @@ namespace BinanKiosk
 
         private void OnTimerEvent(object sender, EventArgs e)
         {
-            lbltime.Text = DateTime.Now.ToLongTimeString(); 
+            lbltime.Text = DateTime.Now.ToLongTimeString();
             lbldate.Text = DateTime.Now.DayOfWeek.ToString() + ", " + DateTime.Now.ToLongDateString();
         }
 

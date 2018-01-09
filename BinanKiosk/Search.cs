@@ -259,7 +259,7 @@ namespace BinanKiosk
                 conn.Close();
 
 
-                string passed = "";
+                /*string passed = "";
 
                 if (Global.gbService == "Payment of Real Property Transfer Tax") {
                     passed = "a";
@@ -284,8 +284,8 @@ namespace BinanKiosk
                 {
                     passed = "f";
                 }
-
-                ServiceView sv = new ServiceView(passed);
+                */
+                ServiceView sv = new ServiceView(Global.gbService);
                 this.Hide();
                 sv.FormClosed += (s, args) => this.Close();
                 sv.ShowDialog();

@@ -18,6 +18,7 @@ namespace BinanKiosk
 
             this.SetStyle(ControlStyles.OptimizedDoubleBuffer, true);
         }
+
         protected override CreateParams CreateParams
         {
             get
@@ -38,11 +39,6 @@ namespace BinanKiosk
             hm.FormClosed += (s, args) => this.Close();
             hm.ShowDialog();
             hm.Focus();
-
-            //this.Hide();
-            //Home hm = new Home();
-            //hm.ShowDialog();
-            //this.ShowDialog();
         }
 
         private void btnFilipino_Click(object sender, EventArgs e)

@@ -1675,7 +1675,7 @@
             this.lbldate.Name = "lbldate";
             this.lbldate.Size = new System.Drawing.Size(360, 31);
             this.lbldate.TabIndex = 249;
-            this.lbldate.Text = "Wednesday 20, December 2017";
+            this.lbldate.Text = ".";
             this.lbldate.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lbltime
@@ -1688,7 +1688,7 @@
             this.lbltime.Name = "lbltime";
             this.lbltime.Size = new System.Drawing.Size(180, 39);
             this.lbltime.TabIndex = 248;
-            this.lbltime.Text = "00:00:00 PM";
+            this.lbltime.Text = ".";
             this.lbltime.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // SecondFloor

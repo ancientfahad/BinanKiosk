@@ -180,6 +180,9 @@ namespace BinanKiosk
                 btnJob.Text = "Mga Trabaho";
                 lblFloorName.Text = "Unang Palapag";
                 lblMaps.Text = "       MAPA";
+
+                thirdbtton.Text = "Pangatlong Palapag";
+                secondbtton.Text = "Pangalawang Palapag";
             }
             timestamp.Interval = 1;
             timestamp.Start();

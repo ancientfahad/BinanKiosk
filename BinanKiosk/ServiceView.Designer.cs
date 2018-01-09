@@ -33,7 +33,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.servpicture = new System.Windows.Forms.PictureBox();
             this.servicevalue = new System.Windows.Forms.TextBox();
-            this.btnLanguages = new System.Windows.Forms.Button();
             this.lbldate = new System.Windows.Forms.Label();
             this.lbltime = new System.Windows.Forms.Label();
             this.timestamp = new System.Windows.Forms.Timer(this.components);
@@ -48,6 +47,7 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.btnLanguages = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.servpicture)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -61,19 +61,20 @@
             this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Controls.Add(this.servpicture);
-            this.panel1.Location = new System.Drawing.Point(167, 91);
+            this.panel1.Location = new System.Drawing.Point(48, 91);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1023, 536);
+            this.panel1.Size = new System.Drawing.Size(1250, 536);
             this.panel1.TabIndex = 50;
             // 
             // servpicture
             // 
             this.servpicture.BackColor = System.Drawing.Color.Transparent;
             this.servpicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.servpicture.Location = new System.Drawing.Point(0, 0);
+            this.servpicture.InitialImage = ((System.Drawing.Image)(resources.GetObject("servpicture.InitialImage")));
+            this.servpicture.Location = new System.Drawing.Point(135, 0);
             this.servpicture.Name = "servpicture";
             this.servpicture.Size = new System.Drawing.Size(1023, 536);
-            this.servpicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.servpicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.servpicture.TabIndex = 50;
             this.servpicture.TabStop = false;
             // 
@@ -85,21 +86,6 @@
             this.servicevalue.TabIndex = 51;
             this.servicevalue.Visible = false;
             // 
-            // btnLanguages
-            // 
-            this.btnLanguages.BackColor = System.Drawing.Color.ForestGreen;
-            this.btnLanguages.FlatAppearance.BorderSize = 0;
-            this.btnLanguages.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLanguages.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLanguages.ForeColor = System.Drawing.Color.White;
-            this.btnLanguages.Location = new System.Drawing.Point(1222, 0);
-            this.btnLanguages.Name = "btnLanguages";
-            this.btnLanguages.Size = new System.Drawing.Size(76, 64);
-            this.btnLanguages.TabIndex = 53;
-            this.btnLanguages.Text = "LANGUAGE";
-            this.btnLanguages.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnLanguages.UseVisualStyleBackColor = false;
-            // 
             // lbldate
             // 
             this.lbldate.BackColor = System.Drawing.Color.ForestGreen;
@@ -110,7 +96,7 @@
             this.lbldate.Name = "lbldate";
             this.lbldate.Size = new System.Drawing.Size(356, 31);
             this.lbldate.TabIndex = 252;
-            this.lbldate.Text = "Wednesday 20, December 2017";
+            this.lbldate.Text = ".";
             this.lbldate.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lbltime
@@ -123,7 +109,7 @@
             this.lbltime.Name = "lbltime";
             this.lbltime.Size = new System.Drawing.Size(180, 39);
             this.lbltime.TabIndex = 251;
-            this.lbltime.Text = "00:00:00 PM";
+            this.lbltime.Text = ".";
             this.lbltime.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // timestamp
@@ -307,16 +293,32 @@
             this.pictureBox5.TabIndex = 56;
             this.pictureBox5.TabStop = false;
             // 
+            // btnLanguages
+            // 
+            this.btnLanguages.BackColor = System.Drawing.Color.ForestGreen;
+            this.btnLanguages.FlatAppearance.BorderSize = 0;
+            this.btnLanguages.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLanguages.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLanguages.ForeColor = System.Drawing.Color.White;
+            this.btnLanguages.Location = new System.Drawing.Point(1171, -1);
+            this.btnLanguages.Name = "btnLanguages";
+            this.btnLanguages.Size = new System.Drawing.Size(127, 64);
+            this.btnLanguages.TabIndex = 280;
+            this.btnLanguages.Text = "CHANGE LANGUAGE";
+            this.btnLanguages.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnLanguages.UseVisualStyleBackColor = false;
+            this.btnLanguages.Click += new System.EventHandler(this.btnLanguages_Click);
+            // 
             // ServiceView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1366, 768);
+            this.Controls.Add(this.btnLanguages);
             this.Controls.Add(this.lbldate);
             this.Controls.Add(this.lbltime);
             this.Controls.Add(this.btnHelp);
-            this.Controls.Add(this.btnLanguages);
             this.Controls.Add(this.lblServices);
             this.Controls.Add(this.servicevalue);
             this.Controls.Add(this.panel1);
@@ -357,7 +359,6 @@
         private System.Windows.Forms.PictureBox servpicture;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.TextBox servicevalue;
-        private System.Windows.Forms.Button btnLanguages;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
@@ -365,6 +366,7 @@
         private System.Windows.Forms.Label lbldate;
         private System.Windows.Forms.Label lbltime;
         private System.Windows.Forms.Timer timestamp;
+        private System.Windows.Forms.Button btnLanguages;
     }
 }
 

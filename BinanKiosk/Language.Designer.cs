@@ -28,8 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -37,40 +35,14 @@
             this.btnEnglish = new System.Windows.Forms.Button();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox8.BackgroundImage = global::BinanKiosk.Properties.Resources.trans2;
-            this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox8.Image = global::BinanKiosk.Properties.Resources.pumili;
-            this.pictureBox8.Location = new System.Drawing.Point(770, 502);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(373, 85);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 36;
-            this.pictureBox8.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox7.BackgroundImage = global::BinanKiosk.Properties.Resources.trans2;
-            this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox7.Image = global::BinanKiosk.Properties.Resources.select;
-            this.pictureBox7.Location = new System.Drawing.Point(221, 502);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(383, 108);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 35;
-            this.pictureBox7.TabStop = false;
             // 
             // pictureBox4
             // 
@@ -117,7 +89,7 @@
             this.btnFilipino.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFilipino.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFilipino.ForeColor = System.Drawing.Color.Transparent;
-            this.btnFilipino.Location = new System.Drawing.Point(868, 616);
+            this.btnFilipino.Location = new System.Drawing.Point(868, 637);
             this.btnFilipino.Name = "btnFilipino";
             this.btnFilipino.Size = new System.Drawing.Size(180, 90);
             this.btnFilipino.TabIndex = 21;
@@ -137,7 +109,7 @@
             this.btnEnglish.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEnglish.ForeColor = System.Drawing.Color.Transparent;
             this.btnEnglish.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEnglish.Location = new System.Drawing.Point(316, 616);
+            this.btnEnglish.Location = new System.Drawing.Point(316, 637);
             this.btnEnglish.Name = "btnEnglish";
             this.btnEnglish.Size = new System.Drawing.Size(180, 90);
             this.btnEnglish.TabIndex = 20;
@@ -151,9 +123,9 @@
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox5.BackgroundImage = global::BinanKiosk.Properties.Resources.trans2;
             this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox5.Location = new System.Drawing.Point(194, 475);
+            this.pictureBox5.Location = new System.Drawing.Point(194, 523);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(435, 277);
+            this.pictureBox5.Size = new System.Drawing.Size(435, 229);
             this.pictureBox5.TabIndex = 34;
             this.pictureBox5.TabStop = false;
             // 
@@ -162,11 +134,35 @@
             this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox9.BackgroundImage = global::BinanKiosk.Properties.Resources.trans2;
             this.pictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox9.Location = new System.Drawing.Point(737, 475);
+            this.pictureBox9.Location = new System.Drawing.Point(737, 523);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(435, 277);
+            this.pictureBox9.Size = new System.Drawing.Size(435, 229);
             this.pictureBox9.TabIndex = 37;
             this.pictureBox9.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Arial", 33.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Image = global::BinanKiosk.Properties.Resources.trans2;
+            this.label1.Location = new System.Drawing.Point(239, 553);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(346, 50);
+            this.label1.TabIndex = 38;
+            this.label1.Text = "Select language";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Arial", 33.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Image = global::BinanKiosk.Properties.Resources.trans2;
+            this.label2.Location = new System.Drawing.Point(805, 553);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(311, 50);
+            this.label2.TabIndex = 39;
+            this.label2.Text = "Pumili ng wika";
             // 
             // Language
             // 
@@ -176,8 +172,8 @@
             this.BackgroundImage = global::BinanKiosk.Properties.Resources.bgopacity;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1366, 768);
-            this.Controls.Add(this.pictureBox8);
-            this.Controls.Add(this.pictureBox7);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox3);
@@ -191,14 +187,13 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Language";
             this.Load += new System.EventHandler(this.Language_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -209,9 +204,9 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
 

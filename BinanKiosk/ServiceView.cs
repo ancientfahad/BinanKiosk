@@ -16,12 +16,12 @@ namespace BinanKiosk
     public partial class ServiceView : Form
     {
 
-
+       
         Image img;
         Point mouseDown;
         int startx = 0;             // offset of image when mouse was pressed
         int starty = 0;
-        int imgx = 0;               // current offset of image
+        int imgx = 500;               // current offset of image
         int imgy = 0;
 
         bool mousepressed = false;  // true as long as left mousebutton is pressed
@@ -87,7 +87,9 @@ namespace BinanKiosk
         {
             e.Graphics.InterpolationMode = InterpolationMode.HighQualityBicubic;
             e.Graphics.ScaleTransform(zoom, zoom);
-            e.Graphics.DrawImage(img, imgx, imgy);
+            e.Graphics.DrawImage(img, imgx, imgy, 900, 1023);
+            
+
         }
 
         private void pictureBox_MouseMove(object sender, EventArgs e)
@@ -135,15 +137,21 @@ namespace BinanKiosk
         public void imgtaker(string imgstring)
         {
 
+            //this.servpicture.Size = new System.Drawing.Size(1023, 536);
+            
+           
+            
+            
             img = Image.FromFile(imgstring);
-
             Graphics g = this.CreateGraphics();
-
             zoom = ((float)servpicture.Width / (float)img.Width) *
                    (img.HorizontalResolution / g.DpiX);
 
             servpicture.Paint += new PaintEventHandler(imageBox_Paint);
-
+            //this.servpicture.SizeMode = PictureBoxSizeMode.Zoom;
+            //System.Drawing.Image test = new Bitmap(img, new Size(500, 500));
+            this.servpicture.BorderStyle = BorderStyle.FixedSingle;
+           
 
         }
 
@@ -152,77 +160,77 @@ namespace BinanKiosk
         {
             string projectPath = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName;
 
-            if (val == "a")
+            if (val == "Payment of Real Property Transfer Tax")
             {
                
-                string imagefilename = Path.Combine(projectPath, "Resources\\Services\\payBlg.jpg");
+                string imagefilename = Path.Combine(projectPath, "Resources\\Services\\paymentOfRealPropertyTransferTax.jpg");
                 //string imagefilename = @"C:\Users\doratheexplorer\Desktop\BinanKiosk\BinanKiosk\Resources\4_.jpg";
                 imgtaker(imagefilename);
             }
-           else if (val == "b")
+           else if (val == "Issuance of Community Tax Certificate for Corporation")
             {
                 //servpicture.Image = Properties.Resources.Issuance_taxcert_forcorp;
                 string imagefilename = Path.Combine(projectPath, "Resources\\Services\\issuanceOfCommunityTaxCertificate.jpg");
                 //string imagefilename = @"C:\Users\Marvin\Desktop\BinanKiosk\BinanKiosk\Resources\2_.jpg";
                 imgtaker(imagefilename);
             }
-            else if (val == "c")
+            else if (val == "Issuance of Professional Tax Reciept")
             {
                 //servpicture.Image = Properties.Resources.issue_taxreciept;
                 string imagefilename = Path.Combine(projectPath, "Resources\\Services\\issuanceOfProfessionalTaxReceipt.jpg");
                 //string imagefilename = @"C:\Users\Marvin\Desktop\BinanKiosk\BinanKiosk\Resources\3_.jpg";
                 imgtaker(imagefilename);
             }
-            else if (val == "d")
+            else if (val == "Payment of Real Property Tax")
             {
                 //servpicture.Image = Properties.Resources.proftaxreciept;
-                string imagefilename = Path.Combine(projectPath, "Resources\\Services\\issuanceOfProfessionalTaxReceipt.jpg");
+                string imagefilename = Path.Combine(projectPath, "Resources\\Services\\paymentOfRealPropertyTax.jpg");
                 //string imagefilename = @"C:\Users\Marvin\Desktop\BinanKiosk\BinanKiosk\Resources\3_.jpg";
                 imgtaker(imagefilename);
             }
-            else if (val == "e")
+            else if (val == "Payment of Business Tax")
             {
                 //servpicture.Image = Properties.Resources.paymt_bussTax;
                 string imagefilename = Path.Combine(projectPath, "Resources\\Services\\paymentOfBusinessTax.jpg");
                 //string imagefilename = @"C:\Users\Marvin\Desktop\BinanKiosk\BinanKiosk\Resources\5_.jpg";
                 imgtaker(imagefilename);
             }
-            else if (val == "f")
+            else if (val == "Certification of Tax Clearance")
             {
                 //servpicture.Image = Properties.Resources.cert_taxClear;
                 string imagefilename = Path.Combine(projectPath, "Resources\\Services\\certificationsOfTaxClearence.jpg");
                 //string imagefilename = @"C:\Users\Marvin\Desktop\BinanKiosk\BinanKiosk\Resources\6_.jpg";
                 imgtaker(imagefilename);
             }
-            else if (val == "g")
+            else if (val == "PayBurial")
             {
                 //servpicture.Image = Properties.Resources.payBurialPerm;
                 string imagefilename = Path.Combine(projectPath, "Resources\\Services\\paymentOfBurial.jpg");
                 //string imagefilename = @"C:\Users\Marvin\Desktop\BinanKiosk\BinanKiosk\Resources\7_.jpg";
                 imgtaker(imagefilename);
             }
-            else if (val == "h")
+            else if (val == "PayBlg")
             {
                 //servpicture.Image = Properties.Resources.payBlg;
                 string imagefilename = Path.Combine(projectPath, "Resources\\Services\\payBlg.jpg");
                 //string imagefilename = @"C:\Users\Marvin\Desktop\BinanKiosk\BinanKiosk\Resources\8_.jpg";
                 imgtaker(imagefilename);
             }
-            else if (val == "i")
+            else if (val == "PayPol")
             {
                 //servpicture.Image = Properties.Resources.payPolMayClear;
                 string imagefilename = Path.Combine(projectPath, "Resources\\Services\\paymentOfPoliceClearence.jpg");
                 //string imagefilename = @"C:\Users\Marvin\Desktop\BinanKiosk\BinanKiosk\Resources\9_.jpg";
                 imgtaker(imagefilename);
             }
-            else if (val == "j")
+            else if (val == "PayCivilReg")
             {
                 //servpicture.Image = Properties.Resources.payCivilReg;
                 string imagefilename = Path.Combine(projectPath, "Resources\\Services\\paymentOfCivilRegistration.jpg");
                 //string imagefilename = @"C:\Users\Marvin\Desktop\BinanKiosk\BinanKiosk\Resources\10_.jpg";
                 imgtaker(imagefilename);
             }
-            else if (val == "k")
+            else if (val == "PayTraffic")
             {
                 //servpicture.Image = Properties.Resources.payTrafficViolate;
 
@@ -230,21 +238,21 @@ namespace BinanKiosk
                 //string imagefilename = @"C:\Users\Marvin\Desktop\BinanKiosk\BinanKiosk\Resources\11_.jpg";
                 imgtaker(imagefilename);
             }
-            else if (val == "l")
+            else if (val == "IssueComTax")
             {
                 //servpicture.Image = Properties.Resources.issueCommTax;
                 string imagefilename = Path.Combine(projectPath, "Resources\\Services\\issuanceOfCommunityTaxForIndividual.jpg");
                 //string imagefilename = @"C:\Users\Marvin\Desktop\BinanKiosk\BinanKiosk\Resources\12_.jpg";
                 imgtaker(imagefilename);
             }
-            else if (val == "m")
+            else if (val == "PayWeight")
             {
                 //servpicture.Image = Properties.Resources.payWeightMeasure;
                 string imagefilename = Path.Combine(projectPath, "Resources\\Services\\paymentOfWeight.jpg");
                 //string imagefilename = @"C:\Users\Marvin\Desktop\BinanKiosk\BinanKiosk\Resources\13_.jpg";
                 imgtaker(imagefilename);
             }
-            else if (val == "n")
+            else if (val == "PayPolClear")
             {
                 //servpicture.Image = Properties.Resources.payMrktElecFee;
                 string imagefilename = Path.Combine(projectPath, "Resources\\Services\\paymentOfMarketStall.jpg");
@@ -303,9 +311,23 @@ namespace BinanKiosk
             this.servpicture.MouseDown += new System.Windows.Forms.MouseEventHandler(this.imageBox_MouseDown);
             this.servpicture.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBox_MouseMove);
             this.servpicture.MouseUp += new System.Windows.Forms.MouseEventHandler(this.imageBox_MouseUp);
+            //this.servpicture.SizeMode = PictureBoxSizeMode.CenterImage;
 
             timestamp.Interval = 10;
             timestamp.Start();
+
+            if (Global.language == "Filipino") {
+                btnLanguages.Text = "PALITAN NG WIKA";
+
+                btnHome.Text = "Home";
+                btnSearch.Text = "Hanapin";
+                btnMaps.Text = "Mapa";
+                btnServices.Text = "Mga Serbisyo";
+                btnJob.Text = "Mga Trabaho";
+                lblServices.Text = "       MGA SERBISYO";
+            }
+
+
         }
 
         private void btnJob_Click(object sender, EventArgs e)
@@ -327,6 +349,15 @@ namespace BinanKiosk
         {
             timestamp.Enabled = true;
             timestamp.Tick += new System.EventHandler(OnTimerEvent);
+        }
+
+        private void btnLanguages_Click(object sender, EventArgs e)
+        {
+            Language lng = new Language();
+            this.Hide();
+            lng.FormClosed += (s, args) => this.Close();
+            lng.ShowDialog();
+            lng.Focus();
         }
     }
 }
