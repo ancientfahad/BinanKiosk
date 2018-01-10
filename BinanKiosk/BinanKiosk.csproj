@@ -297,6 +297,11 @@
     <None Include="Resources\undermenu4.png" />
     <None Include="Resources\srchicon.png" />
     <Content Include="Resources\Slides\4.jpg" />
+    <Content Include="Resources\Slides\5.jpg" />
+    <Content Include="Resources\Slides\6.jpg" />
+    <Content Include="Resources\Slides\7.jpg" />
+    <Content Include="Resources\Slides\8.jpg" />
+    <Content Include="Resources\Slides\9.jpg" />
     <Content Include="Resources\username.png" />
     <None Include="Resources\username1.png" />
     <None Include="Resources\welcome to6.png" />

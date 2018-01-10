@@ -26,6 +26,11 @@ namespace BinanKiosk
             Path.Combine(projectPath, "Resources\\Slides\\2.jpg"),
             Path.Combine(projectPath, "Resources\\Slides\\3.jpg"),
             Path.Combine(projectPath, "Resources\\Slides\\4.jpg"),
+            Path.Combine(projectPath, "Resources\\Slides\\5.jpg"),
+            Path.Combine(projectPath, "Resources\\Slides\\6.jpg"),
+            Path.Combine(projectPath, "Resources\\Slides\\7.jpg"),
+            Path.Combine(projectPath, "Resources\\Slides\\8.jpg"),
+            Path.Combine(projectPath, "Resources\\Slides\\9.jpg"),
     };
 
 
@@ -184,6 +189,11 @@ namespace BinanKiosk
         {
             timestamp.Enabled = true;
             timestamp.Tick += new System.EventHandler(OnTimerEvent);
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
