@@ -635,6 +635,7 @@
             this.btnLanguages.Text = "CHANGE LANGUAGE";
             this.btnLanguages.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnLanguages.UseVisualStyleBackColor = false;
+            this.btnLanguages.Click += new System.EventHandler(this.btnLanguages_Click);
             // 
             // Jobs
             // 
