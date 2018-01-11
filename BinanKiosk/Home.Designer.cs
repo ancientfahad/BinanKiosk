@@ -100,9 +100,9 @@
             this.btnLanguages.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLanguages.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLanguages.ForeColor = System.Drawing.Color.White;
-            this.btnLanguages.Location = new System.Drawing.Point(1191, 3);
+            this.btnLanguages.Location = new System.Drawing.Point(1196, 1);
             this.btnLanguages.Name = "btnLanguages";
-            this.btnLanguages.Size = new System.Drawing.Size(127, 38);
+            this.btnLanguages.Size = new System.Drawing.Size(127, 41);
             this.btnLanguages.TabIndex = 25;
             this.btnLanguages.Text = "CHANGE LANGUAGE";
             this.btnLanguages.TextAlign = System.Drawing.ContentAlignment.BottomCenter;

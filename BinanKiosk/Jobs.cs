@@ -357,6 +357,15 @@ namespace BinanKiosk
             NextForm();
         }
 
+        private void btnLanguages_Click(object sender, EventArgs e)
+        {
+            Language lng = new Language();
+            this.Hide();
+            lng.FormClosed += (s, args) => this.Close();
+            lng.ShowDialog();
+            lng.Focus();
+        }
+
 
 
 
