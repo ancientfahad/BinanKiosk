@@ -237,6 +237,9 @@
     <None Include="Resources\helpIcon.png" />
     <None Include="Resources\helpIcon2.png" />
     <None Include="Resources\helpIcon3.png" />
+    <None Include="Resources\faqicon.png" />
+    <None Include="Resources\faqicon1.png" />
+    <None Include="Resources\faqsicon.png" />
     <Content Include="Resources\here.png" />
     <None Include="Resources\lateztbtn.png" />
     <None Include="Resources\magni.png" />

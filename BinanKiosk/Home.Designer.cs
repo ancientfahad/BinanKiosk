@@ -124,6 +124,7 @@
             // btnHelp
             // 
             this.btnHelp.BackColor = System.Drawing.Color.ForestGreen;
+            this.btnHelp.BackgroundImage = global::BinanKiosk.Properties.Resources.faqsicon;
             this.btnHelp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnHelp.FlatAppearance.BorderColor = System.Drawing.Color.Green;
             this.btnHelp.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -131,7 +132,6 @@
             this.btnHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHelp.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHelp.ForeColor = System.Drawing.Color.Transparent;
-            this.btnHelp.Image = global::BinanKiosk.Properties.Resources.helpIcon2;
             this.btnHelp.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnHelp.Location = new System.Drawing.Point(1324, 1);
             this.btnHelp.Name = "btnHelp";

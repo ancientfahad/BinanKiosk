@@ -243,6 +243,26 @@ namespace BinanKiosk.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap faqicon {
+            get {
+                object obj = ResourceManager.GetObject("faqicon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap faqsicon {
+            get {
+                object obj = ResourceManager.GetObject("faqsicon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap First_Floor_Colored {
             get {
                 object obj = ResourceManager.GetObject("First_Floor_Colored", resourceCulture);
