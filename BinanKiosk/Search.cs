@@ -112,8 +112,7 @@ namespace BinanKiosk
 
         private void radioOfficers_CheckedChanged(object sender, EventArgs e)
         {
-            txtSearch.AutoCompleteCustomSource = of
-                ficerCollection;
+            txtSearch.AutoCompleteCustomSource = officerCollection;
         }
     
         private void radioOffices_CheckedChanged(object sender, EventArgs e)
