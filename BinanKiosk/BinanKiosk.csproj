@@ -249,6 +249,7 @@
     <None Include="Resources\faqicon.png" />
     <None Include="Resources\faqicon1.png" />
     <None Include="Resources\faqsicon.png" />
+    <None Include="Resources\downrow.png" />
     <Content Include="Resources\here.png" />
     <None Include="Resources\lateztbtn.png" />
     <None Include="Resources\magni.png" />
@@ -267,6 +268,7 @@
     <Content Include="Resources\Jobs\Logo\secretarial.jpg" />
     <Content Include="Resources\Jobs\Logo\SYKES.jpg" />
     <None Include="Resources\mapIcon.png" />
+    <None Include="Resources\leftrow.png" />
     <Content Include="Resources\nandito ka.png" />
     <None Include="Resources\Second_Floor_Colored.png" />
     <None Include="Resources\Third_Floor_Colored.png" />
@@ -285,6 +287,7 @@
     <None Include="Resources\qmarkIcon.png" />
     <None Include="Resources\qmark.png" />
     <None Include="Resources\png.png" />
+    <None Include="Resources\rightrow.png" />
     <Content Include="Resources\Services\certificationsOfTaxClearence.jpg" />
     <Content Include="Resources\Services\issuanceOfCommunityTaxCertificate.jpg" />
     <Content Include="Resources\Services\issuanceOfCommunityTaxForIndividual.jpg" />
@@ -314,6 +317,7 @@
     <Content Include="Resources\Slides\7.jpg" />
     <Content Include="Resources\Slides\8.jpg" />
     <Content Include="Resources\Slides\9.jpg" />
+    <None Include="Resources\uprow.png" />
     <Content Include="Resources\username.png" />
     <None Include="Resources\username1.png" />
     <None Include="Resources\welcome to6.png" />

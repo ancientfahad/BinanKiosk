@@ -499,7 +499,7 @@
             // step65
             // 
             this.step65.BackColor = System.Drawing.Color.Transparent;
-            this.step65.Image = ((System.Drawing.Image)(resources.GetObject("step65.Image")));
+            this.step65.Image = global::BinanKiosk.Properties.Resources.uprow;
             this.step65.Location = new System.Drawing.Point(639, 543);
             this.step65.Name = "step65";
             this.step65.Size = new System.Drawing.Size(15, 15);
@@ -559,7 +559,7 @@
             // step34
             // 
             this.step34.BackColor = System.Drawing.Color.Transparent;
-            this.step34.Image = ((System.Drawing.Image)(resources.GetObject("step34.Image")));
+            this.step34.Image = global::BinanKiosk.Properties.Resources.rightrow;
             this.step34.Location = new System.Drawing.Point(802, 319);
             this.step34.Name = "step34";
             this.step34.Size = new System.Drawing.Size(15, 15);
@@ -679,7 +679,8 @@
             // step50
             // 
             this.step50.BackColor = System.Drawing.Color.Transparent;
-            this.step50.Image = ((System.Drawing.Image)(resources.GetObject("step50.Image")));
+            this.step50.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("step50.BackgroundImage")));
+            this.step50.Image = global::BinanKiosk.Properties.Resources.rightrow;
             this.step50.Location = new System.Drawing.Point(766, 575);
             this.step50.Name = "step50";
             this.step50.Size = new System.Drawing.Size(15, 15);
@@ -691,7 +692,7 @@
             // step48
             // 
             this.step48.BackColor = System.Drawing.Color.Transparent;
-            this.step48.Image = ((System.Drawing.Image)(resources.GetObject("step48.Image")));
+            this.step48.Image = global::BinanKiosk.Properties.Resources.rightrow;
             this.step48.Location = new System.Drawing.Point(724, 575);
             this.step48.Name = "step48";
             this.step48.Size = new System.Drawing.Size(15, 15);
@@ -703,7 +704,7 @@
             // step47
             // 
             this.step47.BackColor = System.Drawing.Color.Transparent;
-            this.step47.Image = ((System.Drawing.Image)(resources.GetObject("step47.Image")));
+            this.step47.Image = global::BinanKiosk.Properties.Resources.rightrow;
             this.step47.Location = new System.Drawing.Point(682, 575);
             this.step47.Name = "step47";
             this.step47.Size = new System.Drawing.Size(15, 15);
@@ -715,7 +716,7 @@
             // step46
             // 
             this.step46.BackColor = System.Drawing.Color.Transparent;
-            this.step46.Image = ((System.Drawing.Image)(resources.GetObject("step46.Image")));
+            this.step46.Image = global::BinanKiosk.Properties.Resources.dot;
             this.step46.Location = new System.Drawing.Point(639, 575);
             this.step46.Name = "step46";
             this.step46.Size = new System.Drawing.Size(15, 15);
@@ -799,7 +800,7 @@
             // step2
             // 
             this.step2.BackColor = System.Drawing.Color.Transparent;
-            this.step2.Image = ((System.Drawing.Image)(resources.GetObject("step2.Image")));
+            this.step2.Image = global::BinanKiosk.Properties.Resources.leftrow;
             this.step2.Location = new System.Drawing.Point(541, 575);
             this.step2.Name = "step2";
             this.step2.Size = new System.Drawing.Size(15, 15);
@@ -811,7 +812,7 @@
             // step1
             // 
             this.step1.BackColor = System.Drawing.Color.Transparent;
-            this.step1.Image = ((System.Drawing.Image)(resources.GetObject("step1.Image")));
+            this.step1.Image = global::BinanKiosk.Properties.Resources.leftrow;
             this.step1.Location = new System.Drawing.Point(577, 575);
             this.step1.Name = "step1";
             this.step1.Size = new System.Drawing.Size(15, 15);
@@ -859,7 +860,7 @@
             // step3
             // 
             this.step3.BackColor = System.Drawing.Color.Transparent;
-            this.step3.Image = ((System.Drawing.Image)(resources.GetObject("step3.Image")));
+            this.step3.Image = global::BinanKiosk.Properties.Resources.leftrow;
             this.step3.Location = new System.Drawing.Point(505, 575);
             this.step3.Name = "step3";
             this.step3.Size = new System.Drawing.Size(15, 15);
@@ -918,7 +919,7 @@
             // step37
             // 
             this.step37.BackColor = System.Drawing.Color.Transparent;
-            this.step37.Image = ((System.Drawing.Image)(resources.GetObject("step37.Image")));
+            this.step37.Image = global::BinanKiosk.Properties.Resources.uprow;
             this.step37.Location = new System.Drawing.Point(766, 427);
             this.step37.Name = "step37";
             this.step37.Size = new System.Drawing.Size(15, 15);
@@ -942,7 +943,7 @@
             // step38
             // 
             this.step38.BackColor = System.Drawing.Color.Transparent;
-            this.step38.Image = ((System.Drawing.Image)(resources.GetObject("step38.Image")));
+            this.step38.Image = global::BinanKiosk.Properties.Resources.uprow;
             this.step38.Location = new System.Drawing.Point(766, 463);
             this.step38.Name = "step38";
             this.step38.Size = new System.Drawing.Size(15, 15);
@@ -1062,7 +1063,7 @@
             // step36
             // 
             this.step36.BackColor = System.Drawing.Color.Transparent;
-            this.step36.Image = ((System.Drawing.Image)(resources.GetObject("step36.Image")));
+            this.step36.Image = global::BinanKiosk.Properties.Resources.uprow;
             this.step36.Location = new System.Drawing.Point(766, 391);
             this.step36.Name = "step36";
             this.step36.Size = new System.Drawing.Size(15, 15);

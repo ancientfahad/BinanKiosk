@@ -243,6 +243,16 @@ namespace BinanKiosk.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap downrow {
+            get {
+                object obj = ResourceManager.GetObject("downrow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap faqicon {
             get {
                 object obj = ResourceManager.GetObject("faqicon", resourceCulture);
@@ -353,6 +363,16 @@ namespace BinanKiosk.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap leftrow {
+            get {
+                object obj = ResourceManager.GetObject("leftrow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap loginS {
             get {
                 object obj = ResourceManager.GetObject("loginS", resourceCulture);
@@ -446,6 +466,16 @@ namespace BinanKiosk.Properties {
         internal static System.Drawing.Bitmap rightarrow {
             get {
                 object obj = ResourceManager.GetObject("rightarrow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rightrow {
+            get {
+                object obj = ResourceManager.GetObject("rightrow", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -616,6 +646,16 @@ namespace BinanKiosk.Properties {
         internal static System.Drawing.Bitmap undermenu3 {
             get {
                 object obj = ResourceManager.GetObject("undermenu3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap uprow {
+            get {
+                object obj = ResourceManager.GetObject("uprow", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
