@@ -85,14 +85,35 @@ namespace BinanKiosk
                 };
                 this.JobResult1_panel.Controls.Add(picture);
 
-                var jobdescriptionlbl = new Label
+                var job_locationlbl = new Label
                 {
-                    Name = name[i] + "jobdescriptionlbl1",
+                    Name = name[i] + "job_locationlbl",
+                    Text = "Binan, Kiosk" + (i + 1).ToString(),
+                    Size = new Size(131, 24),
+                    Location = new Point(195, 49 + ((i + 1) * 150)),
+                    Font = new Font("Microsoft Sans Serif", 14, FontStyle.Regular),
+                };
+                this.JobResult1_panel.Controls.Add(job_locationlbl);
+
+                var job_companylbl = new Label
+                {
+                    Name = name[i] + "job_companylbl",
+                    Text = "Microsoft Company" + (i + 1).ToString(),
+                    Size = new Size(131, 24),
+                    Location = new Point(562, 49 + ((i + 1) * 148)),
+                    Font = new Font("Microsoft Sans Serif", 14, FontStyle.Regular),
+                };
+                this.JobResult1_panel.Controls.Add(job_companylbl);
+
+                var job_descriptionlbl = new Label
+                {
+                    Name = name[i] + "job_descriptionlbl",
                     Text = "txt1" + (i + 1).ToString(),
                     Size = new Size(749, 64),
-                    Location = new Point(),
-                    Font = new Font("Microsoft Sans Serif", 12),
+                    Location = new Point(195, 81 + ((i + 1) * 148)),
+                    Font = new Font("Microsoft Sans Serif", 12, FontStyle.Regular),
                 };
+                this.JobResult1_panel.Controls.Add(job_descriptionlbl);
 
                 var lbl = new Label
                 {

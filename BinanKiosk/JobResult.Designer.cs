@@ -53,7 +53,6 @@
             this.btnLanguages = new System.Windows.Forms.Button();
             this.timestamp = new System.Windows.Forms.Timer(this.components);
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -197,7 +196,6 @@
             // 
             this.JobResult1_panel.AutoScroll = true;
             this.JobResult1_panel.Controls.Add(this.label1);
-            this.JobResult1_panel.Controls.Add(this.label2);
             this.JobResult1_panel.Controls.Add(this.label3);
             this.JobResult1_panel.Controls.Add(this.label4);
             this.JobResult1_panel.Controls.Add(this.jobsCompany1);
@@ -268,9 +266,11 @@
             // 
             // logopic1
             // 
+            this.logopic1.Image = global::BinanKiosk.Properties.Resources.Binan_City_Logo;
             this.logopic1.Location = new System.Drawing.Point(3, 3);
             this.logopic1.Name = "logopic1";
             this.logopic1.Size = new System.Drawing.Size(186, 142);
+            this.logopic1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.logopic1.TabIndex = 0;
             this.logopic1.TabStop = false;
             // 
@@ -385,15 +385,6 @@
             this.label1.TabIndex = 270;
             this.label1.Text = "Binan, Laguna";
             // 
-            // label2
-            // 
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(195, 229);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(749, 64);
-            this.label2.TabIndex = 268;
-            this.label2.Text = "label1";
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -476,7 +467,6 @@
         private System.Windows.Forms.Button btnLanguages;
         private System.Windows.Forms.Timer timestamp;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
     }
