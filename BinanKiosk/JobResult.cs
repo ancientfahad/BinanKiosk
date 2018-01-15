@@ -85,6 +85,15 @@ namespace BinanKiosk
                 };
                 this.JobResult1_panel.Controls.Add(picture);
 
+                var jobdescriptionlbl = new Label
+                {
+                    Name = name[i] + "jobdescriptionlbl1",
+                    Text = "txt1" + (i + 1).ToString(),
+                    Size = new Size(749, 64),
+                    Location = new Point(),
+                    Font = new Font("Microsoft Sans Serif", 12),
+                };
+
                 var lbl = new Label
                 {
                     Name = name[i] + "lbl",
@@ -100,7 +109,7 @@ namespace BinanKiosk
                     Name = name[i] + "btn",
                     Text = "View Details",
                     Size = new Size(193, 56),
-                    Location = new Point(950, 89 + ((i + 1) * 153)),
+                    Location = new Point(950, 89 + ((i + 1) * 148)),
                     BackgroundImage = BinanKiosk.Properties.Resources.button1,
                     BackgroundImageLayout = ImageLayout.Stretch,
                     BackColor = Color.White,

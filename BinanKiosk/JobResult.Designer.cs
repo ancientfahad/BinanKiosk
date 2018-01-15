@@ -52,6 +52,10 @@
             this.btnHelp = new System.Windows.Forms.Button();
             this.btnLanguages = new System.Windows.Forms.Button();
             this.timestamp = new System.Windows.Forms.Timer(this.components);
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.JobResult1_panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logopic1)).BeginInit();
@@ -192,6 +196,10 @@
             // JobResult1_panel
             // 
             this.JobResult1_panel.AutoScroll = true;
+            this.JobResult1_panel.Controls.Add(this.label1);
+            this.JobResult1_panel.Controls.Add(this.label2);
+            this.JobResult1_panel.Controls.Add(this.label3);
+            this.JobResult1_panel.Controls.Add(this.label4);
             this.JobResult1_panel.Controls.Add(this.jobsCompany1);
             this.JobResult1_panel.Controls.Add(this.jobresultsDetails1btn);
             this.JobResult1_panel.Controls.Add(this.description1);
@@ -366,6 +374,46 @@
             this.timestamp.Interval = 1000;
             this.timestamp.Tick += new System.EventHandler(this.timestamp_Tick);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Teal;
+            this.label1.Location = new System.Drawing.Point(562, 197);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(131, 24);
+            this.label1.TabIndex = 270;
+            this.label1.Text = "Binan, Laguna";
+            // 
+            // label2
+            // 
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(195, 229);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(749, 64);
+            this.label2.TabIndex = 268;
+            this.label2.Text = "label1";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(195, 197);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(131, 24);
+            this.label3.TabIndex = 267;
+            this.label3.Text = "Binan, Laguna";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(194, 156);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(85, 29);
+            this.label4.TabIndex = 266;
+            this.label4.Text = "label1";
+            // 
             // JobResult
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -427,6 +475,10 @@
         private System.Windows.Forms.Button btnHelp;
         private System.Windows.Forms.Button btnLanguages;
         private System.Windows.Forms.Timer timestamp;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }
 
