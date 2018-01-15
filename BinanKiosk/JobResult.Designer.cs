@@ -44,20 +44,6 @@
             this.location = new System.Windows.Forms.Label();
             this.JobTitle = new System.Windows.Forms.Label();
             this.logopic1 = new System.Windows.Forms.PictureBox();
-            this.JobResult2_Panel = new System.Windows.Forms.Panel();
-            this.jobCompany2 = new System.Windows.Forms.Label();
-            this.jobresultsDetails2btn = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.JobResult3_Panel = new System.Windows.Forms.Panel();
-            this.jobCompany3 = new System.Windows.Forms.Label();
-            this.jobresultsDetails3btn = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.lbldate = new System.Windows.Forms.Label();
             this.lbltime = new System.Windows.Forms.Label();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
@@ -69,10 +55,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.JobResult1_panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logopic1)).BeginInit();
-            this.JobResult2_Panel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.JobResult3_Panel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -209,6 +191,7 @@
             // 
             // JobResult1_panel
             // 
+            this.JobResult1_panel.AutoScroll = true;
             this.JobResult1_panel.Controls.Add(this.jobsCompany1);
             this.JobResult1_panel.Controls.Add(this.jobresultsDetails1btn);
             this.JobResult1_panel.Controls.Add(this.description1);
@@ -217,7 +200,7 @@
             this.JobResult1_panel.Controls.Add(this.logopic1);
             this.JobResult1_panel.Location = new System.Drawing.Point(98, 88);
             this.JobResult1_panel.Name = "JobResult1_panel";
-            this.JobResult1_panel.Size = new System.Drawing.Size(1165, 148);
+            this.JobResult1_panel.Size = new System.Drawing.Size(1165, 562);
             this.JobResult1_panel.TabIndex = 49;
             // 
             // jobsCompany1
@@ -239,7 +222,7 @@
             this.jobresultsDetails1btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.jobresultsDetails1btn.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.jobresultsDetails1btn.ForeColor = System.Drawing.Color.White;
-            this.jobresultsDetails1btn.Location = new System.Drawing.Point(967, 81);
+            this.jobresultsDetails1btn.Location = new System.Drawing.Point(950, 89);
             this.jobresultsDetails1btn.Name = "jobresultsDetails1btn";
             this.jobresultsDetails1btn.Size = new System.Drawing.Size(193, 56);
             this.jobresultsDetails1btn.TabIndex = 263;
@@ -251,7 +234,7 @@
             this.description1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.description1.Location = new System.Drawing.Point(195, 81);
             this.description1.Name = "description1";
-            this.description1.Size = new System.Drawing.Size(766, 64);
+            this.description1.Size = new System.Drawing.Size(749, 64);
             this.description1.TabIndex = 3;
             this.description1.Text = "label1";
             // 
@@ -282,160 +265,6 @@
             this.logopic1.Size = new System.Drawing.Size(186, 142);
             this.logopic1.TabIndex = 0;
             this.logopic1.TabStop = false;
-            // 
-            // JobResult2_Panel
-            // 
-            this.JobResult2_Panel.Controls.Add(this.jobCompany2);
-            this.JobResult2_Panel.Controls.Add(this.jobresultsDetails2btn);
-            this.JobResult2_Panel.Controls.Add(this.label1);
-            this.JobResult2_Panel.Controls.Add(this.label2);
-            this.JobResult2_Panel.Controls.Add(this.label3);
-            this.JobResult2_Panel.Controls.Add(this.pictureBox1);
-            this.JobResult2_Panel.Location = new System.Drawing.Point(98, 248);
-            this.JobResult2_Panel.Name = "JobResult2_Panel";
-            this.JobResult2_Panel.Size = new System.Drawing.Size(1165, 148);
-            this.JobResult2_Panel.TabIndex = 50;
-            this.JobResult2_Panel.Visible = false;
-            // 
-            // jobCompany2
-            // 
-            this.jobCompany2.AutoSize = true;
-            this.jobCompany2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.jobCompany2.ForeColor = System.Drawing.Color.Teal;
-            this.jobCompany2.Location = new System.Drawing.Point(591, 49);
-            this.jobCompany2.Name = "jobCompany2";
-            this.jobCompany2.Size = new System.Drawing.Size(131, 24);
-            this.jobCompany2.TabIndex = 265;
-            this.jobCompany2.Text = "Binan, Laguna";
-            // 
-            // jobresultsDetails2btn
-            // 
-            this.jobresultsDetails2btn.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
-            this.jobresultsDetails2btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.jobresultsDetails2btn.FlatAppearance.BorderSize = 0;
-            this.jobresultsDetails2btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.jobresultsDetails2btn.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.jobresultsDetails2btn.ForeColor = System.Drawing.Color.White;
-            this.jobresultsDetails2btn.Location = new System.Drawing.Point(967, 89);
-            this.jobresultsDetails2btn.Name = "jobresultsDetails2btn";
-            this.jobresultsDetails2btn.Size = new System.Drawing.Size(193, 56);
-            this.jobresultsDetails2btn.TabIndex = 264;
-            this.jobresultsDetails2btn.Text = "View Details";
-            this.jobresultsDetails2btn.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(195, 81);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(766, 64);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "label1";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(195, 49);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(131, 24);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Binan, Laguna";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(194, 8);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(85, 29);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "label1";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(186, 142);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // JobResult3_Panel
-            // 
-            this.JobResult3_Panel.Controls.Add(this.jobCompany3);
-            this.JobResult3_Panel.Controls.Add(this.jobresultsDetails3btn);
-            this.JobResult3_Panel.Controls.Add(this.label4);
-            this.JobResult3_Panel.Controls.Add(this.label5);
-            this.JobResult3_Panel.Controls.Add(this.label6);
-            this.JobResult3_Panel.Controls.Add(this.pictureBox3);
-            this.JobResult3_Panel.Location = new System.Drawing.Point(93, 412);
-            this.JobResult3_Panel.Name = "JobResult3_Panel";
-            this.JobResult3_Panel.Size = new System.Drawing.Size(1165, 148);
-            this.JobResult3_Panel.TabIndex = 51;
-            this.JobResult3_Panel.Visible = false;
-            // 
-            // jobCompany3
-            // 
-            this.jobCompany3.AutoSize = true;
-            this.jobCompany3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.jobCompany3.ForeColor = System.Drawing.Color.Teal;
-            this.jobCompany3.Location = new System.Drawing.Point(596, 49);
-            this.jobCompany3.Name = "jobCompany3";
-            this.jobCompany3.Size = new System.Drawing.Size(131, 24);
-            this.jobCompany3.TabIndex = 266;
-            this.jobCompany3.Text = "Binan, Laguna";
-            // 
-            // jobresultsDetails3btn
-            // 
-            this.jobresultsDetails3btn.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
-            this.jobresultsDetails3btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.jobresultsDetails3btn.FlatAppearance.BorderSize = 0;
-            this.jobresultsDetails3btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.jobresultsDetails3btn.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.jobresultsDetails3btn.ForeColor = System.Drawing.Color.White;
-            this.jobresultsDetails3btn.Location = new System.Drawing.Point(969, 89);
-            this.jobresultsDetails3btn.Name = "jobresultsDetails3btn";
-            this.jobresultsDetails3btn.Size = new System.Drawing.Size(193, 56);
-            this.jobresultsDetails3btn.TabIndex = 265;
-            this.jobresultsDetails3btn.Text = "View Details";
-            this.jobresultsDetails3btn.UseVisualStyleBackColor = true;
-            // 
-            // label4
-            // 
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(195, 81);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(766, 64);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "label1";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(195, 49);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(131, 24);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "Binan, Laguna";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(194, 8);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(85, 29);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "label1";
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(186, 142);
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
             // 
             // lbldate
             // 
@@ -545,8 +374,6 @@
             this.ClientSize = new System.Drawing.Size(1366, 768);
             this.Controls.Add(this.btnLanguages);
             this.Controls.Add(this.btnHelp);
-            this.Controls.Add(this.JobResult3_Panel);
-            this.Controls.Add(this.JobResult2_Panel);
             this.Controls.Add(this.JobResult1_panel);
             this.Controls.Add(this.btnJob);
             this.Controls.Add(this.btnServices);
@@ -569,12 +396,6 @@
             this.JobResult1_panel.ResumeLayout(false);
             this.JobResult1_panel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logopic1)).EndInit();
-            this.JobResult2_Panel.ResumeLayout(false);
-            this.JobResult2_Panel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.JobResult3_Panel.ResumeLayout(false);
-            this.JobResult3_Panel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
@@ -596,22 +417,8 @@
         private System.Windows.Forms.Label location;
         private System.Windows.Forms.Label JobTitle;
         private System.Windows.Forms.PictureBox logopic1;
-        private System.Windows.Forms.Panel JobResult2_Panel;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Panel JobResult3_Panel;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Button jobresultsDetails1btn;
-        private System.Windows.Forms.Button jobresultsDetails2btn;
-        private System.Windows.Forms.Button jobresultsDetails3btn;
         private System.Windows.Forms.Label jobsCompany1;
-        private System.Windows.Forms.Label jobCompany2;
-        private System.Windows.Forms.Label jobCompany3;
         private System.Windows.Forms.Label lbldate;
         private System.Windows.Forms.Label lbltime;
         private System.Windows.Forms.PictureBox pictureBox7;
