@@ -51,10 +51,10 @@ namespace BinanKiosk
             //hidePanels();
             String[] name = { "job1", "job2", "job3", "job4", "job5", "job6", "job7", "job8", "job9", "job10" };
 
-            JobTitle.Text = Global.gbJobtype;
-            location.Text = Global.gbJoblocation;
-            jobsCompany1.Text = Global.gbJobCompany;
-            description1.Text = Global.gbJobdescription;
+            //JobTitle.Text = Global.gbJobtype;
+            //location.Text = Global.gbJoblocation;
+            //jobsCompany1.Text = Global.gbJobCompany;
+            //description1.Text = Global.gbJobdescription;
 
             timestamp.Interval = 1;
             timestamp.Start();
@@ -71,14 +71,93 @@ namespace BinanKiosk
                 lblJob.Text = "       RESULTA";
             }
 
-
             for (int i = 0; i < 3; i++)
+            {
+                var panel = new Panel
+                {
+                    Name = "panel" + (i + 1).ToString(),
+                    Size = new Size(1294, 149),
+                    Location = new Point(3, 3 + ((i+0) * 155)),
+                    AutoScroll = true,
+                    BorderStyle = BorderStyle.FixedSingle,
+                };
+                this.JobResult1_panel.Controls.Add(panel);
+
+                var picture = new PictureBox
+                {
+                    Name = name[i],
+                    Size = new Size(186, 142),
+                    Location = new Point(3, 3),
+                    SizeMode = PictureBoxSizeMode.Zoom,
+                    Image = BinanKiosk.Properties.Resources.Binan_City_Logo,
+
+                };
+                panel.Controls.Add(picture);
+
+                var job_locationlbl = new Label
+                {
+                    Name = name[i] + "job_locationlbl",
+                    Text = "Binan, Kiosk" + i.ToString(),
+                    Size = new Size(131, 24),
+                    Location = new Point(195, 49),
+                    Font = new Font("Microsoft Sans Serif", 14, FontStyle.Regular),
+                };
+                panel.Controls.Add(job_locationlbl);
+
+                var job_companylbl = new Label
+                {
+                    Name = name[i] + "job_companylbl",
+                    Text = "Microsoft Company" + i.ToString(),
+                    Size = new Size(131, 24),
+                    Location = new Point(562, 49),
+                    Font = new Font("Microsoft Sans Serif", 14, FontStyle.Regular),
+                };
+                panel.Controls.Add(job_companylbl);
+
+                var job_descriptionlbl = new Label
+                {
+                    Name = name[i] + "job_descriptionlbl",
+                    Text = "txt1" + i.ToString(),
+                    Size = new Size(749, 64),
+                    Location = new Point(195, 81),
+                    Font = new Font("Microsoft Sans Serif", 12, FontStyle.Regular),
+                };
+                panel.Controls.Add(job_descriptionlbl);
+
+                var lbl = new Label
+                {
+                    Name = name[i] + "lbl",
+                    Text = "txt" + i.ToString(),
+                    Size = new Size(85, 29),
+                    Location = new Point(195, 3),
+                    Font = new Font("Microsoft Sans Serif", 18, FontStyle.Bold),
+                };
+                panel.Controls.Add(lbl);
+
+                var btn = new Button
+                {
+                    Name = name[i] + "btn",
+                    Text = "View Details",
+                    Size = new Size(193, 56),
+                    Location = new Point(1060, 89),
+                    BackgroundImage = BinanKiosk.Properties.Resources.button1,
+                    BackgroundImageLayout = ImageLayout.Stretch,
+                    BackColor = Color.White,
+                    FlatStyle = FlatStyle.Flat,
+                    ForeColor = Color.White,
+                    Font = new Font("Arial Narrow", 18, FontStyle.Bold),
+                };
+                panel.Controls.Add(btn);
+            }
+
+            /*
+             * for (int i = 0; i < 3; i++)
             {
                 var picture = new PictureBox
                 {
                     Name = name[i],
                     Size = new Size(186, 142),
-                    Location = new Point(3, 3 + ((i + 1) * 153)),
+                    Location = new Point(3, 3 + (i * 153)),
                     SizeMode = PictureBoxSizeMode.Zoom,
                     Image = BinanKiosk.Properties.Resources.Binan_City_Logo,
 
@@ -88,9 +167,9 @@ namespace BinanKiosk
                 var job_locationlbl = new Label
                 {
                     Name = name[i] + "job_locationlbl",
-                    Text = "Binan, Kiosk" + (i + 1).ToString(),
+                    Text = "Binan, Kiosk" + i.ToString(),
                     Size = new Size(131, 24),
-                    Location = new Point(195, 49 + ((i + 1) * 150)),
+                    Location = new Point(195, 49 + (i * 150)),
                     Font = new Font("Microsoft Sans Serif", 14, FontStyle.Regular),
                 };
                 this.JobResult1_panel.Controls.Add(job_locationlbl);
@@ -98,9 +177,9 @@ namespace BinanKiosk
                 var job_companylbl = new Label
                 {
                     Name = name[i] + "job_companylbl",
-                    Text = "Microsoft Company" + (i + 1).ToString(),
+                    Text = "Microsoft Company" + i.ToString(),
                     Size = new Size(131, 24),
-                    Location = new Point(562, 49 + ((i + 1) * 148)),
+                    Location = new Point(562, 49 + (i * 148)),
                     Font = new Font("Microsoft Sans Serif", 14, FontStyle.Regular),
                 };
                 this.JobResult1_panel.Controls.Add(job_companylbl);
@@ -108,9 +187,9 @@ namespace BinanKiosk
                 var job_descriptionlbl = new Label
                 {
                     Name = name[i] + "job_descriptionlbl",
-                    Text = "txt1" + (i + 1).ToString(),
+                    Text = "txt1" + i.ToString(),
                     Size = new Size(749, 64),
-                    Location = new Point(195, 81 + ((i + 1) * 148)),
+                    Location = new Point(195, 81 + (i * 148)),
                     Font = new Font("Microsoft Sans Serif", 12, FontStyle.Regular),
                 };
                 this.JobResult1_panel.Controls.Add(job_descriptionlbl);
@@ -118,9 +197,9 @@ namespace BinanKiosk
                 var lbl = new Label
                 {
                     Name = name[i] + "lbl",
-                    Text = "txt" + (i + 1).ToString(),
+                    Text = "txt" + i.ToString(),
                     Size = new Size(85, 29),
-                    Location = new Point(195, 3 + ((i + 1) * 153)),
+                    Location = new Point(195, 3 + (i * 153)),
                     Font = new Font("Microsoft Sans Serif", 18, FontStyle.Bold),
                 };
                 this.JobResult1_panel.Controls.Add(lbl);
@@ -130,7 +209,7 @@ namespace BinanKiosk
                     Name = name[i] + "btn",
                     Text = "View Details",
                     Size = new Size(193, 56),
-                    Location = new Point(950, 89 + ((i + 1) * 148)),
+                    Location = new Point(950, 89 + (i * 148)),
                     BackgroundImage = BinanKiosk.Properties.Resources.button1,
                     BackgroundImageLayout = ImageLayout.Stretch,
                     BackColor = Color.White,
@@ -141,6 +220,9 @@ namespace BinanKiosk
                 };
                 this.JobResult1_panel.Controls.Add(btn);
             }
+             */
+
+
         }
 
 
