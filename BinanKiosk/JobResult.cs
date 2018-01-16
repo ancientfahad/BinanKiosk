@@ -71,12 +71,12 @@ namespace BinanKiosk
                 lblJob.Text = "       RESULTA";
             }
 
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < 10; i++)
             {
                 var panel = new Panel
                 {
                     Name = "panel" + (i + 1).ToString(),
-                    Size = new Size(1294, 149),
+                    Size = new Size(1269, 149),
                     Location = new Point(3, 3 + ((i+0) * 155)),
                     AutoScroll = true,
                     BorderStyle = BorderStyle.FixedSingle,
