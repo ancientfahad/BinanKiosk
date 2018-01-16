@@ -21,6 +21,8 @@ namespace BinanKiosk
 
         String[] jobList = new String[100], categoryList = new String[100];
 
+        string jobID = "";
+        bool exist = false;
         int index = 0;
 
         protected override CreateParams CreateParams
@@ -43,12 +45,25 @@ namespace BinanKiosk
         //FUNCTIONS///////////////////////////////////////////////////////////////////////
         public void Reader()
         {
-
-            
-
             conn.Open();
 
-            cmd = new MySqlCommand("SELECT COUNT(jobtypes.job_category) AS count FROM jobtypes WHERE jobtypes.job_category LIKE '%" + valueBox.Text + "%' ", conn);
+            cmd = new MySqlCommand("SELECT jobs.job_name, jobs.job_id FROM jobs WHERE jobs.job_name LIKE '%" + valueBox.Text + "%' ", conn);
+            cmd.ExecuteNonQuery();
+            reader = cmd.ExecuteReader();
+
+            if (reader.HasRows)
+            {
+                reader.Read();
+                jobID = reader["job_id"].ToString();
+                exist = true;
+            }
+            else
+            {
+                exist = false;
+            }
+            reader.Close();
+
+            cmd = new MySqlCommand("SELECT COUNT(jobtypes.job_id) AS count FROM jobtypes WHERE jobtypes.job_id LIKE '%" + jobID + "%' ", conn);
             //cmd1 = new MySqlCommand("SELECT COUNT(officials.first_name) AS count FROM officials WHERE officials.first_name LIKE '"+ txtSearch.Text +"%' ", conn);
             cmd.ExecuteNonQuery();
             reader = cmd.ExecuteReader();
@@ -63,28 +78,29 @@ namespace BinanKiosk
                 Global.gbJobCompany = new string[index];
             }
             reader.Close();
-
+            
             //MessageBox.Show(Global.gbJobtype.Length.ToString());
 
-            cmd = new MySqlCommand("SELECT jobtypes.job_types, jobtypes.job_location, jobtypes.job_company, jobtypes.job_description FROM jobtypes WHERE jobtypes.job_category LIKE '%" + valueBox.Text + "%' ", conn);
-            cmd.ExecuteNonQuery();
-            reader = cmd.ExecuteReader();
+            if (exist == true) {
+                cmd = new MySqlCommand("SELECT jobtypes.job_types, jobtypes.job_location, jobtypes.job_company, jobtypes.job_description FROM jobtypes WHERE jobtypes.job_id LIKE '%" + jobID + "%' ", conn);
+                cmd.ExecuteNonQuery();
+                reader = cmd.ExecuteReader();
 
-            int count = 0;
+                int count = 0;
 
-            while (reader.Read())
-            {
-                Global.gbJobtype[count] = reader["job_types"].ToString();
-                Global.gbJoblocation[count] = reader["job_location"].ToString();
-                Global.gbJobCompany[count] = reader["job_company"].ToString();
-                Global.gbJobdescription[count] = reader["job_description"].ToString();
+                while (reader.Read())
+                {
+                    Global.gbJobtype[count] = reader["job_types"].ToString();
+                    Global.gbJoblocation[count] = reader["job_location"].ToString();
+                    Global.gbJobCompany[count] = reader["job_company"].ToString();
+                    Global.gbJobdescription[count] = reader["job_description"].ToString();
 
-                count++;
+                    count++;
+                }
+
+                reader.Close();
+                conn.Close();
             }
-
-            reader.Close();
-            conn.Close();
-
         }
 
         public void NextForm()

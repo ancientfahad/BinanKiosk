@@ -353,7 +353,7 @@
             this.hotel_btn.Name = "hotel_btn";
             this.hotel_btn.Size = new System.Drawing.Size(261, 103);
             this.hotel_btn.TabIndex = 261;
-            this.hotel_btn.Text = "Hotel/Tourism Jobs";
+            this.hotel_btn.Text = "Hotel/Tourism";
             this.hotel_btn.UseVisualStyleBackColor = true;
             this.hotel_btn.Click += new System.EventHandler(this.hotel_btn_Click);
             // 
@@ -385,7 +385,7 @@
             this.IT_btn.Name = "IT_btn";
             this.IT_btn.Size = new System.Drawing.Size(261, 103);
             this.IT_btn.TabIndex = 263;
-            this.IT_btn.Text = "IT Jobs";
+            this.IT_btn.Text = "IT";
             this.IT_btn.UseVisualStyleBackColor = true;
             this.IT_btn.Click += new System.EventHandler(this.IT_btn_Click);
             // 
@@ -401,7 +401,7 @@
             this.secretary_btn.Name = "secretary_btn";
             this.secretary_btn.Size = new System.Drawing.Size(261, 103);
             this.secretary_btn.TabIndex = 264;
-            this.secretary_btn.Text = "Secretarial Jobs";
+            this.secretary_btn.Text = "Secretarial";
             this.secretary_btn.UseVisualStyleBackColor = true;
             this.secretary_btn.Click += new System.EventHandler(this.secretary_btn_Click);
             // 
@@ -417,7 +417,7 @@
             this.elect_Engbtn.Name = "elect_Engbtn";
             this.elect_Engbtn.Size = new System.Drawing.Size(261, 103);
             this.elect_Engbtn.TabIndex = 265;
-            this.elect_Engbtn.Text = "Electrical Engineering Jobs";
+            this.elect_Engbtn.Text = "Electrical Engineering";
             this.elect_Engbtn.UseVisualStyleBackColor = true;
             this.elect_Engbtn.Click += new System.EventHandler(this.elect_Engbtn_Click);
             // 
@@ -433,7 +433,7 @@
             this.merchandising_btn.Name = "merchandising_btn";
             this.merchandising_btn.Size = new System.Drawing.Size(261, 103);
             this.merchandising_btn.TabIndex = 266;
-            this.merchandising_btn.Text = "Merchandising Jobs";
+            this.merchandising_btn.Text = "Merchandising";
             this.merchandising_btn.UseVisualStyleBackColor = true;
             this.merchandising_btn.Click += new System.EventHandler(this.merchandising_btn_Click);
             // 
@@ -449,7 +449,7 @@
             this.restaurant_btn.Name = "restaurant_btn";
             this.restaurant_btn.Size = new System.Drawing.Size(261, 103);
             this.restaurant_btn.TabIndex = 267;
-            this.restaurant_btn.Text = "Restaurant Jobs";
+            this.restaurant_btn.Text = "Restaurant";
             this.restaurant_btn.UseVisualStyleBackColor = true;
             this.restaurant_btn.Click += new System.EventHandler(this.restaurant_btn_Click);
             // 
@@ -465,7 +465,7 @@
             this.retail_sales_btn.Name = "retail_sales_btn";
             this.retail_sales_btn.Size = new System.Drawing.Size(261, 103);
             this.retail_sales_btn.TabIndex = 268;
-            this.retail_sales_btn.Text = "Retail Sales Job";
+            this.retail_sales_btn.Text = "Retail Sales";
             this.retail_sales_btn.UseVisualStyleBackColor = true;
             this.retail_sales_btn.Click += new System.EventHandler(this.retail_sales_btn_Click);
             // 
@@ -481,7 +481,7 @@
             this.manufacturing_btn.Name = "manufacturing_btn";
             this.manufacturing_btn.Size = new System.Drawing.Size(261, 103);
             this.manufacturing_btn.TabIndex = 269;
-            this.manufacturing_btn.Text = "Manufacturing Jobs";
+            this.manufacturing_btn.Text = "Manufacturing";
             this.manufacturing_btn.UseVisualStyleBackColor = true;
             this.manufacturing_btn.Click += new System.EventHandler(this.manufacturing_btn_Click);
             // 
@@ -497,7 +497,7 @@
             this.realEstate_btn.Name = "realEstate_btn";
             this.realEstate_btn.Size = new System.Drawing.Size(261, 103);
             this.realEstate_btn.TabIndex = 270;
-            this.realEstate_btn.Text = "Real Estate Jobs";
+            this.realEstate_btn.Text = "Real Estate";
             this.realEstate_btn.UseVisualStyleBackColor = true;
             this.realEstate_btn.Click += new System.EventHandler(this.realEstate_btn_Click);
             // 
@@ -513,7 +513,7 @@
             this.education_btn.Name = "education_btn";
             this.education_btn.Size = new System.Drawing.Size(261, 103);
             this.education_btn.TabIndex = 271;
-            this.education_btn.Text = "Education Jobs";
+            this.education_btn.Text = "Education";
             this.education_btn.UseVisualStyleBackColor = true;
             this.education_btn.Click += new System.EventHandler(this.education_btn_Click);
             // 
@@ -529,7 +529,7 @@
             this.customerService_btn.Name = "customerService_btn";
             this.customerService_btn.Size = new System.Drawing.Size(261, 103);
             this.customerService_btn.TabIndex = 272;
-            this.customerService_btn.Text = "Customer Service Jobs";
+            this.customerService_btn.Text = "Customer Service";
             this.customerService_btn.UseVisualStyleBackColor = true;
             this.customerService_btn.Click += new System.EventHandler(this.customerService_btn_Click);
             // 
@@ -545,7 +545,7 @@
             this.civil_engbtn.Name = "civil_engbtn";
             this.civil_engbtn.Size = new System.Drawing.Size(261, 103);
             this.civil_engbtn.TabIndex = 273;
-            this.civil_engbtn.Text = "Civil Engineering Jobs";
+            this.civil_engbtn.Text = "Civil Engineering";
             this.civil_engbtn.UseVisualStyleBackColor = true;
             this.civil_engbtn.Click += new System.EventHandler(this.civil_engbtn_Click);
             // 
@@ -561,7 +561,7 @@
             this.bankingFinancial_btn.Name = "bankingFinancial_btn";
             this.bankingFinancial_btn.Size = new System.Drawing.Size(261, 103);
             this.bankingFinancial_btn.TabIndex = 274;
-            this.bankingFinancial_btn.Text = "Banking/Financial Jobs";
+            this.bankingFinancial_btn.Text = "Banking/Financial";
             this.bankingFinancial_btn.UseVisualStyleBackColor = true;
             this.bankingFinancial_btn.Click += new System.EventHandler(this.bankingFinancial_btn_Click);
             // 
@@ -577,7 +577,7 @@
             this.oilGasEngr_btn.Name = "oilGasEngr_btn";
             this.oilGasEngr_btn.Size = new System.Drawing.Size(261, 103);
             this.oilGasEngr_btn.TabIndex = 275;
-            this.oilGasEngr_btn.Text = "Oil/Gas Engineering Jobs";
+            this.oilGasEngr_btn.Text = "Oil/Gas Engineering";
             this.oilGasEngr_btn.UseVisualStyleBackColor = true;
             this.oilGasEngr_btn.Click += new System.EventHandler(this.oilGasEngr_btn_Click);
             // 
@@ -593,7 +593,7 @@
             this.industrialEngr_btn.Name = "industrialEngr_btn";
             this.industrialEngr_btn.Size = new System.Drawing.Size(261, 103);
             this.industrialEngr_btn.TabIndex = 276;
-            this.industrialEngr_btn.Text = "Industrial Engineering Jobs";
+            this.industrialEngr_btn.Text = "Industrial Engineering";
             this.industrialEngr_btn.UseVisualStyleBackColor = true;
             this.industrialEngr_btn.Click += new System.EventHandler(this.industrialEngr_btn_Click);
             // 
@@ -609,7 +609,7 @@
             this.personalCare_btn.Name = "personalCare_btn";
             this.personalCare_btn.Size = new System.Drawing.Size(261, 103);
             this.personalCare_btn.TabIndex = 277;
-            this.personalCare_btn.Text = "Personal Care Jobs";
+            this.personalCare_btn.Text = "Personal Care";
             this.personalCare_btn.UseVisualStyleBackColor = true;
             this.personalCare_btn.Click += new System.EventHandler(this.personalCare_btn_Click);
             // 
