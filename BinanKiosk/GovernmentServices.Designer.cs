@@ -30,6 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GovernmentServices));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.valuebtn = new System.Windows.Forms.TextBox();
             this.timestamp = new System.Windows.Forms.Timer(this.components);
             this.lbldate = new System.Windows.Forms.Label();
@@ -56,9 +57,9 @@
             // 
             // valuebtn
             // 
-            this.valuebtn.Location = new System.Drawing.Point(13, 82);
+            this.valuebtn.Location = new System.Drawing.Point(1171, 75);
             this.valuebtn.Name = "valuebtn";
-            this.valuebtn.Size = new System.Drawing.Size(16, 20);
+            this.valuebtn.Size = new System.Drawing.Size(152, 20);
             this.valuebtn.TabIndex = 51;
             this.valuebtn.Visible = false;
             // 
@@ -286,15 +287,24 @@
             // 
             // testview
             // 
+            this.testview.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.testview.BackgroundColor = System.Drawing.Color.White;
             this.testview.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Arial", 20F);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.testview.DefaultCellStyle = dataGridViewCellStyle1;
             this.testview.Location = new System.Drawing.Point(149, 101);
             this.testview.Name = "testview";
             this.testview.RowHeadersVisible = false;
-            this.testview.RowHeadersWidth = 40;
+            this.testview.RowHeadersWidth = 50;
             this.testview.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.testview.RowTemplate.Height = 50;
-            this.testview.Size = new System.Drawing.Size(855, 508);
+            this.testview.Size = new System.Drawing.Size(1067, 539);
             this.testview.TabIndex = 281;
             this.testview.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.testview_CellClick);
             // 
