@@ -40,7 +40,7 @@ namespace BinanKiosk
         private void filldata()
         {
             //string projectPath = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName;
-
+            testview.AutoGenerateColumns = false;
             testview.ColumnCount = 1;
             //testview.Columns[0].Name = "";
 
@@ -54,6 +54,7 @@ namespace BinanKiosk
             Image img = Image.FromFile(imgString);
             //Image img = Image.FromFile(@"C:/Users/doratheexplorer/Desktop/BINANKIOSK RESOURCE/BinanKiosk marvin/BinanKiosk/Resources/btnorangere.png");
 
+            
             object[] row = new object[] { "Payment of Real Property Transfer Tax", img };
             testview.Rows.Add(row);
 

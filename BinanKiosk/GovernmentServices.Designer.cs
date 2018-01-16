@@ -287,6 +287,9 @@
             // 
             // testview
             // 
+            this.testview.AllowUserToAddRows = false;
+            this.testview.AllowUserToResizeColumns = false;
+            this.testview.AllowUserToResizeRows = false;
             this.testview.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.testview.BackgroundColor = System.Drawing.Color.White;
             this.testview.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
