@@ -75,7 +75,7 @@ namespace BinanKiosk
             //jobsCompany1.Text = Global.gbJobCompany;
             //description1.Text = Global.gbJobdescription;
 
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < Global.gbJobtype.Length; i++)
             {
                 var panel = new Panel
                 {

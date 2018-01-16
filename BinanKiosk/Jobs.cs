@@ -43,7 +43,29 @@ namespace BinanKiosk
         //FUNCTIONS///////////////////////////////////////////////////////////////////////
         public void Reader()
         {
+
+            
+
             conn.Open();
+
+            cmd = new MySqlCommand("SELECT COUNT(jobtypes.job_category) AS count FROM jobtypes WHERE jobtypes.job_category LIKE '%" + valueBox.Text + "%' ", conn);
+            //cmd1 = new MySqlCommand("SELECT COUNT(officials.first_name) AS count FROM officials WHERE officials.first_name LIKE '"+ txtSearch.Text +"%' ", conn);
+            cmd.ExecuteNonQuery();
+            reader = cmd.ExecuteReader();
+
+            if (reader.HasRows)
+            {
+                reader.Read();
+                index = Convert.ToInt32(reader["count"]);
+                Global.gbJobtype = new string[index];
+                Global.gbJoblocation = new string[index];
+                Global.gbJobdescription = new string[index];
+                Global.gbJobCompany = new string[index];
+            }
+            reader.Close();
+
+            //MessageBox.Show(Global.gbJobtype.Length.ToString());
+
             cmd = new MySqlCommand("SELECT jobtypes.job_types, jobtypes.job_location, jobtypes.job_company, jobtypes.job_description FROM jobtypes WHERE jobtypes.job_category LIKE '%" + valueBox.Text + "%' ", conn);
             cmd.ExecuteNonQuery();
             reader = cmd.ExecuteReader();
