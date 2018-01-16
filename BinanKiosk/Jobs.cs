@@ -44,18 +44,20 @@ namespace BinanKiosk
         public void Reader()
         {
             conn.Open();
-            cmd = new MySqlCommand("SELECT jobtypes.job_types, jobtypes.job_location, jobtypes.job_company, jobtypes.job_description FROM jobtypes WHERE jobtypes.job_id LIKE '%" + valueBox.Text + "%' ", conn);
+            cmd = new MySqlCommand("SELECT jobtypes.job_types, jobtypes.job_location, jobtypes.job_company, jobtypes.job_description FROM jobtypes WHERE jobtypes.job_category LIKE '%" + valueBox.Text + "%' ", conn);
             cmd.ExecuteNonQuery();
             reader = cmd.ExecuteReader();
 
-            if (reader.HasRows)
-            {
-                reader.Read();
-                Global.gbJobtype = reader["job_types"].ToString();
-                Global.gbJoblocation = reader["job_location"].ToString();
-                Global.gbJobCompany = reader["job_company"].ToString();
-                Global.gbJobdescription = reader["job_description"].ToString();
+            int count = 0;
 
+            while (reader.Read())
+            {
+                Global.gbJobtype[count] = reader["job_types"].ToString();
+                Global.gbJoblocation[count] = reader["job_location"].ToString();
+                Global.gbJobCompany[count] = reader["job_company"].ToString();
+                Global.gbJobdescription[count] = reader["job_description"].ToString();
+
+                count++;
             }
 
             reader.Close();
@@ -219,140 +221,140 @@ namespace BinanKiosk
 
         private void Ad_Jobsbtn_Click(object sender, EventArgs e)
         {
-            valueBox.Text = "1";
+            valueBox.Text = Ad_Jobsbtn.Text;
             Reader();
             NextForm();
         }
 
         private void Agriculture_btn_Click(object sender, EventArgs e)
         {
-            valueBox.Text = "2";
+            valueBox.Text = Agriculture_btn.Text;
             Reader();
             NextForm();
         }
 
         private void archi_btn_Click(object sender, EventArgs e)
         {
-            valueBox.Text = "3";
+            valueBox.Text = archi_btn.Text;
             Reader();
             NextForm();
         }
 
         private void elect_Engbtn_Click(object sender, EventArgs e)
         {
-            valueBox.Text = "4";
+            valueBox.Text = elect_Engbtn.Text;
             Reader();
             NextForm();
         }
 
         private void ent_jobbtn_Click(object sender, EventArgs e)
         {
-            valueBox.Text = "5";
+            valueBox.Text = ent_jobbtn.Text;
             Reader();
             NextForm();
         }
 
         private void civil_engbtn_Click(object sender, EventArgs e)
         {
-            valueBox.Text = "6";
+            valueBox.Text = civil_engbtn.Text;
             Reader();
             NextForm();
         }
 
         private void secretary_btn_Click(object sender, EventArgs e)
         {
-            valueBox.Text = "7";
+            valueBox.Text = secretary_btn.Text;
             Reader();
             NextForm();
         }
 
         private void hotel_btn_Click(object sender, EventArgs e)
         {
-            valueBox.Text = "8";
+            valueBox.Text = hotel_btn.Text;
             Reader();
             NextForm();
         }
 
         private void merchandising_btn_Click(object sender, EventArgs e)
         {
-            valueBox.Text = "9";
+            valueBox.Text = merchandising_btn.Text;
             Reader();
             NextForm();
         }
 
         private void restaurant_btn_Click(object sender, EventArgs e)
         {
-            valueBox.Text = "10";
+            valueBox.Text = restaurant_btn.Text;
             Reader();
             NextForm();
         }
 
         private void retail_sales_btn_Click(object sender, EventArgs e)
         {
-            valueBox.Text = "11";
+            valueBox.Text = retail_sales_btn.Text;
             Reader();
             NextForm();
         }
 
         private void manufacturing_btn_Click(object sender, EventArgs e)
         {
-            valueBox.Text = "12";
+            valueBox.Text = manufacturing_btn.Text;
             Reader();
             NextForm();
         }
 
         private void realEstate_btn_Click(object sender, EventArgs e)
         {
-            valueBox.Text = "13";
+            valueBox.Text = realEstate_btn.Text;
             Reader();
             NextForm();
         }
 
         private void education_btn_Click(object sender, EventArgs e)
         {
-            valueBox.Text = "14";
+            valueBox.Text = education_btn.Text;
             Reader();
             NextForm();
         }
 
         private void customerService_btn_Click(object sender, EventArgs e)
         {
-            valueBox.Text = "15";
+            valueBox.Text = customerService_btn.Text;
             Reader();
             NextForm();
         }
 
         private void IT_btn_Click(object sender, EventArgs e)
         {
-            valueBox.Text = "16";
+            valueBox.Text = IT_btn.Text;
             Reader();
             NextForm();
         }
 
         private void bankingFinancial_btn_Click(object sender, EventArgs e)
         {
-            valueBox.Text = "17";
+            valueBox.Text = bankingFinancial_btn.Text;
             Reader();
             NextForm();
         }
 
         private void oilGasEngr_btn_Click(object sender, EventArgs e)
         {
-            valueBox.Text = "18";
+            valueBox.Text = oilGasEngr_btn.Text;
             Reader();
             NextForm();
         }
 
         private void industrialEngr_btn_Click(object sender, EventArgs e)
         {
-            valueBox.Text = "19";
+            valueBox.Text = industrialEngr_btn.Text;
             Reader();
             NextForm();
         }
 
         private void personalCare_btn_Click(object sender, EventArgs e)
         {
-            valueBox.Text = "20";
+            valueBox.Text = personalCare_btn.Text;
             Reader();
             NextForm();
         }

@@ -49,7 +49,6 @@ namespace BinanKiosk
         private void JobResult_Load(object sender, EventArgs e)
         {
             //hidePanels();
-            String[] name = { "job1", "job2", "job3", "job4", "job5", "job6", "job7", "job8", "job9", "job10" };
 
             //JobTitle.Text = Global.gbJobtype;
             //location.Text = Global.gbJoblocation;
@@ -71,21 +70,27 @@ namespace BinanKiosk
                 lblJob.Text = "       RESULTA";
             }
 
-            for (int i = 0; i < 10; i++)
+            //JobTitle.Text = Global.gbJobtype;
+            //location.Text = Global.gbJoblocation;
+            //jobsCompany1.Text = Global.gbJobCompany;
+            //description1.Text = Global.gbJobdescription;
+
+            for (int i = 0; i < 5; i++)
             {
                 var panel = new Panel
                 {
-                    Name = "panel" + (i + 1).ToString(),
+                    Name = "jobPanel" + (i + 1).ToString(),
                     Size = new Size(1269, 149),
                     Location = new Point(3, 3 + ((i+0) * 155)),
                     AutoScroll = true,
                     BorderStyle = BorderStyle.FixedSingle,
                 };
                 this.JobResult1_panel.Controls.Add(panel);
+                panel.Click += new EventHandler(this.panel_Click);
 
                 var picture = new PictureBox
                 {
-                    Name = name[i],
+                    Name = "jobPicture" + (i + 1).ToString(),
                     Size = new Size(186, 142),
                     Location = new Point(3, 3),
                     SizeMode = PictureBoxSizeMode.Zoom,
@@ -93,11 +98,13 @@ namespace BinanKiosk
 
                 };
                 panel.Controls.Add(picture);
+                picture.Click += new EventHandler(this.picture_Click);
 
                 var job_locationlbl = new Label
                 {
-                    Name = name[i] + "job_locationlbl",
-                    Text = "Binan, Kiosk" + i.ToString(),
+                    Name = "jobLocation" + (i + 1).ToString(),
+                    Text = Global.gbJoblocation[i],
+                    //Text = "Location" + i.ToString(),
                     Size = new Size(131, 24),
                     Location = new Point(195, 49),
                     Font = new Font("Microsoft Sans Serif", 14, FontStyle.Regular),
@@ -106,8 +113,9 @@ namespace BinanKiosk
 
                 var job_companylbl = new Label
                 {
-                    Name = name[i] + "job_companylbl",
-                    Text = "Microsoft Company" + i.ToString(),
+                    Name = "jobCompany" + (i + 1).ToString(),
+                    Text = Global.gbJobCompany[i],
+                    //Text = "Company" + i.ToString(),
                     Size = new Size(131, 24),
                     Location = new Point(562, 49),
                     Font = new Font("Microsoft Sans Serif", 14, FontStyle.Regular),
@@ -116,8 +124,9 @@ namespace BinanKiosk
 
                 var job_descriptionlbl = new Label
                 {
-                    Name = name[i] + "job_descriptionlbl",
-                    Text = "txt1" + i.ToString(),
+                    Name = "jobDescription" + (i + 1).ToString(),
+                    Text = Global.gbJobdescription[i],
+                    //Text = "Description" + i.ToString(),
                     Size = new Size(749, 64),
                     Location = new Point(195, 81),
                     Font = new Font("Microsoft Sans Serif", 12, FontStyle.Regular),
@@ -126,9 +135,10 @@ namespace BinanKiosk
 
                 var lbl = new Label
                 {
-                    Name = name[i] + "lbl",
-                    Text = "txt" + i.ToString(),
-                    Size = new Size(85, 29),
+                    Name = "jobLabel" + (i + 1).ToString(),
+                    Text = Global.gbJobtype[i],
+                    //Text = "---" + i.ToString(),
+                    Size = new Size(300, 29),
                     Location = new Point(195, 3),
                     Font = new Font("Microsoft Sans Serif", 18, FontStyle.Bold),
                 };
@@ -136,7 +146,7 @@ namespace BinanKiosk
 
                 var btn = new Button
                 {
-                    Name = name[i] + "btn",
+                    Name = "jobButton" + (i + 1).ToString(),
                     Text = "View Details",
                     Size = new Size(193, 56),
                     Location = new Point(1060, 89),
@@ -148,7 +158,11 @@ namespace BinanKiosk
                     Font = new Font("Arial Narrow", 18, FontStyle.Bold),
                 };
                 panel.Controls.Add(btn);
+                btn.Click += new EventHandler(this.button_Click);
+
             }
+
+
 
             /*
              * for (int i = 0; i < 3; i++)
@@ -223,6 +237,27 @@ namespace BinanKiosk
              */
 
 
+        }//Load Ends
+
+        void picture_Click(object sender, System.EventArgs e)
+        {
+            PictureBox pictureClick = sender as PictureBox;
+            MessageBox.Show(pictureClick.Name);
+            //your stuff...
+        }
+
+        void button_Click(object sender, System.EventArgs e)
+        {
+            Button btnClick = sender as Button;
+            MessageBox.Show(btnClick.Name);
+            //your stuff...
+        }
+
+        void panel_Click(object sender, System.EventArgs e)
+        {
+            Panel pnlClick = sender as Panel;
+            MessageBox.Show(pnlClick.Name);
+            //your stuff...
         }
 
 

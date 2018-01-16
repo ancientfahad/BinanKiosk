@@ -615,7 +615,7 @@
             // 
             // valueBox
             // 
-            this.valueBox.Location = new System.Drawing.Point(48, 72);
+            this.valueBox.Location = new System.Drawing.Point(7, 70);
             this.valueBox.Name = "valueBox";
             this.valueBox.Size = new System.Drawing.Size(29, 20);
             this.valueBox.TabIndex = 278;
