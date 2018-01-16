@@ -251,6 +251,7 @@
     <None Include="Resources\binanlogo1.png" />
     <None Include="Resources\130.jpg" />
     <None Include="Resources\donut.jpg" />
+    <Content Include="Resources\btnorangere.png" />
     <Content Include="Resources\dot2.png" />
     <None Include="Resources\First_Floor_Colored.png" />
     <None Include="Resources\helpIcon1.png" />
