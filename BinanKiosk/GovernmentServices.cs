@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.Diagnostics;
 using System.Text.RegularExpressions;
 using MySql.Data.MySqlClient;
+using System.IO;
 
 namespace BinanKiosk
 {
@@ -48,9 +49,10 @@ namespace BinanKiosk
 
             testview.Columns.Add(imgcol);
 
-
-            //string imagefilename = Path.Combine(projectPath, "Resources\\Services\\paymentOfRealPropertyTransferTax.jpg");
-            Image img = Image.FromFile(@"C:/Users/doratheexplorer/Desktop/BINANKIOSK RESOURCE/BinanKiosk marvin/BinanKiosk/Resources/btnorangere.png");
+            string projectPath = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName;
+            string imgString = Path.Combine(projectPath, "Resources\\btnorangere.png");
+            Image img = Image.FromFile(imgString);
+            //Image img = Image.FromFile(@"C:/Users/doratheexplorer/Desktop/BINANKIOSK RESOURCE/BinanKiosk marvin/BinanKiosk/Resources/btnorangere.png");
 
             object[] row = new object[] { "Payment of Real Property Transfer Tax", img };
             testview.Rows.Add(row);
@@ -296,7 +298,7 @@ namespace BinanKiosk
 
         private void testview_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            string test2 = testview.SelectedRows[0].Cells["Form Name"].Value.ToString();
+            string test2 = testview.SelectedRows[0].Cells[""].Value.ToString();
 
             if (test2 == "Payment of Real Property Transfer Tax")
             {
