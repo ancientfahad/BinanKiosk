@@ -63,6 +63,16 @@ namespace BinanKiosk.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _130 {
+            get {
+                object obj = ResourceManager.GetObject("130", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap backbtn2 {
             get {
                 object obj = ResourceManager.GetObject("backbtn2", resourceCulture);
@@ -233,6 +243,16 @@ namespace BinanKiosk.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap donut {
+            get {
+                object obj = ResourceManager.GetObject("donut", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap dot {
             get {
                 object obj = ResourceManager.GetObject("dot", resourceCulture);
@@ -246,6 +266,16 @@ namespace BinanKiosk.Properties {
         internal static System.Drawing.Bitmap downrow {
             get {
                 object obj = ResourceManager.GetObject("downrow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DunkinDonutsLogo634x634 {
+            get {
+                object obj = ResourceManager.GetObject("DunkinDonutsLogo634x634", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -326,6 +356,16 @@ namespace BinanKiosk.Properties {
         internal static System.Drawing.Bitmap job {
             get {
                 object obj = ResourceManager.GetObject("job", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap job_1 {
+            get {
+                object obj = ResourceManager.GetObject("job_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

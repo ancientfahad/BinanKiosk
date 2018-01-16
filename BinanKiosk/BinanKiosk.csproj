@@ -86,6 +86,12 @@
     <Compile Include="JobResult.Designer.cs">
       <DependentUpon>JobResult.cs</DependentUpon>
     </Compile>
+    <Compile Include="JobResultExpand.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JobResultExpand.Designer.cs">
+      <DependentUpon>JobResultExpand.cs</DependentUpon>
+    </Compile>
     <Compile Include="Jobs.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -158,6 +164,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="JobResult.resx">
       <DependentUpon>JobResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JobResultExpand.resx">
+      <DependentUpon>JobResultExpand.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Jobs.resx">
       <DependentUpon>Jobs.cs</DependentUpon>
@@ -240,6 +249,8 @@
     <None Include="Resources\binan.png" />
     <None Include="Resources\binanlogo.png" />
     <None Include="Resources\binanlogo1.png" />
+    <None Include="Resources\130.jpg" />
+    <None Include="Resources\donut.jpg" />
     <Content Include="Resources\dot2.png" />
     <None Include="Resources\First_Floor_Colored.png" />
     <None Include="Resources\helpIcon1.png" />
@@ -250,6 +261,7 @@
     <None Include="Resources\faqicon1.png" />
     <None Include="Resources\faqsicon.png" />
     <None Include="Resources\downrow.png" />
+    <None Include="Resources\DunkinDonutsLogo634x634.png" />
     <Content Include="Resources\here.png" />
     <None Include="Resources\lateztbtn.png" />
     <None Include="Resources\magni.png" />
@@ -269,6 +281,7 @@
     <Content Include="Resources\Jobs\Logo\SYKES.jpg" />
     <None Include="Resources\mapIcon.png" />
     <None Include="Resources\leftrow.png" />
+    <None Include="Resources\job_1.jpg" />
     <Content Include="Resources\nandito ka.png" />
     <None Include="Resources\Second_Floor_Colored.png" />
     <None Include="Resources\Third_Floor_Colored.png" />
