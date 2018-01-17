@@ -17,6 +17,7 @@ namespace BinanKiosk
     public partial class JobResult : Form
     {
         private int i = 0;
+        private string selectedJob = "";
 
         private static string[] pictures = new string[]
         {
@@ -79,7 +80,8 @@ namespace BinanKiosk
             {
                 var panel = new Panel
                 {
-                    Name = "jobPanel" + (i + 1).ToString(),
+                    Name = i.ToString(),
+                    //Name = "jobPanel" + (i + 1).ToString(),
                     Size = new Size(1269, 149),
                     Location = new Point(3, 3 + ((i+0) * 155)),
                     AutoScroll = true,
@@ -90,7 +92,8 @@ namespace BinanKiosk
 
                 var picture = new PictureBox
                 {
-                    Name = "jobPicture" + (i + 1).ToString(),
+                    Name = i.ToString(),
+                    //Name = "jobPicture" + (i + 1).ToString(),
                     Size = new Size(186, 142),
                     Location = new Point(3, 3),
                     SizeMode = PictureBoxSizeMode.Zoom,
@@ -146,7 +149,8 @@ namespace BinanKiosk
 
                 var btn = new Button
                 {
-                    Name = "jobButton" + (i + 1).ToString(),
+                    Name = i.ToString(),
+                    //Name = "jobButton" + (i + 1).ToString(),
                     Text = "View Details",
                     Size = new Size(193, 56),
                     Location = new Point(1060, 89),
@@ -242,21 +246,56 @@ namespace BinanKiosk
         void picture_Click(object sender, System.EventArgs e)
         {
             PictureBox pictureClick = sender as PictureBox;
-            MessageBox.Show(pictureClick.Name);
+            MessageBox.Show(Global.gbJobtype[Convert.ToInt32(pictureClick.Name)]);
+
+            selectedJob = Global.gbJobtype[Convert.ToInt32(pictureClick.Name)];
+            Global.gbSelectedJob = selectedJob;
+
+            JobResultExpand jre = new JobResultExpand();
+            this.Hide();
+            jre.FormClosed += (s, args) => this.Close();
+            jre.ShowDialog();
+            jre.Focus();
+
+            //MessageBox.Show(pictureClick.Name);
             //your stuff...
         }
 
         void button_Click(object sender, System.EventArgs e)
         {
             Button btnClick = sender as Button;
-            MessageBox.Show(btnClick.Name);
+            MessageBox.Show(Global.gbJobtype[Convert.ToInt32(btnClick.Name)]);
+
+            selectedJob = Global.gbJobtype[Convert.ToInt32(btnClick.Name)];
+            Global.gbSelectedJob = selectedJob;
+
+            JobResultExpand jre = new JobResultExpand();
+            this.Hide();
+            jre.FormClosed += (s, args) => this.Close();
+            jre.ShowDialog();
+            jre.Focus();
+
+            //MessageBox.Show(btnClick.Name);
+
             //your stuff...
         }
 
         void panel_Click(object sender, System.EventArgs e)
         {
             Panel pnlClick = sender as Panel;
-            MessageBox.Show(pnlClick.Name);
+            MessageBox.Show(Global.gbJobtype[Convert.ToInt32(pnlClick.Name)]);
+
+            selectedJob = Global.gbJobtype[Convert.ToInt32(pnlClick.Name)];
+            Global.gbSelectedJob = selectedJob;
+
+            JobResultExpand jre = new JobResultExpand();
+            this.Hide();
+            jre.FormClosed += (s, args) => this.Close();
+            jre.ShowDialog();
+            jre.Focus();
+
+            //MessageBox.Show(pnlClick.Name);
+
             //your stuff...
         }
 

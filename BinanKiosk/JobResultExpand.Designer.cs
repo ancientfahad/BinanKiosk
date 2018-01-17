@@ -45,11 +45,13 @@
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // lbldate
@@ -100,9 +102,9 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.pictureBox1.Location = new System.Drawing.Point(41, 100);
+            this.pictureBox1.Location = new System.Drawing.Point(14, 18);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1281, 571);
+            this.pictureBox1.Size = new System.Drawing.Size(919, 475);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 270;
             this.pictureBox1.TabStop = false;
@@ -145,6 +147,7 @@
             this.btnJob.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnJob.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnJob.UseVisualStyleBackColor = false;
+            this.btnJob.Click += new System.EventHandler(this.btnJob_Click);
             // 
             // btnServices
             // 
@@ -285,13 +288,21 @@
             this.pictureBox6.TabIndex = 248;
             this.pictureBox6.TabStop = false;
             // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Location = new System.Drawing.Point(71, 104);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(953, 522);
+            this.panel1.TabIndex = 271;
+            // 
             // JobResultExpand
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1366, 768);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnLanguages);
             this.Controls.Add(this.btnHelp);
             this.Controls.Add(this.btnJob);
@@ -310,11 +321,13 @@
             this.Name = "JobResultExpand";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home";
+            this.Load += new System.EventHandler(this.JobResultExpand_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -337,6 +350,7 @@
         private System.Windows.Forms.Button btnLanguages;
         private System.Windows.Forms.Timer timestamp;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 
