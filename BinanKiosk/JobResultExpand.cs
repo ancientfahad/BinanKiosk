@@ -275,7 +275,7 @@ namespace BinanKiosk
             }
             else
             {
-                MessageBox.Show("hello world");
+                //MessageBox.Show("hello world");
             }
         }
 
