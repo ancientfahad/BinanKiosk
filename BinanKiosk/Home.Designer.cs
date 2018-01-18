@@ -40,7 +40,6 @@
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnLogout = new System.Windows.Forms.Button();
             this.btnJob = new System.Windows.Forms.Button();
             this.btnServices = new System.Windows.Forms.Button();
             this.btnMaps = new System.Windows.Forms.Button();
@@ -176,24 +175,6 @@
             this.pictureBox1.TabIndex = 50;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // btnLogout
-            // 
-            this.btnLogout.BackColor = System.Drawing.Color.ForestGreen;
-            this.btnLogout.FlatAppearance.BorderSize = 0;
-            this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLogout.Font = new System.Drawing.Font("Arial Narrow", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogout.ForeColor = System.Drawing.Color.White;
-            this.btnLogout.Image = global::BinanKiosk.Properties.Resources.backbtn2;
-            this.btnLogout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLogout.Location = new System.Drawing.Point(1165, 604);
-            this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(189, 50);
-            this.btnLogout.TabIndex = 47;
-            this.btnLogout.Text = "LOGOUT";
-            this.btnLogout.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnLogout.UseVisualStyleBackColor = false;
-            this.btnLogout.Visible = false;
             // 
             // btnJob
             // 
@@ -354,7 +335,6 @@
             this.Controls.Add(this.lbltime);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.btnLogout);
             this.Controls.Add(this.btnJob);
             this.Controls.Add(this.btnServices);
             this.Controls.Add(this.btnMaps);
@@ -386,7 +366,6 @@
         private System.Windows.Forms.Button btnMaps;
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.Button btnHome;
-        private System.Windows.Forms.Button btnLogout;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Timer timer1;
