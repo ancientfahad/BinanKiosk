@@ -862,5 +862,7 @@ namespace BinanKiosk
             lng.ShowDialog();
             lng.Focus();
         }
+
+
     }
 }
