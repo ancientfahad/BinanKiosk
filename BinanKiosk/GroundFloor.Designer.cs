@@ -127,6 +127,14 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.switch1 = new System.Windows.Forms.PictureBox();
             this.switch4 = new System.Windows.Forms.PictureBox();
+            this.step66 = new System.Windows.Forms.PictureBox();
+            this.step67 = new System.Windows.Forms.PictureBox();
+            this.step68 = new System.Windows.Forms.PictureBox();
+            this.step69 = new System.Windows.Forms.PictureBox();
+            this.step70 = new System.Windows.Forms.PictureBox();
+            this.step72 = new System.Windows.Forms.PictureBox();
+            this.step71 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.step65)).BeginInit();
@@ -200,6 +208,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.switch1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.switch4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.step66)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.step67)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.step68)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.step69)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.step70)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.step72)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.step71)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnLCRG
@@ -261,7 +277,7 @@
             this.btnCSWD.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnCSWD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCSWD.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCSWD.Location = new System.Drawing.Point(392, 130);
+            this.btnCSWD.Location = new System.Drawing.Point(381, 130);
             this.btnCSWD.Name = "btnCSWD";
             this.btnCSWD.Size = new System.Drawing.Size(91, 62);
             this.btnCSWD.TabIndex = 158;
@@ -281,7 +297,7 @@
             this.btnChapel.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChapel.Location = new System.Drawing.Point(607, 136);
             this.btnChapel.Name = "btnChapel";
-            this.btnChapel.Size = new System.Drawing.Size(88, 74);
+            this.btnChapel.Size = new System.Drawing.Size(88, 56);
             this.btnChapel.TabIndex = 159;
             this.btnChapel.Text = "Chapel";
             this.btnChapel.UseVisualStyleBackColor = false;
@@ -315,7 +331,7 @@
             this.agrbtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.agrbtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.agrbtton.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.agrbtton.Location = new System.Drawing.Point(784, 172);
+            this.agrbtton.Location = new System.Drawing.Point(805, 172);
             this.agrbtton.Name = "agrbtton";
             this.agrbtton.Size = new System.Drawing.Size(141, 59);
             this.agrbtton.TabIndex = 161;
@@ -333,7 +349,7 @@
             this.cenrobtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.cenrobtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cenrobtton.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cenrobtton.Location = new System.Drawing.Point(794, 100);
+            this.cenrobtton.Location = new System.Drawing.Point(805, 100);
             this.cenrobtton.Name = "cenrobtton";
             this.cenrobtton.Size = new System.Drawing.Size(88, 37);
             this.cenrobtton.TabIndex = 162;
@@ -935,8 +951,8 @@
             // step27
             // 
             this.step27.BackColor = System.Drawing.Color.Transparent;
-            this.step27.Image = global::BinanKiosk.Properties.Resources.leftrow;
-            this.step27.Location = new System.Drawing.Point(766, 103);
+            this.step27.Image = global::BinanKiosk.Properties.Resources.uprow;
+            this.step27.Location = new System.Drawing.Point(765, 108);
             this.step27.Name = "step27";
             this.step27.Size = new System.Drawing.Size(15, 15);
             this.step27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -960,7 +976,7 @@
             // 
             this.step28.BackColor = System.Drawing.Color.Transparent;
             this.step28.Image = global::BinanKiosk.Properties.Resources.uprow;
-            this.step28.Location = new System.Drawing.Point(766, 139);
+            this.step28.Location = new System.Drawing.Point(765, 144);
             this.step28.Name = "step28";
             this.step28.Size = new System.Drawing.Size(15, 15);
             this.step28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -972,7 +988,7 @@
             // 
             this.step29.BackColor = System.Drawing.Color.Transparent;
             this.step29.Image = global::BinanKiosk.Properties.Resources.uprow;
-            this.step29.Location = new System.Drawing.Point(766, 175);
+            this.step29.Location = new System.Drawing.Point(765, 180);
             this.step29.Name = "step29";
             this.step29.Size = new System.Drawing.Size(15, 15);
             this.step29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1020,7 +1036,7 @@
             // 
             this.step26.BackColor = System.Drawing.Color.Transparent;
             this.step26.Image = global::BinanKiosk.Properties.Resources.leftrow;
-            this.step26.Location = new System.Drawing.Point(730, 103);
+            this.step26.Location = new System.Drawing.Point(729, 108);
             this.step26.Name = "step26";
             this.step26.Size = new System.Drawing.Size(15, 15);
             this.step26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1459,12 +1475,113 @@
             this.switch4.TabStop = false;
             this.switch4.Visible = false;
             // 
+            // step66
+            // 
+            this.step66.BackColor = System.Drawing.Color.Transparent;
+            this.step66.Image = global::BinanKiosk.Properties.Resources.uprow;
+            this.step66.Location = new System.Drawing.Point(469, 583);
+            this.step66.Name = "step66";
+            this.step66.Size = new System.Drawing.Size(15, 15);
+            this.step66.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.step66.TabIndex = 248;
+            this.step66.TabStop = false;
+            this.step66.Visible = false;
+            // 
+            // step67
+            // 
+            this.step67.BackColor = System.Drawing.Color.Transparent;
+            this.step67.Image = global::BinanKiosk.Properties.Resources.uprow;
+            this.step67.Location = new System.Drawing.Point(1018, 587);
+            this.step67.Name = "step67";
+            this.step67.Size = new System.Drawing.Size(15, 15);
+            this.step67.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.step67.TabIndex = 249;
+            this.step67.TabStop = false;
+            this.step67.Visible = false;
+            // 
+            // step68
+            // 
+            this.step68.BackColor = System.Drawing.Color.Transparent;
+            this.step68.Image = global::BinanKiosk.Properties.Resources.rightrow;
+            this.step68.Location = new System.Drawing.Point(788, 195);
+            this.step68.Name = "step68";
+            this.step68.Size = new System.Drawing.Size(15, 15);
+            this.step68.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.step68.TabIndex = 250;
+            this.step68.TabStop = false;
+            this.step68.Visible = false;
+            // 
+            // step69
+            // 
+            this.step69.BackColor = System.Drawing.Color.Transparent;
+            this.step69.Image = global::BinanKiosk.Properties.Resources.rightrow;
+            this.step69.Location = new System.Drawing.Point(790, 108);
+            this.step69.Name = "step69";
+            this.step69.Size = new System.Drawing.Size(15, 15);
+            this.step69.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.step69.TabIndex = 251;
+            this.step69.TabStop = false;
+            this.step69.Visible = false;
+            // 
+            // step70
+            // 
+            this.step70.BackColor = System.Drawing.Color.Transparent;
+            this.step70.Image = global::BinanKiosk.Properties.Resources.leftrow;
+            this.step70.Location = new System.Drawing.Point(474, 180);
+            this.step70.Name = "step70";
+            this.step70.Size = new System.Drawing.Size(15, 15);
+            this.step70.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.step70.TabIndex = 252;
+            this.step70.TabStop = false;
+            this.step70.Visible = false;
+            // 
+            // step72
+            // 
+            this.step72.BackColor = System.Drawing.Color.Transparent;
+            this.step72.Image = global::BinanKiosk.Properties.Resources.uprow;
+            this.step72.Location = new System.Drawing.Point(638, 194);
+            this.step72.Name = "step72";
+            this.step72.Size = new System.Drawing.Size(15, 15);
+            this.step72.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.step72.TabIndex = 253;
+            this.step72.TabStop = false;
+            this.step72.Visible = false;
+            // 
+            // step71
+            // 
+            this.step71.BackColor = System.Drawing.Color.Transparent;
+            this.step71.Image = global::BinanKiosk.Properties.Resources.rightrow;
+            this.step71.Location = new System.Drawing.Point(527, 195);
+            this.step71.Name = "step71";
+            this.step71.Size = new System.Drawing.Size(15, 15);
+            this.step71.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.step71.TabIndex = 254;
+            this.step71.TabStop = false;
+            this.step71.Visible = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::BinanKiosk.Properties.Resources.bgopacity;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 65);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(1366, 611);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 284;
+            this.pictureBox1.TabStop = false;
+            // 
             // GroundFloor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1366, 768);
+            this.Controls.Add(this.step71);
+            this.Controls.Add(this.step72);
+            this.Controls.Add(this.step70);
+            this.Controls.Add(this.step69);
+            this.Controls.Add(this.step68);
+            this.Controls.Add(this.step67);
+            this.Controls.Add(this.step66);
             this.Controls.Add(this.switch4);
             this.Controls.Add(this.switch1);
             this.Controls.Add(this.lbldate);
@@ -1560,6 +1677,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.Map);
             this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "GroundFloor";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -1638,6 +1756,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.switch1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.switch4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.step66)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.step67)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.step68)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.step69)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.step70)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.step72)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.step71)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1740,6 +1866,14 @@
         private System.Windows.Forms.Timer timestamp;
         private System.Windows.Forms.PictureBox switch1;
         private System.Windows.Forms.PictureBox switch4;
+        private System.Windows.Forms.PictureBox step66;
+        private System.Windows.Forms.PictureBox step67;
+        private System.Windows.Forms.PictureBox step68;
+        private System.Windows.Forms.PictureBox step69;
+        private System.Windows.Forms.PictureBox step70;
+        private System.Windows.Forms.PictureBox step72;
+        private System.Windows.Forms.PictureBox step71;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

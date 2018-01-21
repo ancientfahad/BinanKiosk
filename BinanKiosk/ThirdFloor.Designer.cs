@@ -93,6 +93,16 @@
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.grid54 = new System.Windows.Forms.PictureBox();
+            this.grid52 = new System.Windows.Forms.PictureBox();
+            this.grid53 = new System.Windows.Forms.PictureBox();
+            this.grid51 = new System.Windows.Forms.PictureBox();
+            this.grid48 = new System.Windows.Forms.PictureBox();
+            this.switch1 = new System.Windows.Forms.PictureBox();
+            this.grid49 = new System.Windows.Forms.PictureBox();
+            this.grid50 = new System.Windows.Forms.PictureBox();
+            this.switch2 = new System.Windows.Forms.PictureBox();
+            this.grid55 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.grid47)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grid46)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grid45)).BeginInit();
@@ -145,6 +155,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid54)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid52)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid53)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid51)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid48)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.switch1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid49)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid50)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.switch2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid55)).BeginInit();
             this.SuspendLayout();
             // 
             // lblFloorName
@@ -170,9 +190,9 @@
             this.Genbtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.Genbtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Genbtton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Genbtton.Location = new System.Drawing.Point(455, 223);
+            this.Genbtton.Location = new System.Drawing.Point(453, 246);
             this.Genbtton.Name = "Genbtton";
-            this.Genbtton.Size = new System.Drawing.Size(89, 100);
+            this.Genbtton.Size = new System.Drawing.Size(87, 87);
             this.Genbtton.TabIndex = 15;
             this.Genbtton.Text = "General Services Office";
             this.Genbtton.UseVisualStyleBackColor = false;
@@ -190,7 +210,7 @@
             this.tourbtton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tourbtton.Location = new System.Drawing.Point(447, 336);
             this.tourbtton.Name = "tourbtton";
-            this.tourbtton.Size = new System.Drawing.Size(97, 55);
+            this.tourbtton.Size = new System.Drawing.Size(97, 53);
             this.tourbtton.TabIndex = 183;
             this.tourbtton.Text = "Cooperative and Tourism Office ";
             this.tourbtton.UseVisualStyleBackColor = false;
@@ -206,9 +226,9 @@
             this.pesdbtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.pesdbtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.pesdbtton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pesdbtton.Location = new System.Drawing.Point(446, 460);
+            this.pesdbtton.Location = new System.Drawing.Point(446, 455);
             this.pesdbtton.Name = "pesdbtton";
-            this.pesdbtton.Size = new System.Drawing.Size(89, 51);
+            this.pesdbtton.Size = new System.Drawing.Size(89, 44);
             this.pesdbtton.TabIndex = 184;
             this.pesdbtton.Text = "PESD";
             this.pesdbtton.UseVisualStyleBackColor = false;
@@ -224,9 +244,9 @@
             this.hrmobtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.hrmobtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.hrmobtton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrmobtton.Location = new System.Drawing.Point(339, 460);
+            this.hrmobtton.Location = new System.Drawing.Point(339, 452);
             this.hrmobtton.Name = "hrmobtton";
-            this.hrmobtton.Size = new System.Drawing.Size(89, 51);
+            this.hrmobtton.Size = new System.Drawing.Size(89, 47);
             this.hrmobtton.TabIndex = 185;
             this.hrmobtton.Text = "HRMO";
             this.hrmobtton.UseVisualStyleBackColor = false;
@@ -242,9 +262,9 @@
             this.ctyadbtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.ctyadbtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ctyadbtton.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ctyadbtton.Location = new System.Drawing.Point(360, 533);
+            this.ctyadbtton.Location = new System.Drawing.Point(360, 537);
             this.ctyadbtton.Name = "ctyadbtton";
-            this.ctyadbtton.Size = new System.Drawing.Size(103, 51);
+            this.ctyadbtton.Size = new System.Drawing.Size(103, 45);
             this.ctyadbtton.TabIndex = 186;
             this.ctyadbtton.Text = "City Administrator Office";
             this.ctyadbtton.UseVisualStyleBackColor = false;
@@ -260,9 +280,9 @@
             this.budgetbtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.budgetbtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.budgetbtton.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.budgetbtton.Location = new System.Drawing.Point(464, 533);
+            this.budgetbtton.Location = new System.Drawing.Point(464, 552);
             this.budgetbtton.Name = "budgetbtton";
-            this.budgetbtton.Size = new System.Drawing.Size(80, 60);
+            this.budgetbtton.Size = new System.Drawing.Size(80, 41);
             this.budgetbtton.TabIndex = 187;
             this.budgetbtton.Text = "Budget Office";
             this.budgetbtton.UseVisualStyleBackColor = false;
@@ -314,7 +334,7 @@
             this.ctyplanbtton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ctyplanbtton.Location = new System.Drawing.Point(893, 456);
             this.ctyplanbtton.Name = "ctyplanbtton";
-            this.ctyplanbtton.Size = new System.Drawing.Size(134, 48);
+            this.ctyplanbtton.Size = new System.Drawing.Size(134, 34);
             this.ctyplanbtton.TabIndex = 190;
             this.ctyplanbtton.Text = "City Planning";
             this.ctyplanbtton.UseVisualStyleBackColor = false;
@@ -330,9 +350,9 @@
             this.conf2btton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.conf2btton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.conf2btton.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.conf2btton.Location = new System.Drawing.Point(811, 458);
+            this.conf2btton.Location = new System.Drawing.Point(809, 461);
             this.conf2btton.Name = "conf2btton";
-            this.conf2btton.Size = new System.Drawing.Size(76, 48);
+            this.conf2btton.Size = new System.Drawing.Size(76, 28);
             this.conf2btton.TabIndex = 191;
             this.conf2btton.Text = "ICTO Department";
             this.conf2btton.UseVisualStyleBackColor = false;
@@ -418,9 +438,9 @@
             this.engbtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.engbtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.engbtton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.engbtton.Location = new System.Drawing.Point(811, 531);
+            this.engbtton.Location = new System.Drawing.Point(811, 546);
             this.engbtton.Name = "engbtton";
-            this.engbtton.Size = new System.Drawing.Size(145, 60);
+            this.engbtton.Size = new System.Drawing.Size(145, 51);
             this.engbtton.TabIndex = 196;
             this.engbtton.Text = "City Engineering Office";
             this.engbtton.UseVisualStyleBackColor = false;
@@ -1253,12 +1273,142 @@
             this.pictureBox4.TabIndex = 241;
             this.pictureBox4.TabStop = false;
             // 
+            // grid54
+            // 
+            this.grid54.BackColor = System.Drawing.Color.Transparent;
+            this.grid54.Image = global::BinanKiosk.Properties.Resources.uprow;
+            this.grid54.Location = new System.Drawing.Point(926, 489);
+            this.grid54.Name = "grid54";
+            this.grid54.Size = new System.Drawing.Size(15, 15);
+            this.grid54.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.grid54.TabIndex = 255;
+            this.grid54.TabStop = false;
+            this.grid54.Visible = false;
+            // 
+            // grid52
+            // 
+            this.grid52.BackColor = System.Drawing.Color.Transparent;
+            this.grid52.Image = global::BinanKiosk.Properties.Resources.uprow;
+            this.grid52.Location = new System.Drawing.Point(863, 489);
+            this.grid52.Name = "grid52";
+            this.grid52.Size = new System.Drawing.Size(15, 15);
+            this.grid52.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.grid52.TabIndex = 256;
+            this.grid52.TabStop = false;
+            this.grid52.Visible = false;
+            // 
+            // grid53
+            // 
+            this.grid53.BackColor = System.Drawing.Color.Transparent;
+            this.grid53.Image = global::BinanKiosk.Properties.Resources.downrow;
+            this.grid53.Location = new System.Drawing.Point(849, 531);
+            this.grid53.Name = "grid53";
+            this.grid53.Size = new System.Drawing.Size(15, 15);
+            this.grid53.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.grid53.TabIndex = 257;
+            this.grid53.TabStop = false;
+            this.grid53.Visible = false;
+            // 
+            // grid51
+            // 
+            this.grid51.BackColor = System.Drawing.Color.Transparent;
+            this.grid51.Image = global::BinanKiosk.Properties.Resources.downrow;
+            this.grid51.Location = new System.Drawing.Point(663, 489);
+            this.grid51.Name = "grid51";
+            this.grid51.Size = new System.Drawing.Size(15, 15);
+            this.grid51.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.grid51.TabIndex = 258;
+            this.grid51.TabStop = false;
+            this.grid51.Visible = false;
+            // 
+            // grid48
+            // 
+            this.grid48.BackColor = System.Drawing.Color.Transparent;
+            this.grid48.Image = global::BinanKiosk.Properties.Resources.leftrow;
+            this.grid48.Location = new System.Drawing.Point(527, 225);
+            this.grid48.Name = "grid48";
+            this.grid48.Size = new System.Drawing.Size(15, 15);
+            this.grid48.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.grid48.TabIndex = 259;
+            this.grid48.TabStop = false;
+            this.grid48.Visible = false;
+            // 
+            // switch1
+            // 
+            this.switch1.BackColor = System.Drawing.Color.Transparent;
+            this.switch1.Image = global::BinanKiosk.Properties.Resources.leftrow;
+            this.switch1.Location = new System.Drawing.Point(553, 356);
+            this.switch1.Name = "switch1";
+            this.switch1.Size = new System.Drawing.Size(15, 15);
+            this.switch1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.switch1.TabIndex = 260;
+            this.switch1.TabStop = false;
+            this.switch1.Visible = false;
+            // 
+            // grid49
+            // 
+            this.grid49.BackColor = System.Drawing.Color.Transparent;
+            this.grid49.Image = global::BinanKiosk.Properties.Resources.uprow;
+            this.grid49.Location = new System.Drawing.Point(505, 501);
+            this.grid49.Name = "grid49";
+            this.grid49.Size = new System.Drawing.Size(15, 15);
+            this.grid49.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.grid49.TabIndex = 261;
+            this.grid49.TabStop = false;
+            this.grid49.Visible = false;
+            // 
+            // grid50
+            // 
+            this.grid50.BackColor = System.Drawing.Color.Transparent;
+            this.grid50.Image = global::BinanKiosk.Properties.Resources.uprow;
+            this.grid50.Location = new System.Drawing.Point(376, 500);
+            this.grid50.Name = "grid50";
+            this.grid50.Size = new System.Drawing.Size(15, 15);
+            this.grid50.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.grid50.TabIndex = 262;
+            this.grid50.TabStop = false;
+            this.grid50.Visible = false;
+            // 
+            // switch2
+            // 
+            this.switch2.BackColor = System.Drawing.Color.Transparent;
+            this.switch2.Image = global::BinanKiosk.Properties.Resources.downrow;
+            this.switch2.Location = new System.Drawing.Point(417, 519);
+            this.switch2.Name = "switch2";
+            this.switch2.Size = new System.Drawing.Size(15, 15);
+            this.switch2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.switch2.TabIndex = 263;
+            this.switch2.TabStop = false;
+            this.switch2.Visible = false;
+            // 
+            // grid55
+            // 
+            this.grid55.BackColor = System.Drawing.Color.Transparent;
+            this.grid55.Image = global::BinanKiosk.Properties.Resources.downrow;
+            this.grid55.Location = new System.Drawing.Point(495, 536);
+            this.grid55.Name = "grid55";
+            this.grid55.Size = new System.Drawing.Size(15, 15);
+            this.grid55.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.grid55.TabIndex = 264;
+            this.grid55.TabStop = false;
+            this.grid55.Visible = false;
+            // 
             // ThirdFloor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1366, 768);
+            this.Controls.Add(this.grid55);
+            this.Controls.Add(this.switch2);
+            this.Controls.Add(this.grid50);
+            this.Controls.Add(this.grid49);
+            this.Controls.Add(this.switch1);
+            this.Controls.Add(this.grid48);
+            this.Controls.Add(this.grid51);
+            this.Controls.Add(this.grid53);
+            this.Controls.Add(this.grid52);
+            this.Controls.Add(this.grid54);
             this.Controls.Add(this.lbldate);
             this.Controls.Add(this.lbltime);
             this.Controls.Add(this.btnHelp);
@@ -1396,6 +1546,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid54)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid52)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid53)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid51)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid48)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.switch1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid49)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid50)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.switch2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid55)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1484,6 +1644,16 @@
         private System.ComponentModel.IContainer components;
         private System.Windows.Forms.Label lbldate;
         private System.Windows.Forms.Label lbltime;
+        private System.Windows.Forms.PictureBox grid54;
+        private System.Windows.Forms.PictureBox grid52;
+        private System.Windows.Forms.PictureBox grid53;
+        private System.Windows.Forms.PictureBox grid51;
+        private System.Windows.Forms.PictureBox grid48;
+        private System.Windows.Forms.PictureBox switch1;
+        private System.Windows.Forms.PictureBox grid49;
+        private System.Windows.Forms.PictureBox grid50;
+        private System.Windows.Forms.PictureBox switch2;
+        private System.Windows.Forms.PictureBox grid55;
     }
 }
 

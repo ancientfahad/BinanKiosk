@@ -40,8 +40,8 @@
             this.grid55 = new System.Windows.Forms.PictureBox();
             this.grid54 = new System.Windows.Forms.PictureBox();
             this.grid53 = new System.Windows.Forms.PictureBox();
-            this.pictureBox23 = new System.Windows.Forms.PictureBox();
-            this.pictureBox24 = new System.Windows.Forms.PictureBox();
+            this.grid73 = new System.Windows.Forms.PictureBox();
+            this.grid74 = new System.Windows.Forms.PictureBox();
             this.grid42 = new System.Windows.Forms.PictureBox();
             this.grid43 = new System.Windows.Forms.PictureBox();
             this.grid67 = new System.Windows.Forms.PictureBox();
@@ -120,6 +120,14 @@
             this.timestamp = new System.Windows.Forms.Timer(this.components);
             this.lbldate = new System.Windows.Forms.Label();
             this.lbltime = new System.Windows.Forms.Label();
+            this.grid82 = new System.Windows.Forms.PictureBox();
+            this.grid75 = new System.Windows.Forms.PictureBox();
+            this.grid76 = new System.Windows.Forms.PictureBox();
+            this.grid77 = new System.Windows.Forms.PictureBox();
+            this.grid78 = new System.Windows.Forms.PictureBox();
+            this.grid79 = new System.Windows.Forms.PictureBox();
+            this.grid80 = new System.Windows.Forms.PictureBox();
+            this.grid81 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.grid71)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grid70)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grid68)).BeginInit();
@@ -128,8 +136,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.grid55)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grid54)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grid53)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid73)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid74)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grid42)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grid43)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grid67)).BeginInit();
@@ -196,6 +204,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid82)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid75)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid76)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid77)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid78)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid79)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid80)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid81)).BeginInit();
             this.SuspendLayout();
             // 
             // lblFloorName
@@ -221,9 +237,9 @@
             this.spbtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.spbtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.spbtton.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.spbtton.Location = new System.Drawing.Point(430, 332);
+            this.spbtton.Location = new System.Drawing.Point(426, 330);
             this.spbtton.Name = "spbtton";
-            this.spbtton.Size = new System.Drawing.Size(96, 86);
+            this.spbtton.Size = new System.Drawing.Size(83, 78);
             this.spbtton.TabIndex = 209;
             this.spbtton.Text = "SP Sec Office";
             this.spbtton.UseVisualStyleBackColor = false;
@@ -239,9 +255,9 @@
             this.counbtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.counbtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.counbtton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.counbtton.Location = new System.Drawing.Point(421, 284);
+            this.counbtton.Location = new System.Drawing.Point(418, 284);
             this.counbtton.Name = "counbtton";
-            this.counbtton.Size = new System.Drawing.Size(103, 45);
+            this.counbtton.Size = new System.Drawing.Size(94, 45);
             this.counbtton.TabIndex = 210;
             this.counbtton.Text = "Councilor 1";
             this.counbtton.UseVisualStyleBackColor = false;
@@ -257,9 +273,9 @@
             this.coun2btton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.coun2btton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.coun2btton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.coun2btton.Location = new System.Drawing.Point(421, 244);
+            this.coun2btton.Location = new System.Drawing.Point(418, 244);
             this.coun2btton.Name = "coun2btton";
-            this.coun2btton.Size = new System.Drawing.Size(103, 45);
+            this.coun2btton.Size = new System.Drawing.Size(94, 45);
             this.coun2btton.TabIndex = 211;
             this.coun2btton.Text = "Councilor 2";
             this.coun2btton.UseVisualStyleBackColor = false;
@@ -275,9 +291,9 @@
             this.coun3btton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.coun3btton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.coun3btton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.coun3btton.Location = new System.Drawing.Point(421, 208);
+            this.coun3btton.Location = new System.Drawing.Point(418, 208);
             this.coun3btton.Name = "coun3btton";
-            this.coun3btton.Size = new System.Drawing.Size(103, 45);
+            this.coun3btton.Size = new System.Drawing.Size(94, 45);
             this.coun3btton.TabIndex = 212;
             this.coun3btton.Text = "Councilor 3";
             this.coun3btton.UseVisualStyleBackColor = false;
@@ -293,7 +309,7 @@
             this.vmsbtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.vmsbtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.vmsbtton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.vmsbtton.Location = new System.Drawing.Point(440, 151);
+            this.vmsbtton.Location = new System.Drawing.Point(440, 134);
             this.vmsbtton.Name = "vmsbtton";
             this.vmsbtton.Size = new System.Drawing.Size(102, 51);
             this.vmsbtton.TabIndex = 213;
@@ -311,7 +327,7 @@
             this.dilgbtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.dilgbtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.dilgbtton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dilgbtton.Location = new System.Drawing.Point(454, 507);
+            this.dilgbtton.Location = new System.Drawing.Point(454, 499);
             this.dilgbtton.Name = "dilgbtton";
             this.dilgbtton.Size = new System.Drawing.Size(70, 45);
             this.dilgbtton.TabIndex = 214;
@@ -347,7 +363,7 @@
             this.accbtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.accbtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.accbtton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.accbtton.Location = new System.Drawing.Point(378, 593);
+            this.accbtton.Location = new System.Drawing.Point(378, 604);
             this.accbtton.Name = "accbtton";
             this.accbtton.Size = new System.Drawing.Size(133, 45);
             this.accbtton.TabIndex = 216;
@@ -383,9 +399,9 @@
             this.coun4btton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.coun4btton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.coun4btton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.coun4btton.Location = new System.Drawing.Point(822, 373);
+            this.coun4btton.Location = new System.Drawing.Point(838, 371);
             this.coun4btton.Name = "coun4btton";
-            this.coun4btton.Size = new System.Drawing.Size(108, 45);
+            this.coun4btton.Size = new System.Drawing.Size(92, 45);
             this.coun4btton.TabIndex = 218;
             this.coun4btton.Text = "Councilor 4";
             this.coun4btton.UseVisualStyleBackColor = false;
@@ -401,9 +417,9 @@
             this.coun5btton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.coun5btton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.coun5btton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.coun5btton.Location = new System.Drawing.Point(822, 328);
+            this.coun5btton.Location = new System.Drawing.Point(837, 323);
             this.coun5btton.Name = "coun5btton";
-            this.coun5btton.Size = new System.Drawing.Size(108, 45);
+            this.coun5btton.Size = new System.Drawing.Size(93, 45);
             this.coun5btton.TabIndex = 219;
             this.coun5btton.Text = "Councilor 5";
             this.coun5btton.UseVisualStyleBackColor = false;
@@ -419,9 +435,9 @@
             this.coun6btton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.coun6btton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.coun6btton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.coun6btton.Location = new System.Drawing.Point(822, 277);
+            this.coun6btton.Location = new System.Drawing.Point(837, 277);
             this.coun6btton.Name = "coun6btton";
-            this.coun6btton.Size = new System.Drawing.Size(108, 45);
+            this.coun6btton.Size = new System.Drawing.Size(93, 45);
             this.coun6btton.TabIndex = 220;
             this.coun6btton.Text = "Councilor 6";
             this.coun6btton.UseVisualStyleBackColor = false;
@@ -437,9 +453,9 @@
             this.coun7btton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.coun7btton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.coun7btton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.coun7btton.Location = new System.Drawing.Point(822, 233);
+            this.coun7btton.Location = new System.Drawing.Point(837, 233);
             this.coun7btton.Name = "coun7btton";
-            this.coun7btton.Size = new System.Drawing.Size(108, 45);
+            this.coun7btton.Size = new System.Drawing.Size(93, 45);
             this.coun7btton.TabIndex = 221;
             this.coun7btton.Text = "Councilor 7";
             this.coun7btton.UseVisualStyleBackColor = false;
@@ -455,9 +471,9 @@
             this.coun8btton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.coun8btton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.coun8btton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.coun8btton.Location = new System.Drawing.Point(822, 166);
+            this.coun8btton.Location = new System.Drawing.Point(835, 167);
             this.coun8btton.Name = "coun8btton";
-            this.coun8btton.Size = new System.Drawing.Size(108, 36);
+            this.coun8btton.Size = new System.Drawing.Size(95, 36);
             this.coun8btton.TabIndex = 222;
             this.coun8btton.Text = "Councilor 8";
             this.coun8btton.UseVisualStyleBackColor = false;
@@ -473,9 +489,9 @@
             this.coun9btton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.coun9btton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.coun9btton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.coun9btton.Location = new System.Drawing.Point(822, 130);
+            this.coun9btton.Location = new System.Drawing.Point(834, 130);
             this.coun9btton.Name = "coun9btton";
-            this.coun9btton.Size = new System.Drawing.Size(108, 36);
+            this.coun9btton.Size = new System.Drawing.Size(96, 36);
             this.coun9btton.TabIndex = 223;
             this.coun9btton.Text = "Councilor 9";
             this.coun9btton.UseVisualStyleBackColor = false;
@@ -491,9 +507,9 @@
             this.coun10btton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.coun10btton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.coun10btton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.coun10btton.Location = new System.Drawing.Point(822, 94);
+            this.coun10btton.Location = new System.Drawing.Point(834, 96);
             this.coun10btton.Name = "coun10btton";
-            this.coun10btton.Size = new System.Drawing.Size(108, 36);
+            this.coun10btton.Size = new System.Drawing.Size(96, 34);
             this.coun10btton.TabIndex = 224;
             this.coun10btton.Text = "Councilor 10";
             this.coun10btton.UseVisualStyleBackColor = false;
@@ -509,7 +525,7 @@
             this.legalbtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.legalbtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.legalbtton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.legalbtton.Location = new System.Drawing.Point(827, 511);
+            this.legalbtton.Location = new System.Drawing.Point(827, 504);
             this.legalbtton.Name = "legalbtton";
             this.legalbtton.Size = new System.Drawing.Size(98, 36);
             this.legalbtton.TabIndex = 225;
@@ -527,9 +543,9 @@
             this.infobtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.infobtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.infobtton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.infobtton.Location = new System.Drawing.Point(942, 500);
+            this.infobtton.Location = new System.Drawing.Point(937, 505);
             this.infobtton.Name = "infobtton";
-            this.infobtton.Size = new System.Drawing.Size(121, 50);
+            this.infobtton.Size = new System.Drawing.Size(130, 31);
             this.infobtton.TabIndex = 226;
             this.infobtton.Text = "Information Office";
             this.infobtton.UseVisualStyleBackColor = false;
@@ -545,7 +561,7 @@
             this.confbtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.confbtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.confbtton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.confbtton.Location = new System.Drawing.Point(822, 593);
+            this.confbtton.Location = new System.Drawing.Point(822, 597);
             this.confbtton.Name = "confbtton";
             this.confbtton.Size = new System.Drawing.Size(98, 53);
             this.confbtton.TabIndex = 227;
@@ -563,9 +579,9 @@
             this.btfbtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btfbtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btfbtton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btfbtton.Location = new System.Drawing.Point(930, 583);
+            this.btfbtton.Location = new System.Drawing.Point(930, 604);
             this.btfbtton.Name = "btfbtton";
-            this.btfbtton.Size = new System.Drawing.Size(62, 64);
+            this.btfbtton.Size = new System.Drawing.Size(62, 43);
             this.btfbtton.TabIndex = 228;
             this.btfbtton.Text = "BTFRB";
             this.btfbtton.UseVisualStyleBackColor = false;
@@ -638,8 +654,8 @@
             // grid56
             // 
             this.grid56.BackColor = System.Drawing.Color.Transparent;
-            this.grid56.Image = ((System.Drawing.Image)(resources.GetObject("grid56.Image")));
-            this.grid56.Location = new System.Drawing.Point(1032, 610);
+            this.grid56.Image = global::BinanKiosk.Properties.Resources.uprow;
+            this.grid56.Location = new System.Drawing.Point(865, 541);
             this.grid56.Name = "grid56";
             this.grid56.Size = new System.Drawing.Size(15, 15);
             this.grid56.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -650,8 +666,8 @@
             // grid55
             // 
             this.grid55.BackColor = System.Drawing.Color.Transparent;
-            this.grid55.Image = ((System.Drawing.Image)(resources.GetObject("grid55.Image")));
-            this.grid55.Location = new System.Drawing.Point(1032, 584);
+            this.grid55.Image = global::BinanKiosk.Properties.Resources.uprow;
+            this.grid55.Location = new System.Drawing.Point(1032, 538);
             this.grid55.Name = "grid55";
             this.grid55.Size = new System.Drawing.Size(15, 15);
             this.grid55.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -683,29 +699,29 @@
             this.grid53.TabStop = false;
             this.grid53.Visible = false;
             // 
-            // pictureBox23
+            // grid73
             // 
-            this.pictureBox23.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox23.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox23.Image")));
-            this.pictureBox23.Location = new System.Drawing.Point(581, 615);
-            this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(15, 15);
-            this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox23.TabIndex = 200;
-            this.pictureBox23.TabStop = false;
-            this.pictureBox23.Visible = false;
+            this.grid73.BackColor = System.Drawing.Color.Transparent;
+            this.grid73.Image = global::BinanKiosk.Properties.Resources.uprow;
+            this.grid73.Location = new System.Drawing.Point(342, 553);
+            this.grid73.Name = "grid73";
+            this.grid73.Size = new System.Drawing.Size(15, 15);
+            this.grid73.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.grid73.TabIndex = 200;
+            this.grid73.TabStop = false;
+            this.grid73.Visible = false;
             // 
-            // pictureBox24
+            // grid74
             // 
-            this.pictureBox24.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox24.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox24.Image")));
-            this.pictureBox24.Location = new System.Drawing.Point(617, 615);
-            this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(15, 15);
-            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox24.TabIndex = 199;
-            this.pictureBox24.TabStop = false;
-            this.pictureBox24.Visible = false;
+            this.grid74.BackColor = System.Drawing.Color.Transparent;
+            this.grid74.Image = global::BinanKiosk.Properties.Resources.uprow;
+            this.grid74.Location = new System.Drawing.Point(489, 550);
+            this.grid74.Name = "grid74";
+            this.grid74.Size = new System.Drawing.Size(15, 15);
+            this.grid74.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.grid74.TabIndex = 199;
+            this.grid74.TabStop = false;
+            this.grid74.Visible = false;
             // 
             // grid42
             // 
@@ -734,8 +750,8 @@
             // grid67
             // 
             this.grid67.BackColor = System.Drawing.Color.Transparent;
-            this.grid67.Image = ((System.Drawing.Image)(resources.GetObject("grid67.Image")));
-            this.grid67.Location = new System.Drawing.Point(331, 631);
+            this.grid67.Image = global::BinanKiosk.Properties.Resources.rightrow;
+            this.grid67.Location = new System.Drawing.Point(819, 187);
             this.grid67.Name = "grid67";
             this.grid67.Size = new System.Drawing.Size(15, 15);
             this.grid67.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -746,8 +762,8 @@
             // grid66
             // 
             this.grid66.BackColor = System.Drawing.Color.Transparent;
-            this.grid66.Image = ((System.Drawing.Image)(resources.GetObject("grid66.Image")));
-            this.grid66.Location = new System.Drawing.Point(352, 631);
+            this.grid66.Image = global::BinanKiosk.Properties.Resources.rightrow;
+            this.grid66.Location = new System.Drawing.Point(818, 100);
             this.grid66.Name = "grid66";
             this.grid66.Size = new System.Drawing.Size(15, 15);
             this.grid66.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -758,8 +774,8 @@
             // grid65
             // 
             this.grid65.BackColor = System.Drawing.Color.Transparent;
-            this.grid65.Image = ((System.Drawing.Image)(resources.GetObject("grid65.Image")));
-            this.grid65.Location = new System.Drawing.Point(352, 610);
+            this.grid65.Image = global::BinanKiosk.Properties.Resources.rightrow;
+            this.grid65.Location = new System.Drawing.Point(819, 151);
             this.grid65.Name = "grid65";
             this.grid65.Size = new System.Drawing.Size(15, 15);
             this.grid65.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -770,8 +786,8 @@
             // grid64
             // 
             this.grid64.BackColor = System.Drawing.Color.Transparent;
-            this.grid64.Image = ((System.Drawing.Image)(resources.GetObject("grid64.Image")));
-            this.grid64.Location = new System.Drawing.Point(352, 589);
+            this.grid64.Image = global::BinanKiosk.Properties.Resources.rightrow;
+            this.grid64.Location = new System.Drawing.Point(822, 395);
             this.grid64.Name = "grid64";
             this.grid64.Size = new System.Drawing.Size(15, 15);
             this.grid64.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -950,7 +966,7 @@
             // grid28
             // 
             this.grid28.BackColor = System.Drawing.Color.Transparent;
-            this.grid28.Image = ((System.Drawing.Image)(resources.GetObject("grid28.Image")));
+            this.grid28.Image = global::BinanKiosk.Properties.Resources.rightrow;
             this.grid28.Location = new System.Drawing.Point(896, 215);
             this.grid28.Name = "grid28";
             this.grid28.Size = new System.Drawing.Size(15, 15);
@@ -962,7 +978,7 @@
             // grid27
             // 
             this.grid27.BackColor = System.Drawing.Color.Transparent;
-            this.grid27.Image = ((System.Drawing.Image)(resources.GetObject("grid27.Image")));
+            this.grid27.Image = global::BinanKiosk.Properties.Resources.rightrow;
             this.grid27.Location = new System.Drawing.Point(865, 215);
             this.grid27.Name = "grid27";
             this.grid27.Size = new System.Drawing.Size(15, 15);
@@ -974,7 +990,7 @@
             // grid26
             // 
             this.grid26.BackColor = System.Drawing.Color.Transparent;
-            this.grid26.Image = ((System.Drawing.Image)(resources.GetObject("grid26.Image")));
+            this.grid26.Image = global::BinanKiosk.Properties.Resources.rightrow;
             this.grid26.Location = new System.Drawing.Point(834, 215);
             this.grid26.Name = "grid26";
             this.grid26.Size = new System.Drawing.Size(15, 15);
@@ -987,7 +1003,7 @@
             // 
             this.grid5.BackColor = System.Drawing.Color.Transparent;
             this.grid5.Image = global::BinanKiosk.Properties.Resources.downrow;
-            this.grid5.Location = new System.Drawing.Point(545, 543);
+            this.grid5.Location = new System.Drawing.Point(540, 541);
             this.grid5.Name = "grid5";
             this.grid5.Size = new System.Drawing.Size(15, 15);
             this.grid5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -999,7 +1015,7 @@
             // 
             this.grid4.BackColor = System.Drawing.Color.Transparent;
             this.grid4.Image = global::BinanKiosk.Properties.Resources.downrow;
-            this.grid4.Location = new System.Drawing.Point(544, 571);
+            this.grid4.Location = new System.Drawing.Point(539, 571);
             this.grid4.Name = "grid4";
             this.grid4.Size = new System.Drawing.Size(15, 15);
             this.grid4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1010,8 +1026,8 @@
             // grid3
             // 
             this.grid3.BackColor = System.Drawing.Color.Transparent;
-            this.grid3.Image = ((System.Drawing.Image)(resources.GetObject("grid3.Image")));
-            this.grid3.Location = new System.Drawing.Point(545, 615);
+            this.grid3.Image = global::BinanKiosk.Properties.Resources.rightrow;
+            this.grid3.Location = new System.Drawing.Point(822, 255);
             this.grid3.Name = "grid3";
             this.grid3.Size = new System.Drawing.Size(15, 15);
             this.grid3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1022,8 +1038,8 @@
             // grid41
             // 
             this.grid41.BackColor = System.Drawing.Color.Transparent;
-            this.grid41.Image = ((System.Drawing.Image)(resources.GetObject("grid41.Image")));
-            this.grid41.Location = new System.Drawing.Point(726, 615);
+            this.grid41.Image = global::BinanKiosk.Properties.Resources.uprow;
+            this.grid41.Location = new System.Drawing.Point(681, 187);
             this.grid41.Name = "grid41";
             this.grid41.Size = new System.Drawing.Size(15, 15);
             this.grid41.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1034,8 +1050,8 @@
             // grid40
             // 
             this.grid40.BackColor = System.Drawing.Color.Transparent;
-            this.grid40.Image = ((System.Drawing.Image)(resources.GetObject("grid40.Image")));
-            this.grid40.Location = new System.Drawing.Point(762, 615);
+            this.grid40.Image = global::BinanKiosk.Properties.Resources.rightrow;
+            this.grid40.Location = new System.Drawing.Point(822, 302);
             this.grid40.Name = "grid40";
             this.grid40.Size = new System.Drawing.Size(15, 15);
             this.grid40.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1047,7 +1063,7 @@
             // 
             this.grid34.BackColor = System.Drawing.Color.Transparent;
             this.grid34.Image = global::BinanKiosk.Properties.Resources.uprow;
-            this.grid34.Location = new System.Drawing.Point(798, 431);
+            this.grid34.Location = new System.Drawing.Point(794, 431);
             this.grid34.Name = "grid34";
             this.grid34.Size = new System.Drawing.Size(15, 15);
             this.grid34.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1059,7 +1075,7 @@
             // 
             this.grid22.BackColor = System.Drawing.Color.Transparent;
             this.grid22.Image = global::BinanKiosk.Properties.Resources.uprow;
-            this.grid22.Location = new System.Drawing.Point(798, 101);
+            this.grid22.Location = new System.Drawing.Point(794, 101);
             this.grid22.Name = "grid22";
             this.grid22.Size = new System.Drawing.Size(15, 15);
             this.grid22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1071,7 +1087,7 @@
             // 
             this.grid35.BackColor = System.Drawing.Color.Transparent;
             this.grid35.Image = global::BinanKiosk.Properties.Resources.uprow;
-            this.grid35.Location = new System.Drawing.Point(798, 467);
+            this.grid35.Location = new System.Drawing.Point(794, 470);
             this.grid35.Name = "grid35";
             this.grid35.Size = new System.Drawing.Size(15, 15);
             this.grid35.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1083,7 +1099,7 @@
             // 
             this.grid23.BackColor = System.Drawing.Color.Transparent;
             this.grid23.Image = global::BinanKiosk.Properties.Resources.uprow;
-            this.grid23.Location = new System.Drawing.Point(798, 137);
+            this.grid23.Location = new System.Drawing.Point(794, 137);
             this.grid23.Name = "grid23";
             this.grid23.Size = new System.Drawing.Size(15, 15);
             this.grid23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1095,7 +1111,7 @@
             // 
             this.grid24.BackColor = System.Drawing.Color.Transparent;
             this.grid24.Image = global::BinanKiosk.Properties.Resources.uprow;
-            this.grid24.Location = new System.Drawing.Point(798, 182);
+            this.grid24.Location = new System.Drawing.Point(794, 174);
             this.grid24.Name = "grid24";
             this.grid24.Size = new System.Drawing.Size(15, 15);
             this.grid24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1107,7 +1123,7 @@
             // 
             this.grid36.BackColor = System.Drawing.Color.Transparent;
             this.grid36.Image = global::BinanKiosk.Properties.Resources.rightrow;
-            this.grid36.Location = new System.Drawing.Point(798, 507);
+            this.grid36.Location = new System.Drawing.Point(794, 507);
             this.grid36.Name = "grid36";
             this.grid36.Size = new System.Drawing.Size(15, 15);
             this.grid36.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1119,7 +1135,7 @@
             // 
             this.grid25.BackColor = System.Drawing.Color.Transparent;
             this.grid25.Image = global::BinanKiosk.Properties.Resources.uprow;
-            this.grid25.Location = new System.Drawing.Point(798, 215);
+            this.grid25.Location = new System.Drawing.Point(794, 215);
             this.grid25.Name = "grid25";
             this.grid25.Size = new System.Drawing.Size(15, 15);
             this.grid25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1131,7 +1147,7 @@
             // 
             this.grid29.BackColor = System.Drawing.Color.Transparent;
             this.grid29.Image = global::BinanKiosk.Properties.Resources.uprow;
-            this.grid29.Location = new System.Drawing.Point(798, 251);
+            this.grid29.Location = new System.Drawing.Point(794, 251);
             this.grid29.Name = "grid29";
             this.grid29.Size = new System.Drawing.Size(15, 15);
             this.grid29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1143,7 +1159,7 @@
             // 
             this.grid37.BackColor = System.Drawing.Color.Transparent;
             this.grid37.Image = global::BinanKiosk.Properties.Resources.downrow;
-            this.grid37.Location = new System.Drawing.Point(798, 536);
+            this.grid37.Location = new System.Drawing.Point(794, 536);
             this.grid37.Name = "grid37";
             this.grid37.Size = new System.Drawing.Size(15, 15);
             this.grid37.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1155,7 +1171,7 @@
             // 
             this.grid30.BackColor = System.Drawing.Color.Transparent;
             this.grid30.Image = global::BinanKiosk.Properties.Resources.uprow;
-            this.grid30.Location = new System.Drawing.Point(798, 287);
+            this.grid30.Location = new System.Drawing.Point(794, 287);
             this.grid30.Name = "grid30";
             this.grid30.Size = new System.Drawing.Size(15, 15);
             this.grid30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1166,8 +1182,8 @@
             // grid39
             // 
             this.grid39.BackColor = System.Drawing.Color.Transparent;
-            this.grid39.Image = ((System.Drawing.Image)(resources.GetObject("grid39.Image")));
-            this.grid39.Location = new System.Drawing.Point(798, 615);
+            this.grid39.Image = global::BinanKiosk.Properties.Resources.rightrow;
+            this.grid39.Location = new System.Drawing.Point(822, 353);
             this.grid39.Name = "grid39";
             this.grid39.Size = new System.Drawing.Size(15, 15);
             this.grid39.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1179,7 +1195,7 @@
             // 
             this.grid31.BackColor = System.Drawing.Color.Transparent;
             this.grid31.Image = global::BinanKiosk.Properties.Resources.uprow;
-            this.grid31.Location = new System.Drawing.Point(798, 323);
+            this.grid31.Location = new System.Drawing.Point(794, 323);
             this.grid31.Name = "grid31";
             this.grid31.Size = new System.Drawing.Size(15, 15);
             this.grid31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1191,7 +1207,7 @@
             // 
             this.grid38.BackColor = System.Drawing.Color.Transparent;
             this.grid38.Image = global::BinanKiosk.Properties.Resources.rightrow;
-            this.grid38.Location = new System.Drawing.Point(799, 563);
+            this.grid38.Location = new System.Drawing.Point(795, 563);
             this.grid38.Name = "grid38";
             this.grid38.Size = new System.Drawing.Size(15, 15);
             this.grid38.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1203,7 +1219,7 @@
             // 
             this.grid32.BackColor = System.Drawing.Color.Transparent;
             this.grid32.Image = global::BinanKiosk.Properties.Resources.uprow;
-            this.grid32.Location = new System.Drawing.Point(798, 359);
+            this.grid32.Location = new System.Drawing.Point(794, 359);
             this.grid32.Name = "grid32";
             this.grid32.Size = new System.Drawing.Size(15, 15);
             this.grid32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1215,7 +1231,7 @@
             // 
             this.grid33.BackColor = System.Drawing.Color.Transparent;
             this.grid33.Image = global::BinanKiosk.Properties.Resources.uprow;
-            this.grid33.Location = new System.Drawing.Point(798, 395);
+            this.grid33.Location = new System.Drawing.Point(794, 395);
             this.grid33.Name = "grid33";
             this.grid33.Size = new System.Drawing.Size(15, 15);
             this.grid33.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1226,8 +1242,8 @@
             // grid21
             // 
             this.grid21.BackColor = System.Drawing.Color.Transparent;
-            this.grid21.Image = ((System.Drawing.Image)(resources.GetObject("grid21.Image")));
-            this.grid21.Location = new System.Drawing.Point(771, 215);
+            this.grid21.Image = global::BinanKiosk.Properties.Resources.rightrow;
+            this.grid21.Location = new System.Drawing.Point(761, 215);
             this.grid21.Name = "grid21";
             this.grid21.Size = new System.Drawing.Size(15, 15);
             this.grid21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1238,8 +1254,8 @@
             // grid20
             // 
             this.grid20.BackColor = System.Drawing.Color.Transparent;
-            this.grid20.Image = ((System.Drawing.Image)(resources.GetObject("grid20.Image")));
-            this.grid20.Location = new System.Drawing.Point(740, 215);
+            this.grid20.Image = global::BinanKiosk.Properties.Resources.rightrow;
+            this.grid20.Location = new System.Drawing.Point(730, 215);
             this.grid20.Name = "grid20";
             this.grid20.Size = new System.Drawing.Size(15, 15);
             this.grid20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1250,8 +1266,8 @@
             // grid19
             // 
             this.grid19.BackColor = System.Drawing.Color.Transparent;
-            this.grid19.Image = ((System.Drawing.Image)(resources.GetObject("grid19.Image")));
-            this.grid19.Location = new System.Drawing.Point(709, 215);
+            this.grid19.Image = global::BinanKiosk.Properties.Resources.rightrow;
+            this.grid19.Location = new System.Drawing.Point(699, 215);
             this.grid19.Name = "grid19";
             this.grid19.Size = new System.Drawing.Size(15, 15);
             this.grid19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1263,7 +1279,7 @@
             // 
             this.grid18.BackColor = System.Drawing.Color.Transparent;
             this.grid18.Image = global::BinanKiosk.Properties.Resources.rightrow;
-            this.grid18.Location = new System.Drawing.Point(678, 215);
+            this.grid18.Location = new System.Drawing.Point(668, 215);
             this.grid18.Name = "grid18";
             this.grid18.Size = new System.Drawing.Size(15, 15);
             this.grid18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1275,7 +1291,7 @@
             // 
             this.grid17.BackColor = System.Drawing.Color.Transparent;
             this.grid17.Image = global::BinanKiosk.Properties.Resources.rightrow;
-            this.grid17.Location = new System.Drawing.Point(647, 215);
+            this.grid17.Location = new System.Drawing.Point(637, 215);
             this.grid17.Name = "grid17";
             this.grid17.Size = new System.Drawing.Size(15, 15);
             this.grid17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1287,7 +1303,7 @@
             // 
             this.grid16.BackColor = System.Drawing.Color.Transparent;
             this.grid16.Image = global::BinanKiosk.Properties.Resources.rightrow;
-            this.grid16.Location = new System.Drawing.Point(616, 215);
+            this.grid16.Location = new System.Drawing.Point(606, 215);
             this.grid16.Name = "grid16";
             this.grid16.Size = new System.Drawing.Size(15, 15);
             this.grid16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1299,7 +1315,7 @@
             // 
             this.grid15.BackColor = System.Drawing.Color.Transparent;
             this.grid15.Image = global::BinanKiosk.Properties.Resources.rightrow;
-            this.grid15.Location = new System.Drawing.Point(585, 215);
+            this.grid15.Location = new System.Drawing.Point(575, 215);
             this.grid15.Name = "grid15";
             this.grid15.Size = new System.Drawing.Size(15, 15);
             this.grid15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1311,7 +1327,7 @@
             // 
             this.grid14.BackColor = System.Drawing.Color.Transparent;
             this.grid14.Image = global::BinanKiosk.Properties.Resources.uprow;
-            this.grid14.Location = new System.Drawing.Point(545, 219);
+            this.grid14.Location = new System.Drawing.Point(540, 219);
             this.grid14.Name = "grid14";
             this.grid14.Size = new System.Drawing.Size(15, 15);
             this.grid14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1323,7 +1339,7 @@
             // 
             this.grid13.BackColor = System.Drawing.Color.Transparent;
             this.grid13.Image = global::BinanKiosk.Properties.Resources.uprow;
-            this.grid13.Location = new System.Drawing.Point(545, 255);
+            this.grid13.Location = new System.Drawing.Point(540, 255);
             this.grid13.Name = "grid13";
             this.grid13.Size = new System.Drawing.Size(15, 15);
             this.grid13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1335,7 +1351,7 @@
             // 
             this.grid12.BackColor = System.Drawing.Color.Transparent;
             this.grid12.Image = global::BinanKiosk.Properties.Resources.uprow;
-            this.grid12.Location = new System.Drawing.Point(545, 291);
+            this.grid12.Location = new System.Drawing.Point(540, 291);
             this.grid12.Name = "grid12";
             this.grid12.Size = new System.Drawing.Size(15, 15);
             this.grid12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1347,7 +1363,7 @@
             // 
             this.grid11.BackColor = System.Drawing.Color.Transparent;
             this.grid11.Image = global::BinanKiosk.Properties.Resources.uprow;
-            this.grid11.Location = new System.Drawing.Point(545, 327);
+            this.grid11.Location = new System.Drawing.Point(540, 327);
             this.grid11.Name = "grid11";
             this.grid11.Size = new System.Drawing.Size(15, 15);
             this.grid11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1359,7 +1375,7 @@
             // 
             this.grid10.BackColor = System.Drawing.Color.Transparent;
             this.grid10.Image = global::BinanKiosk.Properties.Resources.uprow;
-            this.grid10.Location = new System.Drawing.Point(545, 363);
+            this.grid10.Location = new System.Drawing.Point(540, 363);
             this.grid10.Name = "grid10";
             this.grid10.Size = new System.Drawing.Size(15, 15);
             this.grid10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1371,7 +1387,7 @@
             // 
             this.grid9.BackColor = System.Drawing.Color.Transparent;
             this.grid9.Image = global::BinanKiosk.Properties.Resources.uprow;
-            this.grid9.Location = new System.Drawing.Point(545, 399);
+            this.grid9.Location = new System.Drawing.Point(540, 399);
             this.grid9.Name = "grid9";
             this.grid9.Size = new System.Drawing.Size(15, 15);
             this.grid9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1383,7 +1399,7 @@
             // 
             this.grid8.BackColor = System.Drawing.Color.Transparent;
             this.grid8.Image = global::BinanKiosk.Properties.Resources.uprow;
-            this.grid8.Location = new System.Drawing.Point(545, 435);
+            this.grid8.Location = new System.Drawing.Point(540, 435);
             this.grid8.Name = "grid8";
             this.grid8.Size = new System.Drawing.Size(15, 15);
             this.grid8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1395,7 +1411,7 @@
             // 
             this.grid7.BackColor = System.Drawing.Color.Transparent;
             this.grid7.Image = global::BinanKiosk.Properties.Resources.uprow;
-            this.grid7.Location = new System.Drawing.Point(545, 471);
+            this.grid7.Location = new System.Drawing.Point(540, 471);
             this.grid7.Name = "grid7";
             this.grid7.Size = new System.Drawing.Size(15, 15);
             this.grid7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1407,7 +1423,7 @@
             // 
             this.grid6.BackColor = System.Drawing.Color.Transparent;
             this.grid6.Image = global::BinanKiosk.Properties.Resources.leftrow;
-            this.grid6.Location = new System.Drawing.Point(545, 507);
+            this.grid6.Location = new System.Drawing.Point(540, 507);
             this.grid6.Name = "grid6";
             this.grid6.Size = new System.Drawing.Size(15, 15);
             this.grid6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1691,12 +1707,116 @@
             this.lbltime.Text = ".";
             this.lbltime.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
+            // grid82
+            // 
+            this.grid82.BackColor = System.Drawing.Color.Transparent;
+            this.grid82.Image = global::BinanKiosk.Properties.Resources.downrow;
+            this.grid82.Location = new System.Drawing.Point(448, 588);
+            this.grid82.Name = "grid82";
+            this.grid82.Size = new System.Drawing.Size(15, 15);
+            this.grid82.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.grid82.TabIndex = 250;
+            this.grid82.TabStop = false;
+            this.grid82.Visible = false;
+            // 
+            // grid75
+            // 
+            this.grid75.BackColor = System.Drawing.Color.Transparent;
+            this.grid75.Image = global::BinanKiosk.Properties.Resources.downrow;
+            this.grid75.Location = new System.Drawing.Point(876, 583);
+            this.grid75.Name = "grid75";
+            this.grid75.Size = new System.Drawing.Size(15, 15);
+            this.grid75.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.grid75.TabIndex = 251;
+            this.grid75.TabStop = false;
+            this.grid75.Visible = false;
+            // 
+            // grid76
+            // 
+            this.grid76.BackColor = System.Drawing.Color.Transparent;
+            this.grid76.Image = global::BinanKiosk.Properties.Resources.downrow;
+            this.grid76.Location = new System.Drawing.Point(954, 586);
+            this.grid76.Name = "grid76";
+            this.grid76.Size = new System.Drawing.Size(15, 15);
+            this.grid76.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.grid76.TabIndex = 252;
+            this.grid76.TabStop = false;
+            this.grid76.Visible = false;
+            // 
+            // grid77
+            // 
+            this.grid77.BackColor = System.Drawing.Color.Transparent;
+            this.grid77.Image = global::BinanKiosk.Properties.Resources.leftrow;
+            this.grid77.Location = new System.Drawing.Point(512, 401);
+            this.grid77.Name = "grid77";
+            this.grid77.Size = new System.Drawing.Size(15, 15);
+            this.grid77.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.grid77.TabIndex = 253;
+            this.grid77.TabStop = false;
+            this.grid77.Visible = false;
+            // 
+            // grid78
+            // 
+            this.grid78.BackColor = System.Drawing.Color.Transparent;
+            this.grid78.Image = global::BinanKiosk.Properties.Resources.leftrow;
+            this.grid78.Location = new System.Drawing.Point(512, 307);
+            this.grid78.Name = "grid78";
+            this.grid78.Size = new System.Drawing.Size(15, 15);
+            this.grid78.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.grid78.TabIndex = 254;
+            this.grid78.TabStop = false;
+            this.grid78.Visible = false;
+            // 
+            // grid79
+            // 
+            this.grid79.BackColor = System.Drawing.Color.Transparent;
+            this.grid79.Image = global::BinanKiosk.Properties.Resources.leftrow;
+            this.grid79.Location = new System.Drawing.Point(512, 269);
+            this.grid79.Name = "grid79";
+            this.grid79.Size = new System.Drawing.Size(15, 15);
+            this.grid79.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.grid79.TabIndex = 255;
+            this.grid79.TabStop = false;
+            this.grid79.Visible = false;
+            // 
+            // grid80
+            // 
+            this.grid80.BackColor = System.Drawing.Color.Transparent;
+            this.grid80.Image = global::BinanKiosk.Properties.Resources.leftrow;
+            this.grid80.Location = new System.Drawing.Point(512, 228);
+            this.grid80.Name = "grid80";
+            this.grid80.Size = new System.Drawing.Size(15, 15);
+            this.grid80.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.grid80.TabIndex = 256;
+            this.grid80.TabStop = false;
+            this.grid80.Visible = false;
+            // 
+            // grid81
+            // 
+            this.grid81.BackColor = System.Drawing.Color.Transparent;
+            this.grid81.Image = global::BinanKiosk.Properties.Resources.uprow;
+            this.grid81.Location = new System.Drawing.Point(528, 191);
+            this.grid81.Name = "grid81";
+            this.grid81.Size = new System.Drawing.Size(15, 15);
+            this.grid81.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.grid81.TabIndex = 257;
+            this.grid81.TabStop = false;
+            this.grid81.Visible = false;
+            // 
             // SecondFloor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1366, 768);
+            this.Controls.Add(this.grid81);
+            this.Controls.Add(this.grid80);
+            this.Controls.Add(this.grid79);
+            this.Controls.Add(this.grid78);
+            this.Controls.Add(this.grid77);
+            this.Controls.Add(this.grid76);
+            this.Controls.Add(this.grid75);
+            this.Controls.Add(this.grid82);
             this.Controls.Add(this.lbldate);
             this.Controls.Add(this.lbltime);
             this.Controls.Add(this.btnHelp);
@@ -1732,8 +1852,8 @@
             this.Controls.Add(this.grid55);
             this.Controls.Add(this.grid54);
             this.Controls.Add(this.grid53);
-            this.Controls.Add(this.pictureBox23);
-            this.Controls.Add(this.pictureBox24);
+            this.Controls.Add(this.grid73);
+            this.Controls.Add(this.grid74);
             this.Controls.Add(this.grid42);
             this.Controls.Add(this.grid43);
             this.Controls.Add(this.grid67);
@@ -1819,8 +1939,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.grid55)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.grid54)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.grid53)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid73)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid74)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.grid42)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.grid43)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.grid67)).EndInit();
@@ -1887,6 +2007,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid82)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid75)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid76)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid77)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid78)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid79)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid80)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid81)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1908,8 +2036,8 @@
         private System.Windows.Forms.PictureBox grid55;
         private System.Windows.Forms.PictureBox grid54;
         private System.Windows.Forms.PictureBox grid53;
-        private System.Windows.Forms.PictureBox pictureBox23;
-        private System.Windows.Forms.PictureBox pictureBox24;
+        private System.Windows.Forms.PictureBox grid73;
+        private System.Windows.Forms.PictureBox grid74;
         private System.Windows.Forms.PictureBox grid42;
         private System.Windows.Forms.PictureBox grid43;
         private System.Windows.Forms.PictureBox grid67;
@@ -2003,6 +2131,14 @@
         private System.ComponentModel.IContainer components;
         private System.Windows.Forms.Label lbldate;
         private System.Windows.Forms.Label lbltime;
+        private System.Windows.Forms.PictureBox grid82;
+        private System.Windows.Forms.PictureBox grid75;
+        private System.Windows.Forms.PictureBox grid76;
+        private System.Windows.Forms.PictureBox grid77;
+        private System.Windows.Forms.PictureBox grid78;
+        private System.Windows.Forms.PictureBox grid79;
+        private System.Windows.Forms.PictureBox grid80;
+        private System.Windows.Forms.PictureBox grid81;
     }
 }
 

@@ -36,7 +36,7 @@ namespace BinanKiosk
                 grid41, grid42, grid43,  grid46, grid47, grid48, grid49, grid50,
                 grid51, grid52, grid53, grid54, grid55, grid56, grid57, grid58, grid59, grid60,
                 grid61, grid62, grid63, grid64, grid65, grid66, grid67, grid68, grid69, grid70,
-                grid71, grid72};
+                grid71, grid72,grid73,grid74,grid75,grid76,grid77,grid78,grid79,grid80,grid81,grid82};
 
             for (int i = 0; i < pictureArrayF2.Length; i++)
             {
@@ -88,7 +88,8 @@ namespace BinanKiosk
                 grid31, grid32, grid33, grid34, grid35, grid36, grid37, grid38, grid39, grid40,
                 grid41, grid42, grid43, grid46, grid47, grid48, grid49, grid50,
                 grid51, grid52, grid53, grid54, grid55, grid56, grid57, grid58, grid59, grid60,
-                grid61, grid62, grid63, grid64, grid65, grid66, grid67, grid68, grid69, grid70};
+                grid61, grid62, grid63, grid64, grid65, grid66, grid67, grid68, grid69, grid70, grid71,
+                grid72,grid73,grid74,grid75,grid76,grid77,grid78,grid79,grid80,grid81,grid82};
              
             for (int i = 0; i < pictureArray.Length; i++)
             {
@@ -130,7 +131,7 @@ namespace BinanKiosk
 
             int ctr = 0;
 
-            PictureBox[] path1 = { grid71, grid68, grid2, grid6, grid7, grid8, grid9};
+            PictureBox[] path1 = { grid71, grid68, grid2, grid6, grid7, grid8, grid9,grid77};
 
             for (int i = 0; i < path1.Length; i++)
             {
@@ -175,7 +176,7 @@ namespace BinanKiosk
 
             int ctr = 0;
 
-            PictureBox[] path2 = { grid71, grid68, grid2, grid6, grid7, grid8, grid9, grid10, grid11, grid12 };
+            PictureBox[] path2 = { grid71, grid68, grid2, grid6, grid7, grid8, grid9, grid10, grid11, grid78 };
 
             for (int i = 0; i < path2.Length; i++)
             {
@@ -220,7 +221,7 @@ namespace BinanKiosk
 
             int ctr = 0;
 
-            PictureBox[] path1 = { grid71, grid68, grid2, grid6, grid7, grid8, grid9, grid10, grid11, grid12, grid13 };
+            PictureBox[] path1 = { grid71, grid68, grid2, grid6, grid7, grid8, grid9, grid10, grid11, grid12, grid79 };
 
             for (int i = 0; i < path1.Length; i++)
             {
@@ -265,7 +266,7 @@ namespace BinanKiosk
 
             int ctr = 0;
 
-            PictureBox[] path1 = { grid71, grid68, grid2, grid6, grid7, grid8, grid9, grid10, grid11, grid12, grid13, grid14 };
+            PictureBox[] path1 = { grid71, grid68, grid2, grid6, grid7, grid8, grid9, grid10, grid11, grid12, grid13, grid80 };
 
             for (int i = 0; i < path1.Length; i++)
             {
@@ -310,7 +311,7 @@ namespace BinanKiosk
 
             int ctr = 0;
 
-            PictureBox[] path1 = { grid71, grid68, grid2, grid6, grid7, grid8, grid9, grid10, grid11, grid12, grid13, grid14 };
+            PictureBox[] path1 = { grid71, grid68, grid2, grid6, grid7, grid8, grid9, grid10, grid11, grid12, grid13, grid14,grid81 };
 
             for (int i = 0; i < path1.Length; i++)
             {
@@ -356,7 +357,7 @@ namespace BinanKiosk
             int ctr = 0;
 
             PictureBox[] path1 = { grid71, grid68, grid2, grid6, grid7, grid8, grid9, grid10, grid11, grid12, grid13, grid14, grid15,
-                grid16, grid17, grid18 };
+                grid16, grid17, grid18, grid41 };
 
             for (int i = 0; i < path1.Length; i++)
             {
@@ -401,7 +402,7 @@ namespace BinanKiosk
 
             int ctr = 0;
 
-            PictureBox[] path1 = { grid71, grid68, grid2, grid6, grid5, grid4, grid57, grid58 };
+            PictureBox[] path1 = { grid71, grid68, grid2, grid6, grid5, grid4, grid57, grid58,grid74 };
 
             for (int i = 0; i < path1.Length; i++)
             {
@@ -446,7 +447,7 @@ namespace BinanKiosk
 
             int ctr = 0;
 
-            PictureBox[] path1 = { grid71, grid68, grid2, grid6, grid5, grid57, grid58, grid59, grid60, grid61, grid62, grid63 };
+            PictureBox[] path1 = { grid71, grid68, grid2, grid6, grid5, grid57, grid58, grid59, grid60, grid61, grid62, grid63, grid73 };
 
             for (int i = 0; i < path1.Length; i++)
             {
@@ -491,7 +492,7 @@ namespace BinanKiosk
 
             int ctr = 0;
 
-            PictureBox[] path1 = { grid71, grid68, grid2, grid6, grid5, grid4, grid57, grid58, grid59 };
+            PictureBox[] path1 = { grid71, grid68, grid2, grid6, grid5, grid4, grid57, grid58, grid59,grid82 };
 
             for (int i = 0; i < path1.Length; i++)
             {
@@ -536,7 +537,7 @@ namespace BinanKiosk
 
             int ctr = 0;
 
-            PictureBox[] path1 = { grid70, grid70, grid69, grid42, grid36, grid37, grid46, grid47 };
+            PictureBox[] path1 = { grid70, grid70, grid69, grid42, grid36, grid37, grid38, grid46, grid47,grid56 };
 
             for (int i = 0; i < path1.Length; i++)
             {
@@ -581,7 +582,7 @@ namespace BinanKiosk
 
             int ctr = 0;
 
-            PictureBox[] path1 = { grid70, grid70, grid69, grid42, grid36, grid37, grid46, grid47, grid48};
+            PictureBox[] path1 = { grid70, grid70, grid69, grid42, grid36, grid37, grid38, grid46, grid47, grid48, grid75};
 
             for (int i = 0; i < path1.Length; i++)
             {
@@ -626,7 +627,7 @@ namespace BinanKiosk
 
             int ctr = 0;
 
-            PictureBox[] path1 = { grid70, grid70, grid69, grid42, grid36, grid37, grid46, grid47, grid48, grid49, grid50, grid51, grid52, grid53, grid54 };
+            PictureBox[] path1 = { grid70, grid70, grid69, grid42, grid36, grid37, grid38, grid46, grid47, grid48, grid49, grid50, grid51, grid52, grid53, grid54, grid55 };
 
             for (int i = 0; i < path1.Length; i++)
             {
@@ -671,7 +672,7 @@ namespace BinanKiosk
 
             int ctr = 0;
 
-            PictureBox[] path1 = { grid70, grid70, grid69, grid42, grid36, grid37, grid46, grid47, grid48, grid49, grid50, grid51 };
+            PictureBox[] path1 = { grid70, grid70, grid69, grid42, grid36, grid37, grid38, grid46, grid47, grid48, grid49, grid50, grid51,grid76 };
 
             for (int i = 0; i < path1.Length; i++)
             {
@@ -716,7 +717,7 @@ namespace BinanKiosk
 
             int ctr = 0;
 
-            PictureBox[] path1 = { grid70, grid70, grid69, grid42, grid36, grid35, grid34, grid33 };
+            PictureBox[] path1 = { grid70, grid70, grid69, grid42, grid36, grid35, grid34, grid33,grid64 };
 
             for (int i = 0; i < path1.Length; i++)
             {
@@ -761,7 +762,7 @@ namespace BinanKiosk
 
             int ctr = 0;
 
-            PictureBox[] path1 = { grid70, grid70, grid69, grid42, grid36, grid35, grid34, grid33, grid32 };
+            PictureBox[] path1 = { grid70, grid70, grid69, grid42, grid36, grid35, grid34, grid33, grid32,grid39 };
 
             for (int i = 0; i < path1.Length; i++)
             {
@@ -806,7 +807,7 @@ namespace BinanKiosk
 
             int ctr = 0;
 
-            PictureBox[] path1 = { grid70, grid70, grid69, grid42, grid36, grid35, grid34, grid33, grid32, grid31};
+            PictureBox[] path1 = { grid70, grid70, grid69, grid42, grid36, grid35, grid34, grid33, grid32, grid31,grid40};
 
             for (int i = 0; i < path1.Length; i++)
             {
@@ -851,7 +852,7 @@ namespace BinanKiosk
 
             int ctr = 0;
 
-            PictureBox[] path1 = { grid70, grid70, grid69, grid42, grid36, grid35, grid34, grid33, grid32, grid31, grid30, grid29 };
+            PictureBox[] path1 = { grid70, grid70, grid69, grid42, grid36, grid35, grid34, grid33, grid32, grid31, grid30, grid29, grid3 };
 
             for (int i = 0; i < path1.Length; i++)
             {
@@ -896,7 +897,7 @@ namespace BinanKiosk
 
             int ctr = 0;
 
-            PictureBox[] path1 = { grid70, grid70, grid69, grid42, grid36, grid35, grid34, grid33, grid32, grid31, grid30, grid29, grid25, grid24 };
+            PictureBox[] path1 = { grid70, grid70, grid69, grid42, grid36, grid35, grid34, grid33, grid32, grid31, grid30, grid29, grid25, grid67 };
 
             for (int i = 0; i < path1.Length; i++)
             {
@@ -941,7 +942,7 @@ namespace BinanKiosk
 
             int ctr = 0;
 
-            PictureBox[] path1 = { grid70, grid70, grid69, grid42, grid36, grid35, grid34, grid33, grid32, grid31, grid30, grid29, grid25, grid24, grid23 };
+            PictureBox[] path1 = { grid70, grid70, grid69, grid42, grid36, grid35, grid34, grid33, grid32, grid31, grid30, grid29, grid25, grid24, grid65 };
 
             for (int i = 0; i < path1.Length; i++)
             {
@@ -986,7 +987,7 @@ namespace BinanKiosk
 
             int ctr = 0;
 
-            PictureBox[] path1 = { grid70, grid70, grid69, grid42, grid36, grid35, grid34, grid33, grid32, grid31, grid30, grid29, grid25, grid24, grid23, grid22 };
+            PictureBox[] path1 = { grid70, grid70, grid69, grid42, grid36, grid35, grid34, grid33, grid32, grid31, grid30, grid29, grid25, grid24, grid23, grid22, grid66 };
 
             for (int i = 0; i < path1.Length; i++)
             {
@@ -1466,7 +1467,7 @@ namespace BinanKiosk
         private void OnTimerEvent(object sender, EventArgs e)
         {
             lbltime.Text = DateTime.Now.ToLongTimeString();
-            lbldate.Text = DateTime.Now.DayOfWeek.ToString() + ", " + DateTime.Now.ToLongDateString();
+            lbldate.Text = DateTime.Now.ToLongDateString();
         }
 
         private void timestamp_Tick(object sender, EventArgs e)
