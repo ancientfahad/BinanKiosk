@@ -61,6 +61,7 @@
             this.label12 = new System.Windows.Forms.Label();
             this.lblName = new System.Windows.Forms.Label();
             this.lblDescription = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -75,7 +76,7 @@
             this.lblPersonnels.AutoSize = true;
             this.lblPersonnels.BackColor = System.Drawing.SystemColors.ControlLight;
             this.lblPersonnels.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPersonnels.Location = new System.Drawing.Point(3, 82);
+            this.lblPersonnels.Location = new System.Drawing.Point(3, 78);
             this.lblPersonnels.Name = "lblPersonnels";
             this.lblPersonnels.Size = new System.Drawing.Size(150, 62);
             this.lblPersonnels.TabIndex = 70;
@@ -86,11 +87,11 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.SystemColors.ControlLight;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(3, 313);
+            this.label5.Location = new System.Drawing.Point(3, 323);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(117, 31);
+            this.label5.Size = new System.Drawing.Size(127, 31);
             this.label5.TabIndex = 69;
-            this.label5.Text = "Location";
+            this.label5.Text = "Schedule";
             this.label5.Visible = false;
             // 
             // lblLocation
@@ -98,11 +99,11 @@
             this.lblLocation.AutoSize = true;
             this.lblLocation.BackColor = System.Drawing.SystemColors.ControlLight;
             this.lblLocation.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLocation.Location = new System.Drawing.Point(241, 313);
+            this.lblLocation.Location = new System.Drawing.Point(240, 364);
             this.lblLocation.Name = "lblLocation";
-            this.lblLocation.Size = new System.Drawing.Size(117, 31);
+            this.lblLocation.Size = new System.Drawing.Size(462, 31);
             this.lblLocation.TabIndex = 79;
-            this.lblLocation.Text = "Location";
+            this.lblLocation.Text = "8:00 am to 5:00 pm (No Noon Break) ";
             this.lblLocation.Visible = false;
             // 
             // lblPersonel
@@ -110,7 +111,7 @@
             this.lblPersonel.AutoSize = true;
             this.lblPersonel.BackColor = System.Drawing.SystemColors.ControlLight;
             this.lblPersonel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPersonel.Location = new System.Drawing.Point(241, 82);
+            this.lblPersonel.Location = new System.Drawing.Point(240, 78);
             this.lblPersonel.Name = "lblPersonel";
             this.lblPersonel.Size = new System.Drawing.Size(121, 31);
             this.lblPersonel.TabIndex = 80;
@@ -136,7 +137,7 @@
             // 
             this.dep_description.BackColor = System.Drawing.SystemColors.ControlLight;
             this.dep_description.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dep_description.Location = new System.Drawing.Point(241, 165);
+            this.dep_description.Location = new System.Drawing.Point(240, 157);
             this.dep_description.Name = "dep_description";
             this.dep_description.Size = new System.Drawing.Size(604, 148);
             this.dep_description.TabIndex = 253;
@@ -193,9 +194,9 @@
             this.btnLocate.ForeColor = System.Drawing.Color.Transparent;
             this.btnLocate.Image = global::BinanKiosk.Properties.Resources.map;
             this.btnLocate.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLocate.Location = new System.Drawing.Point(541, 479);
+            this.btnLocate.Location = new System.Drawing.Point(595, 537);
             this.btnLocate.Name = "btnLocate";
-            this.btnLocate.Size = new System.Drawing.Size(235, 90);
+            this.btnLocate.Size = new System.Drawing.Size(178, 90);
             this.btnLocate.TabIndex = 81;
             this.btnLocate.Text = "Locate";
             this.btnLocate.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -397,7 +398,7 @@
             this.tableLayoutPanel1.ColumnCount = 3;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 90.45643F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9.543569F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 612F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 613F));
             this.tableLayoutPanel1.Controls.Add(this.lblOfficeName, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.label11, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.label8, 1, 3);
@@ -405,20 +406,21 @@
             this.tableLayoutPanel1.Controls.Add(this.label12, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.lblName, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.label5, 0, 3);
-            this.tableLayoutPanel1.Controls.Add(this.lblLocation, 2, 3);
             this.tableLayoutPanel1.Controls.Add(this.lblDescription, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.dep_description, 2, 2);
             this.tableLayoutPanel1.Controls.Add(this.lblPersonel, 2, 1);
             this.tableLayoutPanel1.Controls.Add(this.lblPersonnels, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.label1, 2, 3);
+            this.tableLayoutPanel1.Controls.Add(this.lblLocation, 2, 4);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(416, 119);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 4;
+            this.tableLayoutPanel1.RowCount = 5;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 49.7076F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.2924F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 148F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(851, 354);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 166F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 41F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 37F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(851, 402);
             this.tableLayoutPanel1.TabIndex = 258;
             // 
             // lblOfficeName
@@ -437,7 +439,7 @@
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.SystemColors.ControlLight;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(219, 0);
+            this.label11.Location = new System.Drawing.Point(218, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(16, 31);
             this.label11.TabIndex = 73;
@@ -448,7 +450,7 @@
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.SystemColors.ControlLight;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(219, 313);
+            this.label8.Location = new System.Drawing.Point(218, 323);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(16, 31);
             this.label8.TabIndex = 76;
@@ -460,7 +462,7 @@
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.SystemColors.ControlLight;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(219, 165);
+            this.label7.Location = new System.Drawing.Point(218, 157);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(16, 31);
             this.label7.TabIndex = 75;
@@ -471,7 +473,7 @@
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.SystemColors.ControlLight;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(219, 82);
+            this.label12.Location = new System.Drawing.Point(218, 78);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(16, 31);
             this.label12.TabIndex = 74;
@@ -481,7 +483,7 @@
             // 
             this.lblName.BackColor = System.Drawing.SystemColors.ControlLight;
             this.lblName.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblName.Location = new System.Drawing.Point(241, 0);
+            this.lblName.Location = new System.Drawing.Point(240, 0);
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(604, 78);
             this.lblName.TabIndex = 78;
@@ -492,11 +494,23 @@
             this.lblDescription.AutoSize = true;
             this.lblDescription.BackColor = System.Drawing.SystemColors.ControlLight;
             this.lblDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDescription.Location = new System.Drawing.Point(3, 165);
+            this.lblDescription.Location = new System.Drawing.Point(3, 157);
             this.lblDescription.Name = "lblDescription";
             this.lblDescription.Size = new System.Drawing.Size(151, 31);
             this.lblDescription.TabIndex = 71;
             this.lblDescription.Text = "Description";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(240, 323);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(456, 31);
+            this.label1.TabIndex = 254;
+            this.label1.Text = "Monday to Friday excluding Holidays";
+            this.label1.Visible = false;
             // 
             // OfficeResults
             // 
@@ -573,6 +587,7 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label lblName;
+        private System.Windows.Forms.Label label1;
     }
 }
 

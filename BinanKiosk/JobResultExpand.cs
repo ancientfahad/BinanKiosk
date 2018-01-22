@@ -279,7 +279,9 @@ namespace BinanKiosk
             }
         }
 
+        private void timestamp_Tick(object sender, EventArgs e)
+        {
 
-
+        }
     }
 }

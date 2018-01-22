@@ -220,7 +220,7 @@ namespace BinanKiosk
         private void OnTimerEvent(object sender, EventArgs e)
         {
             lbltime.Text = DateTime.Now.ToLongTimeString();
-            lbldate.Text = DateTime.Now.DayOfWeek.ToString() + ", " + DateTime.Now.ToLongDateString();
+            lbldate.Text = DateTime.Now.ToLongDateString();
         }
 
         private void timestamp_Tick(object sender, EventArgs e)

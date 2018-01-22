@@ -1034,5 +1034,10 @@ namespace BinanKiosk
             lng.ShowDialog();
             lng.Focus();
         }
+
+        private void lbldate_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

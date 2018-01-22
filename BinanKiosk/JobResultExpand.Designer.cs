@@ -96,6 +96,7 @@
             // timestamp
             // 
             this.timestamp.Interval = 1000;
+            this.timestamp.Tick += new System.EventHandler(this.timestamp_Tick);
             // 
             // jobpicture
             // 
