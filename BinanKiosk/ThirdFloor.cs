@@ -38,7 +38,7 @@ namespace BinanKiosk
             grid13, grid14, grid15, grid16, grid17, grid18, grid19, grid20, grid21, grid22, grid23, grid24, grid25, grid26,
              grid27, grid28, grid29, grid30, grid31, grid32, grid33, grid34, grid35, grid36, grid37, grid38, grid39, grid40,
              grid41, grid42, grid43, grid44, grid45, grid46, grid47,switch1,switch2,grid48,grid49,grid50,grid51,grid52,
-             grid53,grid54};
+             grid53,grid54,grid55};
 
             for (int i = 0; i < buttonArrayF2.Length; i++)
             {
@@ -92,7 +92,7 @@ namespace BinanKiosk
             grid13, grid14, grid15, grid16, grid17, grid18, grid19, grid20, grid21, grid22, grid23, grid24, grid25, grid26,
              grid27, grid28, grid29, grid30, grid31, grid32, grid33, grid34, grid35, grid36, grid37, grid38, grid39, grid40,
              grid41, grid42, grid43, grid44, grid45, grid46, grid47,switch1,switch2,grid48,grid49,grid50,grid51,grid52,
-             grid53,grid54};
+             grid53,grid54,grid55};
 
             for (int i = 0; i < pictureArray.Length; i++)
             {
@@ -136,7 +136,7 @@ namespace BinanKiosk
 
             int ctr = 0;
 
-            PictureBox[] path1 = { grid42, grid43, grid44, grid45, grid46, grid47, grid17, grid18, grid19, grid1, grid2, grid3, grid4, grid5, grid6, grid7, grid8 };
+            PictureBox[] path1 = { grid42, grid43, grid44, grid45, grid46, grid47, grid17, grid18, grid19, grid1, grid2, grid3, grid4, grid5, grid6, grid7, grid8,grid48 };
 
             for (int i = 0; i < path1.Length; i++)
             {

@@ -128,6 +128,8 @@
             this.grid79 = new System.Windows.Forms.PictureBox();
             this.grid80 = new System.Windows.Forms.PictureBox();
             this.grid81 = new System.Windows.Forms.PictureBox();
+            this.grid83 = new System.Windows.Forms.PictureBox();
+            this.grid84 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.grid71)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grid70)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grid68)).BeginInit();
@@ -212,6 +214,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.grid79)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grid80)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grid81)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid83)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid84)).BeginInit();
             this.SuspendLayout();
             // 
             // lblFloorName
@@ -607,7 +611,7 @@
             // 
             this.grid71.BackColor = System.Drawing.Color.Transparent;
             this.grid71.Image = global::BinanKiosk.Properties.Resources.leftrow;
-            this.grid71.Location = new System.Drawing.Point(618, 538);
+            this.grid71.Location = new System.Drawing.Point(613, 541);
             this.grid71.Name = "grid71";
             this.grid71.Size = new System.Drawing.Size(15, 15);
             this.grid71.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -631,7 +635,7 @@
             // 
             this.grid68.BackColor = System.Drawing.Color.Transparent;
             this.grid68.Image = global::BinanKiosk.Properties.Resources.uprow;
-            this.grid68.Location = new System.Drawing.Point(581, 539);
+            this.grid68.Location = new System.Drawing.Point(582, 541);
             this.grid68.Name = "grid68";
             this.grid68.Size = new System.Drawing.Size(15, 15);
             this.grid68.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1803,12 +1807,38 @@
             this.grid81.TabStop = false;
             this.grid81.Visible = false;
             // 
+            // grid83
+            // 
+            this.grid83.BackColor = System.Drawing.Color.Transparent;
+            this.grid83.Image = global::BinanKiosk.Properties.Resources.leftrow;
+            this.grid83.Location = new System.Drawing.Point(642, 541);
+            this.grid83.Name = "grid83";
+            this.grid83.Size = new System.Drawing.Size(15, 15);
+            this.grid83.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.grid83.TabIndex = 258;
+            this.grid83.TabStop = false;
+            this.grid83.Visible = false;
+            // 
+            // grid84
+            // 
+            this.grid84.BackColor = System.Drawing.Color.Transparent;
+            this.grid84.Image = global::BinanKiosk.Properties.Resources.rightrow;
+            this.grid84.Location = new System.Drawing.Point(693, 540);
+            this.grid84.Name = "grid84";
+            this.grid84.Size = new System.Drawing.Size(15, 15);
+            this.grid84.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.grid84.TabIndex = 259;
+            this.grid84.TabStop = false;
+            this.grid84.Visible = false;
+            // 
             // SecondFloor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1366, 768);
+            this.Controls.Add(this.grid84);
+            this.Controls.Add(this.grid83);
             this.Controls.Add(this.grid81);
             this.Controls.Add(this.grid80);
             this.Controls.Add(this.grid79);
@@ -2015,6 +2045,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.grid79)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.grid80)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.grid81)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid83)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid84)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2139,6 +2171,8 @@
         private System.Windows.Forms.PictureBox grid79;
         private System.Windows.Forms.PictureBox grid80;
         private System.Windows.Forms.PictureBox grid81;
+        private System.Windows.Forms.PictureBox grid83;
+        private System.Windows.Forms.PictureBox grid84;
     }
 }
 

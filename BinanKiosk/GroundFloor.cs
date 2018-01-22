@@ -69,7 +69,7 @@ namespace BinanKiosk
                 step11, step12, step13, switch2, step15, step16, step17, step18, step19, step20,
                 step21, step22, step23, step24, step25, step26, step27, step28, step29, switch3,
                 step31, step32, step33, step34, step35, step36, step37, step38, step39, step40,
-                step41, step42, step43, step44, step45, step46, step47, step48, step49, step50,
+                step41, step42, step43, step44, step45, switch5, step47, step48, step49, step50,
                 step51, step52, step53, step54, step55, step56, step57, step58, step59, step60,
                 step61, step62, step63, step64, step65,switch1, switch4,step66, step67, step68, step69, step70, step71, step72 };
 
@@ -195,7 +195,7 @@ namespace BinanKiosk
             step11, step12, step13, switch2, step15, step16, step17, step18, step19, step20,
             step21, step22, step23, step24, step25, step26, step27, step28, step29, switch3,
             step31, step32, step33, step34, step35, step36, step37, step38, step39, step40,
-            step41, step42, step43, step44, step45, step46, step47, step48, step49, step50,
+            step41, step42, step43, step44, step45, switch5, step47, step48, step49, step50,
             step51, step52, step53, step54, step55, step56, step57, step58, step59, step60,
             step61, step62, step63, step64, step65, switch1, switch4, step66, step67, step68, step69, step70, step71, step72};
 
@@ -449,7 +449,7 @@ namespace BinanKiosk
 
             int ctr = 0;
 
-            PictureBox[] path6 = {step46, step47, step48, step50, step49, step39, step38, step37, step36, step35, step33, step32, step31, switch4, step68};
+            PictureBox[] path6 = {switch5, step47, step48, step50, step49, step39, step38, step37, step36, step35, step33, step32, step31, switch4, step68};
 
             for (int i = 0; i < path6.Length; i++)
             {
@@ -491,7 +491,7 @@ namespace BinanKiosk
 
             int ctr = 0;
 
-            PictureBox[] path7 = { step46, step47, step48, step50, step49, step39, step38, step37, step36, step35, step33, step32, step31, switch4, step29,step28, step27, step69 };
+            PictureBox[] path7 = { switch5, step47, step48, step50, step49, step39, step38, step37, step36, step35, step33, step32, step31, switch4, step29,step28, step27, step69 };
 
             for (int i = 0; i < path7.Length; i++)
             {
@@ -533,7 +533,7 @@ namespace BinanKiosk
 
             int ctr = 0;
 
-            PictureBox[] path8 = { step46, step47, step48, step50, step49, step39, step38, step37, step36, step35, step33, step34};
+            PictureBox[] path8 = { switch5, step47, step48, step50, step49, step39, step38, step37, step36, step35, step33, step34};
 
             for (int i = 0; i < path8.Length; i++)
             {
@@ -575,7 +575,7 @@ namespace BinanKiosk
 
             int ctr = 0;
 
-            PictureBox[] path9 = { step46, step47, step48, step50, step51, step52, step53, step54, step55, step56, step57, step58, step67 };
+            PictureBox[] path9 = { switch5, step47, step48, step50, step51, step52, step53, step54, step55, step56, step57, step58, step67 };
 
             for (int i = 0; i < path9.Length; i++)
             {
@@ -619,7 +619,7 @@ namespace BinanKiosk
             this.Enabled = true;
             this.Cursor = Cursors.Default;
 
-            PictureBox[] path10 = { step46, step65 };
+            PictureBox[] path10 = { switch6, step65 };
 
             for (int i = 0; i < path10.Length; i++) {
                 path10[i].Visible = true;
