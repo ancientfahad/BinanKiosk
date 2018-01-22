@@ -31,15 +31,17 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Search));
             this.txtSearch = new System.Windows.Forms.TextBox();
-            this.radioApplications = new System.Windows.Forms.RadioButton();
-            this.radioOfficers = new System.Windows.Forms.RadioButton();
-            this.radioOffices = new System.Windows.Forms.RadioButton();
             this.radioAll = new System.Windows.Forms.RadioButton();
             this.Filters = new System.Windows.Forms.GroupBox();
             this.btnLanguages = new System.Windows.Forms.Button();
             this.timestamp = new System.Windows.Forms.Timer(this.components);
             this.lbldate = new System.Windows.Forms.Label();
             this.lbltime = new System.Windows.Forms.Label();
+            this.searchResult14 = new System.Windows.Forms.Button();
+            this.searchResult12 = new System.Windows.Forms.Button();
+            this.searchResult13 = new System.Windows.Forms.Button();
+            this.searchResult15 = new System.Windows.Forms.Button();
+            this.searchResult11 = new System.Windows.Forms.Button();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.searchResult9 = new System.Windows.Forms.Button();
@@ -54,6 +56,9 @@
             this.searchResult1 = new System.Windows.Forms.Button();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.radioApplications = new System.Windows.Forms.RadioButton();
+            this.radioOffices = new System.Windows.Forms.RadioButton();
+            this.radioOfficers = new System.Windows.Forms.RadioButton();
             this.search_animate = new System.Windows.Forms.PictureBox();
             this.btnJob = new System.Windows.Forms.Button();
             this.btnHelp = new System.Windows.Forms.Button();
@@ -64,11 +69,6 @@
             this.lblSearch = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.searchResult14 = new System.Windows.Forms.Button();
-            this.searchResult12 = new System.Windows.Forms.Button();
-            this.searchResult13 = new System.Windows.Forms.Button();
-            this.searchResult15 = new System.Windows.Forms.Button();
-            this.searchResult11 = new System.Windows.Forms.Button();
             this.Filters.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
@@ -92,39 +92,6 @@
             this.txtSearch.Click += new System.EventHandler(this.txtSearch_Click);
             this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
             // 
-            // radioApplications
-            // 
-            this.radioApplications.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioApplications.Location = new System.Drawing.Point(419, 12);
-            this.radioApplications.Name = "radioApplications";
-            this.radioApplications.Size = new System.Drawing.Size(208, 35);
-            this.radioApplications.TabIndex = 42;
-            this.radioApplications.Text = "Service";
-            this.radioApplications.UseVisualStyleBackColor = true;
-            this.radioApplications.CheckedChanged += new System.EventHandler(this.radioApplications_CheckedChanged);
-            // 
-            // radioOfficers
-            // 
-            this.radioOfficers.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioOfficers.Location = new System.Drawing.Point(6, 12);
-            this.radioOfficers.Name = "radioOfficers";
-            this.radioOfficers.Size = new System.Drawing.Size(216, 35);
-            this.radioOfficers.TabIndex = 40;
-            this.radioOfficers.Text = "Officers";
-            this.radioOfficers.UseVisualStyleBackColor = true;
-            this.radioOfficers.CheckedChanged += new System.EventHandler(this.radioOfficers_CheckedChanged);
-            // 
-            // radioOffices
-            // 
-            this.radioOffices.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioOffices.Location = new System.Drawing.Point(228, 12);
-            this.radioOffices.Name = "radioOffices";
-            this.radioOffices.Size = new System.Drawing.Size(185, 35);
-            this.radioOffices.TabIndex = 43;
-            this.radioOffices.Text = "Offices";
-            this.radioOffices.UseVisualStyleBackColor = true;
-            this.radioOffices.CheckedChanged += new System.EventHandler(this.radioOffices_CheckedChanged);
-            // 
             // radioAll
             // 
             this.radioAll.Checked = true;
@@ -146,7 +113,7 @@
             this.Filters.Controls.Add(this.radioOfficers);
             this.Filters.Location = new System.Drawing.Point(371, 64);
             this.Filters.Name = "Filters";
-            this.Filters.Size = new System.Drawing.Size(633, 53);
+            this.Filters.Size = new System.Drawing.Size(584, 53);
             this.Filters.TabIndex = 66;
             this.Filters.TabStop = false;
             // 
@@ -196,6 +163,91 @@
             this.lbltime.TabIndex = 246;
             this.lbltime.Text = ".";
             this.lbltime.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // searchResult14
+            // 
+            this.searchResult14.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
+            this.searchResult14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.searchResult14.FlatAppearance.BorderSize = 0;
+            this.searchResult14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.searchResult14.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
+            this.searchResult14.ForeColor = System.Drawing.Color.White;
+            this.searchResult14.Location = new System.Drawing.Point(801, 370);
+            this.searchResult14.Name = "searchResult14";
+            this.searchResult14.Size = new System.Drawing.Size(230, 65);
+            this.searchResult14.TabIndex = 252;
+            this.searchResult14.Text = "Search";
+            this.searchResult14.UseVisualStyleBackColor = true;
+            this.searchResult14.Visible = false;
+            this.searchResult14.Click += new System.EventHandler(this.btnSrch_Click);
+            // 
+            // searchResult12
+            // 
+            this.searchResult12.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
+            this.searchResult12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.searchResult12.FlatAppearance.BorderSize = 0;
+            this.searchResult12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.searchResult12.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
+            this.searchResult12.ForeColor = System.Drawing.Color.White;
+            this.searchResult12.Location = new System.Drawing.Point(329, 370);
+            this.searchResult12.Name = "searchResult12";
+            this.searchResult12.Size = new System.Drawing.Size(230, 65);
+            this.searchResult12.TabIndex = 251;
+            this.searchResult12.Text = "Search";
+            this.searchResult12.UseVisualStyleBackColor = true;
+            this.searchResult12.Visible = false;
+            this.searchResult12.Click += new System.EventHandler(this.btnSrch_Click);
+            // 
+            // searchResult13
+            // 
+            this.searchResult13.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
+            this.searchResult13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.searchResult13.FlatAppearance.BorderSize = 0;
+            this.searchResult13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.searchResult13.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
+            this.searchResult13.ForeColor = System.Drawing.Color.White;
+            this.searchResult13.Location = new System.Drawing.Point(565, 370);
+            this.searchResult13.Name = "searchResult13";
+            this.searchResult13.Size = new System.Drawing.Size(230, 65);
+            this.searchResult13.TabIndex = 250;
+            this.searchResult13.Text = "Search";
+            this.searchResult13.UseVisualStyleBackColor = true;
+            this.searchResult13.Visible = false;
+            this.searchResult13.Click += new System.EventHandler(this.btnSrch_Click);
+            // 
+            // searchResult15
+            // 
+            this.searchResult15.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
+            this.searchResult15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.searchResult15.FlatAppearance.BorderSize = 0;
+            this.searchResult15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.searchResult15.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
+            this.searchResult15.ForeColor = System.Drawing.Color.White;
+            this.searchResult15.Location = new System.Drawing.Point(1037, 370);
+            this.searchResult15.Name = "searchResult15";
+            this.searchResult15.Size = new System.Drawing.Size(230, 65);
+            this.searchResult15.TabIndex = 249;
+            this.searchResult15.Text = "Search";
+            this.searchResult15.UseVisualStyleBackColor = true;
+            this.searchResult15.Visible = false;
+            this.searchResult15.Click += new System.EventHandler(this.btnSrch_Click);
+            // 
+            // searchResult11
+            // 
+            this.searchResult11.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
+            this.searchResult11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.searchResult11.FlatAppearance.BorderSize = 0;
+            this.searchResult11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.searchResult11.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
+            this.searchResult11.ForeColor = System.Drawing.Color.White;
+            this.searchResult11.Location = new System.Drawing.Point(93, 370);
+            this.searchResult11.Name = "searchResult11";
+            this.searchResult11.Size = new System.Drawing.Size(230, 65);
+            this.searchResult11.TabIndex = 248;
+            this.searchResult11.Text = "Search";
+            this.searchResult11.UseVisualStyleBackColor = true;
+            this.searchResult11.Visible = false;
+            this.searchResult11.Click += new System.EventHandler(this.btnSrch_Click);
             // 
             // pictureBox7
             // 
@@ -413,6 +465,48 @@
             this.pictureBox4.TabIndex = 67;
             this.pictureBox4.TabStop = false;
             // 
+            // radioApplications
+            // 
+            this.radioApplications.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioApplications.Image = global::BinanKiosk.Properties.Resources.servicessIcon;
+            this.radioApplications.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.radioApplications.Location = new System.Drawing.Point(414, 12);
+            this.radioApplications.Name = "radioApplications";
+            this.radioApplications.Size = new System.Drawing.Size(151, 35);
+            this.radioApplications.TabIndex = 42;
+            this.radioApplications.Text = "Service";
+            this.radioApplications.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.radioApplications.UseVisualStyleBackColor = true;
+            this.radioApplications.CheckedChanged += new System.EventHandler(this.radioApplications_CheckedChanged);
+            // 
+            // radioOffices
+            // 
+            this.radioOffices.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioOffices.Image = global::BinanKiosk.Properties.Resources.officeIcon;
+            this.radioOffices.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.radioOffices.Location = new System.Drawing.Point(213, 12);
+            this.radioOffices.Name = "radioOffices";
+            this.radioOffices.Size = new System.Drawing.Size(175, 35);
+            this.radioOffices.TabIndex = 43;
+            this.radioOffices.Text = "Offices";
+            this.radioOffices.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.radioOffices.UseVisualStyleBackColor = true;
+            this.radioOffices.CheckedChanged += new System.EventHandler(this.radioOffices_CheckedChanged);
+            // 
+            // radioOfficers
+            // 
+            this.radioOfficers.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioOfficers.Image = global::BinanKiosk.Properties.Resources.officerIcon;
+            this.radioOfficers.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.radioOfficers.Location = new System.Drawing.Point(6, 12);
+            this.radioOfficers.Name = "radioOfficers";
+            this.radioOfficers.Size = new System.Drawing.Size(201, 35);
+            this.radioOfficers.TabIndex = 40;
+            this.radioOfficers.Text = "Officers";
+            this.radioOfficers.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.radioOfficers.UseVisualStyleBackColor = true;
+            this.radioOfficers.CheckedChanged += new System.EventHandler(this.radioOfficers_CheckedChanged);
+            // 
             // search_animate
             // 
             this.search_animate.Image = global::BinanKiosk.Properties.Resources.search;
@@ -574,91 +668,6 @@
             this.pictureBox6.Size = new System.Drawing.Size(1459, 94);
             this.pictureBox6.TabIndex = 78;
             this.pictureBox6.TabStop = false;
-            // 
-            // searchResult14
-            // 
-            this.searchResult14.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
-            this.searchResult14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.searchResult14.FlatAppearance.BorderSize = 0;
-            this.searchResult14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.searchResult14.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
-            this.searchResult14.ForeColor = System.Drawing.Color.White;
-            this.searchResult14.Location = new System.Drawing.Point(801, 370);
-            this.searchResult14.Name = "searchResult14";
-            this.searchResult14.Size = new System.Drawing.Size(230, 65);
-            this.searchResult14.TabIndex = 252;
-            this.searchResult14.Text = "Search";
-            this.searchResult14.UseVisualStyleBackColor = true;
-            this.searchResult14.Visible = false;
-            this.searchResult14.Click += new System.EventHandler(this.btnSrch_Click);
-            // 
-            // searchResult12
-            // 
-            this.searchResult12.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
-            this.searchResult12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.searchResult12.FlatAppearance.BorderSize = 0;
-            this.searchResult12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.searchResult12.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
-            this.searchResult12.ForeColor = System.Drawing.Color.White;
-            this.searchResult12.Location = new System.Drawing.Point(329, 370);
-            this.searchResult12.Name = "searchResult12";
-            this.searchResult12.Size = new System.Drawing.Size(230, 65);
-            this.searchResult12.TabIndex = 251;
-            this.searchResult12.Text = "Search";
-            this.searchResult12.UseVisualStyleBackColor = true;
-            this.searchResult12.Visible = false;
-            this.searchResult12.Click += new System.EventHandler(this.btnSrch_Click);
-            // 
-            // searchResult13
-            // 
-            this.searchResult13.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
-            this.searchResult13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.searchResult13.FlatAppearance.BorderSize = 0;
-            this.searchResult13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.searchResult13.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
-            this.searchResult13.ForeColor = System.Drawing.Color.White;
-            this.searchResult13.Location = new System.Drawing.Point(565, 370);
-            this.searchResult13.Name = "searchResult13";
-            this.searchResult13.Size = new System.Drawing.Size(230, 65);
-            this.searchResult13.TabIndex = 250;
-            this.searchResult13.Text = "Search";
-            this.searchResult13.UseVisualStyleBackColor = true;
-            this.searchResult13.Visible = false;
-            this.searchResult13.Click += new System.EventHandler(this.btnSrch_Click);
-            // 
-            // searchResult15
-            // 
-            this.searchResult15.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
-            this.searchResult15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.searchResult15.FlatAppearance.BorderSize = 0;
-            this.searchResult15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.searchResult15.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
-            this.searchResult15.ForeColor = System.Drawing.Color.White;
-            this.searchResult15.Location = new System.Drawing.Point(1037, 370);
-            this.searchResult15.Name = "searchResult15";
-            this.searchResult15.Size = new System.Drawing.Size(230, 65);
-            this.searchResult15.TabIndex = 249;
-            this.searchResult15.Text = "Search";
-            this.searchResult15.UseVisualStyleBackColor = true;
-            this.searchResult15.Visible = false;
-            this.searchResult15.Click += new System.EventHandler(this.btnSrch_Click);
-            // 
-            // searchResult11
-            // 
-            this.searchResult11.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
-            this.searchResult11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.searchResult11.FlatAppearance.BorderSize = 0;
-            this.searchResult11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.searchResult11.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
-            this.searchResult11.ForeColor = System.Drawing.Color.White;
-            this.searchResult11.Location = new System.Drawing.Point(93, 370);
-            this.searchResult11.Name = "searchResult11";
-            this.searchResult11.Size = new System.Drawing.Size(230, 65);
-            this.searchResult11.TabIndex = 248;
-            this.searchResult11.Text = "Search";
-            this.searchResult11.UseVisualStyleBackColor = true;
-            this.searchResult11.Visible = false;
-            this.searchResult11.Click += new System.EventHandler(this.btnSrch_Click);
             // 
             // Search
             // 

@@ -289,6 +289,9 @@
     <None Include="Resources\transparent.png" />
     <None Include="Resources\trans2.png" />
     <None Include="Resources\piliin2.png" />
+    <None Include="Resources\office.png" />
+    <None Include="Resources\officeIcon.png" />
+    <None Include="Resources\officerIcon.png" />
     <Content Include="Resources\password.png" />
     <None Include="Resources\password1.png" />
     <None Include="Resources\srchcn1.png" />
@@ -302,6 +305,8 @@
     <None Include="Resources\qmark.png" />
     <None Include="Resources\png.png" />
     <None Include="Resources\rightrow.png" />
+    <None Include="Resources\serviceIcon.png" />
+    <None Include="Resources\servicessIcon.png" />
     <Content Include="Resources\Services\certificationsOfTaxClearence.jpg" />
     <Content Include="Resources\Services\issuanceOfCommunityTaxCertificate.jpg" />
     <Content Include="Resources\Services\issuanceOfCommunityTaxForIndividual.jpg" />
