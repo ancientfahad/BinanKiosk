@@ -656,7 +656,7 @@
             // grid28
             // 
             this.grid28.BackColor = System.Drawing.Color.Transparent;
-            this.grid28.Image = ((System.Drawing.Image)(resources.GetObject("grid28.Image")));
+            this.grid28.Image = global::BinanKiosk.Properties.Resources.downrow;
             this.grid28.Location = new System.Drawing.Point(1012, 510);
             this.grid28.Name = "grid28";
             this.grid28.Size = new System.Drawing.Size(15, 15);
@@ -681,7 +681,7 @@
             // 
             this.grid17.BackColor = System.Drawing.Color.Transparent;
             this.grid17.Image = global::BinanKiosk.Properties.Resources.downrow;
-            this.grid17.Location = new System.Drawing.Point(700, 464);
+            this.grid17.Location = new System.Drawing.Point(700, 469);
             this.grid17.Name = "grid17";
             this.grid17.Size = new System.Drawing.Size(15, 15);
             this.grid17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -705,7 +705,7 @@
             // 
             this.grid19.BackColor = System.Drawing.Color.Transparent;
             this.grid19.Image = global::BinanKiosk.Properties.Resources.leftrow;
-            this.grid19.Location = new System.Drawing.Point(627, 464);
+            this.grid19.Location = new System.Drawing.Point(627, 469);
             this.grid19.Name = "grid19";
             this.grid19.Size = new System.Drawing.Size(15, 15);
             this.grid19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -717,7 +717,7 @@
             // 
             this.grid18.BackColor = System.Drawing.Color.Transparent;
             this.grid18.Image = global::BinanKiosk.Properties.Resources.leftrow;
-            this.grid18.Location = new System.Drawing.Point(663, 464);
+            this.grid18.Location = new System.Drawing.Point(663, 469);
             this.grid18.Name = "grid18";
             this.grid18.Size = new System.Drawing.Size(15, 15);
             this.grid18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -921,7 +921,7 @@
             // 
             this.grid2.BackColor = System.Drawing.Color.Transparent;
             this.grid2.Image = global::BinanKiosk.Properties.Resources.leftrow;
-            this.grid2.Location = new System.Drawing.Point(553, 464);
+            this.grid2.Location = new System.Drawing.Point(553, 469);
             this.grid2.Name = "grid2";
             this.grid2.Size = new System.Drawing.Size(15, 15);
             this.grid2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -933,7 +933,7 @@
             // 
             this.grid12.BackColor = System.Drawing.Color.Transparent;
             this.grid12.Image = global::BinanKiosk.Properties.Resources.uprow;
-            this.grid12.Location = new System.Drawing.Point(780, 395);
+            this.grid12.Location = new System.Drawing.Point(782, 392);
             this.grid12.Name = "grid12";
             this.grid12.Size = new System.Drawing.Size(15, 15);
             this.grid12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -945,7 +945,7 @@
             // 
             this.grid13.BackColor = System.Drawing.Color.Transparent;
             this.grid13.Image = global::BinanKiosk.Properties.Resources.uprow;
-            this.grid13.Location = new System.Drawing.Point(780, 428);
+            this.grid13.Location = new System.Drawing.Point(782, 428);
             this.grid13.Name = "grid13";
             this.grid13.Size = new System.Drawing.Size(15, 15);
             this.grid13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -957,7 +957,7 @@
             // 
             this.grid14.BackColor = System.Drawing.Color.Transparent;
             this.grid14.Image = global::BinanKiosk.Properties.Resources.rightrow;
-            this.grid14.Location = new System.Drawing.Point(780, 464);
+            this.grid14.Location = new System.Drawing.Point(782, 469);
             this.grid14.Name = "grid14";
             this.grid14.Size = new System.Drawing.Size(15, 15);
             this.grid14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -969,7 +969,7 @@
             // 
             this.grid15.BackColor = System.Drawing.Color.Transparent;
             this.grid15.Image = global::BinanKiosk.Properties.Resources.downrow;
-            this.grid15.Location = new System.Drawing.Point(780, 500);
+            this.grid15.Location = new System.Drawing.Point(782, 506);
             this.grid15.Name = "grid15";
             this.grid15.Size = new System.Drawing.Size(15, 15);
             this.grid15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1086,7 +1086,7 @@
             // 
             this.grid16.BackColor = System.Drawing.Color.Transparent;
             this.grid16.Image = global::BinanKiosk.Properties.Resources.rightrow;
-            this.grid16.Location = new System.Drawing.Point(736, 464);
+            this.grid16.Location = new System.Drawing.Point(741, 469);
             this.grid16.Name = "grid16";
             this.grid16.Size = new System.Drawing.Size(15, 15);
             this.grid16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1098,7 +1098,7 @@
             // 
             this.grid1.BackColor = System.Drawing.Color.Transparent;
             this.grid1.Image = global::BinanKiosk.Properties.Resources.leftrow;
-            this.grid1.Location = new System.Drawing.Point(591, 464);
+            this.grid1.Location = new System.Drawing.Point(591, 469);
             this.grid1.Name = "grid1";
             this.grid1.Size = new System.Drawing.Size(15, 15);
             this.grid1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1325,7 +1325,7 @@
             // 
             this.grid48.BackColor = System.Drawing.Color.Transparent;
             this.grid48.Image = global::BinanKiosk.Properties.Resources.leftrow;
-            this.grid48.Location = new System.Drawing.Point(527, 225);
+            this.grid48.Location = new System.Drawing.Point(527, 230);
             this.grid48.Name = "grid48";
             this.grid48.Size = new System.Drawing.Size(15, 15);
             this.grid48.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
