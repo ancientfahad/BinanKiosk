@@ -560,7 +560,7 @@
             // grid46
             // 
             this.grid46.BackColor = System.Drawing.Color.Transparent;
-            this.grid46.Image = global::BinanKiosk.Properties.Resources.rightrow;
+            this.grid46.Image = global::BinanKiosk.Properties.Resources.downrow;
             this.grid46.Location = new System.Drawing.Point(700, 402);
             this.grid46.Name = "grid46";
             this.grid46.Size = new System.Drawing.Size(15, 30);

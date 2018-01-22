@@ -68,7 +68,7 @@
             this.step50 = new System.Windows.Forms.PictureBox();
             this.step48 = new System.Windows.Forms.PictureBox();
             this.step47 = new System.Windows.Forms.PictureBox();
-            this.step46 = new System.Windows.Forms.PictureBox();
+            this.switch5 = new System.Windows.Forms.PictureBox();
             this.step63 = new System.Windows.Forms.PictureBox();
             this.step64 = new System.Windows.Forms.PictureBox();
             this.step60 = new System.Windows.Forms.PictureBox();
@@ -134,7 +134,7 @@
             this.step70 = new System.Windows.Forms.PictureBox();
             this.step72 = new System.Windows.Forms.PictureBox();
             this.step71 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.switch6 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.step65)).BeginInit();
@@ -155,7 +155,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.step50)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.step48)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.step47)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.step46)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.switch5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.step63)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.step64)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.step60)).BeginInit();
@@ -215,7 +215,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.step70)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.step72)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.step71)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.switch6)).BeginInit();
             this.SuspendLayout();
             // 
             // btnLCRG
@@ -520,7 +520,7 @@
             // 
             this.step65.BackColor = System.Drawing.Color.Transparent;
             this.step65.Image = global::BinanKiosk.Properties.Resources.uprow;
-            this.step65.Location = new System.Drawing.Point(639, 543);
+            this.step65.Location = new System.Drawing.Point(639, 535);
             this.step65.Name = "step65";
             this.step65.Size = new System.Drawing.Size(15, 15);
             this.step65.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -733,17 +733,17 @@
             this.step47.TabStop = false;
             this.step47.Visible = false;
             // 
-            // step46
+            // switch5
             // 
-            this.step46.BackColor = System.Drawing.Color.Transparent;
-            this.step46.Image = global::BinanKiosk.Properties.Resources.rightrow;
-            this.step46.Location = new System.Drawing.Point(639, 575);
-            this.step46.Name = "step46";
-            this.step46.Size = new System.Drawing.Size(15, 15);
-            this.step46.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.step46.TabIndex = 139;
-            this.step46.TabStop = false;
-            this.step46.Visible = false;
+            this.switch5.BackColor = System.Drawing.Color.Transparent;
+            this.switch5.Image = global::BinanKiosk.Properties.Resources.rightrow;
+            this.switch5.Location = new System.Drawing.Point(639, 575);
+            this.switch5.Name = "switch5";
+            this.switch5.Size = new System.Drawing.Size(15, 15);
+            this.switch5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.switch5.TabIndex = 139;
+            this.switch5.TabStop = false;
+            this.switch5.Visible = false;
             // 
             // step63
             // 
@@ -1559,15 +1559,17 @@
             this.step71.TabStop = false;
             this.step71.Visible = false;
             // 
-            // pictureBox1
+            // switch6
             // 
-            this.pictureBox1.Image = global::BinanKiosk.Properties.Resources.bgopacity;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 65);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1366, 611);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 284;
-            this.pictureBox1.TabStop = false;
+            this.switch6.BackColor = System.Drawing.Color.Transparent;
+            this.switch6.Image = global::BinanKiosk.Properties.Resources.uprow;
+            this.switch6.Location = new System.Drawing.Point(639, 575);
+            this.switch6.Name = "switch6";
+            this.switch6.Size = new System.Drawing.Size(15, 15);
+            this.switch6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.switch6.TabIndex = 287;
+            this.switch6.TabStop = false;
+            this.switch6.Visible = false;
             // 
             // GroundFloor
             // 
@@ -1575,6 +1577,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1366, 768);
+            this.Controls.Add(this.switch6);
             this.Controls.Add(this.step71);
             this.Controls.Add(this.step72);
             this.Controls.Add(this.step70);
@@ -1618,7 +1621,7 @@
             this.Controls.Add(this.step50);
             this.Controls.Add(this.step48);
             this.Controls.Add(this.step47);
-            this.Controls.Add(this.step46);
+            this.Controls.Add(this.switch5);
             this.Controls.Add(this.step63);
             this.Controls.Add(this.step64);
             this.Controls.Add(this.step60);
@@ -1677,7 +1680,6 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.Map);
             this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "GroundFloor";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -1703,7 +1705,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.step50)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.step48)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.step47)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.step46)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.switch5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.step63)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.step64)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.step60)).EndInit();
@@ -1763,7 +1765,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.step70)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.step72)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.step71)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.switch6)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1830,7 +1832,7 @@
         private System.Windows.Forms.PictureBox step64;
         private System.Windows.Forms.PictureBox step48;
         private System.Windows.Forms.PictureBox step47;
-        private System.Windows.Forms.PictureBox step46;
+        private System.Windows.Forms.PictureBox switch5;
         private System.Windows.Forms.PictureBox step52;
         private System.Windows.Forms.PictureBox step51;
         private System.Windows.Forms.PictureBox step50;
@@ -1873,7 +1875,7 @@
         private System.Windows.Forms.PictureBox step70;
         private System.Windows.Forms.PictureBox step72;
         private System.Windows.Forms.PictureBox step71;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox switch6;
     }
 }
 
