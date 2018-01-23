@@ -93,6 +93,26 @@ namespace BinanKiosk.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bgopacity2 {
+            get {
+                object obj = ResourceManager.GetObject("bgopacity2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bgopacity3 {
+            get {
+                object obj = ResourceManager.GetObject("bgopacity3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap binan {
             get {
                 object obj = ResourceManager.GetObject("binan", resourceCulture);
@@ -376,6 +396,16 @@ namespace BinanKiosk.Properties {
         internal static System.Drawing.Bitmap jobIcon {
             get {
                 object obj = ResourceManager.GetObject("jobIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap jobsIcon {
+            get {
+                object obj = ResourceManager.GetObject("jobsIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
