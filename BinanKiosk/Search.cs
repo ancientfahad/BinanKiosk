@@ -31,6 +31,9 @@ namespace BinanKiosk
         int count = 0, countOffice = 0, countService = 0, countJob = 0;
         int index = 0, indexOffice = 0, indexService = 0, indexJob = 0;
 
+        string jobID = "";
+        bool exist = false;
+
         protected override CreateParams CreateParams
         {
             get
@@ -289,21 +292,20 @@ namespace BinanKiosk
                 sv.ShowDialog();
                 sv.Focus();
             }
-            else if (radioOffices.Checked)
+            else if (radioJob.Checked)
             {
-                Jobs jbs = new Jobs();
-                jbs.Reader();
-                jbs.NextForm();
+                Global.gbSelectedSearchJob = (sender as Button).Text;
+                ReaderSearch();
 
-                OfficeResults office = new OfficeResults();
+                JobResult jr = new JobResult(Global.gbSelectedSearchJob);
                 this.Hide();
-                office.FormClosed += (s, args) => this.Close();
-                office.ShowDialog();
-                this.Close();
-
+                jr.FormClosed += (s, args) => this.Close();
+                jr.ShowDialog();
+                jr.Focus();
             }
             else
             {
+                ///
             }
 
         }
@@ -476,7 +478,68 @@ namespace BinanKiosk
             timestamp.Enabled = true;
             timestamp.Tick += new System.EventHandler(OnTimerEvent);
         }
-        
+
+        public void ReaderSearch()
+        {
+            conn.Open();
+
+            cmd = new MySqlCommand("SELECT jobs.job_name, jobs.job_id FROM jobs WHERE jobs.job_name LIKE '%" + Global.gbSelectedSearchJob + "%' ", conn);
+            cmd.ExecuteNonQuery();
+            reader = cmd.ExecuteReader();
+
+            if (reader.HasRows)
+            {
+                reader.Read();
+                jobID = reader["job_id"].ToString();
+                exist = true;
+            }
+            else
+            {
+                exist = false;
+            }
+            reader.Close();
+
+            cmd = new MySqlCommand("SELECT COUNT(jobtypes.job_id) AS count FROM jobtypes WHERE jobtypes.job_id LIKE '%" + jobID + "%' ", conn);
+            //cmd1 = new MySqlCommand("SELECT COUNT(officials.first_name) AS count FROM officials WHERE officials.first_name LIKE '"+ txtSearch.Text +"%' ", conn);
+            cmd.ExecuteNonQuery();
+            reader = cmd.ExecuteReader();
+
+            if (reader.HasRows)
+            {
+                reader.Read();
+                index = Convert.ToInt32(reader["count"]);
+                Global.gbJobtype = new string[index];
+                Global.gbJoblocation = new string[index];
+                Global.gbJobdescription = new string[index];
+                Global.gbJobCompany = new string[index];
+            }
+            reader.Close();
+
+            //MessageBox.Show(Global.gbJobtype.Length.ToString());
+
+            if (exist == true)
+            {
+                cmd = new MySqlCommand("SELECT jobtypes.job_types, jobtypes.job_location, jobtypes.job_company, jobtypes.job_description FROM jobtypes WHERE jobtypes.job_id LIKE '%" + jobID + "%' ", conn);
+                cmd.ExecuteNonQuery();
+                reader = cmd.ExecuteReader();
+
+                int count = 0;
+
+                while (reader.Read())
+                {
+                    Global.gbJobtype[count] = reader["job_types"].ToString();
+                    Global.gbJoblocation[count] = reader["job_location"].ToString();
+                    Global.gbJobCompany[count] = reader["job_company"].ToString();
+                    Global.gbJobdescription[count] = reader["job_description"].ToString();
+
+                    count++;
+                }
+
+                reader.Close();
+                conn.Close();
+            }
+        }
+
         public void lists() {
 
             conn.Open();

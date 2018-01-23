@@ -111,7 +111,7 @@ namespace BinanKiosk
             jr.ShowDialog();
             jr.Focus();
         }
-
+        
         private void Jobs_Load(object sender, EventArgs e)
         {
             //hideButtons();
@@ -242,7 +242,6 @@ namespace BinanKiosk
             Global.job = (sender as Button).Text;
             MessageBox.Show(Global.job);
 
-
             JobResult jr = new JobResult(valueBox.Text);
             this.Hide();
             jr.FormClosed += (s, args) => this.Close();
@@ -273,7 +272,6 @@ namespace BinanKiosk
 
         private void archi_btn_Click(object sender, EventArgs e)
         {
-            //variable.FormName = (sender as Button).Text;
             valueBox.Text = archi_btn.Text;
             Reader();
             NextForm();
