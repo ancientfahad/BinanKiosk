@@ -17,16 +17,6 @@ namespace BinanKiosk
     public partial class Search : Form
     {
 
-        protected override CreateParams CreateParams
-        {
-            get
-            {
-                CreateParams cp = base.CreateParams;
-                cp.ExStyle |= 0x02000000;  // Turn on WS_EX_COMPOSITED
-                return cp;
-            }
-        }
-
         MySqlConnection conn = new MySqlConnection("SERVER=" + "localhost" + ";" + "DATABASE=" + "binan_kiosk" + ";" + "UID=" + "root" + ";" + "PASSWORD=" + "" + ";");
         MySqlDataReader reader, reader1;
         MySqlCommand cmd, cmd1;
@@ -40,6 +30,16 @@ namespace BinanKiosk
 
         int count = 0, countOffice = 0, countService = 0, countJob = 0;
         int index = 0, indexOffice = 0, indexService = 0, indexJob = 0;
+
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams cp = base.CreateParams;
+                cp.ExStyle |= 0x02000000;  // Turn on WS_EX_COMPOSITED
+                return cp;
+            }
+        }
         
         public Search()
         {
@@ -173,8 +173,140 @@ namespace BinanKiosk
         {
 
         }
-        
+
         #endregion
+
+        private void btnSrch_Click(object sender, EventArgs e)
+        {
+            Button btn = sender as Button;
+            string clicked = btn.Text;
+
+            if (radioOfficers.Checked)
+            {
+                conn.Open();
+                cmd = new MySqlCommand("SELECT officials.first_name, officials.last_name, officials.middle_initial, departments.department_name, positions.position_name, departments.room_name FROM officials JOIN departments ON officials.officials_id = departments.officials_id JOIN positions ON officials.officials_id = positions.officials_id WHERE CONCAT (officials.first_name, ' ', officials.middle_initial, ' ', officials.last_name, ' ', officials.suffex) LIKE '%" + clicked + "%' ", conn);
+                cmd.ExecuteNonQuery();
+                reader = cmd.ExecuteReader();
+
+                if (reader.HasRows)
+                {
+                    reader.Read();
+                    Global.gbFirstName = reader["first_name"].ToString();
+                    Global.gbLastName = reader["last_name"].ToString();
+                    Global.gbMI = reader["middle_initial"].ToString();
+                    Global.gbDepartment = reader["department_name"].ToString();
+                    Global.gbPosition = reader["position_name"].ToString();
+                    Global.gbRoom = reader["room_name"].ToString();
+                }
+
+                reader.Close();
+                conn.Close();
+
+                OfficerResult officer = new OfficerResult();
+                this.Hide();
+                officer.FormClosed += (s, args) => this.Close();
+                officer.ShowDialog();
+                this.Close();
+
+            }
+            else if (radioOffices.Checked)
+            {
+
+                conn.Open();
+                cmd = new MySqlCommand("SELECT officials.first_name, officials.last_name, officials.middle_initial, departments.department_name, departments.room_name, departments.Dep_description FROM officials JOIN departments ON officials.officials_id = departments.officials_id JOIN positions ON officials.officials_id = positions.officials_id WHERE departments.department_name LIKE '%" + clicked + "%' ", conn);
+                cmd.ExecuteNonQuery();
+                reader = cmd.ExecuteReader();
+
+
+                if (reader.HasRows)
+                {
+                    reader.Read();
+                    Global.gbFirstName = reader["first_name"].ToString();
+                    Global.gbLastName = reader["last_name"].ToString();
+                    Global.gbMI = reader["middle_initial"].ToString();
+                    Global.gbDepartment = reader["department_name"].ToString();
+                    Global.gbRoom = reader["room_name"].ToString();
+                    Global.gbDepDesc = reader["Dep_description"].ToString();
+                }
+                reader.Close();
+                conn.Close();
+
+                OfficeResults office = new OfficeResults();
+                this.Hide();
+                office.FormClosed += (s, args) => this.Close();
+                office.ShowDialog();
+                this.Close();
+
+            }
+            else if (radioApplications.Checked)
+            {
+
+                conn.Open();
+                cmd = new MySqlCommand("SELECT services.service_name FROM services WHERE service_name LIKE '%" + clicked + "%' ", conn);
+                cmd.ExecuteNonQuery();
+                reader = cmd.ExecuteReader();
+
+
+                if (reader.HasRows)
+                {
+                    reader.Read();
+                    Global.gbService = reader["service_name"].ToString();
+                }
+
+                reader.Close();
+                conn.Close();
+
+
+                /*string passed = "";
+
+                if (Global.gbService == "Payment of Real Property Transfer Tax") {
+                    passed = "a";
+                }
+                else if (Global.gbService == "Issuance of Community Tax Certificate for Corporation")
+                {
+                    passed = "b";
+                }
+                else if (Global.gbService == "Issuance of Professional Tax Reciept")
+                {
+                    passed = "c";
+                }
+                else if (Global.gbService == "Payment of Real Property Tax")
+                {
+                    passed = "d";
+                }
+                else if (Global.gbService == "Payment of Business Tax")
+                {
+                    passed = "e";
+                }
+                else if (Global.gbService == "Certification of Tax Clearance")
+                {
+                    passed = "f";
+                }
+                */
+                ServiceView sv = new ServiceView(Global.gbService);
+                this.Hide();
+                sv.FormClosed += (s, args) => this.Close();
+                sv.ShowDialog();
+                sv.Focus();
+            }
+            else if (radioOffices.Checked)
+            {
+                Jobs jbs = new Jobs();
+                jbs.Reader();
+                jbs.NextForm();
+
+                OfficeResults office = new OfficeResults();
+                this.Hide();
+                office.FormClosed += (s, args) => this.Close();
+                office.ShowDialog();
+                this.Close();
+
+            }
+            else
+            {
+            }
+
+        }
 
         private void txtSearch_Click(object sender, EventArgs e)
         {
@@ -225,121 +357,6 @@ namespace BinanKiosk
                     nothing_found.Visible = true;
                 }
             }*/
-        }
-
-        private void btnSrch_Click(object sender, EventArgs e)
-        {
-            Button btn = sender as Button;
-            string clicked = btn.Text;
-
-            if (radioOfficers.Checked) {
-                conn.Open();
-                cmd = new MySqlCommand("SELECT officials.first_name, officials.last_name, officials.middle_initial, departments.department_name, positions.position_name, departments.room_name FROM officials JOIN departments ON officials.officials_id = departments.officials_id JOIN positions ON officials.officials_id = positions.officials_id WHERE CONCAT (officials.first_name, ' ', officials.middle_initial, ' ', officials.last_name, ' ', officials.suffex) LIKE '%"  + clicked + "%' ", conn);
-                cmd.ExecuteNonQuery();
-                reader = cmd.ExecuteReader();
-
-                if (reader.HasRows)
-                {
-                    reader.Read();
-                    Global.gbFirstName = reader["first_name"].ToString();
-                    Global.gbLastName = reader["last_name"].ToString();
-                    Global.gbMI = reader["middle_initial"].ToString();
-                    Global.gbDepartment = reader["department_name"].ToString();
-                    Global.gbPosition = reader["position_name"].ToString();
-                    Global.gbRoom = reader["room_name"].ToString();
-                }
-
-                reader.Close();
-                conn.Close();
-                
-                OfficerResult officer = new OfficerResult();
-                this.Hide();
-                officer.FormClosed += (s, args) => this.Close();
-                officer.ShowDialog();
-                this.Close();
-
-            }
-            else if (radioOffices.Checked) {
-
-                conn.Open();
-                cmd = new MySqlCommand("SELECT officials.first_name, officials.last_name, officials.middle_initial, departments.department_name, departments.room_name, departments.Dep_description FROM officials JOIN departments ON officials.officials_id = departments.officials_id JOIN positions ON officials.officials_id = positions.officials_id WHERE departments.department_name LIKE '%" + clicked + "%' ", conn);
-                cmd.ExecuteNonQuery();
-                reader = cmd.ExecuteReader();
-                
-                
-                if (reader.HasRows)
-                {
-                    reader.Read();
-                    Global.gbFirstName = reader["first_name"].ToString();
-                    Global.gbLastName = reader["last_name"].ToString();
-                    Global.gbMI = reader["middle_initial"].ToString();
-                    Global.gbDepartment = reader["department_name"].ToString();
-                    Global.gbRoom = reader["room_name"].ToString();
-                    Global.gbDepDesc = reader["Dep_description"].ToString();
-                }
-                reader.Close();
-                conn.Close();
-
-                OfficeResults office = new OfficeResults();
-                this.Hide();
-                office.FormClosed += (s, args) => this.Close();
-                office.ShowDialog();
-                this.Close();
-
-            }
-            else if (radioApplications.Checked) {
-                
-                conn.Open();
-                cmd = new MySqlCommand("SELECT services.service_name FROM services WHERE service_name LIKE '%" + clicked + "%' ", conn);
-                cmd.ExecuteNonQuery();
-                reader = cmd.ExecuteReader();
-
-
-                if (reader.HasRows)
-                {
-                    reader.Read();
-                    Global.gbService = reader["service_name"].ToString();
-                }
-
-                reader.Close();
-                conn.Close();
-
-
-                /*string passed = "";
-
-                if (Global.gbService == "Payment of Real Property Transfer Tax") {
-                    passed = "a";
-                }
-                else if (Global.gbService == "Issuance of Community Tax Certificate for Corporation")
-                {
-                    passed = "b";
-                }
-                else if (Global.gbService == "Issuance of Professional Tax Reciept")
-                {
-                    passed = "c";
-                }
-                else if (Global.gbService == "Payment of Real Property Tax")
-                {
-                    passed = "d";
-                }
-                else if (Global.gbService == "Payment of Business Tax")
-                {
-                    passed = "e";
-                }
-                else if (Global.gbService == "Certification of Tax Clearance")
-                {
-                    passed = "f";
-                }
-                */
-                ServiceView sv = new ServiceView(Global.gbService);
-                this.Hide();
-                sv.FormClosed += (s, args) => this.Close();
-                sv.ShowDialog();
-                sv.Focus();
-            }
-            else {
-            }
-
         }
 
         private void txtSearch_TextChanged(object sender, EventArgs e)

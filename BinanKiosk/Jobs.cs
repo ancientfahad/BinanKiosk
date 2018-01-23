@@ -273,6 +273,7 @@ namespace BinanKiosk
 
         private void archi_btn_Click(object sender, EventArgs e)
         {
+            //variable.FormName = (sender as Button).Text;
             valueBox.Text = archi_btn.Text;
             Reader();
             NextForm();
