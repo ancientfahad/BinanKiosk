@@ -997,14 +997,6 @@ namespace BinanKiosk
             jb.Focus();
         }
 
-        private void btnHelp_Click(object sender, EventArgs e)
-        {
-            Help hp = new Help();
-            this.Hide();
-            hp.FormClosed += (s, args) => this.Close();
-            hp.ShowDialog();
-            hp.Focus();
-        }
         private void OnTimerEvent(object sender, EventArgs e)
         {
             lbltime.Text = DateTime.Now.ToLongTimeString();

@@ -200,15 +200,6 @@ namespace BinanKiosk
             }
         }
 
-        private void btnHelp_Click(object sender, EventArgs e)
-        {
-            Help hlp = new Help();
-            this.Hide();
-            hlp.FormClosed += (s, args) => this.Close();
-            hlp.ShowDialog();
-            hlp.Focus();
-        }
-
         private void btnMaps_Click(object sender, EventArgs e)
         {
             GroundFloor gf = new GroundFloor();

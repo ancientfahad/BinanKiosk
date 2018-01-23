@@ -10,7 +10,6 @@ using System.Windows.Forms;
 using System.Diagnostics;
 using System.Text.RegularExpressions;
 using MySql.Data.MySqlClient;
-using System.IO;
 
 namespace BinanKiosk
 {
@@ -32,83 +31,8 @@ namespace BinanKiosk
 
             InitializeComponent();
             valuebtn.Text = "";
-            filldata();
-            testview.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
 
         }
-
-        private void filldata()
-        {
-            //string projectPath = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName;
-            testview.AutoGenerateColumns = false;
-            testview.ColumnCount = 1;
-            //testview.Columns[0].Name = "";
-
-            DataGridViewImageColumn imgcol = new DataGridViewImageColumn();
-            imgcol.Name = "   ";
-
-            testview.Columns.Add(imgcol);
-
-            string projectPath = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName;
-            string imgString = Path.Combine(projectPath, "Resources\\btnorangere.png");
-            Image img = Image.FromFile(imgString);
-            //Image img = Image.FromFile(@"C:/Users/doratheexplorer/Desktop/BINANKIOSK RESOURCE/BinanKiosk marvin/BinanKiosk/Resources/btnorangere.png");
-
-            
-            object[] row = new object[] { "Payment of Real Property Transfer Tax", img };
-            testview.Rows.Add(row);
-
-            row = new object[] { "Issuance of Community Tax Certificate for Corporation", img };
-            testview.Rows.Add(row);
-
-            row = new object[] { "Issuance of Professional Tax Reciept", img };
-            testview.Rows.Add(row);
-
-            row = new object[] { "Payment of Real Property Tax", img };
-            testview.Rows.Add(row);
-
-            row = new object[] { "Payment of Business Tax", img };
-            testview.Rows.Add(row);
-
-            row = new object[] { "Certification of Tax Clearance", img };
-            testview.Rows.Add(row);
-
-            row = new object[] { "Payment of Burial", img };
-            testview.Rows.Add(row);
-
-            row = new object[] { "Payment of Building Permit", img };
-            testview.Rows.Add(row);
-
-            row = new object[] { "Payment of Police, Mayor, and Other Certificate Clearance", img };
-            testview.Rows.Add(row);
-
-            row = new object[] { "Payment of Civil Registration", img };
-            testview.Rows.Add(row);
-
-            row = new object[] { "Payment of Traffic Violation", img };
-            testview.Rows.Add(row);
-
-            row = new object[] { "Issuance of Community Tax for Individual", img };
-            testview.Rows.Add(row);
-
-            row = new object[] { "Payment of Weight and Measure License Fees", img };
-            testview.Rows.Add(row);
-
-            row = new object[] { "Payment of Market Stalls and Electrical Fees", img };
-            testview.Rows.Add(row);
-
-
-
-
-            DataGridViewColumn colsize = testview.Columns[0];
-            colsize.Width = 420;
-            DataGridViewColumn colsize2 = testview.Columns[1];
-            colsize2.Width = 250;
-            DataGridViewRow rowsize = testview.Rows[0];
-            rowsize.Height = 60;
-
-        }
-
 
         public void nextForm()
         {
@@ -167,11 +91,11 @@ namespace BinanKiosk
 
         private void btnHelp_Click(object sender, EventArgs e)
         {
-
+           
             MessageBox.Show("These are the services provided by the City of Binan. The Search button allows you to search our directory for officers, rooms, and applications. You may select the service you choose to the view its requirements and process.");
         }
-
-
+        
+        
         //
         ///
         ////********Government Service Buttons********////
@@ -279,7 +203,7 @@ namespace BinanKiosk
         private void OnTimerEvent(object sender, EventArgs e)
         {
             lbltime.Text = DateTime.Now.ToLongTimeString();
-            lbldate.Text = DateTime.Now.ToLongDateString();
+            lbldate.Text = DateTime.Now.DayOfWeek.ToString() + ", " + DateTime.Now.ToLongDateString();
         }
 
         private void timestamp_Tick(object sender, EventArgs e)
@@ -295,123 +219,6 @@ namespace BinanKiosk
             lng.FormClosed += (s, args) => this.Close();
             lng.ShowDialog();
             lng.Focus();
-        }
-
-        private void testview_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-            string test2 = testview.SelectedRows[0].Cells[""].Value.ToString();
-
-            if (test2 == "Payment of Real Property Transfer Tax")
-            {
-                valuebtn.Text = "Payment of Real Property Transfer Tax";
-                nextForm();
-
-            }
-
-            else if (test2 == "Issuance of Community Tax Certificate for Corporation")
-            {
-
-                valuebtn.Text = "Issuance of Community Tax Certificate for Corporation";
-                nextForm();
-
-            }
-
-            else if (test2 == "Issuance of Professional Tax Reciept")
-            {
-
-                valuebtn.Text = "Issuance of Professional Tax Reciept";
-                nextForm();
-
-            }
-
-            else if (test2 == "Payment of Real Property Tax")
-            {
-
-                valuebtn.Text = "Payment of Real Property Tax";
-                nextForm();
-
-            }
-
-            else if (test2 == "Payment of Business Tax")
-            {
-
-                valuebtn.Text = "Payment of Business Tax";
-                nextForm();
-
-            }
-
-            else if (test2 == "Certification of Tax Clearance")
-            {
-
-                valuebtn.Text = "Certification of Tax Clearance";
-                nextForm();
-
-            }
-
-            else if (test2 == "Payment of Burial")
-            {
-
-                valuebtn.Text = "PayBurial";
-                nextForm();
-
-            }
-
-            else if (test2 == "Payment of Building Permit")
-            {
-
-                valuebtn.Text = "PayBlg";
-                nextForm();
-
-            }
-
-            else if (test2 == "Payment of Police, Mayor, and Other Certificate Clearance")
-            {
-
-                valuebtn.Text = "PayPol";
-                nextForm();
-
-            }
-
-            else if (test2 == "Payment of Civil Registration")
-            {
-
-                valuebtn.Text = "PayCivilReg";
-                nextForm();
-
-            }
-
-            else if (test2 == "Payment of Traffic Violation")
-            {
-
-                valuebtn.Text = "PayTraffic";
-                nextForm();
-
-            }
-
-            else if (test2 == "Issuance of Community Tax for Individual")
-            {
-
-                valuebtn.Text = "IssueComTax";
-                nextForm();
-
-            }
-
-            else if (test2 == "Payment of Weight and Measure License Fees")
-            {
-
-                valuebtn.Text = "PayWeight";
-                nextForm();
-
-            }
-
-            else if (test2 == "Payment of Market Stalls and Electrical Fees")
-            {
-
-                valuebtn.Text = "PayPolClear";
-                nextForm();
-
-            }
-
         }
     }
 }

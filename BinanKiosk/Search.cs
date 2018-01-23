@@ -734,14 +734,5 @@ namespace BinanKiosk
             jb.Focus();
         }
 
-        private void btnHelp_Click(object sender, EventArgs e)
-        {
-            Help hlp = new Help();
-            this.Hide();
-            hlp.FormClosed += (s, args) => this.Close();
-            hlp.ShowDialog();
-            hlp.Focus();
-        }
-
     }
 }

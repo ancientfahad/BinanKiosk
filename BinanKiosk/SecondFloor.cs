@@ -1441,15 +1441,6 @@ namespace BinanKiosk
             jb.ShowDialog();
         }
 
-        private void btnHelp_Click(object sender, EventArgs e)
-        {
-            Help hp = new Help();
-            this.Hide();
-            hp.FormClosed += (s, args) => this.Close();
-            hp.ShowDialog();
-            hp.ShowDialog();
-        }
-
         private void Map_Click(object sender, EventArgs e)
         {
 
