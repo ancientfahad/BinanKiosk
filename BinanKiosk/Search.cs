@@ -34,11 +34,12 @@ namespace BinanKiosk
         AutoCompleteStringCollection officerCollection = new AutoCompleteStringCollection();
         AutoCompleteStringCollection officeCollection = new AutoCompleteStringCollection();
         AutoCompleteStringCollection serviceCollection = new AutoCompleteStringCollection();
+        AutoCompleteStringCollection jobCollection = new AutoCompleteStringCollection();
 
-        String[] officerList, officeList, serviceList;
+        String[] officerList, officeList, serviceList, jobList;
 
-        int count = 0, countOffice = 0, countService = 0;
-        int index = 0, indexOffice = 0, indexService = 0;
+        int count = 0, countOffice = 0, countService = 0, countJob = 0;
+        int index = 0, indexOffice = 0, indexService = 0, indexJob = 0;
         
         public Search()
         {
@@ -47,6 +48,9 @@ namespace BinanKiosk
 
         private void Search_Load(object sender, EventArgs e)
         {
+            //Language
+            #region
+
             if (Global.language == "Filipino")
             {
                 btnLanguages.Text = "PALITAN NG WIKA";
@@ -62,22 +66,30 @@ namespace BinanKiosk
                 radioOffices.Text = "Kagawaran";
                 radioApplications.Text = "Mga Serbisyo"; 
             }
-            
+
+            #endregion
+
             //Officer
+            #region
+
             conn.Open();
             cmd = new MySqlCommand("SELECT CONCAT (officials.first_name, ' ', officials.middle_initial, ' ', officials.last_name, ' ', officials.suffex) AS name FROM officials", conn);
             cmd.ExecuteNonQuery();
             reader = cmd.ExecuteReader();
-            
+
             while (reader.Read())
             {
                 officerCollection.Add(reader.GetString(0));
             }
-            
+
             reader.Close();
             conn.Close();
 
+            #endregion
+
             //Office
+            #region
+
             conn.Open();
             cmd = new MySqlCommand("SELECT department_name FROM departments", conn);
             cmd.ExecuteNonQuery();
@@ -91,7 +103,11 @@ namespace BinanKiosk
             reader.Close();
             conn.Close();
 
+            #endregion
+
             //Services
+            #region
+
             conn.Open();
             cmd = new MySqlCommand("SELECT service_name FROM services", conn);
             cmd.ExecuteNonQuery();
@@ -105,10 +121,33 @@ namespace BinanKiosk
             reader.Close();
             conn.Close();
 
+            #endregion
+
+            //Jobs
+            #region
+            
+            conn.Open();
+            cmd = new MySqlCommand("SELECT job_name FROM jobs", conn);
+            cmd.ExecuteNonQuery();
+            reader = cmd.ExecuteReader();
+
+            while (reader.Read())
+            {
+                jobCollection.Add(reader.GetString(0));
+            }
+
+            reader.Close();
+            conn.Close();
+
+            #endregion
+
             timestamp.Interval = 1;
             timestamp.Start();
 
         }
+
+        //RadioButtons
+        #region
 
         private void radioOfficers_CheckedChanged(object sender, EventArgs e)
         {
@@ -125,11 +164,18 @@ namespace BinanKiosk
             txtSearch.AutoCompleteCustomSource = serviceCollection;
         }
 
+        private void radioJob_CheckedChanged(object sender, EventArgs e)
+        {
+            txtSearch.AutoCompleteCustomSource = jobCollection;
+        }
+
         private void radioAll_CheckedChanged(object sender, EventArgs e)
         {
 
         }
         
+        #endregion
+
         private void txtSearch_Click(object sender, EventArgs e)
         {
             //Code being used to open the virtual keyboard. This is something fishy, sometimes it works, sometimes it doesn't;
@@ -313,6 +359,10 @@ namespace BinanKiosk
                         btnArray[i].Visible = true;
                     }
                 }
+                else
+                {
+                    hideButtons();
+                }
             }
             else if (radioOffices.Checked)
             {
@@ -330,6 +380,10 @@ namespace BinanKiosk
                         btnArray[i].Text = officeList[i];
                         btnArray[i].Visible = true;
                     }
+                }
+                else
+                {
+                    hideButtons();
                 }
             }
             else if (radioApplications.Checked)
@@ -358,6 +412,40 @@ namespace BinanKiosk
                     hideButtons();
                 }
             }
+            else if (radioJob.Checked)
+            {
+
+                if (txtSearch.TextLength != 0)
+                {
+                    jobLists();
+                    hideButtons();
+
+                    if (indexJob > 0 && indexJob <= 15)
+                    {
+                        /*if (index > 10) {
+                            index = 10;
+                        }*/
+
+                        for (int i = 0; i < indexJob; i++)
+                        {
+                            btnArray[i].Text = jobList[i];
+                            btnArray[i].Visible = true;
+                        }
+                    }
+                    else if (indexJob > 15)
+                    {
+                        for (int i = 0; i < 15; i++)
+                        {
+                            btnArray[i].Text = jobList[i];
+                            btnArray[i].Visible = true;
+                        }
+                    }
+                }
+                else
+                {
+                    hideButtons();
+                }
+            }
         } //text changed
 
         private void OnTimerEvent(object sender, EventArgs e)
@@ -371,7 +459,7 @@ namespace BinanKiosk
             timestamp.Enabled = true;
             timestamp.Tick += new System.EventHandler(OnTimerEvent);
         }
-
+        
         public void lists() {
 
             conn.Open();
@@ -438,20 +526,11 @@ namespace BinanKiosk
             conn.Close();
         }
 
-        private void btnLanguages_Click(object sender, EventArgs e)
-        {
-            Language lng = new Language();
-            this.Hide();
-            lng.FormClosed += (s, args) => this.Close();
-            lng.ShowDialog();
-            lng.Focus();
-        }
-
         public void serviceLists()
         {
             conn.Open();
 
-            cmd1 = new MySqlCommand("SELECT COUNT(services.service_name) AS count FROM services WHERE service_name LIKE '% " + txtSearch.Text + "%' ", conn);
+            cmd1 = new MySqlCommand("SELECT COUNT(services.service_name) AS count FROM services WHERE service_name LIKE '%" + txtSearch.Text + "%' ", conn);
             cmd1.ExecuteNonQuery();
             reader1 = cmd1.ExecuteReader();
 
@@ -464,7 +543,7 @@ namespace BinanKiosk
             }
             reader1.Close();
 
-            cmd = new MySqlCommand("SELECT services.service_name FROM services WHERE service_name LIKE '% " + txtSearch.Text + "%' ", conn);
+            cmd = new MySqlCommand("SELECT services.service_name FROM services WHERE service_name LIKE '%" + txtSearch.Text + "%'", conn);
             cmd.ExecuteNonQuery();
             reader = cmd.ExecuteReader();
 
@@ -479,7 +558,39 @@ namespace BinanKiosk
             conn.Close();
         }
 
-        public void hideButtons() {
+        public void jobLists()
+        {
+            conn.Open();
+
+            cmd1 = new MySqlCommand("SELECT COUNT(jobs.job_name) AS count FROM jobs WHERE jobs.job_name LIKE '%" + txtSearch.Text + "%' ", conn);
+            cmd1.ExecuteNonQuery();
+            reader1 = cmd1.ExecuteReader();
+
+            if (reader1.HasRows)
+            {
+                reader1.Read();
+                indexJob = Convert.ToInt32(reader1["count"]);
+                jobList = new String[indexJob];
+            }
+            reader1.Close();
+            
+            cmd = new MySqlCommand("SELECT jobs.job_name FROM jobs WHERE jobs.job_name LIKE '%" + txtSearch.Text + "%' ", conn);
+            cmd.ExecuteNonQuery();
+            reader = cmd.ExecuteReader();
+
+            countJob = 0;
+
+            while (reader.Read())
+            {
+                jobList[countJob] = reader.GetString(0).ToString();
+                countJob++;
+            }
+            reader.Close();
+            conn.Close();
+        }
+
+        public void hideButtons()
+        {
 
             Button[] btnArray = { searchResult1, searchResult2, searchResult3, searchResult4, searchResult5, searchResult6, searchResult7, searchResult8, searchResult9, searchResult10, searchResult11, searchResult12, searchResult13, searchResult14, searchResult15 };
 
@@ -489,6 +600,15 @@ namespace BinanKiosk
             }
         }
 
+        private void btnLanguages_Click(object sender, EventArgs e)
+        {
+            Language lng = new Language();
+            this.Hide();
+            lng.FormClosed += (s, args) => this.Close();
+            lng.ShowDialog();
+            lng.Focus();
+        }
+        
         private void btnHome_Click(object sender, EventArgs e)
         {
             Home hm = new Home();
