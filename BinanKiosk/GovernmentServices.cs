@@ -306,65 +306,67 @@ namespace BinanKiosk
 
         private void btn0_Click(object sender, EventArgs e)
         {
-            for (int x = 0; x < pages; x++) {
+            Global.selectedBox0 = 0;
+            for (int x = 0; x < pages; x++)
+            {
                 Global.selectedBox0 = Global.selectedBox0 + 6;
             }
-            //Global.selectedBox0 = 0;
+            
             MessageBox.Show(Global.selectedBox0.ToString());
             MessageBox.Show(Global.gbDbService[Global.selectedBox0]);
         }
 
         private void btn1_Click(object sender, EventArgs e)
         {
+            Global.selectedBox0 = 1;
             for (int x = 0; x < pages; x++)
             {
                 Global.selectedBox1 = Global.selectedBox1 + 6;
             }
-            //Global.selectedBox0 = 1;
             MessageBox.Show(Global.selectedBox1.ToString());
             MessageBox.Show(Global.gbDbService[Global.selectedBox1]);
         }
 
         private void btn2_Click(object sender, EventArgs e)
         {
+            Global.selectedBox0 = 2;
             for (int x = 0; x < pages; x++)
             {
                 Global.selectedBox2 = Global.selectedBox2 + 6;
             }
-            //Global.selectedBox0 = 2;
             MessageBox.Show(Global.selectedBox2.ToString());
             MessageBox.Show(Global.gbDbService[Global.selectedBox2]);
         }
 
         private void btn3_Click(object sender, EventArgs e)
         {
+            Global.selectedBox0 = 3;
             for (int x = 0; x < pages; x++)
             {
                 Global.selectedBox3 = Global.selectedBox3 + 6;
             }
-            //Global.selectedBox0 = 3;
             MessageBox.Show(Global.selectedBox3.ToString());
             MessageBox.Show(Global.gbDbService[Global.selectedBox3]);
         }
 
         private void btn4_Click(object sender, EventArgs e)
         {
+            Global.selectedBox0 = 4;
             for (int x = 0; x < pages; x++)
             {
                 Global.selectedBox4 = Global.selectedBox4 + 6;
             }
-            //Global.selectedBox0 = 4;
             MessageBox.Show(Global.selectedBox4.ToString());
             MessageBox.Show(Global.gbDbService[Global.selectedBox4]);
         }
 
         private void btn5_Click(object sender, EventArgs e)
         {
+            Global.selectedBox0 = 5;
             for (int x = 0; x < pages; x++)
             {
                 Global.selectedBox5 = Global.selectedBox5 + 6;
             }
-            //Global.selectedBox0 = 5;
             MessageBox.Show(Global.selectedBox5.ToString());
             MessageBox.Show(Global.gbDbService[Global.selectedBox5]);
         }
