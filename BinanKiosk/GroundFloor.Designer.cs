@@ -92,7 +92,6 @@
             this.step4 = new System.Windows.Forms.PictureBox();
             this.step3 = new System.Windows.Forms.PictureBox();
             this.step59 = new System.Windows.Forms.PictureBox();
-            this.gridHome = new System.Windows.Forms.PictureBox();
             this.step39 = new System.Windows.Forms.PictureBox();
             this.step62 = new System.Windows.Forms.PictureBox();
             this.step37 = new System.Windows.Forms.PictureBox();
@@ -179,7 +178,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.step4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.step3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.step59)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridHome)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.step39)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.step62)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.step37)).BeginInit();
@@ -1020,17 +1018,6 @@
             this.step59.TabStop = false;
             this.step59.Visible = false;
             // 
-            // gridHome
-            // 
-            this.gridHome.BackColor = System.Drawing.Color.Transparent;
-            this.gridHome.Image = global::BinanKiosk.Properties.Resources.point;
-            this.gridHome.Location = new System.Drawing.Point(605, 568);
-            this.gridHome.Name = "gridHome";
-            this.gridHome.Size = new System.Drawing.Size(30, 30);
-            this.gridHome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.gridHome.TabIndex = 97;
-            this.gridHome.TabStop = false;
-            // 
             // step39
             // 
             this.step39.BackColor = System.Drawing.Color.Transparent;
@@ -1635,7 +1622,6 @@
             this.Controls.Add(this.step4);
             this.Controls.Add(this.step3);
             this.Controls.Add(this.step59);
-            this.Controls.Add(this.gridHome);
             this.Controls.Add(this.step39);
             this.Controls.Add(this.step62);
             this.Controls.Add(this.step37);
@@ -1729,7 +1715,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.step4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.step3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.step59)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridHome)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.step39)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.step62)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.step37)).EndInit();
@@ -1814,7 +1799,6 @@
         private System.Windows.Forms.PictureBox step38;
         private System.Windows.Forms.PictureBox step18;
         private System.Windows.Forms.PictureBox step26;
-        private System.Windows.Forms.PictureBox gridHome;
         private System.Windows.Forms.PictureBox step39;
         private System.Windows.Forms.PictureBox step62;
         private System.Windows.Forms.PictureBox step4;

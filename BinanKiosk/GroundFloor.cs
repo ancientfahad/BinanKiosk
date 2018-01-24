@@ -71,7 +71,7 @@ namespace BinanKiosk
                 step31, step32, step33, step34, step35, step36, step37, step38, step39, step40,
                 step41, step42, step43, step44, step45, switch5, step47, step48, step49, step50,
                 step51, step52, step53, step54, step55, step56, step57, step58, step59, step60,
-                step61, step62, step63, step64, step65,switch1, switch4,step66, step67, step68, step69, step70, step71, step72, gridHome };
+                step61, step62, step63, step64, step65,switch1, switch4,step66, step67, step68, step69, step70, step71, step72 };
 
             for (int i = 0; i < pictureArray.Length; i++)
             {

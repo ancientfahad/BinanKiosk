@@ -30,6 +30,13 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(JobResult));
+            this.JobResult1_panel = new System.Windows.Forms.Panel();
+            this.lbldate = new System.Windows.Forms.Label();
+            this.lbltime = new System.Windows.Forms.Label();
+            this.btnLanguages = new System.Windows.Forms.Button();
+            this.timestamp = new System.Windows.Forms.Timer(this.components);
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.btnHelp = new System.Windows.Forms.Button();
             this.btnJob = new System.Windows.Forms.Button();
             this.btnServices = new System.Windows.Forms.Button();
             this.btnMaps = new System.Windows.Forms.Button();
@@ -37,20 +44,99 @@
             this.btnHome = new System.Windows.Forms.Button();
             this.lblJob = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.JobResult1_panel = new System.Windows.Forms.Panel();
-            this.lbldate = new System.Windows.Forms.Label();
-            this.lbltime = new System.Windows.Forms.Label();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.btnHelp = new System.Windows.Forms.Button();
-            this.btnLanguages = new System.Windows.Forms.Button();
-            this.timestamp = new System.Windows.Forms.Timer(this.components);
+            this.JobResult1_panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
+            // 
+            // JobResult1_panel
+            // 
+            this.JobResult1_panel.AutoScroll = true;
+            this.JobResult1_panel.Controls.Add(this.panel1);
+            this.JobResult1_panel.Location = new System.Drawing.Point(30, 90);
+            this.JobResult1_panel.Name = "JobResult1_panel";
+            this.JobResult1_panel.Size = new System.Drawing.Size(1300, 565);
+            this.JobResult1_panel.TabIndex = 49;
+            // 
+            // lbldate
+            // 
+            this.lbldate.BackColor = System.Drawing.Color.ForestGreen;
+            this.lbldate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lbldate.Font = new System.Drawing.Font("Arial", 17.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbldate.ForeColor = System.Drawing.Color.White;
+            this.lbldate.Location = new System.Drawing.Point(1010, 685);
+            this.lbldate.Name = "lbldate";
+            this.lbldate.Size = new System.Drawing.Size(356, 31);
+            this.lbldate.TabIndex = 252;
+            this.lbldate.Text = ".";
+            this.lbldate.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // lbltime
+            // 
+            this.lbltime.BackColor = System.Drawing.Color.ForestGreen;
+            this.lbltime.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lbltime.Font = new System.Drawing.Font("Arial", 17.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbltime.ForeColor = System.Drawing.Color.White;
+            this.lbltime.Location = new System.Drawing.Point(1186, 717);
+            this.lbltime.Name = "lbltime";
+            this.lbltime.Size = new System.Drawing.Size(180, 39);
+            this.lbltime.TabIndex = 251;
+            this.lbltime.Text = ".";
+            this.lbltime.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // btnLanguages
+            // 
+            this.btnLanguages.BackColor = System.Drawing.Color.ForestGreen;
+            this.btnLanguages.FlatAppearance.BorderSize = 0;
+            this.btnLanguages.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLanguages.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLanguages.ForeColor = System.Drawing.Color.White;
+            this.btnLanguages.Location = new System.Drawing.Point(1174, 0);
+            this.btnLanguages.Name = "btnLanguages";
+            this.btnLanguages.Size = new System.Drawing.Size(128, 64);
+            this.btnLanguages.TabIndex = 268;
+            this.btnLanguages.Text = "CHANGE LANGUAGE";
+            this.btnLanguages.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnLanguages.UseVisualStyleBackColor = false;
+            this.btnLanguages.Click += new System.EventHandler(this.btnLanguages_Click);
+            // 
+            // timestamp
+            // 
+            this.timestamp.Interval = 1000;
+            this.timestamp.Tick += new System.EventHandler(this.timestamp_Tick);
+            // 
+            // panel1
+            // 
+            this.panel1.BackgroundImage = global::BinanKiosk.Properties.Resources.point;
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel1.Location = new System.Drawing.Point(60, 388);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(59, 51);
+            this.panel1.TabIndex = 0;
+            // 
+            // btnHelp
+            // 
+            this.btnHelp.BackColor = System.Drawing.Color.ForestGreen;
+            this.btnHelp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnHelp.FlatAppearance.BorderColor = System.Drawing.Color.Green;
+            this.btnHelp.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnHelp.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHelp.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHelp.ForeColor = System.Drawing.Color.Transparent;
+            this.btnHelp.Image = global::BinanKiosk.Properties.Resources.helpIcon2;
+            this.btnHelp.Location = new System.Drawing.Point(1299, 0);
+            this.btnHelp.Name = "btnHelp";
+            this.btnHelp.Size = new System.Drawing.Size(67, 64);
+            this.btnHelp.TabIndex = 267;
+            this.btnHelp.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnHelp.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnHelp.UseVisualStyleBackColor = false;
             // 
             // btnJob
             // 
@@ -181,40 +267,6 @@
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
             // 
-            // JobResult1_panel
-            // 
-            this.JobResult1_panel.AutoScroll = true;
-            this.JobResult1_panel.Location = new System.Drawing.Point(30, 90);
-            this.JobResult1_panel.Name = "JobResult1_panel";
-            this.JobResult1_panel.Size = new System.Drawing.Size(1300, 565);
-            this.JobResult1_panel.TabIndex = 49;
-            // 
-            // lbldate
-            // 
-            this.lbldate.BackColor = System.Drawing.Color.ForestGreen;
-            this.lbldate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lbldate.Font = new System.Drawing.Font("Arial", 17.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbldate.ForeColor = System.Drawing.Color.White;
-            this.lbldate.Location = new System.Drawing.Point(1010, 685);
-            this.lbldate.Name = "lbldate";
-            this.lbldate.Size = new System.Drawing.Size(356, 31);
-            this.lbldate.TabIndex = 252;
-            this.lbldate.Text = ".";
-            this.lbldate.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lbltime
-            // 
-            this.lbltime.BackColor = System.Drawing.Color.ForestGreen;
-            this.lbltime.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lbltime.Font = new System.Drawing.Font("Arial", 17.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbltime.ForeColor = System.Drawing.Color.White;
-            this.lbltime.Location = new System.Drawing.Point(1186, 717);
-            this.lbltime.Name = "lbltime";
-            this.lbltime.Size = new System.Drawing.Size(180, 39);
-            this.lbltime.TabIndex = 251;
-            this.lbltime.Text = ".";
-            this.lbltime.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
             // pictureBox7
             // 
             this.pictureBox7.BackColor = System.Drawing.Color.ForestGreen;
@@ -249,46 +301,6 @@
             this.pictureBox6.TabIndex = 248;
             this.pictureBox6.TabStop = false;
             // 
-            // btnHelp
-            // 
-            this.btnHelp.BackColor = System.Drawing.Color.ForestGreen;
-            this.btnHelp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnHelp.FlatAppearance.BorderColor = System.Drawing.Color.Green;
-            this.btnHelp.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnHelp.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.btnHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHelp.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHelp.ForeColor = System.Drawing.Color.Transparent;
-            this.btnHelp.Image = global::BinanKiosk.Properties.Resources.helpIcon2;
-            this.btnHelp.Location = new System.Drawing.Point(1299, 0);
-            this.btnHelp.Name = "btnHelp";
-            this.btnHelp.Size = new System.Drawing.Size(67, 64);
-            this.btnHelp.TabIndex = 267;
-            this.btnHelp.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnHelp.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnHelp.UseVisualStyleBackColor = false;
-            // 
-            // btnLanguages
-            // 
-            this.btnLanguages.BackColor = System.Drawing.Color.ForestGreen;
-            this.btnLanguages.FlatAppearance.BorderSize = 0;
-            this.btnLanguages.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLanguages.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLanguages.ForeColor = System.Drawing.Color.White;
-            this.btnLanguages.Location = new System.Drawing.Point(1174, 0);
-            this.btnLanguages.Name = "btnLanguages";
-            this.btnLanguages.Size = new System.Drawing.Size(128, 64);
-            this.btnLanguages.TabIndex = 268;
-            this.btnLanguages.Text = "CHANGE LANGUAGE";
-            this.btnLanguages.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnLanguages.UseVisualStyleBackColor = false;
-            this.btnLanguages.Click += new System.EventHandler(this.btnLanguages_Click);
-            // 
-            // timestamp
-            // 
-            this.timestamp.Interval = 1000;
-            this.timestamp.Tick += new System.EventHandler(this.timestamp_Tick);
-            // 
             // JobResult
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -315,6 +327,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home";
             this.Load += new System.EventHandler(this.JobResult_Load);
+            this.JobResult1_panel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
@@ -341,6 +354,7 @@
         private System.Windows.Forms.Button btnHelp;
         private System.Windows.Forms.Button btnLanguages;
         private System.Windows.Forms.Timer timestamp;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 
