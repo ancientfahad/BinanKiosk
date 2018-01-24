@@ -35,7 +35,6 @@
             this.lbltime = new System.Windows.Forms.Label();
             this.btnLanguages = new System.Windows.Forms.Button();
             this.timestamp = new System.Windows.Forms.Timer(this.components);
-            this.panel1 = new System.Windows.Forms.Panel();
             this.btnHelp = new System.Windows.Forms.Button();
             this.btnJob = new System.Windows.Forms.Button();
             this.btnServices = new System.Windows.Forms.Button();
@@ -47,7 +46,6 @@
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.JobResult1_panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
@@ -57,7 +55,6 @@
             // JobResult1_panel
             // 
             this.JobResult1_panel.AutoScroll = true;
-            this.JobResult1_panel.Controls.Add(this.panel1);
             this.JobResult1_panel.Location = new System.Drawing.Point(30, 90);
             this.JobResult1_panel.Name = "JobResult1_panel";
             this.JobResult1_panel.Size = new System.Drawing.Size(1300, 565);
@@ -109,15 +106,6 @@
             // 
             this.timestamp.Interval = 1000;
             this.timestamp.Tick += new System.EventHandler(this.timestamp_Tick);
-            // 
-            // panel1
-            // 
-            this.panel1.BackgroundImage = global::BinanKiosk.Properties.Resources.point;
-            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel1.Location = new System.Drawing.Point(60, 388);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(59, 51);
-            this.panel1.TabIndex = 0;
             // 
             // btnHelp
             // 
@@ -327,7 +315,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home";
             this.Load += new System.EventHandler(this.JobResult_Load);
-            this.JobResult1_panel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
@@ -354,7 +341,6 @@
         private System.Windows.Forms.Button btnHelp;
         private System.Windows.Forms.Button btnLanguages;
         private System.Windows.Forms.Timer timestamp;
-        private System.Windows.Forms.Panel panel1;
     }
 }
 

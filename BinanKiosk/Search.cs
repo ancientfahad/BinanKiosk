@@ -578,7 +578,7 @@ namespace BinanKiosk
 
             conn.Open();
 
-            cmd1 = new MySqlCommand("SELECT COUNT(departments.department_name) AS count FROM departments WHERE department_name LIKE '" + txtSearch.Text + "%' ", conn);
+            cmd1 = new MySqlCommand("SELECT COUNT(departments.department_name) AS count FROM departments WHERE department_name LIKE '%" + txtSearch.Text + "%' ", conn);
             cmd1.ExecuteNonQuery();
             reader1 = cmd1.ExecuteReader();
 
@@ -590,7 +590,7 @@ namespace BinanKiosk
             }
             reader1.Close();
 
-            cmd = new MySqlCommand("SELECT departments.department_name FROM departments WHERE department_name LIKE '" + txtSearch.Text + "%' ", conn);
+            cmd = new MySqlCommand("SELECT departments.department_name FROM departments WHERE department_name LIKE '%" + txtSearch.Text + "%' ", conn);
             cmd.ExecuteNonQuery();
             reader = cmd.ExecuteReader();
 
