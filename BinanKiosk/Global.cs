@@ -33,6 +33,8 @@ namespace BinanKiosk
 
         public static string gbSelectedJob = "";
 
+        public static string[] gbDbService;
+
         public static string gbSelectedSearchJob = "";
     }
 }

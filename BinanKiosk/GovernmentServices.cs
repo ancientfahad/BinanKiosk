@@ -16,6 +16,14 @@ namespace BinanKiosk
     public partial class GovernmentServices : Form
     {
 
+        MySqlConnection conn = new MySqlConnection("SERVER=" + "localhost" + ";" + "DATABASE=" + "binan_kiosk" + ";" + "UID=" + "root" + ";" + "PASSWORD=" + "" + ";");
+        MySqlDataReader reader;
+        MySqlCommand cmd;
+
+        int index = 0;
+
+        bool exist = false;
+
         protected override CreateParams CreateParams
         {
             get
@@ -111,6 +119,39 @@ namespace BinanKiosk
                 btnServices.Text = "Mga Serbisyo";
                 btnJob.Text = "Mga Trabaho";
                 lblServices.Text = "       MGA SERBISYO";
+            }
+
+            conn.Open();
+            cmd = new MySqlCommand("SELECT COUNT(services.service_name) AS count FROM services", conn);
+            //cmd1 = new MySqlCommand("SELECT COUNT(officials.first_name) AS count FROM officials WHERE officials.first_name LIKE '"+ txtSearch.Text +"%' ", conn);
+            cmd.ExecuteNonQuery();
+            reader = cmd.ExecuteReader();
+
+            if (reader.HasRows)
+            {
+                reader.Read();
+                index = Convert.ToInt32(reader["count"]);
+                exist = true;
+                Global.gbDbService = new string[index];
+            }
+            reader.Close();
+
+            if (exist == true)
+            {
+                cmd = new MySqlCommand("SELECT services.service_name FROM services", conn);
+                cmd.ExecuteNonQuery();
+                reader = cmd.ExecuteReader();
+
+                int count = 0;
+
+                while (reader.Read())
+                {
+                    Global.gbDbService[count] = reader["service_name"].ToString();
+                    count++;
+                }
+
+                reader.Close();
+                conn.Close();
             }
 
             timestamp.Interval = 1;
