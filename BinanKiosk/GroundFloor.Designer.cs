@@ -134,6 +134,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.Map = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.point = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.switch6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.step71)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.step72)).BeginInit();
@@ -214,6 +215,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Map)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.point)).BeginInit();
             this.SuspendLayout();
             // 
             // btnLCRG
@@ -275,7 +277,7 @@
             this.btnCSWD.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnCSWD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCSWD.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCSWD.Location = new System.Drawing.Point(381, 130);
+            this.btnCSWD.Location = new System.Drawing.Point(408, 134);
             this.btnCSWD.Name = "btnCSWD";
             this.btnCSWD.Size = new System.Drawing.Size(91, 62);
             this.btnCSWD.TabIndex = 158;
@@ -328,10 +330,10 @@
             this.agrbtton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.agrbtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.agrbtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.agrbtton.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.agrbtton.Location = new System.Drawing.Point(805, 172);
+            this.agrbtton.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.agrbtton.Location = new System.Drawing.Point(793, 181);
             this.agrbtton.Name = "agrbtton";
-            this.agrbtton.Size = new System.Drawing.Size(141, 59);
+            this.agrbtton.Size = new System.Drawing.Size(135, 37);
             this.agrbtton.TabIndex = 161;
             this.agrbtton.Text = "Agriculture Office";
             this.agrbtton.UseVisualStyleBackColor = false;
@@ -1558,12 +1560,25 @@
             this.pictureBox4.TabIndex = 236;
             this.pictureBox4.TabStop = false;
             // 
+            // point
+            // 
+            this.point.BackColor = System.Drawing.Color.Transparent;
+            this.point.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.point.Image = global::BinanKiosk.Properties.Resources.point1;
+            this.point.Location = new System.Drawing.Point(598, 561);
+            this.point.Name = "point";
+            this.point.Size = new System.Drawing.Size(35, 35);
+            this.point.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.point.TabIndex = 288;
+            this.point.TabStop = false;
+            // 
             // GroundFloor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1366, 768);
+            this.Controls.Add(this.point);
             this.Controls.Add(this.switch6);
             this.Controls.Add(this.step71);
             this.Controls.Add(this.step72);
@@ -1751,6 +1766,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Map)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.point)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1860,6 +1876,7 @@
         private System.Windows.Forms.PictureBox step72;
         private System.Windows.Forms.PictureBox step71;
         private System.Windows.Forms.PictureBox switch6;
+        private System.Windows.Forms.PictureBox point;
     }
 }
 
