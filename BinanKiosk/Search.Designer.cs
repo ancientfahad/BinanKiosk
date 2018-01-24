@@ -98,7 +98,7 @@
             this.radioAll.BackColor = System.Drawing.Color.Transparent;
             this.radioAll.Checked = true;
             this.radioAll.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioAll.Location = new System.Drawing.Point(937, 12);
+            this.radioAll.Location = new System.Drawing.Point(933, 12);
             this.radioAll.Name = "radioAll";
             this.radioAll.Size = new System.Drawing.Size(104, 35);
             this.radioAll.TabIndex = 61;
@@ -118,7 +118,7 @@
             this.Filters.Controls.Add(this.radioOfficers);
             this.Filters.Location = new System.Drawing.Point(157, 64);
             this.Filters.Name = "Filters";
-            this.Filters.Size = new System.Drawing.Size(1047, 53);
+            this.Filters.Size = new System.Drawing.Size(1044, 53);
             this.Filters.TabIndex = 66;
             this.Filters.TabStop = false;
             // 
