@@ -37,25 +37,25 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.btn5 = new System.Windows.Forms.Button();
+            this.btn4 = new System.Windows.Forms.Button();
+            this.btn3 = new System.Windows.Forms.Button();
+            this.btn2 = new System.Windows.Forms.Button();
+            this.btn1 = new System.Windows.Forms.Button();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.btn0 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.timestamp = new System.Windows.Forms.Timer(this.components);
             this.lbldate = new System.Windows.Forms.Label();
             this.lbltime = new System.Windows.Forms.Label();
             this.btnLanguages = new System.Windows.Forms.Button();
             this.btnHelp = new System.Windows.Forms.Button();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.certofTaxClear_btn = new System.Windows.Forms.Button();
-            this.PayBussTax_btn = new System.Windows.Forms.Button();
-            this.PayRealPRopTax_btn = new System.Windows.Forms.Button();
-            this.IssueProfTaxRec_btn = new System.Windows.Forms.Button();
-            this.IssueTaxCert_btn = new System.Windows.Forms.Button();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.Pay_PropTransbtn = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.paymentPolMaybtn = new System.Windows.Forms.Button();
             this.paymentBldgbtn = new System.Windows.Forms.Button();
@@ -68,16 +68,16 @@
             this.lblServices = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnPreviousPage = new System.Windows.Forms.Button();
+            this.btnNextPage = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
@@ -101,18 +101,18 @@
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.certofTaxClear_btn);
-            this.panel1.Controls.Add(this.PayBussTax_btn);
-            this.panel1.Controls.Add(this.PayRealPRopTax_btn);
-            this.panel1.Controls.Add(this.IssueProfTaxRec_btn);
-            this.panel1.Controls.Add(this.IssueTaxCert_btn);
+            this.panel1.Controls.Add(this.btn5);
+            this.panel1.Controls.Add(this.btn4);
+            this.panel1.Controls.Add(this.btn3);
+            this.panel1.Controls.Add(this.btn2);
+            this.panel1.Controls.Add(this.btn1);
             this.panel1.Controls.Add(this.pictureBox9);
             this.panel1.Controls.Add(this.pictureBox6);
             this.panel1.Controls.Add(this.pictureBox5);
             this.panel1.Controls.Add(this.pictureBox4);
             this.panel1.Controls.Add(this.pictureBox3);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.Pay_PropTransbtn);
+            this.panel1.Controls.Add(this.btn0);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Location = new System.Drawing.Point(71, 82);
             this.panel1.Name = "panel1";
@@ -176,6 +176,156 @@
             this.label2.Text = "Issuance of Community Tax \r\n  Certificate for Corporation ";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // btn5
+            // 
+            this.btn5.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.btn5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn5.BackgroundImage")));
+            this.btn5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn5.FlatAppearance.BorderSize = 0;
+            this.btn5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btn5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5.Font = new System.Drawing.Font("Arial Narrow", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn5.ForeColor = System.Drawing.Color.Transparent;
+            this.btn5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn5.Location = new System.Drawing.Point(921, 400);
+            this.btn5.Name = "btn5";
+            this.btn5.Size = new System.Drawing.Size(164, 74);
+            this.btn5.TabIndex = 47;
+            this.btn5.Text = "VIEW";
+            this.btn5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn5.UseVisualStyleBackColor = false;
+            this.btn5.Click += new System.EventHandler(this.btn5_Click);
+            // 
+            // btn4
+            // 
+            this.btn4.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.btn4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn4.BackgroundImage")));
+            this.btn4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn4.FlatAppearance.BorderSize = 0;
+            this.btn4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btn4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4.Font = new System.Drawing.Font("Arial Narrow", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn4.ForeColor = System.Drawing.Color.Transparent;
+            this.btn4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn4.Location = new System.Drawing.Point(530, 400);
+            this.btn4.Name = "btn4";
+            this.btn4.Size = new System.Drawing.Size(164, 74);
+            this.btn4.TabIndex = 46;
+            this.btn4.Text = "VIEW";
+            this.btn4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn4.UseVisualStyleBackColor = false;
+            this.btn4.Click += new System.EventHandler(this.btn4_Click);
+            // 
+            // btn3
+            // 
+            this.btn3.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.btn3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn3.BackgroundImage")));
+            this.btn3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn3.FlatAppearance.BorderSize = 0;
+            this.btn3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btn3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn3.Font = new System.Drawing.Font("Arial Narrow", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn3.ForeColor = System.Drawing.Color.Transparent;
+            this.btn3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn3.Location = new System.Drawing.Point(140, 400);
+            this.btn3.Name = "btn3";
+            this.btn3.Size = new System.Drawing.Size(164, 74);
+            this.btn3.TabIndex = 45;
+            this.btn3.Text = "VIEW";
+            this.btn3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn3.UseVisualStyleBackColor = false;
+            this.btn3.Click += new System.EventHandler(this.btn3_Click);
+            // 
+            // btn2
+            // 
+            this.btn2.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.btn2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn2.BackgroundImage")));
+            this.btn2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn2.FlatAppearance.BorderSize = 0;
+            this.btn2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btn2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn2.Font = new System.Drawing.Font("Arial Narrow", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn2.ForeColor = System.Drawing.Color.Transparent;
+            this.btn2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn2.Location = new System.Drawing.Point(921, 148);
+            this.btn2.Name = "btn2";
+            this.btn2.Size = new System.Drawing.Size(164, 74);
+            this.btn2.TabIndex = 44;
+            this.btn2.Text = "VIEW";
+            this.btn2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn2.UseVisualStyleBackColor = false;
+            this.btn2.Click += new System.EventHandler(this.btn2_Click);
+            // 
+            // btn1
+            // 
+            this.btn1.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.btn1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn1.BackgroundImage")));
+            this.btn1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn1.FlatAppearance.BorderSize = 0;
+            this.btn1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btn1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn1.Font = new System.Drawing.Font("Arial Narrow", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn1.ForeColor = System.Drawing.Color.Transparent;
+            this.btn1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn1.Location = new System.Drawing.Point(530, 148);
+            this.btn1.Name = "btn1";
+            this.btn1.Size = new System.Drawing.Size(164, 74);
+            this.btn1.TabIndex = 43;
+            this.btn1.Text = "VIEW";
+            this.btn1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn1.UseVisualStyleBackColor = false;
+            this.btn1.Click += new System.EventHandler(this.btn1_Click);
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox9.BackgroundImage")));
+            this.pictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox9.Location = new System.Drawing.Point(820, 277);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(361, 236);
+            this.pictureBox9.TabIndex = 48;
+            this.pictureBox9.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox6.BackgroundImage")));
+            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox6.Location = new System.Drawing.Point(427, 277);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(361, 236);
+            this.pictureBox6.TabIndex = 47;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox5.BackgroundImage")));
+            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox5.Location = new System.Drawing.Point(820, 23);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(361, 236);
+            this.pictureBox5.TabIndex = 46;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
+            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox4.Location = new System.Drawing.Point(427, 23);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(361, 236);
+            this.pictureBox4.TabIndex = 45;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.Location = new System.Drawing.Point(37, 277);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(361, 236);
+            this.pictureBox3.TabIndex = 44;
+            this.pictureBox3.TabStop = false;
+            // 
             // label1
             // 
             this.label1.BackColor = System.Drawing.SystemColors.ControlLight;
@@ -186,6 +336,36 @@
             this.label1.TabIndex = 43;
             this.label1.Text = "Payment of Real Property\r\n      Transfer Tax ";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btn0
+            // 
+            this.btn0.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.btn0.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn0.BackgroundImage")));
+            this.btn0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn0.FlatAppearance.BorderSize = 0;
+            this.btn0.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btn0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn0.Font = new System.Drawing.Font("Arial Narrow", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn0.ForeColor = System.Drawing.Color.Transparent;
+            this.btn0.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn0.Location = new System.Drawing.Point(140, 148);
+            this.btn0.Name = "btn0";
+            this.btn0.Size = new System.Drawing.Size(164, 74);
+            this.btn0.TabIndex = 42;
+            this.btn0.Text = "VIEW";
+            this.btn0.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn0.UseVisualStyleBackColor = false;
+            this.btn0.Click += new System.EventHandler(this.btn0_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(37, 23);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(361, 236);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // timestamp
             // 
@@ -265,186 +445,6 @@
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 243;
             this.pictureBox7.TabStop = false;
-            // 
-            // certofTaxClear_btn
-            // 
-            this.certofTaxClear_btn.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.certofTaxClear_btn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("certofTaxClear_btn.BackgroundImage")));
-            this.certofTaxClear_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.certofTaxClear_btn.FlatAppearance.BorderSize = 0;
-            this.certofTaxClear_btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.certofTaxClear_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.certofTaxClear_btn.Font = new System.Drawing.Font("Arial Narrow", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.certofTaxClear_btn.ForeColor = System.Drawing.Color.Transparent;
-            this.certofTaxClear_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.certofTaxClear_btn.Location = new System.Drawing.Point(921, 400);
-            this.certofTaxClear_btn.Name = "certofTaxClear_btn";
-            this.certofTaxClear_btn.Size = new System.Drawing.Size(164, 74);
-            this.certofTaxClear_btn.TabIndex = 47;
-            this.certofTaxClear_btn.Text = "VIEW";
-            this.certofTaxClear_btn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.certofTaxClear_btn.UseVisualStyleBackColor = false;
-            this.certofTaxClear_btn.Click += new System.EventHandler(this.certofTaxClear_btn_Click);
-            // 
-            // PayBussTax_btn
-            // 
-            this.PayBussTax_btn.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.PayBussTax_btn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PayBussTax_btn.BackgroundImage")));
-            this.PayBussTax_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PayBussTax_btn.FlatAppearance.BorderSize = 0;
-            this.PayBussTax_btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.PayBussTax_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.PayBussTax_btn.Font = new System.Drawing.Font("Arial Narrow", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PayBussTax_btn.ForeColor = System.Drawing.Color.Transparent;
-            this.PayBussTax_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.PayBussTax_btn.Location = new System.Drawing.Point(530, 400);
-            this.PayBussTax_btn.Name = "PayBussTax_btn";
-            this.PayBussTax_btn.Size = new System.Drawing.Size(164, 74);
-            this.PayBussTax_btn.TabIndex = 46;
-            this.PayBussTax_btn.Text = "VIEW";
-            this.PayBussTax_btn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.PayBussTax_btn.UseVisualStyleBackColor = false;
-            this.PayBussTax_btn.Click += new System.EventHandler(this.PayBussTax_btn_Click);
-            // 
-            // PayRealPRopTax_btn
-            // 
-            this.PayRealPRopTax_btn.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.PayRealPRopTax_btn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PayRealPRopTax_btn.BackgroundImage")));
-            this.PayRealPRopTax_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PayRealPRopTax_btn.FlatAppearance.BorderSize = 0;
-            this.PayRealPRopTax_btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.PayRealPRopTax_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.PayRealPRopTax_btn.Font = new System.Drawing.Font("Arial Narrow", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PayRealPRopTax_btn.ForeColor = System.Drawing.Color.Transparent;
-            this.PayRealPRopTax_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.PayRealPRopTax_btn.Location = new System.Drawing.Point(140, 400);
-            this.PayRealPRopTax_btn.Name = "PayRealPRopTax_btn";
-            this.PayRealPRopTax_btn.Size = new System.Drawing.Size(164, 74);
-            this.PayRealPRopTax_btn.TabIndex = 45;
-            this.PayRealPRopTax_btn.Text = "VIEW";
-            this.PayRealPRopTax_btn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.PayRealPRopTax_btn.UseVisualStyleBackColor = false;
-            this.PayRealPRopTax_btn.Click += new System.EventHandler(this.PayRealPRopTax_btn_Click);
-            // 
-            // IssueProfTaxRec_btn
-            // 
-            this.IssueProfTaxRec_btn.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.IssueProfTaxRec_btn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("IssueProfTaxRec_btn.BackgroundImage")));
-            this.IssueProfTaxRec_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.IssueProfTaxRec_btn.FlatAppearance.BorderSize = 0;
-            this.IssueProfTaxRec_btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.IssueProfTaxRec_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.IssueProfTaxRec_btn.Font = new System.Drawing.Font("Arial Narrow", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.IssueProfTaxRec_btn.ForeColor = System.Drawing.Color.Transparent;
-            this.IssueProfTaxRec_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.IssueProfTaxRec_btn.Location = new System.Drawing.Point(921, 148);
-            this.IssueProfTaxRec_btn.Name = "IssueProfTaxRec_btn";
-            this.IssueProfTaxRec_btn.Size = new System.Drawing.Size(164, 74);
-            this.IssueProfTaxRec_btn.TabIndex = 44;
-            this.IssueProfTaxRec_btn.Text = "VIEW";
-            this.IssueProfTaxRec_btn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.IssueProfTaxRec_btn.UseVisualStyleBackColor = false;
-            this.IssueProfTaxRec_btn.Click += new System.EventHandler(this.IssueProfTaxRec_btn_Click);
-            // 
-            // IssueTaxCert_btn
-            // 
-            this.IssueTaxCert_btn.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.IssueTaxCert_btn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("IssueTaxCert_btn.BackgroundImage")));
-            this.IssueTaxCert_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.IssueTaxCert_btn.FlatAppearance.BorderSize = 0;
-            this.IssueTaxCert_btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.IssueTaxCert_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.IssueTaxCert_btn.Font = new System.Drawing.Font("Arial Narrow", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.IssueTaxCert_btn.ForeColor = System.Drawing.Color.Transparent;
-            this.IssueTaxCert_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.IssueTaxCert_btn.Location = new System.Drawing.Point(530, 148);
-            this.IssueTaxCert_btn.Name = "IssueTaxCert_btn";
-            this.IssueTaxCert_btn.Size = new System.Drawing.Size(164, 74);
-            this.IssueTaxCert_btn.TabIndex = 43;
-            this.IssueTaxCert_btn.Text = "VIEW";
-            this.IssueTaxCert_btn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.IssueTaxCert_btn.UseVisualStyleBackColor = false;
-            this.IssueTaxCert_btn.Click += new System.EventHandler(this.IssueTaxCert_btn_Click);
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox9.BackgroundImage")));
-            this.pictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox9.Location = new System.Drawing.Point(820, 277);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(361, 236);
-            this.pictureBox9.TabIndex = 48;
-            this.pictureBox9.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox6.BackgroundImage")));
-            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox6.Location = new System.Drawing.Point(427, 277);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(361, 236);
-            this.pictureBox6.TabIndex = 47;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox5.BackgroundImage")));
-            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox5.Location = new System.Drawing.Point(820, 23);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(361, 236);
-            this.pictureBox5.TabIndex = 46;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
-            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox4.Location = new System.Drawing.Point(427, 23);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(361, 236);
-            this.pictureBox4.TabIndex = 45;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Location = new System.Drawing.Point(37, 277);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(361, 236);
-            this.pictureBox3.TabIndex = 44;
-            this.pictureBox3.TabStop = false;
-            // 
-            // Pay_PropTransbtn
-            // 
-            this.Pay_PropTransbtn.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Pay_PropTransbtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Pay_PropTransbtn.BackgroundImage")));
-            this.Pay_PropTransbtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Pay_PropTransbtn.FlatAppearance.BorderSize = 0;
-            this.Pay_PropTransbtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.Pay_PropTransbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Pay_PropTransbtn.Font = new System.Drawing.Font("Arial Narrow", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Pay_PropTransbtn.ForeColor = System.Drawing.Color.Transparent;
-            this.Pay_PropTransbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Pay_PropTransbtn.Location = new System.Drawing.Point(140, 148);
-            this.Pay_PropTransbtn.Name = "Pay_PropTransbtn";
-            this.Pay_PropTransbtn.Size = new System.Drawing.Size(164, 74);
-            this.Pay_PropTransbtn.TabIndex = 42;
-            this.Pay_PropTransbtn.Text = "VIEW";
-            this.Pay_PropTransbtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.Pay_PropTransbtn.UseVisualStyleBackColor = false;
-            this.Pay_PropTransbtn.Click += new System.EventHandler(this.Pay_PropTransbtn_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(37, 23);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(361, 236);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // pictureBox8
             // 
@@ -651,31 +651,33 @@
             this.pictureBox10.TabIndex = 63;
             this.pictureBox10.TabStop = false;
             // 
-            // button1
+            // btnPreviousPage
             // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.BackgroundImage = global::BinanKiosk.Properties.Resources.rightarrow;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(0, 82);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(70, 589);
-            this.button1.TabIndex = 281;
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnPreviousPage.BackColor = System.Drawing.Color.Transparent;
+            this.btnPreviousPage.BackgroundImage = global::BinanKiosk.Properties.Resources.rightarrow;
+            this.btnPreviousPage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnPreviousPage.FlatAppearance.BorderSize = 0;
+            this.btnPreviousPage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPreviousPage.Location = new System.Drawing.Point(0, 82);
+            this.btnPreviousPage.Name = "btnPreviousPage";
+            this.btnPreviousPage.Size = new System.Drawing.Size(70, 589);
+            this.btnPreviousPage.TabIndex = 281;
+            this.btnPreviousPage.UseVisualStyleBackColor = false;
+            this.btnPreviousPage.Click += new System.EventHandler(this.btnPreviousPage_Click);
             // 
-            // button2
+            // btnNextPage
             // 
-            this.button2.BackColor = System.Drawing.Color.Transparent;
-            this.button2.BackgroundImage = global::BinanKiosk.Properties.Resources.leftarrow;
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(1296, 86);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(70, 589);
-            this.button2.TabIndex = 282;
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnNextPage.BackColor = System.Drawing.Color.Transparent;
+            this.btnNextPage.BackgroundImage = global::BinanKiosk.Properties.Resources.leftarrow;
+            this.btnNextPage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnNextPage.FlatAppearance.BorderSize = 0;
+            this.btnNextPage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNextPage.Location = new System.Drawing.Point(1296, 86);
+            this.btnNextPage.Name = "btnNextPage";
+            this.btnNextPage.Size = new System.Drawing.Size(70, 589);
+            this.btnNextPage.TabIndex = 282;
+            this.btnNextPage.UseVisualStyleBackColor = false;
+            this.btnNextPage.Click += new System.EventHandler(this.btnNextPage_Click);
             // 
             // GovernmentServices
             // 
@@ -683,8 +685,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1366, 768);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnPreviousPage);
+            this.Controls.Add(this.btnNextPage);
             this.Controls.Add(this.btnLanguages);
             this.Controls.Add(this.lbldate);
             this.Controls.Add(this.lbltime);
@@ -710,13 +712,13 @@
             this.Text = "GovernmentServices";
             this.Load += new System.EventHandler(this.GovernmentServices_Load);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
@@ -734,12 +736,12 @@
         private System.Windows.Forms.Button btnMaps;
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.Button btnHome;
-        private System.Windows.Forms.Button Pay_PropTransbtn;
-        private System.Windows.Forms.Button IssueTaxCert_btn;
-        private System.Windows.Forms.Button IssueProfTaxRec_btn;
-        private System.Windows.Forms.Button PayRealPRopTax_btn;
-        private System.Windows.Forms.Button PayBussTax_btn;
-        private System.Windows.Forms.Button certofTaxClear_btn;
+        private System.Windows.Forms.Button btn0;
+        private System.Windows.Forms.Button btn1;
+        private System.Windows.Forms.Button btn2;
+        private System.Windows.Forms.Button btn3;
+        private System.Windows.Forms.Button btn4;
+        private System.Windows.Forms.Button btn5;
         private System.Windows.Forms.Button paymentBurialbtn;
         private System.Windows.Forms.Button paymentBldgbtn;
         private System.Windows.Forms.Button paymentPolMaybtn;
@@ -764,8 +766,8 @@
         private System.Windows.Forms.Label lbldate;
         private System.Windows.Forms.Label lbltime;
         private System.Windows.Forms.Button btnLanguages;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnPreviousPage;
+        private System.Windows.Forms.Button btnNextPage;
     }
 }
 

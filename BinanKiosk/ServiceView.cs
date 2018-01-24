@@ -157,13 +157,15 @@ namespace BinanKiosk
         }
 
 
+
+
         public void fillPicture(string val)
         {
             string projectPath = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName;
 
             if (val == "Payment of Real Property Transfer Tax")
             {
-               
+                //string imagefilename = Path.Combine(projectPath, "Resources\\Services\\" + Global.gbDbService[1].ToString() + ".jpg");
                 string imagefilename = Path.Combine(projectPath, "Resources\\Services\\paymentOfRealPropertyTransferTax.jpg");
                 //string imagefilename = @"C:\Users\doratheexplorer\Desktop\BinanKiosk\BinanKiosk\Resources\4_.jpg";
                 imgtaker(imagefilename);

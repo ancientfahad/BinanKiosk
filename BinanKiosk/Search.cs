@@ -669,6 +669,41 @@ namespace BinanKiosk
             conn.Close();
         }
 
+        public void allLists()
+        {
+
+            conn.Open();
+
+            cmd1 = new MySqlCommand("SELECT COUNT(officials.first_name, officials.last_name, officials.middle_initial, departments.department_name, services.service_name, jobs.job_name) AS count FROM officials WHERE officials.first_name LIKE '%" + txtSearch.Text + "%' OR officials.last_name LIKE '%" + txtSearch.Text + "%' OR officials.middle_initial LIKE '%" + txtSearch.Text + "%' ", conn);
+            //cmd1 = new MySqlCommand("SELECT COUNT(officials.first_name) AS count FROM officials WHERE officials.first_name LIKE '"+ txtSearch.Text +"%' ", conn);
+            cmd1.ExecuteNonQuery();
+            reader1 = cmd1.ExecuteReader();
+
+            if (reader1.HasRows)
+            {
+                reader1.Read();
+                index = Convert.ToInt32(reader1["count"]);
+                officerList = new String[index];
+            }
+            reader1.Close();
+
+            cmd = new MySqlCommand("SELECT CONCAT (officials.first_name, ' ', officials.middle_initial, ' ', officials.last_name, ' ', officials.suffex) AS name FROM officials WHERE officials.first_name LIKE '%" + txtSearch.Text + "%' OR officials.last_name LIKE '%" + txtSearch.Text + "%' OR officials.middle_initial LIKE '%" + txtSearch.Text + "%' ", conn);
+            //cmd = new MySqlCommand("SELECT CONCAT (officials.first_name, ' ', officials.middle_initial, ' ', officials.last_name, ' ', officials.suffex) AS name FROM officials WHERE officials.first_name LIKE '"+ txtSearch.Text +"%' ", conn);
+            cmd.ExecuteNonQuery();
+            reader = cmd.ExecuteReader();
+
+            count = 0;
+
+            while (reader.Read())
+            {
+                officerList[count] = reader.GetString(0).ToString();
+                count++;
+            }
+
+            reader.Close();
+            conn.Close();
+        }
+
         public void hideButtons()
         {
 

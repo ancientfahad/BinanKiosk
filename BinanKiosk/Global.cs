@@ -36,5 +36,12 @@ namespace BinanKiosk
         public static string[] gbDbService;
 
         public static string gbSelectedSearchJob = "";
+
+        public static int selectedBox0 = 0;
+        public static int selectedBox1 = 1;
+        public static int selectedBox2 = 2;
+        public static int selectedBox3 = 3;
+        public static int selectedBox4 = 4;
+        public static int selectedBox5 = 5;
     }
 }

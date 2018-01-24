@@ -15,6 +15,7 @@ namespace BinanKiosk
 {
     public partial class GovernmentServices : Form
     {
+        int pages = 0, dummy = 0;
 
         MySqlConnection conn = new MySqlConnection("SERVER=" + "localhost" + ";" + "DATABASE=" + "binan_kiosk" + ";" + "UID=" + "root" + ";" + "PASSWORD=" + "" + ";");
         MySqlDataReader reader;
@@ -160,8 +161,13 @@ namespace BinanKiosk
 
         private void Pay_PropTransbtn_Click(object sender, EventArgs e)
         {
-            valuebtn.Text = "Payment of Real Property Transfer Tax";
-            nextForm();
+            string lblname;
+            lblname = label1.Text;
+            transferform(lblname);
+
+
+            //valuebtn.Text = "Payment of Real Property Transfer Tax";
+            //nextForm();
         }
 
         private void IssueTaxCert_btn_Click(object sender, EventArgs e)
@@ -241,6 +247,28 @@ namespace BinanKiosk
             valuebtn.Text = "PayPolClear";
             nextForm();
         }
+
+
+
+        public void transferform(string lbl)
+        {
+
+            if (lbl == label1.Text)
+            {
+                valuebtn.Text = "Payment of Real Property Transfer Tax";
+                nextForm();
+            }
+
+            else if (lbl == label2.Text)
+            {
+
+                valuebtn.Text = "Issuance of Community Tax Certificate for Corporation";
+                nextForm();
+
+            }
+            
+
+        }
         private void OnTimerEvent(object sender, EventArgs e)
         {
             lbltime.Text = DateTime.Now.ToLongTimeString();
@@ -260,6 +288,85 @@ namespace BinanKiosk
             lng.FormClosed += (s, args) => this.Close();
             lng.ShowDialog();
             lng.Focus();
+        }
+
+        private void btnNextPage_Click(object sender, EventArgs e)
+        {
+            pages++;
+            MessageBox.Show(pages.ToString());
+        }
+
+        private void btnPreviousPage_Click(object sender, EventArgs e)
+        {
+            if (pages != 0) {
+                pages--;
+            }
+            MessageBox.Show(pages.ToString());
+        }
+
+        private void btn0_Click(object sender, EventArgs e)
+        {
+            for (int x = 0; x < pages; x++) {
+                Global.selectedBox0 = Global.selectedBox0 + 6;
+            }
+            //Global.selectedBox0 = 0;
+            MessageBox.Show(Global.selectedBox0.ToString());
+            MessageBox.Show(Global.gbDbService[Global.selectedBox0]);
+        }
+
+        private void btn1_Click(object sender, EventArgs e)
+        {
+            for (int x = 0; x < pages; x++)
+            {
+                Global.selectedBox1 = Global.selectedBox1 + 6;
+            }
+            //Global.selectedBox0 = 1;
+            MessageBox.Show(Global.selectedBox1.ToString());
+            MessageBox.Show(Global.gbDbService[Global.selectedBox1]);
+        }
+
+        private void btn2_Click(object sender, EventArgs e)
+        {
+            for (int x = 0; x < pages; x++)
+            {
+                Global.selectedBox2 = Global.selectedBox2 + 6;
+            }
+            //Global.selectedBox0 = 2;
+            MessageBox.Show(Global.selectedBox2.ToString());
+            MessageBox.Show(Global.gbDbService[Global.selectedBox2]);
+        }
+
+        private void btn3_Click(object sender, EventArgs e)
+        {
+            for (int x = 0; x < pages; x++)
+            {
+                Global.selectedBox3 = Global.selectedBox3 + 6;
+            }
+            //Global.selectedBox0 = 3;
+            MessageBox.Show(Global.selectedBox3.ToString());
+            MessageBox.Show(Global.gbDbService[Global.selectedBox3]);
+        }
+
+        private void btn4_Click(object sender, EventArgs e)
+        {
+            for (int x = 0; x < pages; x++)
+            {
+                Global.selectedBox4 = Global.selectedBox4 + 6;
+            }
+            //Global.selectedBox0 = 4;
+            MessageBox.Show(Global.selectedBox4.ToString());
+            MessageBox.Show(Global.gbDbService[Global.selectedBox4]);
+        }
+
+        private void btn5_Click(object sender, EventArgs e)
+        {
+            for (int x = 0; x < pages; x++)
+            {
+                Global.selectedBox5 = Global.selectedBox5 + 6;
+            }
+            //Global.selectedBox0 = 5;
+            MessageBox.Show(Global.selectedBox5.ToString());
+            MessageBox.Show(Global.gbDbService[Global.selectedBox5]);
         }
     }
 }
