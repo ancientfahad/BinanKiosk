@@ -45,6 +45,16 @@
             this.lbldate = new System.Windows.Forms.Label();
             this.lbltime = new System.Windows.Forms.Label();
             this.timestamp = new System.Windows.Forms.Timer(this.components);
+            this.switch6 = new System.Windows.Forms.PictureBox();
+            this.step71 = new System.Windows.Forms.PictureBox();
+            this.step72 = new System.Windows.Forms.PictureBox();
+            this.step70 = new System.Windows.Forms.PictureBox();
+            this.step69 = new System.Windows.Forms.PictureBox();
+            this.step68 = new System.Windows.Forms.PictureBox();
+            this.step67 = new System.Windows.Forms.PictureBox();
+            this.step66 = new System.Windows.Forms.PictureBox();
+            this.switch4 = new System.Windows.Forms.PictureBox();
+            this.switch1 = new System.Windows.Forms.PictureBox();
             this.btnHelp = new System.Windows.Forms.Button();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
@@ -125,16 +135,16 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.Map = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.switch1 = new System.Windows.Forms.PictureBox();
-            this.switch4 = new System.Windows.Forms.PictureBox();
-            this.step66 = new System.Windows.Forms.PictureBox();
-            this.step67 = new System.Windows.Forms.PictureBox();
-            this.step68 = new System.Windows.Forms.PictureBox();
-            this.step69 = new System.Windows.Forms.PictureBox();
-            this.step70 = new System.Windows.Forms.PictureBox();
-            this.step72 = new System.Windows.Forms.PictureBox();
-            this.step71 = new System.Windows.Forms.PictureBox();
-            this.switch6 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.switch6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.step71)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.step72)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.step70)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.step69)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.step68)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.step67)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.step66)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.switch4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.switch1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.step65)).BeginInit();
@@ -206,16 +216,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Map)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.switch1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.switch4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.step66)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.step67)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.step68)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.step69)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.step70)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.step72)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.step71)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.switch6)).BeginInit();
             this.SuspendLayout();
             // 
             // btnLCRG
@@ -439,6 +439,126 @@
             // 
             this.timestamp.Interval = 1000;
             this.timestamp.Tick += new System.EventHandler(this.timestamp_Tick);
+            // 
+            // switch6
+            // 
+            this.switch6.BackColor = System.Drawing.Color.Transparent;
+            this.switch6.Image = global::BinanKiosk.Properties.Resources.uprow;
+            this.switch6.Location = new System.Drawing.Point(639, 575);
+            this.switch6.Name = "switch6";
+            this.switch6.Size = new System.Drawing.Size(15, 15);
+            this.switch6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.switch6.TabIndex = 287;
+            this.switch6.TabStop = false;
+            this.switch6.Visible = false;
+            // 
+            // step71
+            // 
+            this.step71.BackColor = System.Drawing.Color.Transparent;
+            this.step71.Image = global::BinanKiosk.Properties.Resources.rightrow;
+            this.step71.Location = new System.Drawing.Point(527, 195);
+            this.step71.Name = "step71";
+            this.step71.Size = new System.Drawing.Size(15, 15);
+            this.step71.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.step71.TabIndex = 254;
+            this.step71.TabStop = false;
+            this.step71.Visible = false;
+            // 
+            // step72
+            // 
+            this.step72.BackColor = System.Drawing.Color.Transparent;
+            this.step72.Image = global::BinanKiosk.Properties.Resources.uprow;
+            this.step72.Location = new System.Drawing.Point(638, 194);
+            this.step72.Name = "step72";
+            this.step72.Size = new System.Drawing.Size(15, 15);
+            this.step72.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.step72.TabIndex = 253;
+            this.step72.TabStop = false;
+            this.step72.Visible = false;
+            // 
+            // step70
+            // 
+            this.step70.BackColor = System.Drawing.Color.Transparent;
+            this.step70.Image = global::BinanKiosk.Properties.Resources.leftrow;
+            this.step70.Location = new System.Drawing.Point(474, 180);
+            this.step70.Name = "step70";
+            this.step70.Size = new System.Drawing.Size(15, 15);
+            this.step70.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.step70.TabIndex = 252;
+            this.step70.TabStop = false;
+            this.step70.Visible = false;
+            // 
+            // step69
+            // 
+            this.step69.BackColor = System.Drawing.Color.Transparent;
+            this.step69.Image = global::BinanKiosk.Properties.Resources.rightrow;
+            this.step69.Location = new System.Drawing.Point(790, 108);
+            this.step69.Name = "step69";
+            this.step69.Size = new System.Drawing.Size(15, 15);
+            this.step69.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.step69.TabIndex = 251;
+            this.step69.TabStop = false;
+            this.step69.Visible = false;
+            // 
+            // step68
+            // 
+            this.step68.BackColor = System.Drawing.Color.Transparent;
+            this.step68.Image = global::BinanKiosk.Properties.Resources.rightrow;
+            this.step68.Location = new System.Drawing.Point(788, 195);
+            this.step68.Name = "step68";
+            this.step68.Size = new System.Drawing.Size(15, 15);
+            this.step68.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.step68.TabIndex = 250;
+            this.step68.TabStop = false;
+            this.step68.Visible = false;
+            // 
+            // step67
+            // 
+            this.step67.BackColor = System.Drawing.Color.Transparent;
+            this.step67.Image = global::BinanKiosk.Properties.Resources.uprow;
+            this.step67.Location = new System.Drawing.Point(1018, 587);
+            this.step67.Name = "step67";
+            this.step67.Size = new System.Drawing.Size(15, 15);
+            this.step67.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.step67.TabIndex = 249;
+            this.step67.TabStop = false;
+            this.step67.Visible = false;
+            // 
+            // step66
+            // 
+            this.step66.BackColor = System.Drawing.Color.Transparent;
+            this.step66.Image = global::BinanKiosk.Properties.Resources.uprow;
+            this.step66.Location = new System.Drawing.Point(469, 583);
+            this.step66.Name = "step66";
+            this.step66.Size = new System.Drawing.Size(15, 15);
+            this.step66.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.step66.TabIndex = 248;
+            this.step66.TabStop = false;
+            this.step66.Visible = false;
+            // 
+            // switch4
+            // 
+            this.switch4.BackColor = System.Drawing.Color.Transparent;
+            this.switch4.Image = global::BinanKiosk.Properties.Resources.uprow;
+            this.switch4.Location = new System.Drawing.Point(765, 216);
+            this.switch4.Name = "switch4";
+            this.switch4.Size = new System.Drawing.Size(15, 15);
+            this.switch4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.switch4.TabIndex = 247;
+            this.switch4.TabStop = false;
+            this.switch4.Visible = false;
+            // 
+            // switch1
+            // 
+            this.switch1.BackColor = System.Drawing.Color.Transparent;
+            this.switch1.Image = global::BinanKiosk.Properties.Resources.rightrow;
+            this.switch1.Location = new System.Drawing.Point(505, 216);
+            this.switch1.Name = "switch1";
+            this.switch1.Size = new System.Drawing.Size(15, 15);
+            this.switch1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.switch1.TabIndex = 246;
+            this.switch1.TabStop = false;
+            this.switch1.Visible = false;
             // 
             // btnHelp
             // 
@@ -903,7 +1023,7 @@
             // gridHome
             // 
             this.gridHome.BackColor = System.Drawing.Color.Transparent;
-            this.gridHome.Image = ((System.Drawing.Image)(resources.GetObject("gridHome.Image")));
+            this.gridHome.Image = global::BinanKiosk.Properties.Resources.point;
             this.gridHome.Location = new System.Drawing.Point(605, 568);
             this.gridHome.Name = "gridHome";
             this.gridHome.Size = new System.Drawing.Size(30, 30);
@@ -1439,6 +1559,7 @@
             this.Map.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Map.TabIndex = 54;
             this.Map.TabStop = false;
+            this.Map.Click += new System.EventHandler(this.Map_Click);
             // 
             // pictureBox4
             // 
@@ -1449,126 +1570,6 @@
             this.pictureBox4.Size = new System.Drawing.Size(1459, 94);
             this.pictureBox4.TabIndex = 236;
             this.pictureBox4.TabStop = false;
-            // 
-            // switch1
-            // 
-            this.switch1.BackColor = System.Drawing.Color.Transparent;
-            this.switch1.Image = global::BinanKiosk.Properties.Resources.rightrow;
-            this.switch1.Location = new System.Drawing.Point(505, 216);
-            this.switch1.Name = "switch1";
-            this.switch1.Size = new System.Drawing.Size(15, 15);
-            this.switch1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.switch1.TabIndex = 246;
-            this.switch1.TabStop = false;
-            this.switch1.Visible = false;
-            // 
-            // switch4
-            // 
-            this.switch4.BackColor = System.Drawing.Color.Transparent;
-            this.switch4.Image = global::BinanKiosk.Properties.Resources.uprow;
-            this.switch4.Location = new System.Drawing.Point(765, 216);
-            this.switch4.Name = "switch4";
-            this.switch4.Size = new System.Drawing.Size(15, 15);
-            this.switch4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.switch4.TabIndex = 247;
-            this.switch4.TabStop = false;
-            this.switch4.Visible = false;
-            // 
-            // step66
-            // 
-            this.step66.BackColor = System.Drawing.Color.Transparent;
-            this.step66.Image = global::BinanKiosk.Properties.Resources.uprow;
-            this.step66.Location = new System.Drawing.Point(469, 583);
-            this.step66.Name = "step66";
-            this.step66.Size = new System.Drawing.Size(15, 15);
-            this.step66.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.step66.TabIndex = 248;
-            this.step66.TabStop = false;
-            this.step66.Visible = false;
-            // 
-            // step67
-            // 
-            this.step67.BackColor = System.Drawing.Color.Transparent;
-            this.step67.Image = global::BinanKiosk.Properties.Resources.uprow;
-            this.step67.Location = new System.Drawing.Point(1018, 587);
-            this.step67.Name = "step67";
-            this.step67.Size = new System.Drawing.Size(15, 15);
-            this.step67.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.step67.TabIndex = 249;
-            this.step67.TabStop = false;
-            this.step67.Visible = false;
-            // 
-            // step68
-            // 
-            this.step68.BackColor = System.Drawing.Color.Transparent;
-            this.step68.Image = global::BinanKiosk.Properties.Resources.rightrow;
-            this.step68.Location = new System.Drawing.Point(788, 195);
-            this.step68.Name = "step68";
-            this.step68.Size = new System.Drawing.Size(15, 15);
-            this.step68.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.step68.TabIndex = 250;
-            this.step68.TabStop = false;
-            this.step68.Visible = false;
-            // 
-            // step69
-            // 
-            this.step69.BackColor = System.Drawing.Color.Transparent;
-            this.step69.Image = global::BinanKiosk.Properties.Resources.rightrow;
-            this.step69.Location = new System.Drawing.Point(790, 108);
-            this.step69.Name = "step69";
-            this.step69.Size = new System.Drawing.Size(15, 15);
-            this.step69.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.step69.TabIndex = 251;
-            this.step69.TabStop = false;
-            this.step69.Visible = false;
-            // 
-            // step70
-            // 
-            this.step70.BackColor = System.Drawing.Color.Transparent;
-            this.step70.Image = global::BinanKiosk.Properties.Resources.leftrow;
-            this.step70.Location = new System.Drawing.Point(474, 180);
-            this.step70.Name = "step70";
-            this.step70.Size = new System.Drawing.Size(15, 15);
-            this.step70.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.step70.TabIndex = 252;
-            this.step70.TabStop = false;
-            this.step70.Visible = false;
-            // 
-            // step72
-            // 
-            this.step72.BackColor = System.Drawing.Color.Transparent;
-            this.step72.Image = global::BinanKiosk.Properties.Resources.uprow;
-            this.step72.Location = new System.Drawing.Point(638, 194);
-            this.step72.Name = "step72";
-            this.step72.Size = new System.Drawing.Size(15, 15);
-            this.step72.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.step72.TabIndex = 253;
-            this.step72.TabStop = false;
-            this.step72.Visible = false;
-            // 
-            // step71
-            // 
-            this.step71.BackColor = System.Drawing.Color.Transparent;
-            this.step71.Image = global::BinanKiosk.Properties.Resources.rightrow;
-            this.step71.Location = new System.Drawing.Point(527, 195);
-            this.step71.Name = "step71";
-            this.step71.Size = new System.Drawing.Size(15, 15);
-            this.step71.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.step71.TabIndex = 254;
-            this.step71.TabStop = false;
-            this.step71.Visible = false;
-            // 
-            // switch6
-            // 
-            this.switch6.BackColor = System.Drawing.Color.Transparent;
-            this.switch6.Image = global::BinanKiosk.Properties.Resources.uprow;
-            this.switch6.Location = new System.Drawing.Point(639, 575);
-            this.switch6.Name = "switch6";
-            this.switch6.Size = new System.Drawing.Size(15, 15);
-            this.switch6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.switch6.TabIndex = 287;
-            this.switch6.TabStop = false;
-            this.switch6.Visible = false;
             // 
             // GroundFloor
             // 
@@ -1684,6 +1685,16 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Maps";
             this.Load += new System.EventHandler(this.GroundFloor_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.switch6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.step71)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.step72)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.step70)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.step69)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.step68)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.step67)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.step66)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.switch4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.switch1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.step65)).EndInit();
@@ -1755,16 +1766,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Map)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.switch1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.switch4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.step66)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.step67)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.step68)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.step69)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.step70)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.step72)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.step71)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.switch6)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

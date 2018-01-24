@@ -542,7 +542,7 @@
             // 
             // search_animate
             // 
-            this.search_animate.Image = global::BinanKiosk.Properties.Resources.search;
+            //this.search_animate.Image = global::BinanKiosk.Properties.Resources.search;
             this.search_animate.Location = new System.Drawing.Point(586, 523);
             this.search_animate.Name = "search_animate";
             this.search_animate.Size = new System.Drawing.Size(185, 131);

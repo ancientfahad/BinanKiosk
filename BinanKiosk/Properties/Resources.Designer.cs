@@ -243,6 +243,16 @@ namespace BinanKiosk.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap here {
+            get {
+                object obj = ResourceManager.GetObject("here", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap home3 {
             get {
                 object obj = ResourceManager.GetObject("home3", resourceCulture);
@@ -396,6 +406,16 @@ namespace BinanKiosk.Properties {
         internal static System.Drawing.Bitmap png {
             get {
                 object obj = ResourceManager.GetObject("png", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap point {
+            get {
+                object obj = ResourceManager.GetObject("point", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

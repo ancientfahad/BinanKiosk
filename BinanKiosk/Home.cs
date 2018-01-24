@@ -90,6 +90,7 @@ namespace BinanKiosk
             hm.FormClosed += (s, args) => this.Close();
             hm.ShowDialog();
             hm.Focus();
+
             //this.Hide();
             //Home hm = new Home();
             //hm.ShowDialog();

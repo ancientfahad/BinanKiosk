@@ -266,6 +266,7 @@
     <None Include="Resources\jobIcon1.png" />
     <None Include="Resources\homeIcon1.png" />
     <None Include="Resources\jobsIcon.png" />
+    <None Include="Resources\here1.png" />
     <Content Include="Resources\Jobs\Advertisement\Sykes1.PNG" />
     <Content Include="Resources\Jobs\Logo\civilenginner.jpg" />
     <Content Include="Resources\Jobs\Logo\merchandising.jpg" />
@@ -301,6 +302,7 @@
     <None Include="Resources\rightrow.png" />
     <None Include="Resources\serviceIcon.png" />
     <None Include="Resources\servicessIcon.png" />
+    <None Include="Resources\point.gif" />
     <Content Include="Resources\Services\certificationsOfTaxClearence.jpg" />
     <Content Include="Resources\Services\issuanceOfCommunityTaxCertificate.jpg" />
     <Content Include="Resources\Services\issuanceOfCommunityTaxForIndividual.jpg" />

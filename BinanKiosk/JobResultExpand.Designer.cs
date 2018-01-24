@@ -136,7 +136,7 @@
             this.btnJob.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnJob.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnJob.ForeColor = System.Drawing.Color.Transparent;
-            this.btnJob.Image = global::BinanKiosk.Properties.Resources.job;
+            this.btnJob.Image = global::BinanKiosk.Properties.Resources.jobIcon;
             this.btnJob.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnJob.Location = new System.Drawing.Point(849, 683);
             this.btnJob.Name = "btnJob";
@@ -156,7 +156,7 @@
             this.btnServices.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnServices.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnServices.ForeColor = System.Drawing.Color.Transparent;
-            this.btnServices.Image = global::BinanKiosk.Properties.Resources.paper;
+            this.btnServices.Image = global::BinanKiosk.Properties.Resources.servicesIcon;
             this.btnServices.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnServices.Location = new System.Drawing.Point(695, 683);
             this.btnServices.Name = "btnServices";
@@ -176,7 +176,7 @@
             this.btnMaps.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMaps.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMaps.ForeColor = System.Drawing.Color.Transparent;
-            this.btnMaps.Image = global::BinanKiosk.Properties.Resources.map;
+            this.btnMaps.Image = global::BinanKiosk.Properties.Resources.mapIcon;
             this.btnMaps.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnMaps.Location = new System.Drawing.Point(541, 683);
             this.btnMaps.Name = "btnMaps";
@@ -196,7 +196,7 @@
             this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSearch.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSearch.ForeColor = System.Drawing.Color.Transparent;
-            this.btnSearch.Image = global::BinanKiosk.Properties.Resources.srchcn1;
+            this.btnSearch.Image = global::BinanKiosk.Properties.Resources.srchicon;
             this.btnSearch.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnSearch.Location = new System.Drawing.Point(387, 683);
             this.btnSearch.Name = "btnSearch";
@@ -216,7 +216,7 @@
             this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHome.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHome.ForeColor = System.Drawing.Color.Transparent;
-            this.btnHome.Image = global::BinanKiosk.Properties.Resources.home3;
+            this.btnHome.Image = global::BinanKiosk.Properties.Resources.homeIcon;
             this.btnHome.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnHome.Location = new System.Drawing.Point(233, 683);
             this.btnHome.Name = "btnHome";
