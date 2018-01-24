@@ -95,15 +95,17 @@
             // 
             // radioAll
             // 
+            this.radioAll.BackColor = System.Drawing.Color.Transparent;
             this.radioAll.Checked = true;
             this.radioAll.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioAll.Location = new System.Drawing.Point(857, 12);
+            this.radioAll.Location = new System.Drawing.Point(1151, 77);
             this.radioAll.Name = "radioAll";
             this.radioAll.Size = new System.Drawing.Size(104, 35);
             this.radioAll.TabIndex = 61;
             this.radioAll.TabStop = true;
             this.radioAll.Text = "All";
-            this.radioAll.UseVisualStyleBackColor = true;
+            this.radioAll.UseVisualStyleBackColor = false;
+            this.radioAll.Visible = false;
             this.radioAll.CheckedChanged += new System.EventHandler(this.radioAll_CheckedChanged);
             // 
             // Filters
@@ -112,7 +114,6 @@
             this.Filters.Controls.Add(this.radioJob);
             this.Filters.Controls.Add(this.radioApplications);
             this.Filters.Controls.Add(this.radioOffices);
-            this.Filters.Controls.Add(this.radioAll);
             this.Filters.Controls.Add(this.radioOfficers);
             this.Filters.Location = new System.Drawing.Point(178, 64);
             this.Filters.Name = "Filters";
@@ -125,7 +126,7 @@
             this.radioJob.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioJob.Image = global::BinanKiosk.Properties.Resources.jobsIcon;
             this.radioJob.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.radioJob.Location = new System.Drawing.Point(672, 12);
+            this.radioJob.Location = new System.Drawing.Point(756, 12);
             this.radioJob.Name = "radioJob";
             this.radioJob.Size = new System.Drawing.Size(151, 35);
             this.radioJob.TabIndex = 44;
@@ -136,12 +137,13 @@
             // 
             // radioApplications
             // 
+            this.radioApplications.AutoSize = true;
             this.radioApplications.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioApplications.Image = global::BinanKiosk.Properties.Resources.servicessIcon;
             this.radioApplications.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.radioApplications.Location = new System.Drawing.Point(441, 12);
+            this.radioApplications.Location = new System.Drawing.Point(506, 12);
             this.radioApplications.Name = "radioApplications";
-            this.radioApplications.Size = new System.Drawing.Size(176, 35);
+            this.radioApplications.Size = new System.Drawing.Size(165, 36);
             this.radioApplications.TabIndex = 42;
             this.radioApplications.Text = "Services";
             this.radioApplications.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -150,12 +152,13 @@
             // 
             // radioOffices
             // 
+            this.radioOffices.AutoSize = true;
             this.radioOffices.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioOffices.Image = global::BinanKiosk.Properties.Resources.officeIcon;
             this.radioOffices.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.radioOffices.Location = new System.Drawing.Point(221, 12);
+            this.radioOffices.Location = new System.Drawing.Point(256, 12);
             this.radioOffices.Name = "radioOffices";
-            this.radioOffices.Size = new System.Drawing.Size(175, 35);
+            this.radioOffices.Size = new System.Drawing.Size(145, 36);
             this.radioOffices.TabIndex = 43;
             this.radioOffices.Text = "Offices";
             this.radioOffices.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -164,12 +167,13 @@
             // 
             // radioOfficers
             // 
+            this.radioOfficers.AutoSize = true;
             this.radioOfficers.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioOfficers.Image = global::BinanKiosk.Properties.Resources.officerIcon;
             this.radioOfficers.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.radioOfficers.Location = new System.Drawing.Point(6, 12);
             this.radioOfficers.Name = "radioOfficers";
-            this.radioOfficers.Size = new System.Drawing.Size(201, 35);
+            this.radioOfficers.Size = new System.Drawing.Size(154, 36);
             this.radioOfficers.TabIndex = 40;
             this.radioOfficers.Text = "Officers";
             this.radioOfficers.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -542,7 +546,6 @@
             // 
             // search_animate
             // 
-            //this.search_animate.Image = global::BinanKiosk.Properties.Resources.search;
             this.search_animate.Location = new System.Drawing.Point(586, 523);
             this.search_animate.Name = "search_animate";
             this.search_animate.Size = new System.Drawing.Size(185, 131);
@@ -713,6 +716,7 @@
             this.Controls.Add(this.searchResult14);
             this.Controls.Add(this.searchResult12);
             this.Controls.Add(this.searchResult13);
+            this.Controls.Add(this.radioAll);
             this.Controls.Add(this.searchResult15);
             this.Controls.Add(this.searchResult11);
             this.Controls.Add(this.lbldate);
@@ -751,6 +755,7 @@
             this.Text = "Search";
             this.Load += new System.EventHandler(this.Search_Load);
             this.Filters.ResumeLayout(false);
+            this.Filters.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
