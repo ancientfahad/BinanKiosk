@@ -86,9 +86,9 @@
             this.txtSearch.BackColor = System.Drawing.Color.White;
             this.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtSearch.Font = new System.Drawing.Font("Arial Narrow", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSearch.Location = new System.Drawing.Point(269, 152);
+            this.txtSearch.Location = new System.Drawing.Point(248, 152);
             this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(861, 46);
+            this.txtSearch.Size = new System.Drawing.Size(934, 46);
             this.txtSearch.TabIndex = 19;
             this.txtSearch.Click += new System.EventHandler(this.txtSearch_Click);
             this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
@@ -98,7 +98,7 @@
             this.radioAll.BackColor = System.Drawing.Color.Transparent;
             this.radioAll.Checked = true;
             this.radioAll.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioAll.Location = new System.Drawing.Point(1151, 77);
+            this.radioAll.Location = new System.Drawing.Point(937, 12);
             this.radioAll.Name = "radioAll";
             this.radioAll.Size = new System.Drawing.Size(104, 35);
             this.radioAll.TabIndex = 61;
@@ -114,10 +114,11 @@
             this.Filters.Controls.Add(this.radioJob);
             this.Filters.Controls.Add(this.radioApplications);
             this.Filters.Controls.Add(this.radioOffices);
+            this.Filters.Controls.Add(this.radioAll);
             this.Filters.Controls.Add(this.radioOfficers);
-            this.Filters.Location = new System.Drawing.Point(178, 64);
+            this.Filters.Location = new System.Drawing.Point(157, 64);
             this.Filters.Name = "Filters";
-            this.Filters.Size = new System.Drawing.Size(967, 53);
+            this.Filters.Size = new System.Drawing.Size(1047, 53);
             this.Filters.TabIndex = 66;
             this.Filters.TabStop = false;
             // 
@@ -526,7 +527,7 @@
             this.pictureBox5.BackColor = System.Drawing.SystemColors.ControlLight;
             this.pictureBox5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox5.BackgroundImage")));
             this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox5.Location = new System.Drawing.Point(198, 148);
+            this.pictureBox5.Location = new System.Drawing.Point(177, 148);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(49, 50);
             this.pictureBox5.TabIndex = 25;
@@ -537,9 +538,9 @@
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.BackgroundImage = global::BinanKiosk.Properties.Resources.boxu;
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox4.Location = new System.Drawing.Point(154, 121);
+            this.pictureBox4.Location = new System.Drawing.Point(133, 121);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(1015, 105);
+            this.pictureBox4.Size = new System.Drawing.Size(1090, 105);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 67;
             this.pictureBox4.TabStop = false;
@@ -716,7 +717,6 @@
             this.Controls.Add(this.searchResult14);
             this.Controls.Add(this.searchResult12);
             this.Controls.Add(this.searchResult13);
-            this.Controls.Add(this.radioAll);
             this.Controls.Add(this.searchResult15);
             this.Controls.Add(this.searchResult11);
             this.Controls.Add(this.lbldate);
