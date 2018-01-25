@@ -244,8 +244,37 @@ namespace BinanKiosk
             }
             else if (radioApplications.Checked)
             {
-
                 conn.Open();
+                cmd = new MySqlCommand("SELECT COUNT(services.service_name) AS count FROM services", conn);
+                cmd.ExecuteNonQuery();
+                reader = cmd.ExecuteReader();
+
+                if (reader.HasRows)
+                {
+                    reader.Read();
+                    index = Convert.ToInt32(reader["count"]);
+                    exist = true;
+                    Global.gbDbService = new string[index];
+                }
+                reader.Close();
+
+                if (exist == true)
+                {
+                    cmd = new MySqlCommand("SELECT services.service_name FROM services", conn);
+                    cmd.ExecuteNonQuery();
+                    reader = cmd.ExecuteReader();
+
+                    int count = 0;
+
+                    while (reader.Read())
+                    {
+                        Global.gbDbService[count] = reader["service_name"].ToString();
+                        count++;
+                    }
+
+                    reader.Close();
+                }
+
                 cmd = new MySqlCommand("SELECT services.service_name FROM services WHERE service_name LIKE '%" + clicked + "%' ", conn);
                 cmd.ExecuteNonQuery();
                 reader = cmd.ExecuteReader();
@@ -260,39 +289,16 @@ namespace BinanKiosk
                 reader.Close();
                 conn.Close();
 
+                for (int i = 0; i < Global.gbDbService.Length; i++) {
+                    if (Global.gbDbService[i] == Global.gbService) {
+                        ServiceView sv = new ServiceView(i);
+                        this.Hide();
+                        sv.FormClosed += (s, args) => this.Close();
+                        sv.ShowDialog();
+                        sv.Focus();
+                    }
+                }
 
-                /*string passed = "";
-
-                if (Global.gbService == "Payment of Real Property Transfer Tax") {
-                    passed = "a";
-                }
-                else if (Global.gbService == "Issuance of Community Tax Certificate for Corporation")
-                {
-                    passed = "b";
-                }
-                else if (Global.gbService == "Issuance of Professional Tax Reciept")
-                {
-                    passed = "c";
-                }
-                else if (Global.gbService == "Payment of Real Property Tax")
-                {
-                    passed = "d";
-                }
-                else if (Global.gbService == "Payment of Business Tax")
-                {
-                    passed = "e";
-                }
-                else if (Global.gbService == "Certification of Tax Clearance")
-                {
-                    passed = "f";
-                }
-                */
-
-                //ServiceView sv = new ServiceView(Global.gbService);
-                //this.Hide();
-                //sv.FormClosed += (s, args) => this.Close();
-                //sv.ShowDialog();
-                //sv.Focus();
             }
             else if (radioJob.Checked)
             {
