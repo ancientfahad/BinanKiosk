@@ -172,10 +172,19 @@ namespace BinanKiosk
 
         private void btnNextPage_Click(object sender, EventArgs e)
         {
-            pages++;
             index = index - 6;
-            
-            showObjects();
+            pages++;
+
+            if (index < 0)
+            {
+                pages--;
+                index = index + 6;
+                MessageBox.Show("YOU ARE AT THE LAST PAGE!");
+            }
+            else
+            {
+                showObjects();
+            }
         }
 
         private void btnPreviousPage_Click(object sender, EventArgs e)
@@ -186,6 +195,10 @@ namespace BinanKiosk
                 index = index + 6;
 
                 showObjects();
+            }
+            else
+            {
+                MessageBox.Show("YOU ARE AT THE FIRST PAGE!");
             }
         }
 

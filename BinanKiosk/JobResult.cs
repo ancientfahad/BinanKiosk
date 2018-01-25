@@ -16,7 +16,6 @@ namespace BinanKiosk
 {
     public partial class JobResult : Form
     {
-        private int i = 0;
         private string selectedJob = "";
 
         private static string[] pictures = new string[]
