@@ -119,7 +119,6 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.timestamp = new System.Windows.Forms.Timer(this.components);
             this.lbldate = new System.Windows.Forms.Label();
-            this.lbltime = new System.Windows.Forms.Label();
             this.grid82 = new System.Windows.Forms.PictureBox();
             this.grid75 = new System.Windows.Forms.PictureBox();
             this.grid76 = new System.Windows.Forms.PictureBox();
@@ -1688,27 +1687,15 @@
             // 
             this.lbldate.BackColor = System.Drawing.Color.ForestGreen;
             this.lbldate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lbldate.Font = new System.Drawing.Font("Arial", 17.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbldate.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbldate.ForeColor = System.Drawing.Color.White;
-            this.lbldate.Location = new System.Drawing.Point(1006, 688);
+            this.lbldate.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.lbldate.Location = new System.Drawing.Point(1010, 695);
             this.lbldate.Name = "lbldate";
-            this.lbldate.Size = new System.Drawing.Size(360, 31);
-            this.lbldate.TabIndex = 249;
+            this.lbldate.Size = new System.Drawing.Size(356, 77);
+            this.lbldate.TabIndex = 94;
             this.lbldate.Text = ".";
-            this.lbldate.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lbltime
-            // 
-            this.lbltime.BackColor = System.Drawing.Color.ForestGreen;
-            this.lbltime.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lbltime.Font = new System.Drawing.Font("Arial", 17.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbltime.ForeColor = System.Drawing.Color.White;
-            this.lbltime.Location = new System.Drawing.Point(1186, 720);
-            this.lbltime.Name = "lbltime";
-            this.lbltime.Size = new System.Drawing.Size(180, 39);
-            this.lbltime.TabIndex = 248;
-            this.lbltime.Text = ".";
-            this.lbltime.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lbldate.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // grid82
             // 
@@ -1847,7 +1834,6 @@
             this.Controls.Add(this.grid75);
             this.Controls.Add(this.grid82);
             this.Controls.Add(this.lbldate);
-            this.Controls.Add(this.lbltime);
             this.Controls.Add(this.btnHelp);
             this.Controls.Add(this.btnLanguages);
             this.Controls.Add(this.grid72);
@@ -2161,7 +2147,6 @@
         private System.Windows.Forms.Timer timestamp;
         private System.ComponentModel.IContainer components;
         private System.Windows.Forms.Label lbldate;
-        private System.Windows.Forms.Label lbltime;
         private System.Windows.Forms.PictureBox grid82;
         private System.Windows.Forms.PictureBox grid75;
         private System.Windows.Forms.PictureBox grid76;

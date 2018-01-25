@@ -471,14 +471,15 @@
             // 
             this.lbldate.BackColor = System.Drawing.Color.ForestGreen;
             this.lbldate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lbldate.Font = new System.Drawing.Font("Arial", 17.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbldate.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbldate.ForeColor = System.Drawing.Color.White;
-            this.lbldate.Location = new System.Drawing.Point(1010, 688);
+            this.lbldate.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.lbldate.Location = new System.Drawing.Point(1010, 695);
             this.lbldate.Name = "lbldate";
-            this.lbldate.Size = new System.Drawing.Size(356, 31);
-            this.lbldate.TabIndex = 254;
+            this.lbldate.Size = new System.Drawing.Size(356, 77);
+            this.lbldate.TabIndex = 94;
             this.lbldate.Text = ".";
-            this.lbldate.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lbldate.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // lbltime
             // 

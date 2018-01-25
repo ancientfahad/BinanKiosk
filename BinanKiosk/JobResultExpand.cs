@@ -281,6 +281,22 @@ namespace BinanKiosk
 
         private void timestamp_Tick(object sender, EventArgs e)
         {
+            timestamp.Enabled = true;
+            timestamp.Tick += new System.EventHandler(OnTimerEvent);
+        }
+
+        private void OnTimerEvent(object sender, EventArgs e)
+        {
+            lbldate.Text = DateTime.Now.ToLongDateString() + System.Environment.NewLine + DateTime.Now.ToLongTimeString();
+        }
+
+        private void btnServices_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnJob_Click(object sender, EventArgs e)
+        {
 
         }
     }

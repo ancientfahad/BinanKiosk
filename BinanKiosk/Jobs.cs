@@ -242,8 +242,7 @@ namespace BinanKiosk
 
         private void OnTimerEvent(object sender, EventArgs e)
         {
-            lbltime.Text = DateTime.Now.ToLongTimeString();
-            lbldate.Text = DateTime.Now.ToLongDateString();
+            lbldate.Text = DateTime.Now.ToLongDateString() + System.Environment.NewLine + DateTime.Now.ToLongTimeString();
         }
         ///JOB BUTTONS////////////////////////////////////////////////////////////////////////////////
 

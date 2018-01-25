@@ -67,7 +67,8 @@ namespace BinanKiosk
 
                 radioOfficers.Text = "Mga Opisyal";
                 radioOffices.Text = "Kagawaran";
-                radioApplications.Text = "Mga Serbisyo"; 
+                radioApplications.Text = "Mga Serbisyo";
+                radioJob.Text = "Mga Trabaho";
             }
 
             #endregion
@@ -469,8 +470,7 @@ namespace BinanKiosk
 
         private void OnTimerEvent(object sender, EventArgs e)
         {
-            lbltime.Text = DateTime.Now.ToLongTimeString();
-            lbldate.Text = DateTime.Now.ToLongDateString();
+            lbldate.Text = DateTime.Now.ToLongDateString() + System.Environment.NewLine + DateTime.Now.ToLongTimeString();
         }
 
         private void timestamp_Tick(object sender, EventArgs e)

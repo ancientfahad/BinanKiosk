@@ -16,5 +16,10 @@ namespace BinanKiosk
         {
             InitializeComponent();
         }
+
+        private void btnJob_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

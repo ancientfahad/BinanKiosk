@@ -98,9 +98,9 @@
             this.radioAll.BackColor = System.Drawing.Color.Transparent;
             this.radioAll.Checked = true;
             this.radioAll.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioAll.Location = new System.Drawing.Point(933, 12);
+            this.radioAll.Location = new System.Drawing.Point(1002, 12);
             this.radioAll.Name = "radioAll";
-            this.radioAll.Size = new System.Drawing.Size(104, 35);
+            this.radioAll.Size = new System.Drawing.Size(106, 35);
             this.radioAll.TabIndex = 61;
             this.radioAll.TabStop = true;
             this.radioAll.Text = "All";
@@ -116,9 +116,9 @@
             this.Filters.Controls.Add(this.radioOffices);
             this.Filters.Controls.Add(this.radioAll);
             this.Filters.Controls.Add(this.radioOfficers);
-            this.Filters.Location = new System.Drawing.Point(157, 64);
+            this.Filters.Location = new System.Drawing.Point(128, 64);
             this.Filters.Name = "Filters";
-            this.Filters.Size = new System.Drawing.Size(1044, 53);
+            this.Filters.Size = new System.Drawing.Size(1101, 53);
             this.Filters.TabIndex = 66;
             this.Filters.TabStop = false;
             // 
@@ -129,7 +129,7 @@
             this.radioJob.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.radioJob.Location = new System.Drawing.Point(756, 12);
             this.radioJob.Name = "radioJob";
-            this.radioJob.Size = new System.Drawing.Size(151, 35);
+            this.radioJob.Size = new System.Drawing.Size(221, 35);
             this.radioJob.TabIndex = 44;
             this.radioJob.Text = "Jobs";
             this.radioJob.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -188,7 +188,7 @@
             this.btnLanguages.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLanguages.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLanguages.ForeColor = System.Drawing.Color.White;
-            this.btnLanguages.Location = new System.Drawing.Point(1170, 0);
+            this.btnLanguages.Location = new System.Drawing.Point(1170, -2);
             this.btnLanguages.Name = "btnLanguages";
             this.btnLanguages.Size = new System.Drawing.Size(128, 64);
             this.btnLanguages.TabIndex = 79;
@@ -206,14 +206,15 @@
             // 
             this.lbldate.BackColor = System.Drawing.Color.ForestGreen;
             this.lbldate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lbldate.Font = new System.Drawing.Font("Arial", 17.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbldate.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbldate.ForeColor = System.Drawing.Color.White;
-            this.lbldate.Location = new System.Drawing.Point(1010, 688);
+            this.lbldate.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.lbldate.Location = new System.Drawing.Point(1010, 695);
             this.lbldate.Name = "lbldate";
-            this.lbldate.Size = new System.Drawing.Size(356, 31);
-            this.lbldate.TabIndex = 247;
+            this.lbldate.Size = new System.Drawing.Size(356, 77);
+            this.lbldate.TabIndex = 94;
             this.lbldate.Text = ".";
-            this.lbldate.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lbldate.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // lbltime
             // 
@@ -585,7 +586,7 @@
             this.btnHelp.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHelp.ForeColor = System.Drawing.Color.Transparent;
             this.btnHelp.Image = global::BinanKiosk.Properties.Resources.helpIcon2;
-            this.btnHelp.Location = new System.Drawing.Point(1299, 0);
+            this.btnHelp.Location = new System.Drawing.Point(1299, -2);
             this.btnHelp.Name = "btnHelp";
             this.btnHelp.Size = new System.Drawing.Size(67, 64);
             this.btnHelp.TabIndex = 31;

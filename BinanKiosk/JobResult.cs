@@ -86,7 +86,8 @@ namespace BinanKiosk
                     Location = new Point(3, 3 + ((i+0) * 155)),
                     AutoScroll = true,
                     BorderStyle = BorderStyle.FixedSingle,
-                };
+                    BackColor = System.Drawing.Color.LightGray,
+            };
                 this.JobResult1_panel.Controls.Add(panel);
                 panel.Click += new EventHandler(this.panel_Click);
 
@@ -156,7 +157,7 @@ namespace BinanKiosk
                     Location = new Point(1060, 89),
                     BackgroundImage = BinanKiosk.Properties.Resources.button1,
                     BackgroundImageLayout = ImageLayout.Stretch,
-                    BackColor = Color.White,
+                    BackColor = Color.LightGray,
                     FlatStyle = FlatStyle.Flat,
                     ForeColor = Color.White,
                     Font = new Font("Arial Narrow", 18, FontStyle.Bold),
@@ -368,8 +369,7 @@ namespace BinanKiosk
 
         private void OnTimerEvent(object sender, EventArgs e)
         {
-            lbltime.Text = DateTime.Now.ToLongTimeString();
-            lbldate.Text = DateTime.Now.ToLongDateString();
+            lbldate.Text = DateTime.Now.ToLongDateString() + System.Environment.NewLine + DateTime.Now.ToLongTimeString();
         }
 
         private void timestamp_Tick(object sender, EventArgs e)

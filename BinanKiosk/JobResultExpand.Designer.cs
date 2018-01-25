@@ -56,14 +56,15 @@
             // 
             this.lbldate.BackColor = System.Drawing.Color.ForestGreen;
             this.lbldate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lbldate.Font = new System.Drawing.Font("Arial", 17.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbldate.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbldate.ForeColor = System.Drawing.Color.White;
-            this.lbldate.Location = new System.Drawing.Point(1010, 685);
+            this.lbldate.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.lbldate.Location = new System.Drawing.Point(1010, 695);
             this.lbldate.Name = "lbldate";
-            this.lbldate.Size = new System.Drawing.Size(356, 31);
-            this.lbldate.TabIndex = 252;
+            this.lbldate.Size = new System.Drawing.Size(356, 77);
+            this.lbldate.TabIndex = 94;
             this.lbldate.Text = ".";
-            this.lbldate.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lbldate.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // lbltime
             // 
@@ -146,6 +147,7 @@
             this.btnJob.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnJob.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnJob.UseVisualStyleBackColor = false;
+            this.btnJob.Click += new System.EventHandler(this.btnJob_Click);
             // 
             // btnServices
             // 
@@ -166,6 +168,7 @@
             this.btnServices.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnServices.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnServices.UseVisualStyleBackColor = false;
+            this.btnServices.Click += new System.EventHandler(this.btnServices_Click);
             // 
             // btnMaps
             // 
@@ -291,6 +294,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.BackgroundImage = global::BinanKiosk.Properties.Resources.bgopacity3;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1366, 768);
             this.Controls.Add(this.jobpicture);
             this.Controls.Add(this.btnLanguages);
