@@ -287,11 +287,12 @@ namespace BinanKiosk
                     passed = "f";
                 }
                 */
-                ServiceView sv = new ServiceView(Global.gbService);
-                this.Hide();
-                sv.FormClosed += (s, args) => this.Close();
-                sv.ShowDialog();
-                sv.Focus();
+
+                //ServiceView sv = new ServiceView(Global.gbService);
+                //this.Hide();
+                //sv.FormClosed += (s, args) => this.Close();
+                //sv.ShowDialog();
+                //sv.Focus();
             }
             else if (radioJob.Checked)
             {

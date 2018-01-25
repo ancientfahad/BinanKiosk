@@ -43,11 +43,11 @@ namespace BinanKiosk
 
         public void nextForm()
         {
-            ServiceView sv = new ServiceView(valuebtn.Text);
-            this.Hide();
-            sv.FormClosed += (s, args) => this.Close();
-            sv.ShowDialog();
-            sv.Focus();
+            //ServiceView sv = new ServiceView(valuebtn.Text);
+            //this.Hide();
+            //sv.FormClosed += (s, args) => this.Close();
+            //sv.ShowDialog();
+            //sv.Focus();
         }
 
         ///*********Basic Buttons**********///
@@ -159,7 +159,6 @@ namespace BinanKiosk
             timestamp.Start();
 
             showObjects();
-            MessageBox.Show(pages.ToString() + " " + index.ToString() + " " + serviceIndex.ToString());
         }
 
         private void Pay_PropTransbtn_Click(object sender, EventArgs e)
@@ -318,7 +317,13 @@ namespace BinanKiosk
             {
                 Global.selectedBox0 = Global.selectedBox0 + 6;
             }
-            
+
+            ServiceView sv = new ServiceView(Global.selectedBox0);
+            this.Hide();
+            sv.FormClosed += (s, args) => this.Close();
+            sv.ShowDialog();
+            sv.Focus();
+
             MessageBox.Show(Global.gbDbService[Global.selectedBox0]);
         }
 
@@ -329,7 +334,13 @@ namespace BinanKiosk
             {
                 Global.selectedBox1 = Global.selectedBox1 + 6;
             }
-            MessageBox.Show(Global.selectedBox1.ToString());
+
+            ServiceView sv = new ServiceView(Global.selectedBox1);
+            this.Hide();
+            sv.FormClosed += (s, args) => this.Close();
+            sv.ShowDialog();
+            sv.Focus();
+
             MessageBox.Show(Global.gbDbService[Global.selectedBox1]);
         }
 
@@ -340,7 +351,13 @@ namespace BinanKiosk
             {
                 Global.selectedBox2 = Global.selectedBox2 + 6;
             }
-            MessageBox.Show(Global.selectedBox2.ToString());
+
+            ServiceView sv = new ServiceView(Global.selectedBox2);
+            this.Hide();
+            sv.FormClosed += (s, args) => this.Close();
+            sv.ShowDialog();
+            sv.Focus();
+
             MessageBox.Show(Global.gbDbService[Global.selectedBox2]);
         }
 
@@ -351,7 +368,13 @@ namespace BinanKiosk
             {
                 Global.selectedBox3 = Global.selectedBox3 + 6;
             }
-            MessageBox.Show(Global.selectedBox3.ToString());
+
+            ServiceView sv = new ServiceView(Global.selectedBox3);
+            this.Hide();
+            sv.FormClosed += (s, args) => this.Close();
+            sv.ShowDialog();
+            sv.Focus();
+
             MessageBox.Show(Global.gbDbService[Global.selectedBox3]);
         }
 
@@ -362,7 +385,13 @@ namespace BinanKiosk
             {
                 Global.selectedBox4 = Global.selectedBox4 + 6;
             }
-            MessageBox.Show(Global.selectedBox4.ToString());
+
+            ServiceView sv = new ServiceView(Global.selectedBox4);
+            this.Hide();
+            sv.FormClosed += (s, args) => this.Close();
+            sv.ShowDialog();
+            sv.Focus();
+
             MessageBox.Show(Global.gbDbService[Global.selectedBox4]);
         }
 
@@ -373,7 +402,13 @@ namespace BinanKiosk
             {
                 Global.selectedBox5 = Global.selectedBox5 + 6;
             }
-            MessageBox.Show(Global.selectedBox5.ToString());
+
+            ServiceView sv = new ServiceView(Global.selectedBox5);
+            this.Hide();
+            sv.FormClosed += (s, args) => this.Close();
+            sv.ShowDialog();
+            sv.Focus();
+
             MessageBox.Show(Global.gbDbService[Global.selectedBox5]);
         }
 

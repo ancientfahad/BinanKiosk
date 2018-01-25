@@ -16,8 +16,6 @@ namespace BinanKiosk
 
     public partial class ServiceView : Form
     {
-
-       
         Image img;
         Point mouseDown;
         int startx = 0;             // offset of image when mouse was pressed
@@ -38,17 +36,16 @@ namespace BinanKiosk
             }
         }
 
-        public ServiceView(string val)
+        public ServiceView(int val)
         {
             InitializeComponent();
             this.DoubleBuffered = true;
-            servicevalue.Text = val;
+            //servicevalue.Text = val;
             fillPicture( val);
           
 
         }
-
-
+        
         protected override void OnMouseWheel(MouseEventArgs e)
         {
             float oldzoom = zoom;
@@ -134,7 +131,6 @@ namespace BinanKiosk
             mousepressed = false;
         }
         
-
         public void imgtaker(string imgstring)
         {
 
@@ -155,14 +151,16 @@ namespace BinanKiosk
            
 
         }
-
-
-
-
-        public void fillPicture(string val)
+        
+        public void fillPicture(int val)
         {
             string projectPath = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName;
+            string imagefilename = Path.Combine(projectPath, "Resources\\Services\\" + Global.gbDbService[val].ToString() + ".jpg");
+            //string imagefilename = Path.Combine(projectPath, "Resources\\Services\\paymentOfRealPropertyTransferTax.jpg");
+            //string imagefilename = @"C:\Users\doratheexplorer\Desktop\BinanKiosk\BinanKiosk\Resources\4_.jpg";
+            imgtaker(imagefilename);
 
+            /*
             if (val == "Payment of Real Property Transfer Tax")
             {
                 //string imagefilename = Path.Combine(projectPath, "Resources\\Services\\" + Global.gbDbService[1].ToString() + ".jpg");
@@ -266,6 +264,7 @@ namespace BinanKiosk
             {
                 //MessageBox.Show("hello world");
             }
+            */
         }
 
         private void btnHome_Click(object sender, EventArgs e)
