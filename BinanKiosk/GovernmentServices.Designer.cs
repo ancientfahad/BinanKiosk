@@ -32,24 +32,24 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GovernmentServices));
             this.valuebtn = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.btn5 = new System.Windows.Forms.Button();
             this.btn4 = new System.Windows.Forms.Button();
             this.btn3 = new System.Windows.Forms.Button();
             this.btn2 = new System.Windows.Forms.Button();
             this.btn1 = new System.Windows.Forms.Button();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btn0 = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.label0 = new System.Windows.Forms.Label();
+            this.btn0 = new System.Windows.Forms.Button();
+            this.pictureBox0 = new System.Windows.Forms.PictureBox();
             this.timestamp = new System.Windows.Forms.Timer(this.components);
             this.lbldate = new System.Windows.Forms.Label();
             this.lbltime = new System.Windows.Forms.Label();
@@ -57,29 +57,26 @@
             this.btnHelp = new System.Windows.Forms.Button();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.paymentPolMaybtn = new System.Windows.Forms.Button();
-            this.paymentBldgbtn = new System.Windows.Forms.Button();
-            this.paymentBurialbtn = new System.Windows.Forms.Button();
             this.btnJob = new System.Windows.Forms.Button();
             this.btnServices = new System.Windows.Forms.Button();
             this.btnMaps = new System.Windows.Forms.Button();
             this.btnSearch = new System.Windows.Forms.Button();
             this.btnHome = new System.Windows.Forms.Button();
             this.lblServices = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxBar = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.btnPreviousPage = new System.Windows.Forms.Button();
             this.btnNextPage = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox0)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxBar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.SuspendLayout();
             // 
@@ -96,85 +93,85 @@
             this.panel1.AutoScroll = true;
             this.panel1.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.btn5);
             this.panel1.Controls.Add(this.btn4);
             this.panel1.Controls.Add(this.btn3);
             this.panel1.Controls.Add(this.btn2);
             this.panel1.Controls.Add(this.btn1);
-            this.panel1.Controls.Add(this.pictureBox9);
-            this.panel1.Controls.Add(this.pictureBox6);
             this.panel1.Controls.Add(this.pictureBox5);
             this.panel1.Controls.Add(this.pictureBox4);
-            this.panel1.Controls.Add(this.pictureBox3);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.btn0);
+            this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Controls.Add(this.pictureBox3);
+            this.panel1.Controls.Add(this.label0);
+            this.panel1.Controls.Add(this.btn0);
+            this.panel1.Controls.Add(this.pictureBox0);
             this.panel1.Location = new System.Drawing.Point(71, 82);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1225, 539);
             this.panel1.TabIndex = 59;
             // 
-            // label6
-            // 
-            this.label6.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.label6.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label6.Location = new System.Drawing.Point(865, 299);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(280, 80);
-            this.label6.TabIndex = 53;
-            this.label6.Text = "Certification of Tax Clearance";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // label5
             // 
             this.label5.BackColor = System.Drawing.SystemColors.ControlLight;
             this.label5.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(472, 299);
+            this.label5.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label5.Location = new System.Drawing.Point(865, 299);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(280, 80);
-            this.label5.TabIndex = 52;
-            this.label5.Text = "Payment of Business Tax ";
+            this.label5.TabIndex = 53;
+            this.label5.Text = "Certification of Tax Clearance";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label4
             // 
             this.label4.BackColor = System.Drawing.SystemColors.ControlLight;
             this.label4.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(82, 299);
+            this.label4.Location = new System.Drawing.Point(472, 299);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(280, 80);
-            this.label4.TabIndex = 51;
-            this.label4.Text = "Payment of Real \r\n   Property Tax ";
+            this.label4.TabIndex = 52;
+            this.label4.Text = "Payment of Business Tax ";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label3
             // 
             this.label3.BackColor = System.Drawing.SystemColors.ControlLight;
             this.label3.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(865, 50);
+            this.label3.Location = new System.Drawing.Point(82, 299);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(280, 80);
-            this.label3.TabIndex = 50;
-            this.label3.Text = "Issuance of Professional \r\n       Tax Reciept ";
+            this.label3.TabIndex = 51;
+            this.label3.Text = "Payment of Real \r\n   Property Tax ";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
             this.label2.BackColor = System.Drawing.SystemColors.ControlLight;
             this.label2.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label2.Location = new System.Drawing.Point(472, 50);
+            this.label2.Location = new System.Drawing.Point(865, 50);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(280, 80);
-            this.label2.TabIndex = 49;
-            this.label2.Text = "Issuance of Community Tax \r\n  Certificate for Corporation ";
+            this.label2.TabIndex = 50;
+            this.label2.Text = "Issuance of Professional \r\n       Tax Reciept ";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.label1.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label1.Location = new System.Drawing.Point(472, 50);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(280, 80);
+            this.label1.TabIndex = 49;
+            this.label1.Text = "Issuance of Community Tax \r\n  Certificate for Corporation ";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btn5
             // 
@@ -276,45 +273,45 @@
             this.btn1.UseVisualStyleBackColor = false;
             this.btn1.Click += new System.EventHandler(this.btn1_Click);
             // 
-            // pictureBox9
-            // 
-            this.pictureBox9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox9.BackgroundImage")));
-            this.pictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox9.Location = new System.Drawing.Point(820, 277);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(361, 236);
-            this.pictureBox9.TabIndex = 48;
-            this.pictureBox9.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox6.BackgroundImage")));
-            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox6.Location = new System.Drawing.Point(427, 277);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(361, 236);
-            this.pictureBox6.TabIndex = 47;
-            this.pictureBox6.TabStop = false;
-            // 
             // pictureBox5
             // 
             this.pictureBox5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox5.BackgroundImage")));
             this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox5.Location = new System.Drawing.Point(820, 23);
+            this.pictureBox5.Location = new System.Drawing.Point(820, 277);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(361, 236);
-            this.pictureBox5.TabIndex = 46;
+            this.pictureBox5.TabIndex = 48;
             this.pictureBox5.TabStop = false;
             // 
             // pictureBox4
             // 
             this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox4.Location = new System.Drawing.Point(427, 23);
+            this.pictureBox4.Location = new System.Drawing.Point(427, 277);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(361, 236);
-            this.pictureBox4.TabIndex = 45;
+            this.pictureBox4.TabIndex = 47;
             this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(820, 23);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(361, 236);
+            this.pictureBox2.TabIndex = 46;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(427, 23);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(361, 236);
+            this.pictureBox1.TabIndex = 45;
+            this.pictureBox1.TabStop = false;
             // 
             // pictureBox3
             // 
@@ -326,16 +323,16 @@
             this.pictureBox3.TabIndex = 44;
             this.pictureBox3.TabStop = false;
             // 
-            // label1
+            // label0
             // 
-            this.label1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.label1.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(82, 50);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(280, 80);
-            this.label1.TabIndex = 43;
-            this.label1.Text = "Payment of Real Property\r\n      Transfer Tax ";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label0.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.label0.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label0.Location = new System.Drawing.Point(82, 50);
+            this.label0.Name = "label0";
+            this.label0.Size = new System.Drawing.Size(280, 80);
+            this.label0.TabIndex = 43;
+            this.label0.Text = "Payment of Real Property\r\n      Transfer Tax ";
+            this.label0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btn0
             // 
@@ -357,15 +354,15 @@
             this.btn0.UseVisualStyleBackColor = false;
             this.btn0.Click += new System.EventHandler(this.btn0_Click);
             // 
-            // pictureBox1
+            // pictureBox0
             // 
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(37, 23);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(361, 236);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.pictureBox0.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox0.BackgroundImage")));
+            this.pictureBox0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox0.Location = new System.Drawing.Point(37, 23);
+            this.pictureBox0.Name = "pictureBox0";
+            this.pictureBox0.Size = new System.Drawing.Size(361, 236);
+            this.pictureBox0.TabIndex = 0;
+            this.pictureBox0.TabStop = false;
             // 
             // timestamp
             // 
@@ -457,68 +454,6 @@
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 242;
             this.pictureBox8.TabStop = false;
-            // 
-            // paymentPolMaybtn
-            // 
-            this.paymentPolMaybtn.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
-            this.paymentPolMaybtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.paymentPolMaybtn.FlatAppearance.BorderSize = 0;
-            this.paymentPolMaybtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.paymentPolMaybtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.paymentPolMaybtn.Font = new System.Drawing.Font("Arial Narrow", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.paymentPolMaybtn.ForeColor = System.Drawing.Color.Transparent;
-            this.paymentPolMaybtn.Image = global::BinanKiosk.Properties.Resources.home3;
-            this.paymentPolMaybtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.paymentPolMaybtn.Location = new System.Drawing.Point(467, 504);
-            this.paymentPolMaybtn.Name = "paymentPolMaybtn";
-            this.paymentPolMaybtn.Size = new System.Drawing.Size(419, 90);
-            this.paymentPolMaybtn.TabIndex = 50;
-            this.paymentPolMaybtn.Text = "Payment of Police Clearance, Mayor\'s Clearance,";
-            this.paymentPolMaybtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.paymentPolMaybtn.UseVisualStyleBackColor = true;
-            this.paymentPolMaybtn.Click += new System.EventHandler(this.paymentPolMaybtn_Click);
-            // 
-            // paymentBldgbtn
-            // 
-            this.paymentBldgbtn.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
-            this.paymentBldgbtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.paymentBldgbtn.FlatAppearance.BorderSize = 0;
-            this.paymentBldgbtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.paymentBldgbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.paymentBldgbtn.Font = new System.Drawing.Font("Arial Narrow", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.paymentBldgbtn.ForeColor = System.Drawing.Color.Transparent;
-            this.paymentBldgbtn.Image = global::BinanKiosk.Properties.Resources.home3;
-            this.paymentBldgbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.paymentBldgbtn.Location = new System.Drawing.Point(467, 372);
-            this.paymentBldgbtn.Name = "paymentBldgbtn";
-            this.paymentBldgbtn.Size = new System.Drawing.Size(419, 126);
-            this.paymentBldgbtn.TabIndex = 49;
-            this.paymentBldgbtn.Text = "Payment of Building Permit/Electrical Certificate of Occupancy, Zoning Permit Fee" +
-    "s";
-            this.paymentBldgbtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.paymentBldgbtn.UseVisualStyleBackColor = true;
-            this.paymentBldgbtn.Click += new System.EventHandler(this.paymentBldgbtn_Click);
-            // 
-            // paymentBurialbtn
-            // 
-            this.paymentBurialbtn.BackgroundImage = global::BinanKiosk.Properties.Resources.button1;
-            this.paymentBurialbtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.paymentBurialbtn.FlatAppearance.BorderSize = 0;
-            this.paymentBurialbtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.paymentBurialbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.paymentBurialbtn.Font = new System.Drawing.Font("Arial Narrow", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.paymentBurialbtn.ForeColor = System.Drawing.Color.Transparent;
-            this.paymentBurialbtn.Image = global::BinanKiosk.Properties.Resources.home3;
-            this.paymentBurialbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.paymentBurialbtn.Location = new System.Drawing.Point(467, 204);
-            this.paymentBurialbtn.Name = "paymentBurialbtn";
-            this.paymentBurialbtn.Size = new System.Drawing.Size(419, 166);
-            this.paymentBurialbtn.TabIndex = 48;
-            this.paymentBurialbtn.Text = "Payment of Burial Permit, Interment, Socialize Niche Lawn Lot, Bone Vault, Cemete" +
-    "ry Fees";
-            this.paymentBurialbtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.paymentBurialbtn.UseVisualStyleBackColor = true;
-            this.paymentBurialbtn.Click += new System.EventHandler(this.paymentBurialbtn_Click);
             // 
             // btnJob
             // 
@@ -632,14 +567,14 @@
             this.lblServices.Text = "     SERVICES";
             this.lblServices.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // pictureBox2
+            // pictureBoxBar
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.ForestGreen;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(1366, 64);
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
+            this.pictureBoxBar.BackColor = System.Drawing.Color.ForestGreen;
+            this.pictureBoxBar.Location = new System.Drawing.Point(0, 0);
+            this.pictureBoxBar.Name = "pictureBoxBar";
+            this.pictureBoxBar.Size = new System.Drawing.Size(1366, 64);
+            this.pictureBoxBar.TabIndex = 2;
+            this.pictureBoxBar.TabStop = false;
             // 
             // pictureBox10
             // 
@@ -695,16 +630,13 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.valuebtn);
-            this.Controls.Add(this.paymentPolMaybtn);
-            this.Controls.Add(this.paymentBldgbtn);
-            this.Controls.Add(this.paymentBurialbtn);
             this.Controls.Add(this.btnJob);
             this.Controls.Add(this.btnServices);
             this.Controls.Add(this.btnMaps);
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.btnHome);
             this.Controls.Add(this.lblServices);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBoxBar);
             this.Controls.Add(this.pictureBox10);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "GovernmentServices";
@@ -712,15 +644,15 @@
             this.Text = "GovernmentServices";
             this.Load += new System.EventHandler(this.GovernmentServices_Load);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox0)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxBar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -728,7 +660,7 @@
         }
 
         #endregion
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBoxBar;
         private System.Windows.Forms.Label lblServices;
         private System.Windows.Forms.Button btnJob;
         private System.Windows.Forms.Button btnHelp;
@@ -742,23 +674,20 @@
         private System.Windows.Forms.Button btn3;
         private System.Windows.Forms.Button btn4;
         private System.Windows.Forms.Button btn5;
-        private System.Windows.Forms.Button paymentBurialbtn;
-        private System.Windows.Forms.Button paymentBldgbtn;
-        private System.Windows.Forms.Button paymentPolMaybtn;
         private System.Windows.Forms.TextBox valuebtn;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label label0;
+        private System.Windows.Forms.PictureBox pictureBox0;
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox8;

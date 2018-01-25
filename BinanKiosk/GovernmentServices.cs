@@ -15,13 +15,11 @@ namespace BinanKiosk
 {
     public partial class GovernmentServices : Form
     {
-        int pages = 0, dummy = 0;
-
         MySqlConnection conn = new MySqlConnection("SERVER=" + "localhost" + ";" + "DATABASE=" + "binan_kiosk" + ";" + "UID=" + "root" + ";" + "PASSWORD=" + "" + ";");
         MySqlDataReader reader;
         MySqlCommand cmd;
 
-        int index = 0;
+        int index = 0, pages = 0, serviceIndex = 0;
 
         bool exist = false;
 
@@ -100,16 +98,18 @@ namespace BinanKiosk
 
         private void btnHelp_Click(object sender, EventArgs e)
         {
-           
+
             MessageBox.Show("These are the services provided by the City of Binan. The Search button allows you to search our directory for officers, rooms, and applications. You may select the service you choose to the view its requirements and process.");
         }
-        
-        
+
+
         //
         ///
         ////********Government Service Buttons********////
         private void GovernmentServices_Load(object sender, EventArgs e)
         {
+
+
             if (Global.language == "Filipino")
             {
                 btnLanguages.Text = "PALITAN NG WIKA";
@@ -157,12 +157,15 @@ namespace BinanKiosk
 
             timestamp.Interval = 1;
             timestamp.Start();
+
+            showObjects();
+            MessageBox.Show(pages.ToString() + " " + index.ToString() + " " + serviceIndex.ToString());
         }
 
         private void Pay_PropTransbtn_Click(object sender, EventArgs e)
         {
             string lblname;
-            lblname = label1.Text;
+            lblname = label0.Text;
             transferform(lblname);
 
 
@@ -248,27 +251,26 @@ namespace BinanKiosk
             nextForm();
         }
 
-
-
         public void transferform(string lbl)
         {
 
-            if (lbl == label1.Text)
+            if (lbl == label0.Text)
             {
                 valuebtn.Text = "Payment of Real Property Transfer Tax";
                 nextForm();
             }
 
-            else if (lbl == label2.Text)
+            else if (lbl == label1.Text)
             {
 
                 valuebtn.Text = "Issuance of Community Tax Certificate for Corporation";
                 nextForm();
 
             }
-            
+
 
         }
+
         private void OnTimerEvent(object sender, EventArgs e)
         {
             lbltime.Text = DateTime.Now.ToLongTimeString();
@@ -293,15 +295,20 @@ namespace BinanKiosk
         private void btnNextPage_Click(object sender, EventArgs e)
         {
             pages++;
-            MessageBox.Show(pages.ToString());
+            index = index - 6;
+            
+            showObjects();
         }
 
         private void btnPreviousPage_Click(object sender, EventArgs e)
         {
-            if (pages != 0) {
+            if (pages != 0)
+            {
                 pages--;
+                index = index + 6;
+
+                showObjects();
             }
-            MessageBox.Show(pages.ToString());
         }
 
         private void btn0_Click(object sender, EventArgs e)
@@ -312,7 +319,6 @@ namespace BinanKiosk
                 Global.selectedBox0 = Global.selectedBox0 + 6;
             }
             
-            MessageBox.Show(Global.selectedBox0.ToString());
             MessageBox.Show(Global.gbDbService[Global.selectedBox0]);
         }
 
@@ -369,6 +375,62 @@ namespace BinanKiosk
             }
             MessageBox.Show(Global.selectedBox5.ToString());
             MessageBox.Show(Global.gbDbService[Global.selectedBox5]);
+        }
+
+        public void hideObjects()
+        {
+            Button[] btnArray = { btn0, btn1, btn2, btn3, btn4, btn5 };
+            Label[] lblArray = { label0, label1, label2, label3, label4, label5 };
+            PictureBox[] pboxArray = { pictureBox0, pictureBox1, pictureBox2, pictureBox3, pictureBox4, pictureBox5 };
+
+            for (int i = 0; i < btnArray.Length; i++)
+            {
+                btnArray[i].Visible = false;
+                lblArray[i].Visible = false;
+                pboxArray[i].Visible = false;
+            }
+        }
+
+        public void showObjects()
+        {
+            Button[] btnArray = { btn0, btn1, btn2, btn3, btn4, btn5 };
+            Label[] lblArray = { label0, label1, label2, label3, label4, label5};
+            PictureBox[] pboxArray = { pictureBox0, pictureBox1, pictureBox2,pictureBox3, pictureBox4, pictureBox5};
+
+            serviceIndex = 0;
+            for (int x = 0; x < pages; x++)
+            {
+                serviceIndex = serviceIndex + 6;
+            }
+            
+            if (btnArray.Length < index)
+            {
+                hideObjects();
+                
+                for (int i = 0; i < btnArray.Length; i++)
+                {
+                    btnArray[i].Visible = true;
+                    lblArray[i].Visible = true;
+                    pboxArray[i].Visible = true;
+
+                    lblArray[i].Text = Global.gbDbService[serviceIndex];
+                    serviceIndex++;
+                }
+            }
+            else if (btnArray.Length > index)
+            {
+                hideObjects();
+                
+                for (int i = 0; i < index; i++)
+                {
+                    btnArray[i].Visible = true;
+                    lblArray[i].Visible = true;
+                    pboxArray[i].Visible = true;
+
+                    lblArray[i].Text = Global.gbDbService[serviceIndex];
+                    serviceIndex++;
+                }
+            }
         }
     }
 }
