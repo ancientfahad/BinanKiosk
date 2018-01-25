@@ -163,7 +163,7 @@ namespace BinanKiosk
                 };
                 panel.Controls.Add(btn);
                 btn.Click += new EventHandler(this.button_Click);
-
+                btn.FlatAppearance.BorderSize = 0;
             }
 
 
