@@ -17,6 +17,7 @@ namespace BinanKiosk
     public partial class JobResult : Form
     {
         private string selectedJob = "";
+        string dumvalue = "dunkin";
 
         private static string[] pictures = new string[]
         {
@@ -37,6 +38,7 @@ namespace BinanKiosk
 
         public JobResult(string val)
         {
+            
             InitializeComponent();
             /*logo.ImageLocation = pictures[0];
             //ad.ImageLocation = pictures[1];
@@ -168,77 +170,7 @@ namespace BinanKiosk
 
 
 
-            /*
-             * for (int i = 0; i < 3; i++)
-            {
-                var picture = new PictureBox
-                {
-                    Name = name[i],
-                    Size = new Size(186, 142),
-                    Location = new Point(3, 3 + (i * 153)),
-                    SizeMode = PictureBoxSizeMode.Zoom,
-                    Image = BinanKiosk.Properties.Resources.Binan_City_Logo,
-
-                };
-                this.JobResult1_panel.Controls.Add(picture);
-
-                var job_locationlbl = new Label
-                {
-                    Name = name[i] + "job_locationlbl",
-                    Text = "Binan, Kiosk" + i.ToString(),
-                    Size = new Size(131, 24),
-                    Location = new Point(195, 49 + (i * 150)),
-                    Font = new Font("Microsoft Sans Serif", 14, FontStyle.Regular),
-                };
-                this.JobResult1_panel.Controls.Add(job_locationlbl);
-
-                var job_companylbl = new Label
-                {
-                    Name = name[i] + "job_companylbl",
-                    Text = "Microsoft Company" + i.ToString(),
-                    Size = new Size(131, 24),
-                    Location = new Point(562, 49 + (i * 148)),
-                    Font = new Font("Microsoft Sans Serif", 14, FontStyle.Regular),
-                };
-                this.JobResult1_panel.Controls.Add(job_companylbl);
-
-                var job_descriptionlbl = new Label
-                {
-                    Name = name[i] + "job_descriptionlbl",
-                    Text = "txt1" + i.ToString(),
-                    Size = new Size(749, 64),
-                    Location = new Point(195, 81 + (i * 148)),
-                    Font = new Font("Microsoft Sans Serif", 12, FontStyle.Regular),
-                };
-                this.JobResult1_panel.Controls.Add(job_descriptionlbl);
-
-                var lbl = new Label
-                {
-                    Name = name[i] + "lbl",
-                    Text = "txt" + i.ToString(),
-                    Size = new Size(85, 29),
-                    Location = new Point(195, 3 + (i * 153)),
-                    Font = new Font("Microsoft Sans Serif", 18, FontStyle.Bold),
-                };
-                this.JobResult1_panel.Controls.Add(lbl);
-
-                var btn = new Button
-                {
-                    Name = name[i] + "btn",
-                    Text = "View Details",
-                    Size = new Size(193, 56),
-                    Location = new Point(950, 89 + (i * 148)),
-                    BackgroundImage = BinanKiosk.Properties.Resources.button1,
-                    BackgroundImageLayout = ImageLayout.Stretch,
-                    BackColor = Color.White,
-                    FlatStyle = FlatStyle.Flat,
-                    ForeColor = Color.White,
-                    Font = new Font("Arial Narrow", 18, FontStyle.Bold),
-
-                };
-                this.JobResult1_panel.Controls.Add(btn);
-            }
-             */
+            
 
 
         }//Load Ends
@@ -251,7 +183,7 @@ namespace BinanKiosk
             selectedJob = Global.gbJobtype[Convert.ToInt32(pictureClick.Name)];
             Global.gbSelectedJob = selectedJob;
 
-            JobResultExpand jre = new JobResultExpand();
+            JobResultExpand jre = new JobResultExpand(dumvalue);
             this.Hide();
             jre.FormClosed += (s, args) => this.Close();
             jre.ShowDialog();
@@ -263,13 +195,14 @@ namespace BinanKiosk
 
         void button_Click(object sender, System.EventArgs e)
         {
+            
             Button btnClick = sender as Button;
             MessageBox.Show(Global.gbJobtype[Convert.ToInt32(btnClick.Name)]);
 
             selectedJob = Global.gbJobtype[Convert.ToInt32(btnClick.Name)];
             Global.gbSelectedJob = selectedJob;
 
-            JobResultExpand jre = new JobResultExpand();
+            JobResultExpand jre = new JobResultExpand(dumvalue);
             this.Hide();
             jre.FormClosed += (s, args) => this.Close();
             jre.ShowDialog();
@@ -288,7 +221,7 @@ namespace BinanKiosk
             selectedJob = Global.gbJobtype[Convert.ToInt32(pnlClick.Name)];
             Global.gbSelectedJob = selectedJob;
 
-            JobResultExpand jre = new JobResultExpand();
+            JobResultExpand jre = new JobResultExpand(dumvalue);
             this.Hide();
             jre.FormClosed += (s, args) => this.Close();
             jre.ShowDialog();

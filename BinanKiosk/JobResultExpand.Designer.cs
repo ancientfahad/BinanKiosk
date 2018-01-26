@@ -93,6 +93,7 @@
             this.btnLanguages.Text = "CHANGE LANGUAGE";
             this.btnLanguages.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnLanguages.UseVisualStyleBackColor = false;
+            this.btnLanguages.Click += new System.EventHandler(this.btnLanguages_Click);
             // 
             // timestamp
             // 
@@ -102,10 +103,11 @@
             // jobpicture
             // 
             this.jobpicture.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.jobpicture.Location = new System.Drawing.Point(41, 100);
+            this.jobpicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.jobpicture.Location = new System.Drawing.Point(168, 100);
             this.jobpicture.Name = "jobpicture";
-            this.jobpicture.Size = new System.Drawing.Size(1281, 571);
-            this.jobpicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.jobpicture.Size = new System.Drawing.Size(1023, 536);
+            this.jobpicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.jobpicture.TabIndex = 270;
             this.jobpicture.TabStop = false;
             // 
@@ -127,6 +129,7 @@
             this.btnHelp.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnHelp.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnHelp.UseVisualStyleBackColor = false;
+            this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
             // 
             // btnJob
             // 
@@ -189,6 +192,7 @@
             this.btnMaps.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnMaps.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnMaps.UseVisualStyleBackColor = false;
+            this.btnMaps.Click += new System.EventHandler(this.btnMaps_Click);
             // 
             // btnSearch
             // 
@@ -209,6 +213,7 @@
             this.btnSearch.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnSearch.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnSearch.UseVisualStyleBackColor = false;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // btnHome
             // 
@@ -229,6 +234,7 @@
             this.btnHome.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnHome.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnHome.UseVisualStyleBackColor = false;
+            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
             // lblJob
             // 
@@ -312,6 +318,7 @@
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.pictureBox6);
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "JobResultExpand";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
