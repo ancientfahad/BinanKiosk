@@ -134,6 +134,7 @@
             this.Map = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.point = new System.Windows.Forms.PictureBox();
+            this.lblhere = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.switch6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.step71)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.step72)).BeginInit();
@@ -1559,12 +1560,24 @@
             this.point.TabIndex = 288;
             this.point.TabStop = false;
             // 
+            // lblhere
+            // 
+            this.lblhere.AutoSize = true;
+            this.lblhere.BackColor = System.Drawing.Color.Transparent;
+            this.lblhere.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblhere.Location = new System.Drawing.Point(591, 599);
+            this.lblhere.Name = "lblhere";
+            this.lblhere.Size = new System.Drawing.Size(50, 9);
+            this.lblhere.TabIndex = 289;
+            this.lblhere.Text = "You are Here";
+            // 
             // GroundFloor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1366, 768);
+            this.Controls.Add(this.lblhere);
             this.Controls.Add(this.point);
             this.Controls.Add(this.switch6);
             this.Controls.Add(this.step71);
@@ -1862,6 +1875,7 @@
         private System.Windows.Forms.PictureBox step71;
         private System.Windows.Forms.PictureBox switch6;
         private System.Windows.Forms.PictureBox point;
+        private System.Windows.Forms.Label lblhere;
     }
 }
 

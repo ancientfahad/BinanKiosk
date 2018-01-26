@@ -91,7 +91,8 @@
             // panel1
             // 
             this.panel1.AutoScroll = true;
-            this.panel1.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.BackgroundImage = global::BinanKiosk.Properties.Resources.box;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label4);
@@ -111,9 +112,9 @@
             this.panel1.Controls.Add(this.label0);
             this.panel1.Controls.Add(this.btn0);
             this.panel1.Controls.Add(this.pictureBox0);
-            this.panel1.Location = new System.Drawing.Point(71, 82);
+            this.panel1.Location = new System.Drawing.Point(79, 70);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1225, 539);
+            this.panel1.Size = new System.Drawing.Size(1219, 593);
             this.panel1.TabIndex = 59;
             // 
             // label5
@@ -121,7 +122,7 @@
             this.label5.BackColor = System.Drawing.SystemColors.ControlLight;
             this.label5.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label5.Location = new System.Drawing.Point(865, 299);
+            this.label5.Location = new System.Drawing.Point(846, 333);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(280, 80);
             this.label5.TabIndex = 53;
@@ -132,7 +133,7 @@
             // 
             this.label4.BackColor = System.Drawing.SystemColors.ControlLight;
             this.label4.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(472, 299);
+            this.label4.Location = new System.Drawing.Point(463, 333);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(280, 80);
             this.label4.TabIndex = 52;
@@ -143,7 +144,7 @@
             // 
             this.label3.BackColor = System.Drawing.SystemColors.ControlLight;
             this.label3.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(82, 299);
+            this.label3.Location = new System.Drawing.Point(82, 333);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(280, 80);
             this.label3.TabIndex = 51;
@@ -154,7 +155,7 @@
             // 
             this.label2.BackColor = System.Drawing.SystemColors.ControlLight;
             this.label2.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(865, 50);
+            this.label2.Location = new System.Drawing.Point(846, 84);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(280, 80);
             this.label2.TabIndex = 50;
@@ -166,7 +167,7 @@
             this.label1.BackColor = System.Drawing.SystemColors.ControlLight;
             this.label1.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label1.Location = new System.Drawing.Point(472, 50);
+            this.label1.Location = new System.Drawing.Point(463, 84);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(280, 80);
             this.label1.TabIndex = 49;
@@ -184,7 +185,7 @@
             this.btn5.Font = new System.Drawing.Font("Arial Narrow", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn5.ForeColor = System.Drawing.Color.Transparent;
             this.btn5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn5.Location = new System.Drawing.Point(921, 400);
+            this.btn5.Location = new System.Drawing.Point(902, 434);
             this.btn5.Name = "btn5";
             this.btn5.Size = new System.Drawing.Size(164, 74);
             this.btn5.TabIndex = 47;
@@ -204,7 +205,7 @@
             this.btn4.Font = new System.Drawing.Font("Arial Narrow", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn4.ForeColor = System.Drawing.Color.Transparent;
             this.btn4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn4.Location = new System.Drawing.Point(530, 400);
+            this.btn4.Location = new System.Drawing.Point(521, 434);
             this.btn4.Name = "btn4";
             this.btn4.Size = new System.Drawing.Size(164, 74);
             this.btn4.TabIndex = 46;
@@ -224,7 +225,7 @@
             this.btn3.Font = new System.Drawing.Font("Arial Narrow", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn3.ForeColor = System.Drawing.Color.Transparent;
             this.btn3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn3.Location = new System.Drawing.Point(140, 400);
+            this.btn3.Location = new System.Drawing.Point(140, 434);
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(164, 74);
             this.btn3.TabIndex = 45;
@@ -244,7 +245,7 @@
             this.btn2.Font = new System.Drawing.Font("Arial Narrow", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn2.ForeColor = System.Drawing.Color.Transparent;
             this.btn2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn2.Location = new System.Drawing.Point(921, 148);
+            this.btn2.Location = new System.Drawing.Point(902, 182);
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(164, 74);
             this.btn2.TabIndex = 44;
@@ -264,7 +265,7 @@
             this.btn1.Font = new System.Drawing.Font("Arial Narrow", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn1.ForeColor = System.Drawing.Color.Transparent;
             this.btn1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn1.Location = new System.Drawing.Point(530, 148);
+            this.btn1.Location = new System.Drawing.Point(521, 182);
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(164, 74);
             this.btn1.TabIndex = 43;
@@ -277,7 +278,7 @@
             // 
             this.pictureBox5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox5.BackgroundImage")));
             this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox5.Location = new System.Drawing.Point(820, 277);
+            this.pictureBox5.Location = new System.Drawing.Point(801, 311);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(361, 236);
             this.pictureBox5.TabIndex = 48;
@@ -287,7 +288,7 @@
             // 
             this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox4.Location = new System.Drawing.Point(427, 277);
+            this.pictureBox4.Location = new System.Drawing.Point(418, 311);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(361, 236);
             this.pictureBox4.TabIndex = 47;
@@ -297,7 +298,7 @@
             // 
             this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(820, 23);
+            this.pictureBox2.Location = new System.Drawing.Point(801, 57);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(361, 236);
             this.pictureBox2.TabIndex = 46;
@@ -307,7 +308,7 @@
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(427, 23);
+            this.pictureBox1.Location = new System.Drawing.Point(418, 57);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(361, 236);
             this.pictureBox1.TabIndex = 45;
@@ -317,7 +318,7 @@
             // 
             this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Location = new System.Drawing.Point(37, 277);
+            this.pictureBox3.Location = new System.Drawing.Point(37, 311);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(361, 236);
             this.pictureBox3.TabIndex = 44;
@@ -327,7 +328,7 @@
             // 
             this.label0.BackColor = System.Drawing.SystemColors.ControlLight;
             this.label0.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label0.Location = new System.Drawing.Point(82, 50);
+            this.label0.Location = new System.Drawing.Point(82, 84);
             this.label0.Name = "label0";
             this.label0.Size = new System.Drawing.Size(280, 80);
             this.label0.TabIndex = 43;
@@ -345,7 +346,7 @@
             this.btn0.Font = new System.Drawing.Font("Arial Narrow", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn0.ForeColor = System.Drawing.Color.Transparent;
             this.btn0.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn0.Location = new System.Drawing.Point(140, 148);
+            this.btn0.Location = new System.Drawing.Point(140, 182);
             this.btn0.Name = "btn0";
             this.btn0.Size = new System.Drawing.Size(164, 74);
             this.btn0.TabIndex = 42;
@@ -358,7 +359,7 @@
             // 
             this.pictureBox0.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox0.BackgroundImage")));
             this.pictureBox0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox0.Location = new System.Drawing.Point(37, 23);
+            this.pictureBox0.Location = new System.Drawing.Point(37, 57);
             this.pictureBox0.Name = "pictureBox0";
             this.pictureBox0.Size = new System.Drawing.Size(361, 236);
             this.pictureBox0.TabIndex = 0;
@@ -619,6 +620,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.BackgroundImage = global::BinanKiosk.Properties.Resources.bgopacity3;
             this.ClientSize = new System.Drawing.Size(1366, 768);
             this.Controls.Add(this.btnPreviousPage);
             this.Controls.Add(this.btnNextPage);

@@ -74,9 +74,9 @@
             // 
             this.lblName.BackColor = System.Drawing.SystemColors.ControlLight;
             this.lblName.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblName.Location = new System.Drawing.Point(231, 0);
+            this.lblName.Location = new System.Drawing.Point(212, 0);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(470, 59);
+            this.lblName.Size = new System.Drawing.Size(470, 41);
             this.lblName.TabIndex = 62;
             this.lblName.Text = "Ramon Almazan";
             // 
@@ -84,7 +84,7 @@
             // 
             this.lblPosition.BackColor = System.Drawing.SystemColors.ControlLight;
             this.lblPosition.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPosition.Location = new System.Drawing.Point(231, 59);
+            this.lblPosition.Location = new System.Drawing.Point(212, 41);
             this.lblPosition.Name = "lblPosition";
             this.lblPosition.Size = new System.Drawing.Size(470, 62);
             this.lblPosition.TabIndex = 63;
@@ -95,7 +95,7 @@
             this.lblDept.AutoSize = true;
             this.lblDept.BackColor = System.Drawing.SystemColors.ControlLight;
             this.lblDept.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDept.Location = new System.Drawing.Point(231, 121);
+            this.lblDept.Location = new System.Drawing.Point(212, 119);
             this.lblDept.Name = "lblDept";
             this.lblDept.Size = new System.Drawing.Size(357, 31);
             this.lblDept.TabIndex = 64;
@@ -105,7 +105,7 @@
             // 
             this.lblLocation.BackColor = System.Drawing.SystemColors.ControlLight;
             this.lblLocation.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLocation.Location = new System.Drawing.Point(231, 173);
+            this.lblLocation.Location = new System.Drawing.Point(212, 194);
             this.lblLocation.Name = "lblLocation";
             this.lblLocation.Size = new System.Drawing.Size(470, 33);
             this.lblLocation.TabIndex = 65;
@@ -117,7 +117,7 @@
             this.locationLabel.AutoSize = true;
             this.locationLabel.BackColor = System.Drawing.SystemColors.ControlLight;
             this.locationLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.locationLabel.Location = new System.Drawing.Point(3, 173);
+            this.locationLabel.Location = new System.Drawing.Point(3, 194);
             this.locationLabel.Name = "locationLabel";
             this.locationLabel.Size = new System.Drawing.Size(117, 31);
             this.locationLabel.TabIndex = 71;
@@ -129,7 +129,7 @@
             this.departmentLabel.AutoSize = true;
             this.departmentLabel.BackColor = System.Drawing.SystemColors.ControlLight;
             this.departmentLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.departmentLabel.Location = new System.Drawing.Point(3, 121);
+            this.departmentLabel.Location = new System.Drawing.Point(3, 119);
             this.departmentLabel.Name = "departmentLabel";
             this.departmentLabel.Size = new System.Drawing.Size(156, 31);
             this.departmentLabel.TabIndex = 70;
@@ -151,7 +151,7 @@
             this.positionLabel.AutoSize = true;
             this.positionLabel.BackColor = System.Drawing.SystemColors.ControlLight;
             this.positionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.positionLabel.Location = new System.Drawing.Point(3, 59);
+            this.positionLabel.Location = new System.Drawing.Point(3, 41);
             this.positionLabel.Name = "positionLabel";
             this.positionLabel.Size = new System.Drawing.Size(111, 31);
             this.positionLabel.TabIndex = 68;
@@ -162,7 +162,7 @@
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.SystemColors.ControlLight;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(197, 173);
+            this.label8.Location = new System.Drawing.Point(181, 194);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(22, 31);
             this.label8.TabIndex = 76;
@@ -174,7 +174,7 @@
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.SystemColors.ControlLight;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(197, 121);
+            this.label9.Location = new System.Drawing.Point(181, 119);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(22, 31);
             this.label9.TabIndex = 75;
@@ -185,7 +185,7 @@
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.SystemColors.ControlLight;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(197, 59);
+            this.label10.Location = new System.Drawing.Point(181, 41);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(22, 31);
             this.label10.TabIndex = 74;
@@ -196,7 +196,7 @@
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.SystemColors.ControlLight;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(197, 0);
+            this.label11.Location = new System.Drawing.Point(181, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(22, 31);
             this.label11.TabIndex = 73;
@@ -224,7 +224,7 @@
             this.tableLayoutPanel1.ColumnCount = 3;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 84.79263F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15.20737F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 687F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 622F));
             this.tableLayoutPanel1.Controls.Add(this.label11, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.locationLabel, 0, 3);
             this.tableLayoutPanel1.Controls.Add(this.label8, 1, 3);
@@ -237,14 +237,14 @@
             this.tableLayoutPanel1.Controls.Add(this.lblPosition, 2, 1);
             this.tableLayoutPanel1.Controls.Add(this.positionLabel, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.nameLabel, 0, 0);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(343, 112);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(397, 130);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 4;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 48.64865F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 51.35135F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 52F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(916, 206);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 34.45378F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 65.54622F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 75F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 94F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(832, 289);
             this.tableLayoutPanel1.TabIndex = 248;
             // 
             // lbldate
@@ -310,9 +310,9 @@
             this.btnLocate.ForeColor = System.Drawing.Color.Transparent;
             this.btnLocate.Image = global::BinanKiosk.Properties.Resources.map;
             this.btnLocate.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLocate.Location = new System.Drawing.Point(541, 324);
+            this.btnLocate.Location = new System.Drawing.Point(647, 542);
             this.btnLocate.Name = "btnLocate";
-            this.btnLocate.Size = new System.Drawing.Size(190, 90);
+            this.btnLocate.Size = new System.Drawing.Size(178, 79);
             this.btnLocate.TabIndex = 77;
             this.btnLocate.Text = "Locate";
             this.btnLocate.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -447,7 +447,7 @@
             this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox5.Location = new System.Drawing.Point(79, 70);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(1222, 553);
+            this.pictureBox5.Size = new System.Drawing.Size(1219, 593);
             this.pictureBox5.TabIndex = 67;
             this.pictureBox5.TabStop = false;
             // 
@@ -489,7 +489,7 @@
             // 
             this.pictureBox3.BackColor = System.Drawing.SystemColors.ControlLight;
             this.pictureBox3.Image = global::BinanKiosk.Properties.Resources.Binan_City_Logo;
-            this.pictureBox3.Location = new System.Drawing.Point(131, 112);
+            this.pictureBox3.Location = new System.Drawing.Point(159, 130);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(206, 206);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -502,6 +502,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.White;
+            this.BackgroundImage = global::BinanKiosk.Properties.Resources.bgopacity3;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1366, 768);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.lbldate);
