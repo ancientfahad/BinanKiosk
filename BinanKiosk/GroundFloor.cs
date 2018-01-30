@@ -234,7 +234,7 @@ namespace BinanKiosk
         public async void Floor1_1()
         {
             clearImage();
-
+            hideButton();
             int ctr = 0;
 
             PictureBox[] path1 = {step1, step2, step3, step4, step5, step6, step7, step8, step9, step10, step11, step12};
@@ -268,7 +268,7 @@ namespace BinanKiosk
                 }
                 ctr++;
             } while (ctr <3);
-
+            showButton();
             enableButton();
         }
 
@@ -276,6 +276,7 @@ namespace BinanKiosk
         public async void Floor1_2()
         {
             clearImage();
+            hideButton();
 
             int ctr = 0;
 
@@ -313,6 +314,7 @@ namespace BinanKiosk
             } while (ctr < 3);
 
             enableButton();
+            showButton();
         }
 
         //Path3
@@ -1039,6 +1041,17 @@ namespace BinanKiosk
         private void point_Click(object sender, EventArgs e)
         {
 
+        }
+
+        public void hideButton() {
+            secondbtton.Visible = false;
+            thirdbtton.Visible = false;
+        }
+
+        public void showButton()
+        {
+            secondbtton.Visible = true;
+            thirdbtton.Visible = true;
         }
     }
 }
