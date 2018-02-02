@@ -188,7 +188,9 @@ namespace BinanKiosk
             if (radioOfficers.Checked)
             {
                 conn.Open();
-                cmd = new MySqlCommand("SELECT officials.first_name, officials.last_name, officials.middle_initial, departments.department_name, positions.position_name, departments.room_name FROM officials JOIN departments ON officials.officials_id = departments.officials_id JOIN positions ON officials.officials_id = positions.officials_id WHERE CONCAT (officials.first_name, ' ', officials.middle_initial, ' ', officials.last_name, ' ', officials.suffex) LIKE '%" + clicked + "%' ", conn);
+                //cmd = new MySqlCommand("SELECT officials.first_name, officials.last_name, officials.middle_initial, departments.department_name, positions.position_name, departments.room_name FROM officials JOIN departments ON officials.officials_id = departments.officials_id JOIN positions ON officials.officials_id = positions.officials_id WHERE CONCAT (officials.first_name, ' ', officials.middle_initial, ' ', officials.last_name, ' ', officials.suffex) LIKE '%" + clicked + "%' ", conn);
+                cmd = new MySqlCommand("SELECT officials.first_name, officials.last_name, officials.middle_initial, departments.department_name, positions.position_name, departments.room_name FROM officials,departments,positions WHERE positions.position_id = officials.position_id AND departments.department_id = officials.department_id AND CONCAT (officials.first_name, ' ', officials.middle_initial, ' ', officials.last_name, ' ', officials.suffex) LIKE '%" + clicked + "%' ", conn);
+
                 cmd.ExecuteNonQuery();
                 reader = cmd.ExecuteReader();
 
@@ -490,7 +492,7 @@ namespace BinanKiosk
         {
             conn.Open();
 
-            cmd = new MySqlCommand("SELECT jobs.job_name, jobs.job_id FROM jobs WHERE jobs.job_name LIKE '%" + Global.gbSelectedSearchJob + "%' ", conn);
+            cmd = new MySqlCommand("SELECT jobs.job_name, jobs.job_id FROM jobs WHERE jobs.job_name = '" + Global.gbSelectedSearchJob + "' ", conn);
             cmd.ExecuteNonQuery();
             reader = cmd.ExecuteReader();
 
@@ -506,7 +508,7 @@ namespace BinanKiosk
             }
             reader.Close();
 
-            cmd = new MySqlCommand("SELECT COUNT(jobtypes.job_id) AS count FROM jobtypes WHERE jobtypes.job_id LIKE '%" + jobID + "%' ", conn);
+            cmd = new MySqlCommand("SELECT COUNT(jobtypes.job_id) AS count FROM jobtypes WHERE jobtypes.job_id = '" + jobID + "' ", conn);
             //cmd1 = new MySqlCommand("SELECT COUNT(officials.first_name) AS count FROM officials WHERE officials.first_name LIKE '"+ txtSearch.Text +"%' ", conn);
             cmd.ExecuteNonQuery();
             reader = cmd.ExecuteReader();
@@ -526,7 +528,7 @@ namespace BinanKiosk
 
             if (exist == true)
             {
-                cmd = new MySqlCommand("SELECT jobtypes.job_types, jobtypes.job_location, jobtypes.job_company, jobtypes.job_description FROM jobtypes WHERE jobtypes.job_id LIKE '%" + jobID + "%' ", conn);
+                cmd = new MySqlCommand("SELECT jobtypes.job_types, jobtypes.job_location, jobtypes.job_company, jobtypes.job_description FROM jobtypes WHERE jobtypes.job_id = '" + jobID + "' ", conn);
                 cmd.ExecuteNonQuery();
                 reader = cmd.ExecuteReader();
 

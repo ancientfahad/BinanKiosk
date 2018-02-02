@@ -47,7 +47,7 @@ namespace BinanKiosk
         {
             conn.Open();
 
-            cmd = new MySqlCommand("SELECT jobs.job_name, jobs.job_id FROM jobs WHERE jobs.job_name LIKE '%" + valueBox.Text + "%' ", conn);
+            cmd = new MySqlCommand("SELECT jobs.job_name, jobs.job_id FROM jobs WHERE jobs.job_name ='" + valueBox.Text + "' ", conn);
             cmd.ExecuteNonQuery();
             reader = cmd.ExecuteReader();
 
@@ -63,7 +63,7 @@ namespace BinanKiosk
             }
             reader.Close();
 
-            cmd = new MySqlCommand("SELECT COUNT(jobtypes.job_id) AS count FROM jobtypes WHERE jobtypes.job_id LIKE '%" + jobID + "%' ", conn);
+            cmd = new MySqlCommand("SELECT COUNT(jobtypes.job_id) AS count FROM jobtypes WHERE jobtypes.job_id = '" + jobID +  "' ", conn);
             //cmd1 = new MySqlCommand("SELECT COUNT(officials.first_name) AS count FROM officials WHERE officials.first_name LIKE '"+ txtSearch.Text +"%' ", conn);
             cmd.ExecuteNonQuery();
             reader = cmd.ExecuteReader();
@@ -82,7 +82,7 @@ namespace BinanKiosk
             //MessageBox.Show(Global.gbJobtype.Length.ToString());
 
             if (exist == true) {
-                cmd = new MySqlCommand("SELECT jobtypes.job_types, jobtypes.job_location, jobtypes.job_company, jobtypes.job_description FROM jobtypes WHERE jobtypes.job_id LIKE '%" + jobID + "%' ", conn);
+                cmd = new MySqlCommand("SELECT jobtypes.job_types, jobtypes.job_location, jobtypes.job_company, jobtypes.job_description FROM jobtypes WHERE jobtypes.job_id = '" + jobID + "' ", conn);
                 cmd.ExecuteNonQuery();
                 reader = cmd.ExecuteReader();
 
