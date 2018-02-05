@@ -15,7 +15,7 @@ namespace BinanKiosk
 {
     public partial class Jobs : Form
     {
-        MySqlConnection conn = new MySqlConnection("SERVER=" + "localhost" + ";" + "DATABASE=" + "binan_kiosk" + ";" + "UID=" + "root" + ";" + "PASSWORD=" + "" + ";");
+        MySqlConnection conn = Config.conn;
         MySqlDataReader reader;
         MySqlCommand cmd;
 

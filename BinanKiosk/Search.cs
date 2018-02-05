@@ -17,7 +17,7 @@ namespace BinanKiosk
     public partial class Search : Form
     {
 
-        MySqlConnection conn = new MySqlConnection("SERVER=" + "localhost" + ";" + "DATABASE=" + "binan_kiosk" + ";" + "UID=" + "root" + ";" + "PASSWORD=" + "" + ";");
+        MySqlConnection conn = Config.conn;
         MySqlDataReader reader, reader1;
         MySqlCommand cmd, cmd1;
 
@@ -219,7 +219,7 @@ namespace BinanKiosk
             {
 
                 conn.Open();
-                cmd = new MySqlCommand("SELECT officials.first_name, officials.last_name, officials.middle_initial, departments.department_name, departments.room_name, departments.Dep_description FROM officials JOIN departments ON officials.officials_id = departments.officials_id JOIN positions ON officials.officials_id = positions.officials_id WHERE departments.department_name LIKE '%" + clicked + "%' ", conn);
+                cmd = new MySqlCommand("SELECT officials.first_name, officials.last_name, officials.middle_initial, departments.department_name, departments.room_name, departments.Dep_description FROM officials JOIN departments ON officials.officials_id = departments.officials_id JOIN positions ON officials.position_id = positions.position_id WHERE departments.department_name LIKE '%" + clicked + "%' ", conn);
                 cmd.ExecuteNonQuery();
                 reader = cmd.ExecuteReader();
 
