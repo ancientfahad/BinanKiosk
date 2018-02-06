@@ -31,16 +31,16 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GroundFloor));
-            this.btnLCRG = new System.Windows.Forms.Button();
+            this.rm1_2 = new System.Windows.Forms.Button();
             this.lblFloorName = new System.Windows.Forms.Label();
-            this.btnTreasuryOffice = new System.Windows.Forms.Button();
-            this.btnCSWD = new System.Windows.Forms.Button();
-            this.btnChapel = new System.Windows.Forms.Button();
-            this.cnabtton = new System.Windows.Forms.Button();
-            this.agrbtton = new System.Windows.Forms.Button();
-            this.cenrobtton = new System.Windows.Forms.Button();
-            this.bussbtton = new System.Windows.Forms.Button();
-            this.asrbtton = new System.Windows.Forms.Button();
+            this.R101 = new System.Windows.Forms.Button();
+            this.rm1_3 = new System.Windows.Forms.Button();
+            this.rm1_6 = new System.Windows.Forms.Button();
+            this.rm1_5 = new System.Windows.Forms.Button();
+            this.rm1_10 = new System.Windows.Forms.Button();
+            this.rm1_9 = new System.Windows.Forms.Button();
+            this.rm1_11 = new System.Windows.Forms.Button();
+            this.rm1_12 = new System.Windows.Forms.Button();
             this.btnLanguages = new System.Windows.Forms.Button();
             this.lbldate = new System.Windows.Forms.Label();
             this.timestamp = new System.Windows.Forms.Timer(this.components);
@@ -60,8 +60,6 @@
             this.thirdbtton = new System.Windows.Forms.Button();
             this.secondbtton = new System.Windows.Forms.Button();
             this.step65 = new System.Windows.Forms.PictureBox();
-            this.step17 = new System.Windows.Forms.PictureBox();
-            this.step16 = new System.Windows.Forms.PictureBox();
             this.step15 = new System.Windows.Forms.PictureBox();
             this.step12 = new System.Windows.Forms.PictureBox();
             this.step34 = new System.Windows.Forms.PictureBox();
@@ -98,7 +96,6 @@
             this.step38 = new System.Windows.Forms.PictureBox();
             this.step28 = new System.Windows.Forms.PictureBox();
             this.step29 = new System.Windows.Forms.PictureBox();
-            this.step18 = new System.Windows.Forms.PictureBox();
             this.switch3 = new System.Windows.Forms.PictureBox();
             this.step31 = new System.Windows.Forms.PictureBox();
             this.step26 = new System.Windows.Forms.PictureBox();
@@ -135,6 +132,9 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.point = new System.Windows.Forms.PictureBox();
             this.lblhere = new System.Windows.Forms.Label();
+            this.rm1_4 = new System.Windows.Forms.Button();
+            this.rm1_7 = new System.Windows.Forms.Button();
+            this.rm1_8 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.switch6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.step71)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.step72)).BeginInit();
@@ -148,8 +148,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.step65)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.step17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.step16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.step15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.step12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.step34)).BeginInit();
@@ -186,7 +184,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.step38)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.step28)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.step29)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.step18)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.switch3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.step31)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.step26)).BeginInit();
@@ -218,23 +215,23 @@
             ((System.ComponentModel.ISupportInitialize)(this.point)).BeginInit();
             this.SuspendLayout();
             // 
-            // btnLCRG
+            // rm1_2
             // 
-            this.btnLCRG.BackColor = System.Drawing.Color.Transparent;
-            this.btnLCRG.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnLCRG.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnLCRG.FlatAppearance.BorderSize = 0;
-            this.btnLCRG.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnLCRG.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnLCRG.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLCRG.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLCRG.Location = new System.Drawing.Point(380, 255);
-            this.btnLCRG.Name = "btnLCRG";
-            this.btnLCRG.Size = new System.Drawing.Size(88, 157);
-            this.btnLCRG.TabIndex = 15;
-            this.btnLCRG.Text = "Local Civil Registry Office";
-            this.btnLCRG.UseVisualStyleBackColor = false;
-            this.btnLCRG.Click += new System.EventHandler(this.btnLCRG_Click);
+            this.rm1_2.BackColor = System.Drawing.Color.Transparent;
+            this.rm1_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.rm1_2.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.rm1_2.FlatAppearance.BorderSize = 0;
+            this.rm1_2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.rm1_2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.rm1_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rm1_2.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rm1_2.Location = new System.Drawing.Point(380, 255);
+            this.rm1_2.Name = "rm1_2";
+            this.rm1_2.Size = new System.Drawing.Size(88, 157);
+            this.rm1_2.TabIndex = 15;
+            this.rm1_2.Text = "Local Civil Registry Office";
+            this.rm1_2.UseVisualStyleBackColor = false;
+            this.rm1_2.Click += new System.EventHandler(this.btnLCRG_Click);
             // 
             // lblFloorName
             // 
@@ -249,149 +246,149 @@
             this.lblFloorName.TabIndex = 58;
             this.lblFloorName.Text = "Ground Floor";
             // 
-            // btnTreasuryOffice
+            // R101
             // 
-            this.btnTreasuryOffice.BackColor = System.Drawing.Color.Transparent;
-            this.btnTreasuryOffice.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnTreasuryOffice.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnTreasuryOffice.FlatAppearance.BorderSize = 0;
-            this.btnTreasuryOffice.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnTreasuryOffice.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnTreasuryOffice.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTreasuryOffice.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTreasuryOffice.Location = new System.Drawing.Point(286, 513);
-            this.btnTreasuryOffice.Name = "btnTreasuryOffice";
-            this.btnTreasuryOffice.Size = new System.Drawing.Size(187, 62);
-            this.btnTreasuryOffice.TabIndex = 157;
-            this.btnTreasuryOffice.Text = "Treasury Office";
-            this.btnTreasuryOffice.UseVisualStyleBackColor = false;
-            this.btnTreasuryOffice.Click += new System.EventHandler(this.btnTreasuryOffice_Click);
+            this.R101.BackColor = System.Drawing.Color.Transparent;
+            this.R101.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.R101.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.R101.FlatAppearance.BorderSize = 0;
+            this.R101.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.R101.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.R101.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.R101.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.R101.Location = new System.Drawing.Point(286, 513);
+            this.R101.Name = "R101";
+            this.R101.Size = new System.Drawing.Size(187, 62);
+            this.R101.TabIndex = 157;
+            this.R101.Text = "Treasury Office";
+            this.R101.UseVisualStyleBackColor = false;
+            this.R101.Click += new System.EventHandler(this.btnR101_Click);
             // 
-            // btnCSWD
+            // rm1_3
             // 
-            this.btnCSWD.BackColor = System.Drawing.Color.Transparent;
-            this.btnCSWD.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnCSWD.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnCSWD.FlatAppearance.BorderSize = 0;
-            this.btnCSWD.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnCSWD.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnCSWD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCSWD.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCSWD.Location = new System.Drawing.Point(408, 134);
-            this.btnCSWD.Name = "btnCSWD";
-            this.btnCSWD.Size = new System.Drawing.Size(91, 62);
-            this.btnCSWD.TabIndex = 158;
-            this.btnCSWD.Text = "CSWD Office";
-            this.btnCSWD.UseVisualStyleBackColor = false;
-            this.btnCSWD.Click += new System.EventHandler(this.btnCSWD_Click);
+            this.rm1_3.BackColor = System.Drawing.Color.Transparent;
+            this.rm1_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.rm1_3.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.rm1_3.FlatAppearance.BorderSize = 0;
+            this.rm1_3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.rm1_3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.rm1_3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rm1_3.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rm1_3.Location = new System.Drawing.Point(408, 134);
+            this.rm1_3.Name = "rm1_3";
+            this.rm1_3.Size = new System.Drawing.Size(91, 62);
+            this.rm1_3.TabIndex = 158;
+            this.rm1_3.Text = "CSWD Office";
+            this.rm1_3.UseVisualStyleBackColor = false;
+            this.rm1_3.Click += new System.EventHandler(this.btnCSWD_Click);
             // 
-            // btnChapel
+            // rm1_6
             // 
-            this.btnChapel.BackColor = System.Drawing.Color.Transparent;
-            this.btnChapel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnChapel.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnChapel.FlatAppearance.BorderSize = 0;
-            this.btnChapel.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnChapel.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnChapel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnChapel.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnChapel.Location = new System.Drawing.Point(607, 136);
-            this.btnChapel.Name = "btnChapel";
-            this.btnChapel.Size = new System.Drawing.Size(88, 56);
-            this.btnChapel.TabIndex = 159;
-            this.btnChapel.Text = "Chapel";
-            this.btnChapel.UseVisualStyleBackColor = false;
-            this.btnChapel.Click += new System.EventHandler(this.btnChapel_Click);
+            this.rm1_6.BackColor = System.Drawing.Color.Transparent;
+            this.rm1_6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.rm1_6.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.rm1_6.FlatAppearance.BorderSize = 0;
+            this.rm1_6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.rm1_6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.rm1_6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rm1_6.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rm1_6.Location = new System.Drawing.Point(607, 136);
+            this.rm1_6.Name = "rm1_6";
+            this.rm1_6.Size = new System.Drawing.Size(88, 56);
+            this.rm1_6.TabIndex = 159;
+            this.rm1_6.Text = "Chapel";
+            this.rm1_6.UseVisualStyleBackColor = false;
+            this.rm1_6.Click += new System.EventHandler(this.btnChapel_Click);
             // 
-            // cnabtton
+            // rm1_5
             // 
-            this.cnabtton.BackColor = System.Drawing.Color.Transparent;
-            this.cnabtton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.cnabtton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.cnabtton.FlatAppearance.BorderSize = 0;
-            this.cnabtton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.cnabtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.cnabtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cnabtton.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cnabtton.Location = new System.Drawing.Point(541, 136);
-            this.cnabtton.Name = "cnabtton";
-            this.cnabtton.Size = new System.Drawing.Size(58, 74);
-            this.cnabtton.TabIndex = 160;
-            this.cnabtton.Text = "CNA ";
-            this.cnabtton.UseVisualStyleBackColor = false;
-            this.cnabtton.Click += new System.EventHandler(this.cnabtton_Click);
+            this.rm1_5.BackColor = System.Drawing.Color.Transparent;
+            this.rm1_5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.rm1_5.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.rm1_5.FlatAppearance.BorderSize = 0;
+            this.rm1_5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.rm1_5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.rm1_5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rm1_5.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rm1_5.Location = new System.Drawing.Point(541, 136);
+            this.rm1_5.Name = "rm1_5";
+            this.rm1_5.Size = new System.Drawing.Size(58, 74);
+            this.rm1_5.TabIndex = 160;
+            this.rm1_5.Text = "CNA ";
+            this.rm1_5.UseVisualStyleBackColor = false;
+            this.rm1_5.Click += new System.EventHandler(this.cnabtton_Click);
             // 
-            // agrbtton
+            // rm1_10
             // 
-            this.agrbtton.BackColor = System.Drawing.Color.Transparent;
-            this.agrbtton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.agrbtton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.agrbtton.FlatAppearance.BorderSize = 0;
-            this.agrbtton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.agrbtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.agrbtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.agrbtton.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.agrbtton.Location = new System.Drawing.Point(793, 181);
-            this.agrbtton.Name = "agrbtton";
-            this.agrbtton.Size = new System.Drawing.Size(135, 37);
-            this.agrbtton.TabIndex = 161;
-            this.agrbtton.Text = "Agriculture Office";
-            this.agrbtton.UseVisualStyleBackColor = false;
-            this.agrbtton.Click += new System.EventHandler(this.agrbtton_Click);
+            this.rm1_10.BackColor = System.Drawing.Color.Transparent;
+            this.rm1_10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.rm1_10.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.rm1_10.FlatAppearance.BorderSize = 0;
+            this.rm1_10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.rm1_10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.rm1_10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rm1_10.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rm1_10.Location = new System.Drawing.Point(793, 181);
+            this.rm1_10.Name = "rm1_10";
+            this.rm1_10.Size = new System.Drawing.Size(135, 37);
+            this.rm1_10.TabIndex = 161;
+            this.rm1_10.Text = "Agriculture Office";
+            this.rm1_10.UseVisualStyleBackColor = false;
+            this.rm1_10.Click += new System.EventHandler(this.agrbtton_Click);
             // 
-            // cenrobtton
+            // rm1_9
             // 
-            this.cenrobtton.BackColor = System.Drawing.Color.Transparent;
-            this.cenrobtton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.cenrobtton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.cenrobtton.FlatAppearance.BorderSize = 0;
-            this.cenrobtton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.cenrobtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.cenrobtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cenrobtton.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cenrobtton.Location = new System.Drawing.Point(805, 100);
-            this.cenrobtton.Name = "cenrobtton";
-            this.cenrobtton.Size = new System.Drawing.Size(88, 37);
-            this.cenrobtton.TabIndex = 162;
-            this.cenrobtton.Text = "Cenro";
-            this.cenrobtton.UseVisualStyleBackColor = false;
-            this.cenrobtton.Click += new System.EventHandler(this.cenrobtton_Click);
+            this.rm1_9.BackColor = System.Drawing.Color.Transparent;
+            this.rm1_9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.rm1_9.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.rm1_9.FlatAppearance.BorderSize = 0;
+            this.rm1_9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.rm1_9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.rm1_9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rm1_9.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rm1_9.Location = new System.Drawing.Point(805, 100);
+            this.rm1_9.Name = "rm1_9";
+            this.rm1_9.Size = new System.Drawing.Size(88, 37);
+            this.rm1_9.TabIndex = 162;
+            this.rm1_9.Text = "Cenro";
+            this.rm1_9.UseVisualStyleBackColor = false;
+            this.rm1_9.Click += new System.EventHandler(this.cenrobtton_Click);
             // 
-            // bussbtton
+            // rm1_11
             // 
-            this.bussbtton.BackColor = System.Drawing.Color.Transparent;
-            this.bussbtton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.bussbtton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.bussbtton.FlatAppearance.BorderSize = 0;
-            this.bussbtton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.bussbtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.bussbtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bussbtton.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bussbtton.Location = new System.Drawing.Point(836, 296);
-            this.bussbtton.Name = "bussbtton";
-            this.bussbtton.Size = new System.Drawing.Size(96, 116);
-            this.bussbtton.TabIndex = 163;
-            this.bussbtton.Text = "Business and Licensing Office";
-            this.bussbtton.UseVisualStyleBackColor = false;
-            this.bussbtton.Click += new System.EventHandler(this.bussbtton_Click);
+            this.rm1_11.BackColor = System.Drawing.Color.Transparent;
+            this.rm1_11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.rm1_11.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.rm1_11.FlatAppearance.BorderSize = 0;
+            this.rm1_11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.rm1_11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.rm1_11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rm1_11.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rm1_11.Location = new System.Drawing.Point(836, 296);
+            this.rm1_11.Name = "rm1_11";
+            this.rm1_11.Size = new System.Drawing.Size(96, 116);
+            this.rm1_11.TabIndex = 163;
+            this.rm1_11.Text = "Business and Licensing Office";
+            this.rm1_11.UseVisualStyleBackColor = false;
+            this.rm1_11.Click += new System.EventHandler(this.bussbtton_Click);
             // 
-            // asrbtton
+            // rm1_12
             // 
-            this.asrbtton.BackColor = System.Drawing.Color.Transparent;
-            this.asrbtton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.asrbtton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.asrbtton.FlatAppearance.BorderSize = 0;
-            this.asrbtton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.asrbtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.asrbtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.asrbtton.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.asrbtton.Location = new System.Drawing.Point(902, 507);
-            this.asrbtton.Name = "asrbtton";
-            this.asrbtton.Size = new System.Drawing.Size(138, 74);
-            this.asrbtton.TabIndex = 164;
-            this.asrbtton.Text = "Assessor\'s Office";
-            this.asrbtton.UseVisualStyleBackColor = false;
-            this.asrbtton.Click += new System.EventHandler(this.asrbtton_Click);
+            this.rm1_12.BackColor = System.Drawing.Color.Transparent;
+            this.rm1_12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.rm1_12.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.rm1_12.FlatAppearance.BorderSize = 0;
+            this.rm1_12.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.rm1_12.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.rm1_12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rm1_12.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rm1_12.Location = new System.Drawing.Point(902, 507);
+            this.rm1_12.Name = "rm1_12";
+            this.rm1_12.Size = new System.Drawing.Size(138, 74);
+            this.rm1_12.TabIndex = 164;
+            this.rm1_12.Text = "Assessor\'s Office";
+            this.rm1_12.UseVisualStyleBackColor = false;
+            this.rm1_12.Click += new System.EventHandler(this.asrbtton_Click);
             // 
             // btnLanguages
             // 
@@ -634,30 +631,6 @@
             this.step65.TabIndex = 165;
             this.step65.TabStop = false;
             this.step65.Visible = false;
-            // 
-            // step17
-            // 
-            this.step17.BackColor = System.Drawing.Color.Transparent;
-            this.step17.Image = global::BinanKiosk.Properties.Resources.rightrow;
-            this.step17.Location = new System.Drawing.Point(505, 107);
-            this.step17.Name = "step17";
-            this.step17.Size = new System.Drawing.Size(15, 15);
-            this.step17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.step17.TabIndex = 156;
-            this.step17.TabStop = false;
-            this.step17.Visible = false;
-            // 
-            // step16
-            // 
-            this.step16.BackColor = System.Drawing.Color.Transparent;
-            this.step16.Image = global::BinanKiosk.Properties.Resources.uprow;
-            this.step16.Location = new System.Drawing.Point(505, 143);
-            this.step16.Name = "step16";
-            this.step16.Size = new System.Drawing.Size(15, 15);
-            this.step16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.step16.TabIndex = 155;
-            this.step16.TabStop = false;
-            this.step16.Visible = false;
             // 
             // step15
             // 
@@ -1091,18 +1064,6 @@
             this.step29.TabIndex = 83;
             this.step29.TabStop = false;
             this.step29.Visible = false;
-            // 
-            // step18
-            // 
-            this.step18.BackColor = System.Drawing.Color.Transparent;
-            this.step18.Image = global::BinanKiosk.Properties.Resources.rightrow;
-            this.step18.Location = new System.Drawing.Point(541, 107);
-            this.step18.Name = "step18";
-            this.step18.Size = new System.Drawing.Size(15, 15);
-            this.step18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.step18.TabIndex = 92;
-            this.step18.TabStop = false;
-            this.step18.Visible = false;
             // 
             // switch3
             // 
@@ -1571,12 +1532,66 @@
             this.lblhere.TabIndex = 289;
             this.lblhere.Text = "You are Here";
             // 
+            // rm1_4
+            // 
+            this.rm1_4.BackColor = System.Drawing.Color.Transparent;
+            this.rm1_4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.rm1_4.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.rm1_4.FlatAppearance.BorderSize = 0;
+            this.rm1_4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.rm1_4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.rm1_4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rm1_4.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rm1_4.Location = new System.Drawing.Point(490, 97);
+            this.rm1_4.Name = "rm1_4";
+            this.rm1_4.Size = new System.Drawing.Size(81, 33);
+            this.rm1_4.TabIndex = 290;
+            this.rm1_4.Text = "OSCA";
+            this.rm1_4.UseVisualStyleBackColor = false;
+            // 
+            // rm1_7
+            // 
+            this.rm1_7.BackColor = System.Drawing.Color.Transparent;
+            this.rm1_7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.rm1_7.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.rm1_7.FlatAppearance.BorderSize = 0;
+            this.rm1_7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.rm1_7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.rm1_7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rm1_7.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rm1_7.Location = new System.Drawing.Point(696, 175);
+            this.rm1_7.Name = "rm1_7";
+            this.rm1_7.Size = new System.Drawing.Size(63, 34);
+            this.rm1_7.TabIndex = 291;
+            this.rm1_7.Text = "Negosyo";
+            this.rm1_7.UseVisualStyleBackColor = false;
+            // 
+            // rm1_8
+            // 
+            this.rm1_8.BackColor = System.Drawing.Color.Transparent;
+            this.rm1_8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.rm1_8.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.rm1_8.FlatAppearance.BorderSize = 0;
+            this.rm1_8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.rm1_8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.rm1_8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rm1_8.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rm1_8.Location = new System.Drawing.Point(696, 138);
+            this.rm1_8.Name = "rm1_8";
+            this.rm1_8.Size = new System.Drawing.Size(63, 34);
+            this.rm1_8.TabIndex = 292;
+            this.rm1_8.Text = "BPAO";
+            this.rm1_8.UseVisualStyleBackColor = false;
+            // 
             // GroundFloor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1366, 768);
+            this.Controls.Add(this.rm1_8);
+            this.Controls.Add(this.rm1_7);
+            this.Controls.Add(this.rm1_4);
             this.Controls.Add(this.lblhere);
             this.Controls.Add(this.point);
             this.Controls.Add(this.switch6);
@@ -1597,16 +1612,14 @@
             this.Controls.Add(this.thirdbtton);
             this.Controls.Add(this.secondbtton);
             this.Controls.Add(this.step65);
-            this.Controls.Add(this.asrbtton);
-            this.Controls.Add(this.bussbtton);
-            this.Controls.Add(this.cenrobtton);
-            this.Controls.Add(this.agrbtton);
-            this.Controls.Add(this.cnabtton);
-            this.Controls.Add(this.btnChapel);
-            this.Controls.Add(this.btnCSWD);
-            this.Controls.Add(this.btnTreasuryOffice);
-            this.Controls.Add(this.step17);
-            this.Controls.Add(this.step16);
+            this.Controls.Add(this.rm1_12);
+            this.Controls.Add(this.rm1_11);
+            this.Controls.Add(this.rm1_9);
+            this.Controls.Add(this.rm1_10);
+            this.Controls.Add(this.rm1_5);
+            this.Controls.Add(this.rm1_6);
+            this.Controls.Add(this.rm1_3);
+            this.Controls.Add(this.R101);
             this.Controls.Add(this.step15);
             this.Controls.Add(this.step12);
             this.Controls.Add(this.step34);
@@ -1643,7 +1656,6 @@
             this.Controls.Add(this.step38);
             this.Controls.Add(this.step28);
             this.Controls.Add(this.step29);
-            this.Controls.Add(this.step18);
             this.Controls.Add(this.switch3);
             this.Controls.Add(this.step31);
             this.Controls.Add(this.step26);
@@ -1675,7 +1687,7 @@
             this.Controls.Add(this.btnMaps);
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.btnHome);
-            this.Controls.Add(this.btnLCRG);
+            this.Controls.Add(this.rm1_2);
             this.Controls.Add(this.lblMaps);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.Map);
@@ -1698,8 +1710,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.step65)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.step17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.step16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.step15)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.step12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.step34)).EndInit();
@@ -1736,7 +1746,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.step38)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.step28)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.step29)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.step18)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.switch3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.step31)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.step26)).EndInit();
@@ -1774,7 +1783,7 @@
         #endregion
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label lblMaps;
-        private System.Windows.Forms.Button btnLCRG;
+        private System.Windows.Forms.Button rm1_2;
         private System.Windows.Forms.Button btnJob;
         private System.Windows.Forms.Button btnHelp;
         private System.Windows.Forms.Button btnServices;
@@ -1812,7 +1821,6 @@
         private System.Windows.Forms.PictureBox step36;
         private System.Windows.Forms.PictureBox step37;
         private System.Windows.Forms.PictureBox step38;
-        private System.Windows.Forms.PictureBox step18;
         private System.Windows.Forms.PictureBox step26;
         private System.Windows.Forms.PictureBox step39;
         private System.Windows.Forms.PictureBox step62;
@@ -1844,17 +1852,15 @@
         private System.Windows.Forms.PictureBox step49;
         private System.Windows.Forms.PictureBox step34;
         private System.Windows.Forms.PictureBox step12;
-        private System.Windows.Forms.PictureBox step17;
-        private System.Windows.Forms.PictureBox step16;
         private System.Windows.Forms.PictureBox step15;
-        private System.Windows.Forms.Button btnTreasuryOffice;
-        private System.Windows.Forms.Button btnCSWD;
-        private System.Windows.Forms.Button btnChapel;
-        private System.Windows.Forms.Button cnabtton;
-        private System.Windows.Forms.Button agrbtton;
-        private System.Windows.Forms.Button cenrobtton;
-        private System.Windows.Forms.Button bussbtton;
-        private System.Windows.Forms.Button asrbtton;
+        private System.Windows.Forms.Button R101;
+        private System.Windows.Forms.Button rm1_3;
+        private System.Windows.Forms.Button rm1_6;
+        private System.Windows.Forms.Button rm1_5;
+        private System.Windows.Forms.Button rm1_10;
+        private System.Windows.Forms.Button rm1_9;
+        private System.Windows.Forms.Button rm1_11;
+        private System.Windows.Forms.Button rm1_12;
         private System.Windows.Forms.PictureBox step65;
         private System.Windows.Forms.Button secondbtton;
         private System.Windows.Forms.Button thirdbtton;
@@ -1876,6 +1882,9 @@
         private System.Windows.Forms.PictureBox switch6;
         private System.Windows.Forms.PictureBox point;
         private System.Windows.Forms.Label lblhere;
+        private System.Windows.Forms.Button rm1_4;
+        private System.Windows.Forms.Button rm1_7;
+        private System.Windows.Forms.Button rm1_8;
     }
 }
 

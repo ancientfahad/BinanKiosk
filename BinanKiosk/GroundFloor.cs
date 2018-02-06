@@ -55,7 +55,7 @@ namespace BinanKiosk
 
 
             //enter button name here to make it transparent
-            Button[] buttonArray = { btnLCRG, btnTreasuryOffice, btnChapel, cnabtton, agrbtton, cenrobtton, bussbtton, asrbtton, btnCSWD};
+            Button[] buttonArray = { rm1_2, R101, rm1_6, rm1_5, rm1_10, rm1_9, rm1_11, rm1_12, rm1_3};
             
             for(int i = 0; i <buttonArray.Length; i++)
             {
@@ -66,7 +66,7 @@ namespace BinanKiosk
             }
 
             PictureBox[] pictureArray = { step1, step2, step3, step4, step5, step6, step7, step8, step9, step10,
-                step11, step12, step13, switch2, step15, step16, step17, step18, step19, step20,
+                step11, step12, step13, switch2, step15, step19, step20,
                 step21, step22, step23, step24, step25, step26, step27, step28, step29, switch3,
                 step31, step32, step33, step34, step35, step36, step37, step38, step39, step40,
                 step41, step42, step43, step44, step45, switch5, step47, step48, step49, step50,
@@ -192,7 +192,7 @@ namespace BinanKiosk
         {
 
             PictureBox[] pictureArray = { step1, step2, step3, step4, step5, step6, step7, step8, step9, step10,
-            step11, step12, step13, switch2, step15, step16, step17, step18, step19, step20,
+            step11, step12, step13, switch2, step15, step19, step20,
             step21, step22, step23, step24, step25, step26, step27, step28, step29, switch3,
             step31, step32, step33, step34, step35, step36, step37, step38, step39, step40,
             step41, step42, step43, step44, step45, switch5, step47, step48, step49, step50,
@@ -208,7 +208,7 @@ namespace BinanKiosk
 
         public void disableButton()
         {
-            Button[] buttonArray = { btnLCRG, btnTreasuryOffice, btnChapel, cnabtton, agrbtton, cenrobtton, bussbtton, asrbtton, btnCSWD };
+            Button[] buttonArray = { rm1_2, R101, rm1_6, rm1_5, rm1_10, rm1_9, rm1_11, rm1_12, rm1_3 };
 
             for (int i = 0; i < buttonArray.Length; i++)
             {
@@ -218,7 +218,7 @@ namespace BinanKiosk
 
         public async void enableButton()
         {
-            Button[] buttonArray = { btnLCRG, btnTreasuryOffice, btnChapel, cnabtton, agrbtton, cenrobtton, bussbtton, asrbtton, btnCSWD };
+            Button[] buttonArray = { rm1_2, R101, rm1_6, rm1_5, rm1_10, rm1_9, rm1_11, rm1_12, rm1_3 };
 
             await Task.Delay(500);
             this.Enabled = true;
@@ -907,7 +907,7 @@ namespace BinanKiosk
             Floor1_1();
         }
         
-        private void btnTreasuryOffice_Click(object sender, EventArgs e)
+        private void btnR101_Click(object sender, EventArgs e)
         {
             disableButton();
             Floor1_2();
