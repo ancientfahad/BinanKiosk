@@ -96,7 +96,7 @@ namespace BinanKiosk
             Home hm = new Home();
             this.Hide();
             hm.FormClosed += (s, args) => this.Close();
-            hm.Show();
+            hm.ShowDialog();
             hm.Focus();
         }
 
