@@ -188,8 +188,8 @@ namespace BinanKiosk
             if (radioOfficers.Checked)
             {
                 conn.Open();
-                //cmd = new MySqlCommand("SELECT officials.first_name, officials.last_name, officials.middle_initial, departments.department_name, positions.position_name, departments.room_name FROM officials JOIN departments ON officials.officials_id = departments.officials_id JOIN positions ON officials.officials_id = positions.officials_id WHERE CONCAT (officials.first_name, ' ', officials.middle_initial, ' ', officials.last_name, ' ', officials.suffex) LIKE '%" + clicked + "%' ", conn);
-                cmd = new MySqlCommand("SELECT officials.first_name, officials.last_name, officials.middle_initial, departments.department_name, positions.position_name, departments.room_name FROM officials,departments,positions WHERE positions.position_id = officials.position_id AND departments.department_id = officials.department_id AND CONCAT (officials.first_name, ' ', officials.middle_initial, ' ', officials.last_name, ' ', officials.suffex) LIKE '%" + clicked + "%' ", conn);
+                //cmd = new MySqlCommand("SELECT officials.first_name, officials.last_name, officials.middle_initial, departments.department_name, positions.position_name, departments.room_id FROM officials JOIN departments ON officials.officials_id = departments.officials_id JOIN positions ON officials.officials_id = positions.officials_id WHERE CONCAT (officials.first_name, ' ', officials.middle_initial, ' ', officials.last_name, ' ', officials.suffex) LIKE '%" + clicked + "%' ", conn);
+                cmd = new MySqlCommand("SELECT officials.first_name, officials.last_name, officials.middle_initial, departments.department_name, positions.position_name, departments.room_id FROM officials,departments,positions WHERE positions.position_id = officials.position_id AND departments.department_id = officials.department_id AND CONCAT (officials.first_name, ' ', officials.middle_initial, ' ', officials.last_name, ' ', officials.suffex) LIKE '%" + clicked + "%' ", conn);
 
                 cmd.ExecuteNonQuery();
                 reader = cmd.ExecuteReader();
@@ -202,7 +202,7 @@ namespace BinanKiosk
                     Global.gbMI = reader["middle_initial"].ToString();
                     Global.gbDepartment = reader["department_name"].ToString();
                     Global.gbPosition = reader["position_name"].ToString();
-                    Global.gbRoom = reader["room_name"].ToString();
+                    Global.gbRoom = reader["room_id"].ToString();
                 }
 
                 reader.Close();
@@ -219,7 +219,7 @@ namespace BinanKiosk
             {
 
                 conn.Open();
-                cmd = new MySqlCommand("SELECT officials.first_name, officials.last_name, officials.middle_initial, departments.department_name, departments.room_name, departments.Dep_description FROM officials JOIN departments ON officials.officials_id = departments.officials_id JOIN positions ON officials.position_id = positions.position_id WHERE departments.department_name LIKE '%" + clicked + "%' ", conn);
+                cmd = new MySqlCommand("SELECT officials.first_name, officials.last_name, officials.middle_initial, departments.department_name, departments.room_id, departments.Dep_description FROM officials JOIN departments ON officials.department_id = departments.department_id JOIN positions ON officials.position_id = positions.position_id WHERE departments.department_name LIKE '%" + clicked + "%' ", conn);
                 cmd.ExecuteNonQuery();
                 reader = cmd.ExecuteReader();
 
@@ -231,7 +231,7 @@ namespace BinanKiosk
                     Global.gbLastName = reader["last_name"].ToString();
                     Global.gbMI = reader["middle_initial"].ToString();
                     Global.gbDepartment = reader["department_name"].ToString();
-                    Global.gbRoom = reader["room_name"].ToString();
+                    Global.gbRoom = reader["room_id"].ToString();
                     Global.gbDepDesc = reader["Dep_description"].ToString();
                 }
                 reader.Close();

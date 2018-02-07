@@ -31,8 +31,7 @@ namespace BinanKiosk
             ControlStyles.AllPaintingInWmPaint |
             ControlStyles.OptimizedDoubleBuffer, true);
 
-            Button[] buttonArrayF2 = { Genbtton, tourbtton, pesdbtton, hrmobtton, ctyadbtton, budgetbtton, conf1btton, staffleftbtton, receptionbtton, staffrightbtton,
-                mayorbtton, engbtton, conf2btton, ctyplanbtton, funcroombtton};
+            Button[] buttonArrayF3 = { r306, r305, r304, r303, r302, r301, r307, r311, r309, r310, r308};
 
             PictureBox[] pictureArray2 = { grid1, grid2, grid3, grid4, grid5, grid6, grid7, grid8, grid9, grid10, grid11, grid12,
             grid13, grid14, grid15, grid16, grid17, grid18, grid19, grid20, grid21, grid22, grid23, grid24, grid25, grid26,
@@ -40,12 +39,12 @@ namespace BinanKiosk
              grid41, grid42, grid43, grid44, grid45, grid46, grid47,switch1,switch2,grid48,grid49,grid50,grid51,grid52,
              grid53,grid54,grid55};
 
-            for (int i = 0; i < buttonArrayF2.Length; i++)
+            for (int i = 0; i < buttonArrayF3.Length; i++)
             {
-                var RegOffice = this.PointToScreen(buttonArrayF2[i].Location);
+                var RegOffice = this.PointToScreen(buttonArrayF3[i].Location);
                 RegOffice = Map.PointToClient(RegOffice);
-                buttonArrayF2[i].Parent = Map;
-                buttonArrayF2[i].Location = RegOffice;
+                buttonArrayF3[i].Parent = Map;
+                buttonArrayF3[i].Location = RegOffice;
             }
 
 
@@ -83,6 +82,9 @@ namespace BinanKiosk
 
             timestamp.Interval = 10;
             timestamp.Start();
+
+            Button[] buttonArrayF3 = { r306, r305, r304, r303, r302, r301, r307, r311, r309, r310, r308 };
+            Global.loadButtonNames(buttonArrayF3);
         }
 
         public void clearImage()
@@ -103,8 +105,7 @@ namespace BinanKiosk
 
         public void disableButton()
         {
-            Button[] buttonArray = { Genbtton, tourbtton, pesdbtton, hrmobtton, ctyadbtton, budgetbtton, conf1btton, staffleftbtton, receptionbtton, staffrightbtton,
-                mayorbtton, engbtton, conf2btton, ctyplanbtton, funcroombtton};
+            Button[] buttonArray = { r306, r305, r304, r303, r302, r301, r307, r311, r309, r310, r308};
 
             for (int i = 0; i < buttonArray.Length; i++)
             {
@@ -114,8 +115,7 @@ namespace BinanKiosk
 
         public async void enableButton()
         {
-            Button[] buttonArray = { Genbtton, tourbtton, pesdbtton, hrmobtton, ctyadbtton, budgetbtton, conf1btton, staffleftbtton, receptionbtton, staffrightbtton,
-                mayorbtton, engbtton, conf2btton, ctyplanbtton, funcroombtton};
+            Button[] buttonArray = { r306, r305, r304, r303, r302, r301, r307, r311, r309, r310, r308};
 
             await Task.Delay(500);
             this.Enabled = true;

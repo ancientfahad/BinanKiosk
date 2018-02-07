@@ -13,21 +13,17 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ThirdFloor));
             this.lblFloorName = new System.Windows.Forms.Label();
-            this.Genbtton = new System.Windows.Forms.Button();
-            this.tourbtton = new System.Windows.Forms.Button();
-            this.pesdbtton = new System.Windows.Forms.Button();
-            this.hrmobtton = new System.Windows.Forms.Button();
-            this.ctyadbtton = new System.Windows.Forms.Button();
-            this.budgetbtton = new System.Windows.Forms.Button();
-            this.staffleftbtton = new System.Windows.Forms.Button();
-            this.conf1btton = new System.Windows.Forms.Button();
-            this.ctyplanbtton = new System.Windows.Forms.Button();
-            this.conf2btton = new System.Windows.Forms.Button();
-            this.funcroombtton = new System.Windows.Forms.Button();
-            this.receptionbtton = new System.Windows.Forms.Button();
-            this.staffrightbtton = new System.Windows.Forms.Button();
-            this.mayorbtton = new System.Windows.Forms.Button();
-            this.engbtton = new System.Windows.Forms.Button();
+            this.r306 = new System.Windows.Forms.Button();
+            this.r305 = new System.Windows.Forms.Button();
+            this.r304 = new System.Windows.Forms.Button();
+            this.r303 = new System.Windows.Forms.Button();
+            this.r302 = new System.Windows.Forms.Button();
+            this.r301 = new System.Windows.Forms.Button();
+            this.r310 = new System.Windows.Forms.Button();
+            this.r309 = new System.Windows.Forms.Button();
+            this.r308 = new System.Windows.Forms.Button();
+            this.r307 = new System.Windows.Forms.Button();
+            this.r311 = new System.Windows.Forms.Button();
             this.btnLanguages = new System.Windows.Forms.Button();
             this.timestamp = new System.Windows.Forms.Timer(this.components);
             this.lbldate = new System.Windows.Forms.Label();
@@ -180,271 +176,203 @@
             this.lblFloorName.TabIndex = 58;
             this.lblFloorName.Text = "Third Floor";
             // 
-            // Genbtton
+            // r306
             // 
-            this.Genbtton.BackColor = System.Drawing.Color.Transparent;
-            this.Genbtton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.Genbtton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.Genbtton.FlatAppearance.BorderSize = 0;
-            this.Genbtton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Genbtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Genbtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Genbtton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Genbtton.Location = new System.Drawing.Point(453, 246);
-            this.Genbtton.Name = "Genbtton";
-            this.Genbtton.Size = new System.Drawing.Size(87, 87);
-            this.Genbtton.TabIndex = 15;
-            this.Genbtton.Text = "General Services Office";
-            this.Genbtton.UseVisualStyleBackColor = false;
-            this.Genbtton.Click += new System.EventHandler(this.Genbtton_Click);
+            this.r306.BackColor = System.Drawing.Color.Transparent;
+            this.r306.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.r306.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.r306.FlatAppearance.BorderSize = 0;
+            this.r306.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.r306.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.r306.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.r306.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r306.Location = new System.Drawing.Point(453, 246);
+            this.r306.Name = "r306";
+            this.r306.Size = new System.Drawing.Size(87, 87);
+            this.r306.TabIndex = 15;
+            this.r306.Text = "General Services Office";
+            this.r306.UseVisualStyleBackColor = false;
+            this.r306.Click += new System.EventHandler(this.Genbtton_Click);
             // 
-            // tourbtton
+            // r305
             // 
-            this.tourbtton.BackColor = System.Drawing.Color.Transparent;
-            this.tourbtton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.tourbtton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.tourbtton.FlatAppearance.BorderSize = 0;
-            this.tourbtton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.tourbtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.tourbtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.tourbtton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tourbtton.Location = new System.Drawing.Point(447, 336);
-            this.tourbtton.Name = "tourbtton";
-            this.tourbtton.Size = new System.Drawing.Size(97, 53);
-            this.tourbtton.TabIndex = 183;
-            this.tourbtton.Text = "Cooperative and Tourism Office ";
-            this.tourbtton.UseVisualStyleBackColor = false;
-            this.tourbtton.Click += new System.EventHandler(this.tourbtton_Click);
+            this.r305.BackColor = System.Drawing.Color.Transparent;
+            this.r305.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.r305.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.r305.FlatAppearance.BorderSize = 0;
+            this.r305.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.r305.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.r305.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.r305.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r305.Location = new System.Drawing.Point(447, 336);
+            this.r305.Name = "r305";
+            this.r305.Size = new System.Drawing.Size(97, 53);
+            this.r305.TabIndex = 183;
+            this.r305.Text = "Cooperative and Tourism Office ";
+            this.r305.UseVisualStyleBackColor = false;
+            this.r305.Click += new System.EventHandler(this.tourbtton_Click);
             // 
-            // pesdbtton
+            // r304
             // 
-            this.pesdbtton.BackColor = System.Drawing.Color.Transparent;
-            this.pesdbtton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pesdbtton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.pesdbtton.FlatAppearance.BorderSize = 0;
-            this.pesdbtton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.pesdbtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.pesdbtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pesdbtton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pesdbtton.Location = new System.Drawing.Point(446, 455);
-            this.pesdbtton.Name = "pesdbtton";
-            this.pesdbtton.Size = new System.Drawing.Size(89, 44);
-            this.pesdbtton.TabIndex = 184;
-            this.pesdbtton.Text = "PESD";
-            this.pesdbtton.UseVisualStyleBackColor = false;
-            this.pesdbtton.Click += new System.EventHandler(this.pesdbtton_Click);
+            this.r304.BackColor = System.Drawing.Color.Transparent;
+            this.r304.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.r304.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.r304.FlatAppearance.BorderSize = 0;
+            this.r304.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.r304.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.r304.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.r304.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r304.Location = new System.Drawing.Point(446, 455);
+            this.r304.Name = "r304";
+            this.r304.Size = new System.Drawing.Size(89, 44);
+            this.r304.TabIndex = 184;
+            this.r304.Text = "GAD";
+            this.r304.UseVisualStyleBackColor = false;
+            this.r304.Click += new System.EventHandler(this.pesdbtton_Click);
             // 
-            // hrmobtton
+            // r303
             // 
-            this.hrmobtton.BackColor = System.Drawing.Color.Transparent;
-            this.hrmobtton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.hrmobtton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.hrmobtton.FlatAppearance.BorderSize = 0;
-            this.hrmobtton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.hrmobtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.hrmobtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.hrmobtton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hrmobtton.Location = new System.Drawing.Point(339, 452);
-            this.hrmobtton.Name = "hrmobtton";
-            this.hrmobtton.Size = new System.Drawing.Size(89, 47);
-            this.hrmobtton.TabIndex = 185;
-            this.hrmobtton.Text = "HRMO";
-            this.hrmobtton.UseVisualStyleBackColor = false;
-            this.hrmobtton.Click += new System.EventHandler(this.hrmobtton_Click);
+            this.r303.BackColor = System.Drawing.Color.Transparent;
+            this.r303.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.r303.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.r303.FlatAppearance.BorderSize = 0;
+            this.r303.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.r303.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.r303.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.r303.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r303.Location = new System.Drawing.Point(339, 452);
+            this.r303.Name = "r303";
+            this.r303.Size = new System.Drawing.Size(89, 47);
+            this.r303.TabIndex = 185;
+            this.r303.Text = "HRMO";
+            this.r303.UseVisualStyleBackColor = false;
+            this.r303.Click += new System.EventHandler(this.hrmobtton_Click);
             // 
-            // ctyadbtton
+            // r302
             // 
-            this.ctyadbtton.BackColor = System.Drawing.Color.Transparent;
-            this.ctyadbtton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ctyadbtton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.ctyadbtton.FlatAppearance.BorderSize = 0;
-            this.ctyadbtton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.ctyadbtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.ctyadbtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ctyadbtton.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ctyadbtton.Location = new System.Drawing.Point(360, 537);
-            this.ctyadbtton.Name = "ctyadbtton";
-            this.ctyadbtton.Size = new System.Drawing.Size(103, 45);
-            this.ctyadbtton.TabIndex = 186;
-            this.ctyadbtton.Text = "City Administrator Office";
-            this.ctyadbtton.UseVisualStyleBackColor = false;
-            this.ctyadbtton.Click += new System.EventHandler(this.ctyadbtton_Click);
+            this.r302.BackColor = System.Drawing.Color.Transparent;
+            this.r302.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.r302.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.r302.FlatAppearance.BorderSize = 0;
+            this.r302.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.r302.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.r302.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.r302.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r302.Location = new System.Drawing.Point(360, 537);
+            this.r302.Name = "r302";
+            this.r302.Size = new System.Drawing.Size(103, 45);
+            this.r302.TabIndex = 186;
+            this.r302.Text = "City Population Office";
+            this.r302.UseVisualStyleBackColor = false;
+            this.r302.Click += new System.EventHandler(this.ctyadbtton_Click);
             // 
-            // budgetbtton
+            // r301
             // 
-            this.budgetbtton.BackColor = System.Drawing.Color.Transparent;
-            this.budgetbtton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.budgetbtton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.budgetbtton.FlatAppearance.BorderSize = 0;
-            this.budgetbtton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.budgetbtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.budgetbtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.budgetbtton.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.budgetbtton.Location = new System.Drawing.Point(464, 552);
-            this.budgetbtton.Name = "budgetbtton";
-            this.budgetbtton.Size = new System.Drawing.Size(80, 41);
-            this.budgetbtton.TabIndex = 187;
-            this.budgetbtton.Text = "Budget Office";
-            this.budgetbtton.UseVisualStyleBackColor = false;
-            this.budgetbtton.Click += new System.EventHandler(this.budgetbtton_Click);
+            this.r301.BackColor = System.Drawing.Color.Transparent;
+            this.r301.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.r301.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.r301.FlatAppearance.BorderSize = 0;
+            this.r301.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.r301.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.r301.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.r301.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r301.Location = new System.Drawing.Point(464, 552);
+            this.r301.Name = "r301";
+            this.r301.Size = new System.Drawing.Size(80, 41);
+            this.r301.TabIndex = 187;
+            this.r301.Text = "Budget Office";
+            this.r301.UseVisualStyleBackColor = false;
+            this.r301.Click += new System.EventHandler(this.budgetbtton_Click);
             // 
-            // staffleftbtton
+            // r310
             // 
-            this.staffleftbtton.BackColor = System.Drawing.Color.Transparent;
-            this.staffleftbtton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.staffleftbtton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.staffleftbtton.FlatAppearance.BorderSize = 0;
-            this.staffleftbtton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.staffleftbtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.staffleftbtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.staffleftbtton.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.staffleftbtton.Location = new System.Drawing.Point(563, 503);
-            this.staffleftbtton.Name = "staffleftbtton";
-            this.staffleftbtton.Size = new System.Drawing.Size(73, 48);
-            this.staffleftbtton.TabIndex = 188;
-            this.staffleftbtton.Text = "Staff";
-            this.staffleftbtton.UseVisualStyleBackColor = false;
+            this.r310.BackColor = System.Drawing.Color.Transparent;
+            this.r310.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.r310.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.r310.FlatAppearance.BorderSize = 0;
+            this.r310.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.r310.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.r310.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.r310.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r310.Location = new System.Drawing.Point(893, 456);
+            this.r310.Name = "r310";
+            this.r310.Size = new System.Drawing.Size(134, 34);
+            this.r310.TabIndex = 190;
+            this.r310.Text = "City Planning";
+            this.r310.UseVisualStyleBackColor = false;
+            this.r310.Click += new System.EventHandler(this.ctyplanbtton_Click);
             // 
-            // conf1btton
+            // r309
             // 
-            this.conf1btton.BackColor = System.Drawing.Color.Transparent;
-            this.conf1btton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.conf1btton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.conf1btton.FlatAppearance.BorderSize = 0;
-            this.conf1btton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.conf1btton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.conf1btton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.conf1btton.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.conf1btton.Location = new System.Drawing.Point(550, 552);
-            this.conf1btton.Name = "conf1btton";
-            this.conf1btton.Size = new System.Drawing.Size(102, 39);
-            this.conf1btton.TabIndex = 189;
-            this.conf1btton.Text = "Conference Room";
-            this.conf1btton.UseVisualStyleBackColor = false;
+            this.r309.BackColor = System.Drawing.Color.Transparent;
+            this.r309.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.r309.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.r309.FlatAppearance.BorderSize = 0;
+            this.r309.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.r309.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.r309.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.r309.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r309.Location = new System.Drawing.Point(809, 461);
+            this.r309.Name = "r309";
+            this.r309.Size = new System.Drawing.Size(76, 28);
+            this.r309.TabIndex = 191;
+            this.r309.Text = "ICTO Department";
+            this.r309.UseVisualStyleBackColor = false;
+            this.r309.Click += new System.EventHandler(this.conf2btton_Click);
             // 
-            // ctyplanbtton
+            // r308
             // 
-            this.ctyplanbtton.BackColor = System.Drawing.Color.Transparent;
-            this.ctyplanbtton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ctyplanbtton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.ctyplanbtton.FlatAppearance.BorderSize = 0;
-            this.ctyplanbtton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.ctyplanbtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.ctyplanbtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ctyplanbtton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ctyplanbtton.Location = new System.Drawing.Point(893, 456);
-            this.ctyplanbtton.Name = "ctyplanbtton";
-            this.ctyplanbtton.Size = new System.Drawing.Size(134, 34);
-            this.ctyplanbtton.TabIndex = 190;
-            this.ctyplanbtton.Text = "City Planning";
-            this.ctyplanbtton.UseVisualStyleBackColor = false;
-            this.ctyplanbtton.Click += new System.EventHandler(this.ctyplanbtton_Click);
+            this.r308.BackColor = System.Drawing.Color.Transparent;
+            this.r308.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.r308.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.r308.FlatAppearance.BorderSize = 0;
+            this.r308.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.r308.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.r308.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.r308.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r308.Location = new System.Drawing.Point(775, 241);
+            this.r308.Name = "r308";
+            this.r308.Size = new System.Drawing.Size(118, 115);
+            this.r308.TabIndex = 192;
+            this.r308.Text = "Function Room";
+            this.r308.UseVisualStyleBackColor = false;
+            this.r308.Click += new System.EventHandler(this.funcroombtton_Click);
             // 
-            // conf2btton
+            // r307
             // 
-            this.conf2btton.BackColor = System.Drawing.Color.Transparent;
-            this.conf2btton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.conf2btton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.conf2btton.FlatAppearance.BorderSize = 0;
-            this.conf2btton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.conf2btton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.conf2btton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.conf2btton.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.conf2btton.Location = new System.Drawing.Point(809, 461);
-            this.conf2btton.Name = "conf2btton";
-            this.conf2btton.Size = new System.Drawing.Size(76, 28);
-            this.conf2btton.TabIndex = 191;
-            this.conf2btton.Text = "ICTO Department";
-            this.conf2btton.UseVisualStyleBackColor = false;
-            this.conf2btton.Click += new System.EventHandler(this.conf2btton_Click);
+            this.r307.BackColor = System.Drawing.Color.Transparent;
+            this.r307.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.r307.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.r307.FlatAppearance.BorderSize = 0;
+            this.r307.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.r307.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.r307.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.r307.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r307.Location = new System.Drawing.Point(565, 504);
+            this.r307.Name = "r307";
+            this.r307.Size = new System.Drawing.Size(209, 78);
+            this.r307.TabIndex = 193;
+            this.r307.Text = "Mayor\'s Office";
+            this.r307.UseVisualStyleBackColor = false;
+            this.r307.Click += new System.EventHandler(this.receptionbtton_Click);
             // 
-            // funcroombtton
+            // r311
             // 
-            this.funcroombtton.BackColor = System.Drawing.Color.Transparent;
-            this.funcroombtton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.funcroombtton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.funcroombtton.FlatAppearance.BorderSize = 0;
-            this.funcroombtton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.funcroombtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.funcroombtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.funcroombtton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.funcroombtton.Location = new System.Drawing.Point(775, 241);
-            this.funcroombtton.Name = "funcroombtton";
-            this.funcroombtton.Size = new System.Drawing.Size(118, 115);
-            this.funcroombtton.TabIndex = 192;
-            this.funcroombtton.Text = "Function Room";
-            this.funcroombtton.UseVisualStyleBackColor = false;
-            this.funcroombtton.Click += new System.EventHandler(this.funcroombtton_Click);
-            // 
-            // receptionbtton
-            // 
-            this.receptionbtton.BackColor = System.Drawing.Color.Transparent;
-            this.receptionbtton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.receptionbtton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.receptionbtton.FlatAppearance.BorderSize = 0;
-            this.receptionbtton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.receptionbtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.receptionbtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.receptionbtton.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.receptionbtton.Location = new System.Drawing.Point(637, 503);
-            this.receptionbtton.Name = "receptionbtton";
-            this.receptionbtton.Size = new System.Drawing.Size(73, 48);
-            this.receptionbtton.TabIndex = 193;
-            this.receptionbtton.Text = "Reception Room";
-            this.receptionbtton.UseVisualStyleBackColor = false;
-            this.receptionbtton.Click += new System.EventHandler(this.receptionbtton_Click);
-            // 
-            // staffrightbtton
-            // 
-            this.staffrightbtton.BackColor = System.Drawing.Color.Transparent;
-            this.staffrightbtton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.staffrightbtton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.staffrightbtton.FlatAppearance.BorderSize = 0;
-            this.staffrightbtton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.staffrightbtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.staffrightbtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.staffrightbtton.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.staffrightbtton.Location = new System.Drawing.Point(711, 503);
-            this.staffrightbtton.Name = "staffrightbtton";
-            this.staffrightbtton.Size = new System.Drawing.Size(62, 48);
-            this.staffrightbtton.TabIndex = 194;
-            this.staffrightbtton.Text = "Staff";
-            this.staffrightbtton.UseVisualStyleBackColor = false;
-            // 
-            // mayorbtton
-            // 
-            this.mayorbtton.BackColor = System.Drawing.Color.Transparent;
-            this.mayorbtton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.mayorbtton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.mayorbtton.FlatAppearance.BorderSize = 0;
-            this.mayorbtton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.mayorbtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.mayorbtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.mayorbtton.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mayorbtton.Location = new System.Drawing.Point(658, 552);
-            this.mayorbtton.Name = "mayorbtton";
-            this.mayorbtton.Size = new System.Drawing.Size(147, 39);
-            this.mayorbtton.TabIndex = 195;
-            this.mayorbtton.Text = "Mayor\'s Office";
-            this.mayorbtton.UseVisualStyleBackColor = false;
-            // 
-            // engbtton
-            // 
-            this.engbtton.BackColor = System.Drawing.Color.Transparent;
-            this.engbtton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.engbtton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.engbtton.FlatAppearance.BorderSize = 0;
-            this.engbtton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.engbtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.engbtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.engbtton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.engbtton.Location = new System.Drawing.Point(811, 546);
-            this.engbtton.Name = "engbtton";
-            this.engbtton.Size = new System.Drawing.Size(145, 51);
-            this.engbtton.TabIndex = 196;
-            this.engbtton.Text = "City Engineering Office";
-            this.engbtton.UseVisualStyleBackColor = false;
-            this.engbtton.Click += new System.EventHandler(this.engbtton_Click);
+            this.r311.BackColor = System.Drawing.Color.Transparent;
+            this.r311.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.r311.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.r311.FlatAppearance.BorderSize = 0;
+            this.r311.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.r311.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.r311.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.r311.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r311.Location = new System.Drawing.Point(811, 546);
+            this.r311.Name = "r311";
+            this.r311.Size = new System.Drawing.Size(145, 51);
+            this.r311.TabIndex = 196;
+            this.r311.Text = "City Engineering Office";
+            this.r311.UseVisualStyleBackColor = false;
+            this.r311.Click += new System.EventHandler(this.engbtton_Click);
             // 
             // btnLanguages
             // 
@@ -1421,20 +1349,16 @@
             this.Controls.Add(this.grid44);
             this.Controls.Add(this.grid43);
             this.Controls.Add(this.grid42);
-            this.Controls.Add(this.engbtton);
-            this.Controls.Add(this.mayorbtton);
-            this.Controls.Add(this.staffrightbtton);
-            this.Controls.Add(this.receptionbtton);
-            this.Controls.Add(this.funcroombtton);
-            this.Controls.Add(this.conf2btton);
-            this.Controls.Add(this.ctyplanbtton);
-            this.Controls.Add(this.conf1btton);
-            this.Controls.Add(this.staffleftbtton);
-            this.Controls.Add(this.budgetbtton);
-            this.Controls.Add(this.ctyadbtton);
-            this.Controls.Add(this.hrmobtton);
-            this.Controls.Add(this.pesdbtton);
-            this.Controls.Add(this.tourbtton);
+            this.Controls.Add(this.r311);
+            this.Controls.Add(this.r307);
+            this.Controls.Add(this.r308);
+            this.Controls.Add(this.r309);
+            this.Controls.Add(this.r310);
+            this.Controls.Add(this.r301);
+            this.Controls.Add(this.r302);
+            this.Controls.Add(this.r303);
+            this.Controls.Add(this.r304);
+            this.Controls.Add(this.r305);
             this.Controls.Add(this.grid31);
             this.Controls.Add(this.grid30);
             this.Controls.Add(this.grid29);
@@ -1482,7 +1406,7 @@
             this.Controls.Add(this.btnMaps);
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.btnHome);
-            this.Controls.Add(this.Genbtton);
+            this.Controls.Add(this.r306);
             this.Controls.Add(this.lblMaps);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.Map);
@@ -1572,7 +1496,7 @@
         private System.Windows.Forms.Button btnHome;
         private System.Windows.Forms.PictureBox Map;
         private System.Windows.Forms.Label lblFloorName;
-        private System.Windows.Forms.Button Genbtton;
+        private System.Windows.Forms.Button r306;
         private System.Windows.Forms.PictureBox grid31;
         private System.Windows.Forms.PictureBox grid30;
         private System.Windows.Forms.PictureBox grid29;
@@ -1614,20 +1538,16 @@
         private System.Windows.Forms.PictureBox grid3;
         private System.Windows.Forms.PictureBox grid16;
         private System.Windows.Forms.PictureBox grid1;
-        private System.Windows.Forms.Button tourbtton;
-        private System.Windows.Forms.Button pesdbtton;
-        private System.Windows.Forms.Button hrmobtton;
-        private System.Windows.Forms.Button ctyadbtton;
-        private System.Windows.Forms.Button budgetbtton;
-        private System.Windows.Forms.Button staffleftbtton;
-        private System.Windows.Forms.Button conf1btton;
-        private System.Windows.Forms.Button ctyplanbtton;
-        private System.Windows.Forms.Button conf2btton;
-        private System.Windows.Forms.Button funcroombtton;
-        private System.Windows.Forms.Button receptionbtton;
-        private System.Windows.Forms.Button staffrightbtton;
-        private System.Windows.Forms.Button mayorbtton;
-        private System.Windows.Forms.Button engbtton;
+        private System.Windows.Forms.Button r305;
+        private System.Windows.Forms.Button r304;
+        private System.Windows.Forms.Button r303;
+        private System.Windows.Forms.Button r302;
+        private System.Windows.Forms.Button r301;
+        private System.Windows.Forms.Button r310;
+        private System.Windows.Forms.Button r309;
+        private System.Windows.Forms.Button r308;
+        private System.Windows.Forms.Button r307;
+        private System.Windows.Forms.Button r311;
         private System.Windows.Forms.PictureBox grid42;
         private System.Windows.Forms.PictureBox grid43;
         private System.Windows.Forms.PictureBox grid44;

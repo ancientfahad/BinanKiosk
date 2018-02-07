@@ -11,26 +11,26 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SecondFloor));
             this.lblFloorName = new System.Windows.Forms.Label();
-            this.spbtton = new System.Windows.Forms.Button();
-            this.counbtton = new System.Windows.Forms.Button();
-            this.coun2btton = new System.Windows.Forms.Button();
-            this.coun3btton = new System.Windows.Forms.Button();
-            this.vmsbtton = new System.Windows.Forms.Button();
-            this.dilgbtton = new System.Windows.Forms.Button();
-            this.coabtton = new System.Windows.Forms.Button();
-            this.accbtton = new System.Windows.Forms.Button();
-            this.sessbtton = new System.Windows.Forms.Button();
-            this.coun4btton = new System.Windows.Forms.Button();
-            this.coun5btton = new System.Windows.Forms.Button();
-            this.coun6btton = new System.Windows.Forms.Button();
-            this.coun7btton = new System.Windows.Forms.Button();
-            this.coun8btton = new System.Windows.Forms.Button();
-            this.coun9btton = new System.Windows.Forms.Button();
-            this.coun10btton = new System.Windows.Forms.Button();
-            this.legalbtton = new System.Windows.Forms.Button();
-            this.infobtton = new System.Windows.Forms.Button();
-            this.confbtton = new System.Windows.Forms.Button();
-            this.btfbtton = new System.Windows.Forms.Button();
+            this.r204 = new System.Windows.Forms.Button();
+            this.r205 = new System.Windows.Forms.Button();
+            this.r206 = new System.Windows.Forms.Button();
+            this.r207 = new System.Windows.Forms.Button();
+            this.r208 = new System.Windows.Forms.Button();
+            this.r203 = new System.Windows.Forms.Button();
+            this.r202 = new System.Windows.Forms.Button();
+            this.r201 = new System.Windows.Forms.Button();
+            this.r209 = new System.Windows.Forms.Button();
+            this.r217 = new System.Windows.Forms.Button();
+            this.r216 = new System.Windows.Forms.Button();
+            this.r215 = new System.Windows.Forms.Button();
+            this.r214 = new System.Windows.Forms.Button();
+            this.r213 = new System.Windows.Forms.Button();
+            this.r212 = new System.Windows.Forms.Button();
+            this.r211 = new System.Windows.Forms.Button();
+            this.r218 = new System.Windows.Forms.Button();
+            this.r219 = new System.Windows.Forms.Button();
+            this.r221 = new System.Windows.Forms.Button();
+            this.r220 = new System.Windows.Forms.Button();
             this.thirdbtton = new System.Windows.Forms.Button();
             this.grid71 = new System.Windows.Forms.PictureBox();
             this.grid70 = new System.Windows.Forms.PictureBox();
@@ -129,6 +129,7 @@
             this.grid81 = new System.Windows.Forms.PictureBox();
             this.grid83 = new System.Windows.Forms.PictureBox();
             this.grid84 = new System.Windows.Forms.PictureBox();
+            this.r210 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.grid71)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grid70)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grid68)).BeginInit();
@@ -230,365 +231,366 @@
             this.lblFloorName.TabIndex = 58;
             this.lblFloorName.Text = "Second Floor";
             // 
-            // spbtton
+            // r204
             // 
-            this.spbtton.BackColor = System.Drawing.Color.Transparent;
-            this.spbtton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.spbtton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.spbtton.FlatAppearance.BorderSize = 0;
-            this.spbtton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.spbtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.spbtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.spbtton.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.spbtton.Location = new System.Drawing.Point(426, 330);
-            this.spbtton.Name = "spbtton";
-            this.spbtton.Size = new System.Drawing.Size(83, 78);
-            this.spbtton.TabIndex = 209;
-            this.spbtton.Text = "SP Sec Office";
-            this.spbtton.UseVisualStyleBackColor = false;
-            this.spbtton.Click += new System.EventHandler(this.spbtton_Click);
+            this.r204.BackColor = System.Drawing.Color.Transparent;
+            this.r204.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.r204.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.r204.FlatAppearance.BorderSize = 0;
+            this.r204.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.r204.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.r204.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.r204.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r204.Location = new System.Drawing.Point(426, 330);
+            this.r204.Name = "r204";
+            this.r204.Size = new System.Drawing.Size(83, 78);
+            this.r204.TabIndex = 209;
+            this.r204.Text = "SP Sec Office";
+            this.r204.UseVisualStyleBackColor = false;
+            this.r204.Click += new System.EventHandler(this.spbtton_Click);
             // 
-            // counbtton
+            // r205
             // 
-            this.counbtton.BackColor = System.Drawing.Color.Transparent;
-            this.counbtton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.counbtton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.counbtton.FlatAppearance.BorderSize = 0;
-            this.counbtton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.counbtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.counbtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.counbtton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.counbtton.Location = new System.Drawing.Point(418, 284);
-            this.counbtton.Name = "counbtton";
-            this.counbtton.Size = new System.Drawing.Size(94, 45);
-            this.counbtton.TabIndex = 210;
-            this.counbtton.Text = "Councilor 1";
-            this.counbtton.UseVisualStyleBackColor = false;
-            this.counbtton.Click += new System.EventHandler(this.counbtton_Click);
+            this.r205.BackColor = System.Drawing.Color.Transparent;
+            this.r205.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.r205.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.r205.FlatAppearance.BorderSize = 0;
+            this.r205.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.r205.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.r205.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.r205.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r205.Location = new System.Drawing.Point(418, 284);
+            this.r205.Name = "r205";
+            this.r205.Size = new System.Drawing.Size(94, 45);
+            this.r205.TabIndex = 210;
+            this.r205.Text = "Councilor 1";
+            this.r205.UseVisualStyleBackColor = false;
+            this.r205.Click += new System.EventHandler(this.counbtton_Click);
             // 
-            // coun2btton
+            // r206
             // 
-            this.coun2btton.BackColor = System.Drawing.Color.Transparent;
-            this.coun2btton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.coun2btton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.coun2btton.FlatAppearance.BorderSize = 0;
-            this.coun2btton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.coun2btton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.coun2btton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.coun2btton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.coun2btton.Location = new System.Drawing.Point(418, 244);
-            this.coun2btton.Name = "coun2btton";
-            this.coun2btton.Size = new System.Drawing.Size(94, 45);
-            this.coun2btton.TabIndex = 211;
-            this.coun2btton.Text = "Councilor 2";
-            this.coun2btton.UseVisualStyleBackColor = false;
-            this.coun2btton.Click += new System.EventHandler(this.coun2btton_Click);
+            this.r206.BackColor = System.Drawing.Color.Transparent;
+            this.r206.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.r206.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.r206.FlatAppearance.BorderSize = 0;
+            this.r206.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.r206.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.r206.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.r206.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r206.Location = new System.Drawing.Point(418, 244);
+            this.r206.Name = "r206";
+            this.r206.Size = new System.Drawing.Size(94, 45);
+            this.r206.TabIndex = 211;
+            this.r206.Text = "Councilor 2";
+            this.r206.UseVisualStyleBackColor = false;
+            this.r206.Click += new System.EventHandler(this.coun2btton_Click);
             // 
-            // coun3btton
+            // r207
             // 
-            this.coun3btton.BackColor = System.Drawing.Color.Transparent;
-            this.coun3btton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.coun3btton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.coun3btton.FlatAppearance.BorderSize = 0;
-            this.coun3btton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.coun3btton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.coun3btton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.coun3btton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.coun3btton.Location = new System.Drawing.Point(418, 208);
-            this.coun3btton.Name = "coun3btton";
-            this.coun3btton.Size = new System.Drawing.Size(94, 45);
-            this.coun3btton.TabIndex = 212;
-            this.coun3btton.Text = "Councilor 3";
-            this.coun3btton.UseVisualStyleBackColor = false;
-            this.coun3btton.Click += new System.EventHandler(this.coun3btton_Click);
+            this.r207.BackColor = System.Drawing.Color.Transparent;
+            this.r207.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.r207.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.r207.FlatAppearance.BorderSize = 0;
+            this.r207.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.r207.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.r207.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.r207.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r207.Location = new System.Drawing.Point(418, 208);
+            this.r207.Name = "r207";
+            this.r207.Size = new System.Drawing.Size(94, 45);
+            this.r207.TabIndex = 212;
+            this.r207.Text = "Councilor 3";
+            this.r207.UseVisualStyleBackColor = false;
+            this.r207.Click += new System.EventHandler(this.coun3btton_Click);
             // 
-            // vmsbtton
+            // r208
             // 
-            this.vmsbtton.BackColor = System.Drawing.Color.Transparent;
-            this.vmsbtton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.vmsbtton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.vmsbtton.FlatAppearance.BorderSize = 0;
-            this.vmsbtton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.vmsbtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.vmsbtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.vmsbtton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.vmsbtton.Location = new System.Drawing.Point(440, 134);
-            this.vmsbtton.Name = "vmsbtton";
-            this.vmsbtton.Size = new System.Drawing.Size(102, 51);
-            this.vmsbtton.TabIndex = 213;
-            this.vmsbtton.Text = "Vice Mayor Staff Office";
-            this.vmsbtton.UseVisualStyleBackColor = false;
-            this.vmsbtton.Click += new System.EventHandler(this.vmsbtton_Click);
+            this.r208.BackColor = System.Drawing.Color.Transparent;
+            this.r208.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.r208.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.r208.FlatAppearance.BorderSize = 0;
+            this.r208.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.r208.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.r208.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.r208.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r208.Location = new System.Drawing.Point(440, 134);
+            this.r208.Name = "r208";
+            this.r208.Size = new System.Drawing.Size(102, 51);
+            this.r208.TabIndex = 213;
+            this.r208.Text = "Vice Mayor Staff Office";
+            this.r208.UseVisualStyleBackColor = false;
+            this.r208.Click += new System.EventHandler(this.vmsbtton_Click);
             // 
-            // dilgbtton
+            // r203
             // 
-            this.dilgbtton.BackColor = System.Drawing.Color.Transparent;
-            this.dilgbtton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.dilgbtton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.dilgbtton.FlatAppearance.BorderSize = 0;
-            this.dilgbtton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.dilgbtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.dilgbtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.dilgbtton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dilgbtton.Location = new System.Drawing.Point(454, 499);
-            this.dilgbtton.Name = "dilgbtton";
-            this.dilgbtton.Size = new System.Drawing.Size(70, 45);
-            this.dilgbtton.TabIndex = 214;
-            this.dilgbtton.Text = "DILG";
-            this.dilgbtton.UseVisualStyleBackColor = false;
-            this.dilgbtton.Click += new System.EventHandler(this.dilgbtton_Click);
+            this.r203.BackColor = System.Drawing.Color.Transparent;
+            this.r203.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.r203.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.r203.FlatAppearance.BorderSize = 0;
+            this.r203.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.r203.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.r203.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.r203.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r203.Location = new System.Drawing.Point(454, 499);
+            this.r203.Name = "r203";
+            this.r203.Size = new System.Drawing.Size(70, 45);
+            this.r203.TabIndex = 214;
+            this.r203.Text = "DILG";
+            this.r203.UseVisualStyleBackColor = false;
+            this.r203.Click += new System.EventHandler(this.dilgbtton_Click);
             // 
-            // coabtton
+            // r202
             // 
-            this.coabtton.BackColor = System.Drawing.Color.Transparent;
-            this.coabtton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.coabtton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.coabtton.FlatAppearance.BorderSize = 0;
-            this.coabtton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.coabtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.coabtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.coabtton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.coabtton.Location = new System.Drawing.Point(317, 507);
-            this.coabtton.Name = "coabtton";
-            this.coabtton.Size = new System.Drawing.Size(86, 45);
-            this.coabtton.TabIndex = 215;
-            this.coabtton.Text = "COA";
-            this.coabtton.UseVisualStyleBackColor = false;
-            this.coabtton.Click += new System.EventHandler(this.coabtton_Click);
+            this.r202.BackColor = System.Drawing.Color.Transparent;
+            this.r202.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.r202.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.r202.FlatAppearance.BorderSize = 0;
+            this.r202.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.r202.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.r202.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.r202.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r202.Location = new System.Drawing.Point(317, 507);
+            this.r202.Name = "r202";
+            this.r202.Size = new System.Drawing.Size(86, 45);
+            this.r202.TabIndex = 215;
+            this.r202.Text = "COA";
+            this.r202.UseVisualStyleBackColor = false;
+            this.r202.Click += new System.EventHandler(this.coabtton_Click);
             // 
-            // accbtton
+            // r201
             // 
-            this.accbtton.BackColor = System.Drawing.Color.Transparent;
-            this.accbtton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.accbtton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.accbtton.FlatAppearance.BorderSize = 0;
-            this.accbtton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.accbtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.accbtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.accbtton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.accbtton.Location = new System.Drawing.Point(378, 604);
-            this.accbtton.Name = "accbtton";
-            this.accbtton.Size = new System.Drawing.Size(133, 45);
-            this.accbtton.TabIndex = 216;
-            this.accbtton.Text = "Accounting Dept";
-            this.accbtton.UseVisualStyleBackColor = false;
-            this.accbtton.Click += new System.EventHandler(this.accbtton_Click);
+            this.r201.BackColor = System.Drawing.Color.Transparent;
+            this.r201.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.r201.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.r201.FlatAppearance.BorderSize = 0;
+            this.r201.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.r201.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.r201.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.r201.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r201.Location = new System.Drawing.Point(378, 604);
+            this.r201.Name = "r201";
+            this.r201.Size = new System.Drawing.Size(133, 45);
+            this.r201.TabIndex = 216;
+            this.r201.Text = "Accounting Dept";
+            this.r201.UseVisualStyleBackColor = false;
+            this.r201.Click += new System.EventHandler(this.accbtton_Click);
             // 
-            // sessbtton
+            // r209
             // 
-            this.sessbtton.BackColor = System.Drawing.Color.Transparent;
-            this.sessbtton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.sessbtton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.sessbtton.FlatAppearance.BorderSize = 0;
-            this.sessbtton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.sessbtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.sessbtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.sessbtton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sessbtton.Location = new System.Drawing.Point(587, 115);
-            this.sessbtton.Name = "sessbtton";
-            this.sessbtton.Size = new System.Drawing.Size(157, 65);
-            this.sessbtton.TabIndex = 217;
-            this.sessbtton.Text = "Session Hall";
-            this.sessbtton.UseVisualStyleBackColor = false;
-            this.sessbtton.Click += new System.EventHandler(this.sessbtton_Click);
+            this.r209.BackColor = System.Drawing.Color.Transparent;
+            this.r209.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.r209.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.r209.FlatAppearance.BorderSize = 0;
+            this.r209.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.r209.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.r209.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.r209.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r209.Location = new System.Drawing.Point(587, 115);
+            this.r209.Name = "r209";
+            this.r209.Size = new System.Drawing.Size(157, 65);
+            this.r209.TabIndex = 217;
+            this.r209.Text = "Session Hall";
+            this.r209.UseVisualStyleBackColor = false;
+            this.r209.Click += new System.EventHandler(this.sessbtton_Click);
             // 
-            // coun4btton
+            // r217
             // 
-            this.coun4btton.BackColor = System.Drawing.Color.Transparent;
-            this.coun4btton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.coun4btton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.coun4btton.FlatAppearance.BorderSize = 0;
-            this.coun4btton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.coun4btton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.coun4btton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.coun4btton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.coun4btton.Location = new System.Drawing.Point(838, 371);
-            this.coun4btton.Name = "coun4btton";
-            this.coun4btton.Size = new System.Drawing.Size(92, 45);
-            this.coun4btton.TabIndex = 218;
-            this.coun4btton.Text = "Councilor 4";
-            this.coun4btton.UseVisualStyleBackColor = false;
-            this.coun4btton.Click += new System.EventHandler(this.coun4btton_Click);
+            this.r217.BackColor = System.Drawing.Color.Transparent;
+            this.r217.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.r217.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.r217.FlatAppearance.BorderSize = 0;
+            this.r217.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.r217.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.r217.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.r217.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r217.Location = new System.Drawing.Point(838, 371);
+            this.r217.Name = "r217";
+            this.r217.Size = new System.Drawing.Size(92, 45);
+            this.r217.TabIndex = 218;
+            this.r217.Text = "Councilor 4";
+            this.r217.UseVisualStyleBackColor = false;
+            this.r217.Click += new System.EventHandler(this.coun4btton_Click);
             // 
-            // coun5btton
+            // r216
             // 
-            this.coun5btton.BackColor = System.Drawing.Color.Transparent;
-            this.coun5btton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.coun5btton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.coun5btton.FlatAppearance.BorderSize = 0;
-            this.coun5btton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.coun5btton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.coun5btton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.coun5btton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.coun5btton.Location = new System.Drawing.Point(837, 323);
-            this.coun5btton.Name = "coun5btton";
-            this.coun5btton.Size = new System.Drawing.Size(93, 45);
-            this.coun5btton.TabIndex = 219;
-            this.coun5btton.Text = "Councilor 5";
-            this.coun5btton.UseVisualStyleBackColor = false;
-            this.coun5btton.Click += new System.EventHandler(this.coun5btton_Click);
+            this.r216.BackColor = System.Drawing.Color.Transparent;
+            this.r216.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.r216.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.r216.FlatAppearance.BorderSize = 0;
+            this.r216.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.r216.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.r216.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.r216.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r216.Location = new System.Drawing.Point(837, 323);
+            this.r216.Name = "r216";
+            this.r216.Size = new System.Drawing.Size(93, 45);
+            this.r216.TabIndex = 219;
+            this.r216.Text = "Councilor 5";
+            this.r216.UseVisualStyleBackColor = false;
+            this.r216.Click += new System.EventHandler(this.coun5btton_Click);
             // 
-            // coun6btton
+            // r215
             // 
-            this.coun6btton.BackColor = System.Drawing.Color.Transparent;
-            this.coun6btton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.coun6btton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.coun6btton.FlatAppearance.BorderSize = 0;
-            this.coun6btton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.coun6btton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.coun6btton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.coun6btton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.coun6btton.Location = new System.Drawing.Point(837, 277);
-            this.coun6btton.Name = "coun6btton";
-            this.coun6btton.Size = new System.Drawing.Size(93, 45);
-            this.coun6btton.TabIndex = 220;
-            this.coun6btton.Text = "Councilor 6";
-            this.coun6btton.UseVisualStyleBackColor = false;
-            this.coun6btton.Click += new System.EventHandler(this.coun6btton_Click);
+            this.r215.BackColor = System.Drawing.Color.Transparent;
+            this.r215.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.r215.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.r215.FlatAppearance.BorderSize = 0;
+            this.r215.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.r215.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.r215.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.r215.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r215.Location = new System.Drawing.Point(837, 277);
+            this.r215.Name = "r215";
+            this.r215.Size = new System.Drawing.Size(93, 45);
+            this.r215.TabIndex = 220;
+            this.r215.Text = "Councilor 6";
+            this.r215.UseVisualStyleBackColor = false;
+            this.r215.Click += new System.EventHandler(this.coun6btton_Click);
             // 
-            // coun7btton
+            // r214
             // 
-            this.coun7btton.BackColor = System.Drawing.Color.Transparent;
-            this.coun7btton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.coun7btton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.coun7btton.FlatAppearance.BorderSize = 0;
-            this.coun7btton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.coun7btton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.coun7btton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.coun7btton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.coun7btton.Location = new System.Drawing.Point(837, 233);
-            this.coun7btton.Name = "coun7btton";
-            this.coun7btton.Size = new System.Drawing.Size(93, 45);
-            this.coun7btton.TabIndex = 221;
-            this.coun7btton.Text = "Councilor 7";
-            this.coun7btton.UseVisualStyleBackColor = false;
-            this.coun7btton.Click += new System.EventHandler(this.coun7btton_Click);
+            this.r214.BackColor = System.Drawing.Color.Transparent;
+            this.r214.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.r214.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.r214.FlatAppearance.BorderSize = 0;
+            this.r214.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.r214.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.r214.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.r214.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r214.Location = new System.Drawing.Point(837, 233);
+            this.r214.Name = "r214";
+            this.r214.Size = new System.Drawing.Size(93, 45);
+            this.r214.TabIndex = 221;
+            this.r214.Text = "Councilor 7";
+            this.r214.UseVisualStyleBackColor = false;
+            this.r214.Click += new System.EventHandler(this.coun7btton_Click);
             // 
-            // coun8btton
+            // r213
             // 
-            this.coun8btton.BackColor = System.Drawing.Color.Transparent;
-            this.coun8btton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.coun8btton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.coun8btton.FlatAppearance.BorderSize = 0;
-            this.coun8btton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.coun8btton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.coun8btton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.coun8btton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.coun8btton.Location = new System.Drawing.Point(835, 167);
-            this.coun8btton.Name = "coun8btton";
-            this.coun8btton.Size = new System.Drawing.Size(95, 36);
-            this.coun8btton.TabIndex = 222;
-            this.coun8btton.Text = "Councilor 8";
-            this.coun8btton.UseVisualStyleBackColor = false;
-            this.coun8btton.Click += new System.EventHandler(this.coun8btton_Click);
+            this.r213.BackColor = System.Drawing.Color.Transparent;
+            this.r213.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.r213.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.r213.FlatAppearance.BorderSize = 0;
+            this.r213.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.r213.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.r213.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.r213.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r213.Location = new System.Drawing.Point(835, 167);
+            this.r213.Name = "r213";
+            this.r213.Size = new System.Drawing.Size(95, 36);
+            this.r213.TabIndex = 222;
+            this.r213.Text = "Councilor 8";
+            this.r213.UseVisualStyleBackColor = false;
+            this.r213.Click += new System.EventHandler(this.coun8btton_Click);
             // 
-            // coun9btton
+            // r212
             // 
-            this.coun9btton.BackColor = System.Drawing.Color.Transparent;
-            this.coun9btton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.coun9btton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.coun9btton.FlatAppearance.BorderSize = 0;
-            this.coun9btton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.coun9btton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.coun9btton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.coun9btton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.coun9btton.Location = new System.Drawing.Point(834, 130);
-            this.coun9btton.Name = "coun9btton";
-            this.coun9btton.Size = new System.Drawing.Size(96, 36);
-            this.coun9btton.TabIndex = 223;
-            this.coun9btton.Text = "Councilor 9";
-            this.coun9btton.UseVisualStyleBackColor = false;
-            this.coun9btton.Click += new System.EventHandler(this.coun9btton_Click);
+            this.r212.BackColor = System.Drawing.Color.Transparent;
+            this.r212.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.r212.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.r212.FlatAppearance.BorderSize = 0;
+            this.r212.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.r212.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.r212.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.r212.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r212.Location = new System.Drawing.Point(834, 130);
+            this.r212.Name = "r212";
+            this.r212.Size = new System.Drawing.Size(96, 36);
+            this.r212.TabIndex = 223;
+            this.r212.Text = "Councilor 9";
+            this.r212.UseVisualStyleBackColor = false;
+            this.r212.Click += new System.EventHandler(this.coun9btton_Click);
             // 
-            // coun10btton
+            // r211
             // 
-            this.coun10btton.BackColor = System.Drawing.Color.Transparent;
-            this.coun10btton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.coun10btton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.coun10btton.FlatAppearance.BorderSize = 0;
-            this.coun10btton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.coun10btton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.coun10btton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.coun10btton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.coun10btton.Location = new System.Drawing.Point(834, 96);
-            this.coun10btton.Name = "coun10btton";
-            this.coun10btton.Size = new System.Drawing.Size(96, 34);
-            this.coun10btton.TabIndex = 224;
-            this.coun10btton.Text = "Councilor 10";
-            this.coun10btton.UseVisualStyleBackColor = false;
-            this.coun10btton.Click += new System.EventHandler(this.coun10btton_Click);
+            this.r211.BackColor = System.Drawing.Color.Transparent;
+            this.r211.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.r211.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.r211.FlatAppearance.BorderSize = 0;
+            this.r211.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.r211.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.r211.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.r211.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r211.Location = new System.Drawing.Point(834, 96);
+            this.r211.Name = "r211";
+            this.r211.Size = new System.Drawing.Size(96, 34);
+            this.r211.TabIndex = 224;
+            this.r211.Text = "Councilor 10";
+            this.r211.UseVisualStyleBackColor = false;
+            this.r211.Click += new System.EventHandler(this.coun10btton_Click);
             // 
-            // legalbtton
+            // r218
             // 
-            this.legalbtton.BackColor = System.Drawing.Color.Transparent;
-            this.legalbtton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.legalbtton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.legalbtton.FlatAppearance.BorderSize = 0;
-            this.legalbtton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.legalbtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.legalbtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.legalbtton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.legalbtton.Location = new System.Drawing.Point(827, 504);
-            this.legalbtton.Name = "legalbtton";
-            this.legalbtton.Size = new System.Drawing.Size(98, 36);
-            this.legalbtton.TabIndex = 225;
-            this.legalbtton.Text = "Legal Office";
-            this.legalbtton.UseVisualStyleBackColor = false;
-            this.legalbtton.Click += new System.EventHandler(this.legalbtton_Click);
+            this.r218.BackColor = System.Drawing.Color.Transparent;
+            this.r218.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.r218.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.r218.FlatAppearance.BorderSize = 0;
+            this.r218.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.r218.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.r218.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.r218.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r218.Location = new System.Drawing.Point(827, 504);
+            this.r218.Name = "r218";
+            this.r218.Size = new System.Drawing.Size(98, 36);
+            this.r218.TabIndex = 225;
+            this.r218.Text = "CPIO";
+            this.r218.UseVisualStyleBackColor = false;
+            this.r218.Click += new System.EventHandler(this.legalbtton_Click);
             // 
-            // infobtton
+            // r219
             // 
-            this.infobtton.BackColor = System.Drawing.Color.Transparent;
-            this.infobtton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.infobtton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.infobtton.FlatAppearance.BorderSize = 0;
-            this.infobtton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.infobtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.infobtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.infobtton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.infobtton.Location = new System.Drawing.Point(937, 505);
-            this.infobtton.Name = "infobtton";
-            this.infobtton.Size = new System.Drawing.Size(130, 31);
-            this.infobtton.TabIndex = 226;
-            this.infobtton.Text = "Information Office";
-            this.infobtton.UseVisualStyleBackColor = false;
-            this.infobtton.Click += new System.EventHandler(this.infobtton_Click);
+            this.r219.BackColor = System.Drawing.Color.Transparent;
+            this.r219.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.r219.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.r219.FlatAppearance.BorderSize = 0;
+            this.r219.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.r219.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.r219.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.r219.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r219.Location = new System.Drawing.Point(937, 505);
+            this.r219.Name = "r219";
+            this.r219.Size = new System.Drawing.Size(130, 31);
+            this.r219.TabIndex = 226;
+            this.r219.Text = "PESO";
+            this.r219.UseVisualStyleBackColor = false;
+            this.r219.Click += new System.EventHandler(this.infobtton_Click);
             // 
-            // confbtton
+            // r221
             // 
-            this.confbtton.BackColor = System.Drawing.Color.Transparent;
-            this.confbtton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.confbtton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.confbtton.FlatAppearance.BorderSize = 0;
-            this.confbtton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.confbtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.confbtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.confbtton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.confbtton.Location = new System.Drawing.Point(822, 597);
-            this.confbtton.Name = "confbtton";
-            this.confbtton.Size = new System.Drawing.Size(98, 53);
-            this.confbtton.TabIndex = 227;
-            this.confbtton.Text = "Conference room";
-            this.confbtton.UseVisualStyleBackColor = false;
-            this.confbtton.Click += new System.EventHandler(this.confbtton_Click);
+            this.r221.BackColor = System.Drawing.Color.Transparent;
+            this.r221.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.r221.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.r221.FlatAppearance.BorderSize = 0;
+            this.r221.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.r221.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.r221.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.r221.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r221.Location = new System.Drawing.Point(822, 597);
+            this.r221.Name = "r221";
+            this.r221.Size = new System.Drawing.Size(98, 53);
+            this.r221.TabIndex = 227;
+            this.r221.Text = "Conference room";
+            this.r221.UseVisualStyleBackColor = false;
+            this.r221.Click += new System.EventHandler(this.confbtton_Click);
             // 
-            // btfbtton
+            // r220
             // 
-            this.btfbtton.BackColor = System.Drawing.Color.Transparent;
-            this.btfbtton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btfbtton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btfbtton.FlatAppearance.BorderSize = 0;
-            this.btfbtton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btfbtton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btfbtton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btfbtton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btfbtton.Location = new System.Drawing.Point(930, 604);
-            this.btfbtton.Name = "btfbtton";
-            this.btfbtton.Size = new System.Drawing.Size(62, 43);
-            this.btfbtton.TabIndex = 228;
-            this.btfbtton.Text = "BTFRB";
-            this.btfbtton.UseVisualStyleBackColor = false;
-            this.btfbtton.Click += new System.EventHandler(this.btfbtton_Click);
+            this.r220.BackColor = System.Drawing.Color.Transparent;
+            this.r220.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.r220.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.r220.FlatAppearance.BorderSize = 0;
+            this.r220.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.r220.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.r220.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.r220.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r220.Location = new System.Drawing.Point(926, 600);
+            this.r220.Name = "r220";
+            this.r220.Size = new System.Drawing.Size(69, 57);
+            this.r220.TabIndex = 228;
+            this.r220.Text = "CCLO AND LEIPO";
+            this.r220.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.r220.UseVisualStyleBackColor = false;
+            this.r220.Click += new System.EventHandler(this.btfbtton_Click);
             // 
             // thirdbtton
             // 
@@ -1817,12 +1819,30 @@
             this.grid84.TabStop = false;
             this.grid84.Visible = false;
             // 
+            // r210
+            // 
+            this.r210.BackColor = System.Drawing.Color.Transparent;
+            this.r210.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.r210.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.r210.FlatAppearance.BorderSize = 0;
+            this.r210.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.r210.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.r210.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.r210.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r210.Location = new System.Drawing.Point(741, 181);
+            this.r210.Name = "r210";
+            this.r210.Size = new System.Drawing.Size(49, 26);
+            this.r210.TabIndex = 260;
+            this.r210.Text = "ABC";
+            this.r210.UseVisualStyleBackColor = false;
+            // 
             // SecondFloor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1366, 768);
+            this.Controls.Add(this.r210);
             this.Controls.Add(this.grid84);
             this.Controls.Add(this.grid83);
             this.Controls.Add(this.grid81);
@@ -1841,26 +1861,26 @@
             this.Controls.Add(this.thirdbtton);
             this.Controls.Add(this.grid71);
             this.Controls.Add(this.grid70);
-            this.Controls.Add(this.btfbtton);
-            this.Controls.Add(this.confbtton);
-            this.Controls.Add(this.infobtton);
-            this.Controls.Add(this.legalbtton);
-            this.Controls.Add(this.coun10btton);
-            this.Controls.Add(this.coun9btton);
-            this.Controls.Add(this.coun8btton);
-            this.Controls.Add(this.coun7btton);
-            this.Controls.Add(this.coun6btton);
-            this.Controls.Add(this.coun5btton);
-            this.Controls.Add(this.coun4btton);
-            this.Controls.Add(this.sessbtton);
-            this.Controls.Add(this.accbtton);
-            this.Controls.Add(this.coabtton);
-            this.Controls.Add(this.dilgbtton);
-            this.Controls.Add(this.vmsbtton);
-            this.Controls.Add(this.coun3btton);
-            this.Controls.Add(this.coun2btton);
-            this.Controls.Add(this.counbtton);
-            this.Controls.Add(this.spbtton);
+            this.Controls.Add(this.r220);
+            this.Controls.Add(this.r221);
+            this.Controls.Add(this.r219);
+            this.Controls.Add(this.r218);
+            this.Controls.Add(this.r211);
+            this.Controls.Add(this.r212);
+            this.Controls.Add(this.r213);
+            this.Controls.Add(this.r214);
+            this.Controls.Add(this.r215);
+            this.Controls.Add(this.r216);
+            this.Controls.Add(this.r217);
+            this.Controls.Add(this.r209);
+            this.Controls.Add(this.r201);
+            this.Controls.Add(this.r202);
+            this.Controls.Add(this.r203);
+            this.Controls.Add(this.r208);
+            this.Controls.Add(this.r207);
+            this.Controls.Add(this.r206);
+            this.Controls.Add(this.r205);
+            this.Controls.Add(this.r204);
             this.Controls.Add(this.grid68);
             this.Controls.Add(this.grid69);
             this.Controls.Add(this.grid56);
@@ -2115,26 +2135,26 @@
         private System.Windows.Forms.PictureBox grid7;
         private System.Windows.Forms.PictureBox grid6;
         private System.Windows.Forms.PictureBox grid2;
-        private System.Windows.Forms.Button spbtton;
-        private System.Windows.Forms.Button counbtton;
-        private System.Windows.Forms.Button coun2btton;
-        private System.Windows.Forms.Button coun3btton;
-        private System.Windows.Forms.Button vmsbtton;
-        private System.Windows.Forms.Button dilgbtton;
-        private System.Windows.Forms.Button coabtton;
-        private System.Windows.Forms.Button accbtton;
-        private System.Windows.Forms.Button sessbtton;
-        private System.Windows.Forms.Button coun4btton;
-        private System.Windows.Forms.Button coun5btton;
-        private System.Windows.Forms.Button coun6btton;
-        private System.Windows.Forms.Button coun7btton;
-        private System.Windows.Forms.Button coun8btton;
-        private System.Windows.Forms.Button coun9btton;
-        private System.Windows.Forms.Button coun10btton;
-        private System.Windows.Forms.Button legalbtton;
-        private System.Windows.Forms.Button infobtton;
-        private System.Windows.Forms.Button confbtton;
-        private System.Windows.Forms.Button btfbtton;
+        private System.Windows.Forms.Button r204;
+        private System.Windows.Forms.Button r205;
+        private System.Windows.Forms.Button r206;
+        private System.Windows.Forms.Button r207;
+        private System.Windows.Forms.Button r208;
+        private System.Windows.Forms.Button r203;
+        private System.Windows.Forms.Button r202;
+        private System.Windows.Forms.Button r201;
+        private System.Windows.Forms.Button r209;
+        private System.Windows.Forms.Button r217;
+        private System.Windows.Forms.Button r216;
+        private System.Windows.Forms.Button r215;
+        private System.Windows.Forms.Button r214;
+        private System.Windows.Forms.Button r213;
+        private System.Windows.Forms.Button r212;
+        private System.Windows.Forms.Button r211;
+        private System.Windows.Forms.Button r218;
+        private System.Windows.Forms.Button r219;
+        private System.Windows.Forms.Button r221;
+        private System.Windows.Forms.Button r220;
         private System.Windows.Forms.PictureBox grid70;
         private System.Windows.Forms.PictureBox grid71;
         private System.Windows.Forms.Button thirdbtton;
@@ -2157,6 +2177,7 @@
         private System.Windows.Forms.PictureBox grid81;
         private System.Windows.Forms.PictureBox grid83;
         private System.Windows.Forms.PictureBox grid84;
+        private System.Windows.Forms.Button r210;
     }
 }
 

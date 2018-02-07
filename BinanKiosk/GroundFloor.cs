@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing.Drawing2D;
+using MySql.Data.MySqlClient;
+
 namespace BinanKiosk
 {
     public partial class GroundFloor : Form
@@ -55,7 +57,7 @@ namespace BinanKiosk
 
 
             //enter button name here to make it transparent
-            Button[] buttonArray = { rm1_2, R101, rm1_6, rm1_5, rm1_10, rm1_9, rm1_11, rm1_12, rm1_3};
+            Button[] buttonArray = {r101, r102, r103, r104, r105, r106, r107, r108, r109, r110, r111, r112 };
             
             for(int i = 0; i <buttonArray.Length; i++)
             {
@@ -186,7 +188,35 @@ namespace BinanKiosk
             }
             timestamp.Interval = 1;
             timestamp.Start();
+
+            Button[] buttonArray = { r101, r102, r103, r104, r105, r106, r107, r108, r109, r110, r111, r112 };
+            Global.loadButtonNames(buttonArray);
+            
+
+            
         }
+        /*public void loadButtonNames(Button[] buttonArray)
+        {
+            foreach(Button btn in buttonArray)
+            {
+                MySqlConnection conn = Config.conn;
+                MySqlDataReader reader;
+                conn.Open();
+                string queryStr = "SELECT room_label from floors WHERE room_id = '" + btn.Name + "' ";
+                MySqlCommand cmd = new MySqlCommand(queryStr, conn);
+                reader = cmd.ExecuteReader();
+
+                if (reader.HasRows)
+                {
+                    while (reader.Read())
+                    {
+                        btn.Text = reader.GetString(0);
+                    }
+                }
+                conn.Close();
+            }
+        }*/
+
 
         public void clearImage()
         {
@@ -208,7 +238,7 @@ namespace BinanKiosk
 
         public void disableButton()
         {
-            Button[] buttonArray = { rm1_2, R101, rm1_6, rm1_5, rm1_10, rm1_9, rm1_11, rm1_12, rm1_3 };
+            Button[] buttonArray = { r102, r101, r106, r105, r110, r109, r111, r112, r103 };
 
             for (int i = 0; i < buttonArray.Length; i++)
             {
@@ -218,7 +248,7 @@ namespace BinanKiosk
 
         public async void enableButton()
         {
-            Button[] buttonArray = { rm1_2, R101, rm1_6, rm1_5, rm1_10, rm1_9, rm1_11, rm1_12, rm1_3 };
+            Button[] buttonArray = { r102, r101, r106, r105, r110, r109, r111, r112, r103 };
 
             await Task.Delay(500);
             this.Enabled = true;

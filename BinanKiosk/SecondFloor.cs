@@ -12,6 +12,7 @@ namespace BinanKiosk
 {
     public partial class SecondFloor : Form
     {
+
         protected override CreateParams CreateParams
         {
             get
@@ -26,8 +27,8 @@ namespace BinanKiosk
         {
             InitializeComponent();
 
-            Button[] buttonArrayF2 = { spbtton, counbtton, coun2btton, coun3btton, dilgbtton, vmsbtton, sessbtton, coun4btton, coun5btton,
-            coun6btton, coun7btton, coun8btton, coun9btton, coun10btton, legalbtton, infobtton, btfbtton, confbtton, coabtton, accbtton};
+            Button[] buttonArrayF2 = { r201, r202, r203, r204, r205, r206, r207, r208, r209, r210, r217, r216,
+            r215, r214, r213, r211, r212, r218, r219, r220, r221};
 
             PictureBox[] pictureArrayF2 = { grid2, grid3, grid4, grid5, grid6, grid7, grid8, grid9, grid10,
                 grid11, grid12, grid13, grid14, grid15, grid16, grid17, grid18, grid19, grid20,
@@ -77,6 +78,10 @@ namespace BinanKiosk
             }
             timestamp.Interval = 10;
             timestamp.Start();
+
+            Button[] buttonArrayF2 = { r201, r202, r203, r204, r205, r206, r207, r208, r209, r210, r217, r216,
+            r215, r214, r213, r211, r212, r218, r219, r220, r221};
+            Global.loadButtonNames(buttonArrayF2);
         }
 
         public void clearImage()
@@ -100,27 +105,27 @@ namespace BinanKiosk
 
         public void disableButton()
         {
-            Button[] buttonArray = { spbtton, counbtton, coun2btton, coun3btton, dilgbtton, vmsbtton, sessbtton, coun4btton, coun5btton,
-            coun6btton, coun7btton, coun8btton, coun9btton, coun10btton, legalbtton, infobtton, btfbtton, confbtton, coabtton, accbtton };
+            Button[] buttonArrayF2 = { r201, r202, r203, r204, r205, r206, r207, r208, r209, r210, r217, r216,
+            r215, r214, r213, r211, r212, r218, r219, r220, r221};
 
-            for (int i = 0; i < buttonArray.Length; i++)
+            for (int i = 0; i < buttonArrayF2.Length; i++)
             {
-                buttonArray[i].Enabled = false;
+                buttonArrayF2[i].Enabled = false;
             }
         }
 
         public async void enableButton()
         {
-            Button[] buttonArray = { spbtton, counbtton, coun2btton, coun3btton, dilgbtton, vmsbtton, sessbtton, coun4btton, coun5btton,
-            coun6btton, coun7btton, coun8btton, coun9btton, coun10btton, legalbtton, infobtton, btfbtton, confbtton, coabtton, accbtton };
+            Button[] buttonArrayF2 = { r201, r202, r203, r204, r205, r206, r207, r208, r209, r210, r217, r216,
+            r215, r214, r213, r211, r212, r218, r219, r220, r221};
 
             await Task.Delay(500);
             this.Enabled = true;
             this.Cursor = Cursors.Default;
 
-            for (int i = 0; i < buttonArray.Length; i++)
+            for (int i = 0; i < buttonArrayF2.Length; i++)
             {
-                buttonArray[i].Enabled = true;
+                buttonArrayF2[i].Enabled = true;
             }
         }
 

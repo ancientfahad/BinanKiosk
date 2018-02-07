@@ -1,8 +1,10 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace BinanKiosk
 {
@@ -43,5 +45,27 @@ namespace BinanKiosk
         public static int selectedBox3 = 3;
         public static int selectedBox4 = 4;
         public static int selectedBox5 = 5;
+
+        public static void loadButtonNames(Button[] buttonArray)
+        {
+            foreach (Button btn in buttonArray)
+            {
+                MySqlConnection conn = Config.conn;
+                MySqlDataReader reader;
+                conn.Open();
+                string queryStr = "SELECT room_label from floors WHERE room_id = '" + btn.Name + "' ";
+                MySqlCommand cmd = new MySqlCommand(queryStr, conn);
+                reader = cmd.ExecuteReader();
+
+                if (reader.HasRows)
+                {
+                    while (reader.Read())
+                    {
+                        btn.Text = reader.GetString(0);
+                    }
+                }
+                conn.Close();
+            }
+        }
     }
 }
